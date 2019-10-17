@@ -1,4 +1,4 @@
-#Thu Oct 17 10:37:09 JST 2019
-base.0=Z\:\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Oct 17 12:45:26 JST 2019
+base.0=Y\:\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
