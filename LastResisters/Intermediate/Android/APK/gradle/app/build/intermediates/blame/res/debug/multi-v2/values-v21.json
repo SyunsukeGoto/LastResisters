@@ -4,6 +4,7 @@
             "outputFile": "Z:\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\s172091\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\b32e100c536a262f5de5b5906b56fb91\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
@@ -24,6 +25,9 @@
                 },
                 {
                     "source": "C:\\Users\\s172091\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\2edaa78d8314cc759a192b33d8a9b28e\\res\\values-v21\\values-v21.xml",
+=======
+                    "source": "C:\\Users\\s172078\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\4a36c3dafedf849dad8f00752ab37a6b\\res\\values-v21\\values-v21.xml",
+>>>>>>> feature/PlayerMove
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -40,6 +44,28 @@
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,218,285,349,465,591,1048,1344,1683,2021"
                     }
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "source": "C:\\Users\\s172078\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\18c902181cf73607e4c1a77234bdd22a\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "596,764,1053,1349",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "759,922,1216,1511"
+                    }
+>>>>>>> feature/PlayerMove
                 }
             ]
         }

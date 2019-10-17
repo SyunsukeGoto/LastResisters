@@ -147,8 +147,13 @@ Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:TunnelUnicastEndpoint:0
 Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:TunnelMulticastEndpoint:0=
 Windows.Engine:/Script/LuminPlatformEditor.MagicLeapSDKSettings:MLSDKPath:0=(Path="")
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+<<<<<<< HEAD
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/VirtualRealityBP/Maps/StartupMap.StartupMap
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+=======
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
+>>>>>>> feature/PlayerMove
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
@@ -1804,7 +1809,11 @@ Mac.Engine:AssetRegistry:bFilterAssetDataWithNoTags:0=false
 Mac.Engine:AssetRegistry:bFilterDependenciesWithNoTags:0=false
 Mac.Engine:AssetRegistry:bFilterSearchableNames:0=true
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+<<<<<<< HEAD
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+=======
+Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
+>>>>>>> feature/PlayerMove
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Android.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
@@ -1816,7 +1825,11 @@ Android.Engine:AssetRegistry:bFilterAssetDataWithNoTags:0=false
 Android.Engine:AssetRegistry:bFilterDependenciesWithNoTags:0=false
 Android.Engine:AssetRegistry:bFilterSearchableNames:0=true
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+<<<<<<< HEAD
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+=======
+Android.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
+>>>>>>> feature/PlayerMove
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 HTML5.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
@@ -1828,7 +1841,11 @@ HTML5.Engine:AssetRegistry:bFilterAssetDataWithNoTags:0=false
 HTML5.Engine:AssetRegistry:bFilterDependenciesWithNoTags:0=false
 HTML5.Engine:AssetRegistry:bFilterSearchableNames:0=true
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+<<<<<<< HEAD
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+=======
+HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
+>>>>>>> feature/PlayerMove
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 IOS.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
@@ -1840,7 +1857,11 @@ IOS.Engine:AssetRegistry:bFilterAssetDataWithNoTags:0=false
 IOS.Engine:AssetRegistry:bFilterDependenciesWithNoTags:0=false
 IOS.Engine:AssetRegistry:bFilterSearchableNames:0=true
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+<<<<<<< HEAD
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+=======
+IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
+>>>>>>> feature/PlayerMove
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Linux.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
@@ -1852,11 +1873,19 @@ Linux.Engine:AssetRegistry:bFilterAssetDataWithNoTags:0=false
 Linux.Engine:AssetRegistry:bFilterDependenciesWithNoTags:0=false
 Linux.Engine:AssetRegistry:bFilterSearchableNames:0=true
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+<<<<<<< HEAD
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+=======
+Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
+Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
+Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
+Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
+>>>>>>> feature/PlayerMove
 Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
 Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Windows.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=None
@@ -1867,9 +1896,17 @@ Windows.Input:/Script/Engine.InputSettings:DoubleClickTime:0=0.200000
 Windows.Input:/Script/Engine.InputSettings:bAlwaysShowTouchInterface:0=False
 Windows.Input:/Script/Engine.InputSettings:bShowConsoleOnFourFingerTap:0=True
 Windows.Input:/Script/Engine.InputSettings:bAltEnterTogglesFullscreen:0=True
+<<<<<<< HEAD
 Windows.Input:/Script/Engine.InputSettings:bF11TogglesFullscreen:0=true
 Windows.Input:/Script/Engine.InputSettings:bRequireCtrlToNavigateAutoComplete:0=False
 Windows.Input:/Script/Engine.InputSettings:bEnableGestureRecognizer:0=false
+=======
+Windows.Input:/Script/Engine.InputSettings:bF11TogglesFullscreen:0=True
+Windows.Input:/Script/Engine.InputSettings:bRequireCtrlToNavigateAutoComplete:0=False
+Windows.Input:/Script/Engine.InputSettings:bEnableGestureRecognizer:0=False
+Windows.Input:/Script/Engine.InputSettings:ConsoleKeys:0=Tilde
+Windows.Input:/Script/Engine.InputSettings:ConsoleKeys:1=@
+>>>>>>> feature/PlayerMove
 Windows.Input:/Script/Engine.InputSettings:TriggerKeyIsConsideredPressed:0=0.75
 Windows.Input:/Script/Engine.InputSettings:TriggerKeyIsConsideredReleased:0=0.25
 Windows.Input:/Script/Engine.InputSettings:InitialButtonRepeatDelay:0=0.2
@@ -1880,6 +1917,7 @@ Windows.Input:/Script/Engine.InputSettings:AxisConfig:2=(AxisKeyName="Gamepad_Ri
 Windows.Input:/Script/Engine.InputSettings:AxisConfig:3=(AxisKeyName="Gamepad_RightY",AxisProperties=(DeadZone=0.25,Exponent=1.f,Sensitivity=1.f))
 Windows.Input:/Script/Engine.InputSettings:AxisConfig:4=(AxisKeyName="MouseX",AxisProperties=(DeadZone=0.f,Exponent=1.f,Sensitivity=0.07f))
 Windows.Input:/Script/Engine.InputSettings:AxisConfig:5=(AxisKeyName="MouseY",AxisProperties=(DeadZone=0.f,Exponent=1.f,Sensitivity=0.07f))
+<<<<<<< HEAD
 Windows.Input:/Script/Engine.InputSettings:AxisConfig:6=(AxisKeyName="Gamepad_RightY",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
 Windows.Input:/Script/Engine.InputSettings:AxisConfig:7=(AxisKeyName="MouseX",AxisProperties=(DeadZone=0.000000,Sensitivity=0.070000,Exponent=1.000000,bInvert=False))
 Windows.Input:/Script/Engine.InputSettings:AxisConfig:8=(AxisKeyName="MouseY",AxisProperties=(DeadZone=0.000000,Sensitivity=0.070000,Exponent=1.000000,bInvert=False))
@@ -1934,6 +1972,63 @@ Windows.Input:/Script/Engine.InputSettings:AxisMappings:4=(AxisName="MotionContr
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:5=(AxisName="MotionControllerThumbRight_X",Key=MotionController_Right_Thumbstick_X,Scale=1.000000)
 Windows.Input:/Script/Engine.InputSettings:ConsoleKey:0=None
 Windows.Input:/Script/Engine.InputSettings:ConsoleKeys:0=Tilde
+=======
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:6=(AxisKeyName="OculusTouch_Left_FaceButton2",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:7=(AxisKeyName="OculusTouch_Left_IndexPointing",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:8=(AxisKeyName="OculusTouch_Left_ThumbUp",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:9=(AxisKeyName="OculusTouch_Right_Thumbstick",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:10=(AxisKeyName="OculusTouch_Right_FaceButton1",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:11=(AxisKeyName="OculusTouch_Right_Trigger",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:12=(AxisKeyName="OculusTouch_Right_FaceButton2",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:13=(AxisKeyName="OculusTouch_Right_IndexPointing",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:14=(AxisKeyName="OculusTouch_Right_ThumbUp",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:15=(AxisKeyName="Gamepad_LeftX",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:16=(AxisKeyName="Gamepad_LeftY",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:17=(AxisKeyName="Gamepad_RightX",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:18=(AxisKeyName="Gamepad_RightY",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:19=(AxisKeyName="MouseX",AxisProperties=(DeadZone=0.000000,Sensitivity=0.070000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:20=(AxisKeyName="MouseY",AxisProperties=(DeadZone=0.000000,Sensitivity=0.070000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:21=(AxisKeyName="MouseWheelAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:22=(AxisKeyName="Gamepad_LeftTriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:23=(AxisKeyName="Gamepad_RightTriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:24=(AxisKeyName="MotionController_Left_Thumbstick_X",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:25=(AxisKeyName="MotionController_Left_Thumbstick_Y",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:26=(AxisKeyName="MotionController_Left_TriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:27=(AxisKeyName="MotionController_Left_Grip1Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:28=(AxisKeyName="MotionController_Left_Grip2Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:29=(AxisKeyName="MotionController_Right_Thumbstick_X",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:30=(AxisKeyName="MotionController_Right_Thumbstick_Y",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:31=(AxisKeyName="MotionController_Right_TriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:32=(AxisKeyName="MotionController_Right_Grip1Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:33=(AxisKeyName="MotionController_Right_Grip2Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:34=(AxisKeyName="Gamepad_Special_Left_X",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:35=(AxisKeyName="Gamepad_Special_Left_Y",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:36=(AxisKeyName="OculusTouch_Left_Thumbstick",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:37=(AxisKeyName="OculusTouch_Left_FaceButton1",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:AxisConfig:38=(AxisKeyName="OculusTouch_Left_Trigger",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Windows.Input:/Script/Engine.InputSettings:bUseMouseForTouch:0=False
+Windows.Input:/Script/Engine.InputSettings:bCaptureMouseOnLaunch:0=True
+Windows.Input:/Script/Engine.InputSettings:bDefaultViewportMouseLock:0=True
+Windows.Input:/Script/Engine.InputSettings:bUseAutocorrect:0=False
+Windows.Input:/Script/Engine.InputSettings:DefaultViewportMouseCaptureMode:0=CapturePermanently_IncludingInitialMouseDown
+Windows.Input:/Script/Engine.InputSettings:DefaultViewportMouseLockMode:0=LockOnCapture
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:0=(ActionName="TeleportRight",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Right_Thumbstick)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:1=(ActionName="GrabLeft",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Left_Trigger)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:2=(ActionName="GrabRight",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Right_Trigger)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:3=(ActionName="TeleportLeft",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Left_Thumbstick)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:4=(ActionName="HMDTeleport",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Gamepad_FaceButton_Bottom)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:5=(ActionName="HMDTeleport",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=SpaceBar)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:6=(ActionName="TeleportLeft",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Left_FaceButton1)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:7=(ActionName="TeleportRight",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Right_FaceButton1)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:0=(AxisName="TeleportDirectionUp",Scale=1.000000,Key=Gamepad_LeftY)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:1=(AxisName="TeleportDirectionRight",Scale=1.000000,Key=Gamepad_LeftX)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:2=(AxisName="MotionControllerThumbLeft_Y",Scale=-1.000000,Key=MotionController_Left_Thumbstick_Y)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:3=(AxisName="MotionControllerThumbLeft_X",Scale=1.000000,Key=MotionController_Left_Thumbstick_X)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:4=(AxisName="MotionControllerThumbRight_Y",Scale=-1.000000,Key=MotionController_Right_Thumbstick_Y)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:5=(AxisName="MotionControllerThumbRight_X",Scale=1.000000,Key=MotionController_Right_Thumbstick_X)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:6=(AxisName="MoveForward",Scale=-6.000000,Key=MotionController_Left_Thumbstick_Y)
+Windows.Input:/Script/Engine.InputSettings:ConsoleKey:0=None
+>>>>>>> feature/PlayerMove
 Windows.Input:/Script/Engine.PlayerInput:DebugExecBindings:0=(Key=F11,Command="LevelEditor.ToggleImmersive", bIgnoreCtrl=True, bIgnoreAlt=True)
 Windows.Input:/Script/Engine.PlayerInput:DebugExecBindings:1=(Key=F11,Command="MainFrame.ToggleFullscreen",Shift=True)
 Windows.Input:/Script/Engine.PlayerInput:DebugExecBindings:2=(Key=F1,Command="viewmode wireframe", bIgnoreShift=True)
@@ -2212,6 +2307,55 @@ Windows.Input:/Script/OpenXRInput.XRInputSettings:ValveIndexBindings:16=(Path="/
 Windows.Input:/Script/OpenXRInput.XRInputSettings:ValveIndexBindings:17=(Path="/user/hand/right/input/a/click",Key=MotionController_Right_FaceButton1)
 Windows.Input:/Script/OpenXRInput.XRInputSettings:ValveIndexBindings:18=(Path="/user/hand/left/input/b/click",Key=MotionController_Left_FaceButton2)
 Windows.Input:/Script/OpenXRInput.XRInputSettings:ValveIndexBindings:19=(Path="/user/hand/right/input/b/click",Key=MotionController_Right_FaceButton2)
+<<<<<<< HEAD
+=======
+Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:0=English
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:0=en
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSharedMaterialNativeLibraries:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bShareMaterialShaderCode:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipMovies:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:0=...\Content\Internationalization\...\*.icu
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:1=...\Content\Internationalization\...\*.brk
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:2=...\Content\Internationalization\...\*.res
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:3=...\Content\Internationalization\...\*.nrm
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:4=...\Content\Internationalization\...\*.cfu
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:5=...\Content\Localization\...\*.*
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:6=...\Content\Localization\*.*
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:7=...\Content\Certificates\...\*.*
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:8=...\Content\Certificates\*.*
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:9=-...\Content\Localization\Game\...\*.*
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:10=-...\Content\Localization\Game\*.*
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:11=...\Config\...\*.ini
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:12=...\Config\*.ini
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:13=...\Engine\GlobalShaderCache*.bin
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:14=...\Content\ShaderArchive-Global*.ushaderbytecode
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:15=...\Content\Slate\*.*
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:16=...\Content\Slate\...\*.*
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:17=...\*.upluginmanifest
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:18=...\*.uproject
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:EarlyDownloaderPakFileFiles:19=...\global_sf*.metalmap
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path=)
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bNativizeBlueprintAssets:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bBuildHttpChunkInstallData:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:HttpChunkInstallDataDirectory:0=(Path=)
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:HttpChunkInstallDataVersion:0=
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:0=en
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCookAll:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCookMapsOnly:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCompressed:0=False
+>>>>>>> feature/PlayerMove
 Windows.Game:StartupActions:bAddPacks:0=False
 Windows.Game:StartupActions:InsertPack:0=(PackSource="StarterContent.upack",PackName="StarterContent")
 Windows.Game:Internationalization:LocalizationPaths:0=%GAMEDIR%Content/Localization/Game
@@ -2263,6 +2407,7 @@ Windows.Game:/Script/EngineSettings.GeneralProjectSettings:SupportContact:0=
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:MinWindowWidth:0=16
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:MinWindowHeight:0=16
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectID:0=C5D947CD49B429D3327CFF98A1CED993
+<<<<<<< HEAD
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
@@ -2307,6 +2452,8 @@ Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:0=en
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCookAll:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCookMapsOnly:0=True
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCompressed:0=True
+=======
+>>>>>>> feature/PlayerMove
 Windows.Game:/Script/Engine.HUD:DebugDisplay:0=AI
 Windows.Game:/Script/Engine.PlayerController:InputYawScale:0=2.5
 Windows.Game:/Script/Engine.PlayerController:InputPitchScale:0=-2.5
@@ -2345,7 +2492,15 @@ Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningInterval:0=30.0
 Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")))
 Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")))
 Windows.Game:Staging:RemapDirectories:0=(From="Engine/Plugins/Lumin", To="Engine/Plugins/MagicLeap")
+<<<<<<< HEAD
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=True
+=======
+Android.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+HTML5.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+IOS.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Linux.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=False
+>>>>>>> feature/PlayerMove
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:0=(Parent="Matinee", CommandName="Matinee_PlayForward", Description="Matinee_PlayForward_Desc", ExecCommand="Matinee Play")
@@ -2403,6 +2558,10 @@ Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:3=(ClassN
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:4=(ClassName="/Script/Engine.GameModeBase", AssetClass="/Script/Engine.Blueprint")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:5=(ClassName="/Script/Engine.ActorComponent", AssetClass="/Script/Engine.Blueprint")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:6=(ClassName="/Script/Engine.SceneComponent", AssetClass="/Script/Engine.Blueprint")
+<<<<<<< HEAD
+=======
+Windows.Editor:EditorLayouts:NullLayout:0="(\\\r\n\t\"Type\" \"Layout\",\\\r\n\t\"Name\" \"NullLayout\",\\\r\n\t\"PrimaryAreaIndex\" 0,\\\r\n\t\"Areas\" [\\\r\n\t\t(\\\r\n\t\t\t\"SizeCoefficient\" 1,\\\r\n\t\t\t\"Type\" \"Area\",\\\r\n\t\t\t\"Orientation\" \"Orient_Horizontal\",\\\r\n\t\t\t\"WindowPlacement\" \"Placement_NoWindow\",\\\r\n\t\t\t\"Nodes\" []\\\r\n\t\t)\\\r\n\t]\\\r\n)"
+>>>>>>> feature/PlayerMove
 Windows.Editor:Internationalization:LocalizationPaths:0=../../../Engine/Content/Localization/Editor
 Windows.Editor:Internationalization:LocalizationPaths:1=../../../Engine/Content/Localization/EditorTutorials
 Windows.Editor:Internationalization:LocalizationPaths:2=../../../Engine/Content/Localization/Keywords
