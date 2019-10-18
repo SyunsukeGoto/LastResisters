@@ -1,6 +1,15 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Thu Oct 17 12:45:26 JST 2019
 2.base=Y\:\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+=======
+<<<<<<< HEAD
+#Thu Oct 17 10:37:10 JST 2019
+=======
+#Thu Oct 17 12:12:21 JST 2019
+>>>>>>> feature/PlayerMove
+2.base=Z\:\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+>>>>>>> develop
 5.set=NATIVE_RESOURCE
 0.path=lib/armeabi-v7a/libgnustl_shared.so
 2.baseType=DIRECTORY
