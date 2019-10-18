@@ -1,14 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "Y:\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "outputFile": "Z:\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\s172091\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\2edaa78d8314cc759a192b33d8a9b28e\\res\\values-en-rAU\\values-en-rAU.xml",
-=======
-                    "source": "C:\\Users\\s172078\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\4a36c3dafedf849dad8f00752ab37a6b\\res\\values-en-rAU\\values-en-rAU.xml",
->>>>>>> feature/PlayerMove
+                    "source": "C:\\Users\\trident\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\381643f62534133c0112a8a3756839a2\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
