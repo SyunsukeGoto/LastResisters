@@ -2142,6 +2142,7 @@ HTML5.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
 IOS.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
 Linux.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=False
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:0=(Parent="Matinee", CommandName="Matinee_PlayForward", Description="Matinee_PlayForward_Desc", ExecCommand="Matinee Play")

@@ -1,0 +1,8 @@
+Engine/GlobalShaderCache-GLSL_ES3_1_ANDROID.bin
+LastResisters/AssetRegistry.bin
+LastResisters/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+LastResisters/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uexp
+LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.uexp
+LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.umap
+Manifest_NonUFSFiles_Android.txt
+Manifest_UFSFiles_Android.txt
