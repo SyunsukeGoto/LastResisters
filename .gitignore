@@ -72,3 +72,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+LastResisters/Intermediate/Android/APK/gradle/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/vending/expansion/downloader/impl/DownloaderService$GenerateSaveFileError.class
+LastResisters/Intermediate/Android/APK/gradle/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/vending/expansion/downloader/impl/DownloaderService$InnerBroadcastReceiver.class
