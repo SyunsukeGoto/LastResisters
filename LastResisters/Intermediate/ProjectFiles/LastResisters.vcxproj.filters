@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LastResisters.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{841853C1-66CE-4F9A-893C-A7D87A1497C0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LastResisters.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LastResistersEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{88AD4EFD-79E6-4AB7-9E55-480C859EBD2F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultScalability.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LastResisters">
+      <UniqueIdentifier>{15BD9499-5647-4325-BABB-E21DD00DE996}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LastResisters\LastResisters.Build.cs">
+      <Filter>Source\LastResisters</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LastResisters\LastResisters.cpp">
+      <Filter>Source\LastResisters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\LastResisters.h">
+      <Filter>Source\LastResisters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LastResisters\PlayerUI.cpp">
+      <Filter>Source\LastResisters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\PlayerUI.h">
+      <Filter>Source\LastResisters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LastResisters\SpecialGaugeParameters.cpp">
+      <Filter>Source\LastResisters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\SpecialGaugeParameters.h">
+      <Filter>Source\LastResisters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
