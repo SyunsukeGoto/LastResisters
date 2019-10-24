@@ -1,0 +1,1022 @@
+﻿Log file open, 10/21/19 12:11:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LastResisters
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.108837
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line:  -EpicPortal -epicusername=Miiustitia -epicuserid=a1c67c67d2f64dbbb23b1a3ec1da5928 -epiclocale=en-US
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.21-03.11.23:971][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.21-03.11.23:971][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.21-03.11.23:971][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.21-03.11.23:971][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.21-03.11.23:971][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.10.21-03.11.23:971][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.10.21-03.11.23:971][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.21-03.11.23:972][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.21-03.11.23:972][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.21-03.11.23:972][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.21-03.11.23:976][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.21-03.11.23:976][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.21-03.11.23:977][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.21-03.11.23:977][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.21-03.11.23:977][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.21-03.11.23:981][  0]LogHAL: Display: Platform has ~ 16 GB [17014509568 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.21-03.11.23:981][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.21-03.11.23:981][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.21-03.11.23:981][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.21-03.11.23:982][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.21-03.11.23:982][  0]LogInit: Computer: DESKTOP-AGS92BI
+[2019.10.21-03.11.23:982][  0]LogInit: User: drelj
+[2019.10.21-03.11.23:982][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.10.21-03.11.23:982][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.21-03.11.23:982][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.10.21-03.11.23:982][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.21-03.11.23:982][  0]LogMemory: Process Physical Memory: 101.96 MB used, 101.96 MB peak
+[2019.10.21-03.11.23:982][  0]LogMemory: Process Virtual Memory: 101.64 MB used, 101.64 MB peak
+[2019.10.21-03.11.23:982][  0]LogMemory: Physical Memory: 10488.98 MB used,  5737.32 MB free, 16226.30 MB total
+[2019.10.21-03.11.23:982][  0]LogMemory: Virtual Memory: 4686.55 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.10.21-03.11.23:985][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.21-03.11.24:012][  0]LogInit: Using OS detected language (en-US).
+[2019.10.21-03.11.24:012][  0]LogInit: Using OS detected locale (en-SG).
+[2019.10.21-03.11.24:012][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.21-03.11.24:203][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.21-03.11.24:245][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.21-03.11.24:245][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.21-03.11.24:447][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.10.21-03.11.24:447][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.21-03.11.24:509][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.10.21-03.11.24:509][  0]LogD3D11RHI:       6052/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.10.21-03.11.24:520][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.10.21-03.11.24:520][  0]LogD3D11RHI:       128/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.21-03.11.24:523][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.21-03.11.24:523][  0]LogD3D11RHI:       0/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.21-03.11.24:523][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.21-03.11.24:558][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.21-03.11.24:558][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.21-03.11.24:558][  0]LogWindows: EnumDisplayDevices:
+[2019.10.21-03.11.24:558][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.10.21-03.11.24:558][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.21-03.11.24:559][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.21-03.11.24:559][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2019.10.21-03.11.24:559][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.10.21-03.11.24:559][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.10.21-03.11.24:559][  0]LogD3D11RHI:   Driver Version: 436.48 (internal:26.21.14.3648, unified:436.48)
+[2019.10.21-03.11.24:559][  0]LogD3D11RHI:      Driver Date: 9-26-2019
+[2019.10.21-03.11.24:559][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.10.21-03.11.24:602][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.21-03.11.24:629][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.21-03.11.24:998][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.21-03.11.25:008][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.21-03.11.25:017][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.21-03.11.25:025][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.21-03.11.25:034][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.21-03.11.25:044][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.21-03.11.25:053][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.21-03.11.25:062][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.21-03.11.25:066][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.21-03.11.25:109][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.21-03.11.25:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.21-03.11.25:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.21-03.11.25:112][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.21-03.11.25:130][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.21-03.11.25:130][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.21-03.11.25:145][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.21-03.11.25:145][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.21-03.11.25:153][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.21-03.11.25:160][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.21-03.11.25:166][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.21-03.11.25:176][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.21-03.11.25:199][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.21-03.11.25:199][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.21-03.11.25:199][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.21-03.11.25:208][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.21-03.11.25:261][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Intermediate/Shaders/WorkingDirectory/31256/).
+[2019.10.21-03.11.25:261][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/drelj/AppData/Local/Temp/UnrealShaderWorkingDir/823BCCFB43D821271AE53BB3EF4064B4/'.
+[2019.10.21-03.11.25:264][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.21-03.11.25:264][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.21-03.11.25:264][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.21-03.11.25:891][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.21-03.11.25:956][  0]LogDerivedDataCache: Loaded boot cache 0.06s 90MB C:/Users/drelj/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.21-03.11.25:956][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/drelj/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.21-03.11.25:956][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.21-03.11.25:956][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.21-03.11.25:956][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.21-03.11.25:956][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.21-03.11.25:966][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.21-03.11.25:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.21-03.11.25:966][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.21-03.11.25:967][  0]LogDerivedDataCache: Using Local data cache path C:/Users/drelj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.21-03.11.25:967][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.21-03.11.25:967][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.21-03.11.25:992][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.21-03.11.25:994][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.21-03.11.25:994][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.21-03.11.26:048][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2019.10.21-03.11.26:340][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.21-03.11.26:489][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.21-03.11.26:489][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.21-03.11.26:489][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.21-03.11.26:489][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.21-03.11.26:489][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.21-03.11.26:498][  0]LogNetVersion: LastResisters 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2470489391)
+[2019.10.21-03.11.26:916][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.059439 seconds
+[2019.10.21-03.11.26:924][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.21-03.11.26:924][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.21-03.11.26:924][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.21-03.11.27:750][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.21-03.11.27:753][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.21-03.11.27:839][  0]SourceControl: Source control is disabled
+[2019.10.21-03.11.27:840][  0]SourceControl: Source control is disabled
+[2019.10.21-03.11.27:842][  0]SourceControl: Source control is disabled
+[2019.10.21-03.11.27:843][  0]SourceControl: Source control is disabled
+[2019.10.21-03.11.27:930][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.21-03.11.28:042][  0]LogOcInput: OculusInput pre-init called
+[2019.10.21-03.11.28:049][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.21-03.11.28:051][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.21-03.11.28:117][  0]LogEngine: Initializing Engine...
+[2019.10.21-03.11.28:152][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.10.21-03.11.28:153][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.21-03.11.28:391][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.21-03.11.28:406][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.21-03.11.28:427][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.21-03.11.28:446][  0]LogInit: FAudioDevice initialized.
+[2019.10.21-03.11.28:447][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.21-03.11.28:507][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/drelj/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.21-03.11.28:520][  0]LogInit: Texture streaming: Enabled
+[2019.10.21-03.11.28:539][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.21-03.11.28:606][  0]LogInit: Transaction tracking system initialized
+[2019.10.21-03.11.28:641][  0]BlueprintLog: New page: Editor Load
+[2019.10.21-03.11.28:728][  0]LocalizationService: Localization service is disabled
+[2019.10.21-03.11.28:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Content/' took 0.01s
+[2019.10.21-03.11.28:979][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.21-03.11.28:979][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.21-03.11.29:147][  0]SourceControl: Source control is disabled
+[2019.10.21-03.11.29:147][  0]Cmd: MAP LOAD FILE="../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.21-03.11.29:147][  0]LightingResults: New page: Lighting Build
+[2019.10.21-03.11.29:149][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-03.11.29:150][  0]MapCheck: New page: Map Check
+[2019.10.21-03.11.29:150][  0]LightingResults: New page: Lighting Build
+[2019.10.21-03.11.29:175][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2019.10.21-03.11.29:201][  0]LogBlueprint: Warning: [Compiler MixamoCharacter_Master] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2019.10.21-03.11.29:201][  0]LogBlueprint: Warning: [Compiler MixamoCharacter_Master] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2019.10.21-03.11.29:202][  0]LogBlueprint: Warning: [Compiler MixamoCharacter_Master] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2019.10.21-03.11.29:202][  0]LogBlueprint: Warning: [Compiler MixamoCharacter_Master] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2019.10.21-03.11.29:202][  0]LogBlueprint: Warning: [Compiler MixamoCharacter_Master] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2019.10.21-03.11.29:203][  0]LogBlueprint: Warning: [Compiler MixamoCharacter_Master] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2019.10.21-03.11.29:204][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:240][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_0.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:240][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_0.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:241][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_0.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:241][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_0.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:241][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_0.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:241][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_1.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:241][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_1.K2Node_FunctionEntry_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:673][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:673][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:673][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:673][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:673][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:673][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:673][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:673][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:673][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:673][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:704][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_BlendSpacePlayer_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:704][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_Root_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_SequencePlayer_483' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_SequencePlayer_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_StateResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_StateResult_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_StateResult_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_StateResult_188' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.AnimGraphNode_TransitionResult_467' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_142' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.AnimGraphNode_TransitionResult_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_148' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_233' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateEntryNode_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:705][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.EdGraphNode_Comment_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.EdGraphNode_Comment_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.EdGraphNode_Comment_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_CallFunction_91451' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CallFunction_11224' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_224620' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_2831' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_CallFunction_92056' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_CallFunction_225505' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:CanJump.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_108580' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_162498' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_169492' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_227144' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_29781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_29886' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_45546' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_45889' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CommutativeAssociativeBinaryOperator_211' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CommutativeAssociativeBinaryOperator_77' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:CanJump.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_521' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_DynamicCast_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:706][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_DynamicCast_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_DynamicCast_99' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_Event_1003' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_Event_2429' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_Event_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_ExecutionSequence_180' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:CanJump.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:CanJump.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_IfThenElse_332' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_IfThenElse_413' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_TransitionRuleGetter_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_182' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.K2Node_VariableGet_589' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_125' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_129' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_1066' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_VariableGet_1084' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.K2Node_VariableGet_624' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:CanJump.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableGet_1007' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableGet_1157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableGet_3156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableSet_1402' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableSet_2289' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableSet_2465' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:707][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableSet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.10.21-03.11.29:724][  0]LogAIModule: Creating AISystem for world PlayerMoveTestMap
+[2019.10.21-03.11.29:732][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.21-03.11.29:772][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.10.21-03.11.29:772][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.21-03.11.29:772][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
+[2019.10.21-03.11.29:772][  0]LogFileHelpers: Loading map 'PlayerMoveTestMap' took 0.625
+[2019.10.21-03.11.29:912][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-03.11.29:921][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-03.11.29:928][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-03.11.29:935][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-03.11.29:943][  0]LogCollectionManager: Loaded 0 collections in 0.002124 seconds
+[2019.10.21-03.11.29:949][  0]LogFileCache: Scanning file cache for directory 'C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/Collections/' took 0.00s
+[2019.10.21-03.11.29:949][  0]LogFileCache: Scanning file cache for directory 'C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Content/Developers/drelj/Collections/' took 0.00s
+[2019.10.21-03.11.29:949][  0]LogFileCache: Scanning file cache for directory 'C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Content/Collections/' took 0.00s
+[2019.10.21-03.11.29:949][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.10.21-03.11.29:959][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2869 classes and 685 folders.
+[2019.10.21-03.11.29:965][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.21-03.11.30:008][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.21-03.11.30:013][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.10.21-03.11.30:038][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.21-03.11.30:043][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.21-03.11.30:047][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.21-03.11.30:117][  0]LogRenderer: Reallocating scene render targets to support 952x448 Format 26 NumSamples 1 (Frame:1).
+[2019.10.21-03.11.30:170][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.21-03.11.30:248][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.21-03.11.30:248][  0]LogLoad: (Engine Initialization) Total time: 7.43 seconds
+[2019.10.21-03.11.30:248][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.21-03.11.30:349][  0]LogAssetRegistry: Asset discovery search completed in 4.3018 seconds
+[2019.10.21-03.11.30:354][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2019.10.21-03.11.30:354][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2019.10.21-03.11.30:355][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.21-03.11.37:253][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-03.11.37:318][415]LogSlate: Window 'Message Log' being destroyed
+[2019.10.21-03.11.37:322][415]LogSlate: Window 'Message Log' being destroyed
+[2019.10.21-03.11.42:286][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-03.11.43:432][682]LogAssetEditorManager: Opening Asset editor for Class /Script/LastResisters.AI1_PatrolTargetPoint
+[2019.10.21-03.30.57:767][195]Candidate modules for hot reload:
+[2019.10.21-03.30.57:767][195]  LastResisters
+[2019.10.21-03.30.57:768][195]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LastResisters,4294 Win64 Development -TargetType=Editor -Project="C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/LastResisters.uproject" "C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/LastResisters.uproject"  -IgnoreJunk]
+[2019.10.21-03.30.57:778][195]Warning: Starting HotReload took  0.0s.
+[2019.10.21-03.31.08:597][842]CompilerResultsLog: New page: Compilation - 21 Oct 2019 9:31:08 pm
+[2019.10.21-03.31.08:597][842]CompilerResultsLog: WARNING: Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
+[2019.10.21-03.31.08:598][842]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
+[2019.10.21-03.31.08:598][842]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> feature/PlayerMove' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
+[2019.10.21-03.31.08:598][842]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT).
+[2019.10.21-03.31.08:598][842]CompilerResultsLog: Parsing headers for LastResistersEditor
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\LastResisters.uproject" "C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\LastResistersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.21-03.31.08:598][842]CompilerResultsLog: Reflection code generated for LastResistersEditor in 5.7358093 seconds
+[2019.10.21-03.31.08:598][842]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.21-03.31.08:598][842]CompilerResultsLog: Building 8 actions with 12 processes...
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:   [1/8] AI1_PatrolTargetPoint.cpp
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:   [2/8] LastResisters.init.gen.cpp
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:   [3/8] AI1_PatrolTargetPoint.gen.cpp
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:   [4/8] AI1_AIController.gen.cpp
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:   [5/8] AI1_AIController.cpp
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:   [6/8] UE4Editor-LastResisters-4294.lib
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:      Creating library C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-4294.lib and object C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-4294.exp
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:   [7/8] UE4Editor-LastResisters-4294.dll
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:      Creating library C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-4294.suppressed.lib and object C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-4294.suppressed.exp
+[2019.10.21-03.31.08:598][842]CompilerResultsLog:   [8/8] LastResistersEditor.target
+[2019.10.21-03.31.08:598][842]CompilerResultsLog: Total time in Parallel executor: 3.92 seconds
+[2019.10.21-03.31.08:598][842]CompilerResultsLog: Total execution time: 10.68 seconds
+[2019.10.21-03.31.08:598][842]LogMainFrame: MainFrame: Module compiling took 10.834 seconds
+[2019.10.21-03.31.08:622][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.10.21-03.31.08:641][842]LogClass: Could not find existing class AI1_AIController in package /Script/LastResisters for HotReload, assuming new class
+[2019.10.21-03.31.08:652][842]LogHotReload: Re-instancing AI1_AIController after hot-reload.
+[2019.10.21-03.31.08:733][842]LogContentBrowser: Native class hierarchy updated for 'LastResisters' in 0.0004 seconds. Added 6 classes and 5 folders.
+[2019.10.21-03.31.08:736][842]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.10.21-03.31.08:791][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.10.21-03.31.08:810][842]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2870 classes and 687 folders.
+[2019.10.21-03.31.08:810][842]Display: HotReload took 11.1s.
+[2019.10.21-03.32.19:466][949]LogAssetEditorManager: Opening Asset editor for Class /Script/LastResisters.AI1_TaskNodes_FindPatrolLocation
+[2019.10.21-06.19.50:937][626]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/AI/AI_1/AI1_BT.AI1_BT
+[2019.10.21-06.19.51:113][626]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.21-07.32.01:075][743]LogSlate: Window 'AI1_BB' being destroyed
+[2019.10.21-07.32.01:083][743]LogSlate: Window 'AI1_BB' being destroyed
+[2019.10.21-07.32.06:921][ 85]LogEditorViewport: Clicking on Actor (LMB): AI1_Character_C (AI1_Character)
+[2019.10.21-07.32.08:425][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-07.32.26:348][235]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/AI_1/AI1_Controller.AI1_Controller
+[2019.10.21-07.32.26:681][235]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 121 classes and 0 folders.
+[2019.10.21-07.32.27:519][236]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.21-07.32.29:227][337]LogSlate: Window 'AI1_Controller' being destroyed
+[2019.10.21-07.32.29:232][337]LogSlate: Window 'AI1_Controller' being destroyed
+[2019.10.21-07.32.29:233][337]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-07.32.30:174][389]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/AI_1/AI1_Character.AI1_Character
+[2019.10.21-07.32.35:170][663]LogRenderer: Reallocating scene render targets to support 952x744 Format 26 NumSamples 1 (Frame:1).
+[2019.10.21-07.32.44:950][241]BlueprintLog: New page: Compile AI1_Character
+[2019.10.21-07.32.45:213][241]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2019.10.21-07.32.45:843][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_1/AI1_Character" FILE="../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Content/AI/AI_1/AI1_Character.uasset" SILENT=true
+[2019.10.21-07.32.45:876][274]LogSavePackage: Moving '../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/AI1_Character7510B88547030A3466067C83C958CB59.tmp' to '../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Content/AI/AI_1/AI1_Character.uasset'
+[2019.10.21-07.32.47:522][370]LogSlate: Window 'AI1_Character' being destroyed
+[2019.10.21-07.32.47:526][370]LogSlate: Window 'AI1_Character' being destroyed
+[2019.10.21-07.32.47:553][370]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-07.32.48:769][440]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-07.32.48:787][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap'
+[2019.10.21-07.32.48:788][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-07.32.48:788][440]PIE: New page: PIE session: PlayerMoveTestMap (22 Oct 2019 1:32:48 am)
+[2019.10.21-07.32.48:790][440]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.10.21-07.32.48:792][440]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap
+[2019.10.21-07.32.48:803][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011400s)
+[2019.10.21-07.32.48:804][440]LogAIModule: Creating AISystem for world PlayerMoveTestMap
+[2019.10.21-07.32.48:804][440]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2019.10.21-07.32.48:804][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap.PlayerMoveTestMap (0.012431s)
+[2019.10.21-07.32.48:831][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2019.10.21-07.32.48:839][440]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.21-07.32.48:854][440]LogInit: FAudioDevice initialized.
+[2019.10.21-07.32.48:872][440]LogLoad: Game class is 'GameModeBase'
+[2019.10.21-07.32.48:876][440]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap.PlayerMoveTestMap up for play (max tick rate 60) at 2019.10.21-16.32.48
+[2019.10.21-07.32.48:881][440]LogWorld: Bringing up level for play took: 0.006917
+[2019.10.21-07.32.48:881][440]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2019.10.21-07.32.48:890][440]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.10.21-07.32.48:898][440]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap -0.672
+[2019.10.21-07.32.48:898][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap'
+[2019.10.21-07.32.54:132][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-07.32.54:234][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap'
+[2019.10.21-07.32.54:234][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-07.32.54:234][743]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap
+[2019.10.21-07.32.54:235][743]LogWorld: UWorld::CleanupWorld for PlayerMoveTestMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-07.32.54:240][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-07.32.54:240][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap'
+[2019.10.21-07.32.54:287][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-07.32.54:319][743]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.10.21-07.32.54:336][744]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.10.21-07.32.54:953][781]LogEditorViewport: Clicking on Actor (LMB): AI1_Character_C (AI1_Character)
+[2019.10.21-07.32.57:321][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-07.32.57:397][923]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/AI_1/AI1_Character.AI1_Character
+[2019.10.21-07.33.01:674][146]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.21-07.33.30:609][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-07.33.39:492][753]LogEditor: Attempting to add actor of class 'AI1_PatrolTargetPoint' to level at 1160.00,-900.00,200.00
+[2019.10.21-07.33.40:042][786]LogEditor: Attempting to add actor of class 'AI1_PatrolTargetPoint' to level at 1190.00,-1100.00,200.00
+[2019.10.21-07.33.44:276][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.21-07.33.44:766][ 65]Candidate modules for hot reload:
+[2019.10.21-07.33.44:766][ 65]  LastResisters
+[2019.10.21-07.33.44:766][ 65]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LastResisters,1461 Win64 Development -TargetType=Editor -Project="C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/LastResisters.uproject" "C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/LastResisters.uproject"  -IgnoreJunk]
+[2019.10.21-07.33.44:770][ 65]Warning: Starting HotReload took  0.0s.
+[2019.10.21-07.33.54:952][670]CompilerResultsLog: New page: Compilation - 22 Oct 2019 1:33:54 am
+[2019.10.21-07.33.54:952][670]CompilerResultsLog: WARNING: Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
+[2019.10.21-07.33.54:952][670]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
+[2019.10.21-07.33.54:952][670]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> feature/PlayerMove' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
+[2019.10.21-07.33.54:952][670]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT).
+[2019.10.21-07.33.54:952][670]CompilerResultsLog: Parsing headers for LastResistersEditor
+[2019.10.21-07.33.54:952][670]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\LastResisters.uproject" "C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\LastResistersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.21-07.33.54:952][670]CompilerResultsLog: Reflection code generated for LastResistersEditor in 5.674774 seconds
+[2019.10.21-07.33.54:952][670]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.21-07.33.54:952][670]CompilerResultsLog: Building 4 actions with 12 processes...
+[2019.10.21-07.33.54:952][670]CompilerResultsLog:   [1/4] AI1_TaskNodes_FindPatrolLocation.cpp
+[2019.10.21-07.33.54:952][670]CompilerResultsLog:   [2/4] UE4Editor-LastResisters-1461.lib
+[2019.10.21-07.33.54:953][670]CompilerResultsLog:      Creating library C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-1461.lib and object C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-1461.exp
+[2019.10.21-07.33.54:953][670]CompilerResultsLog:   [3/4] UE4Editor-LastResisters-1461.dll
+[2019.10.21-07.33.54:953][670]CompilerResultsLog:      Creating library C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-1461.suppressed.lib and object C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-1461.suppressed.exp
+[2019.10.21-07.33.54:953][670]CompilerResultsLog:   [4/4] LastResistersEditor.target
+[2019.10.21-07.33.54:953][670]CompilerResultsLog: Total time in Parallel executor: 3.35 seconds
+[2019.10.21-07.33.54:953][670]CompilerResultsLog: Total execution time: 10.06 seconds
+[2019.10.21-07.33.54:953][670]LogMainFrame: MainFrame: Module compiling took 10.190 seconds
+[2019.10.21-07.33.55:007][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.10.21-07.33.55:041][670]LogContentBrowser: Native class hierarchy updated for 'LastResisters' in 0.0004 seconds. Added 6 classes and 5 folders.
+[2019.10.21-07.33.55:045][670]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.10.21-07.33.55:113][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2019.10.21-07.33.55:131][670]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2870 classes and 687 folders.
+[2019.10.21-07.33.55:131][670]Display: HotReload took 10.4s.
+[2019.10.21-07.34.09:018][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-07.34.09:111][485]Candidate modules for hot reload:
+[2019.10.21-07.34.09:111][485]  LastResisters
+[2019.10.21-07.34.09:111][485]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LastResisters,294 Win64 Development -TargetType=Editor -Project="C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/LastResisters.uproject" "C:/Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/LastResisters.uproject"  -IgnoreJunk]
+[2019.10.21-07.34.09:121][485]Warning: Starting HotReload took  0.0s.
+[2019.10.21-07.34.12:128][658]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2019.10.21-07.34.12:355][658]LogSavePackage: Moving '../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/PlayerMoveTestMap7D8D9B634439D22B48096EA36DE98D0E.tmp' to '../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.umap'
+[2019.10.21-07.34.12:552][658]LogSavePackage: Moving '../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/PlayerMoveTestMap_BuiltDataAAE15F04455FF0A578576DB48CF561FE.tmp' to '../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap_BuiltData.uasset'
+[2019.10.21-07.34.17:359][946]CompilerResultsLog: New page: Compilation - 22 Oct 2019 1:34:17 am
+[2019.10.21-07.34.17:359][946]CompilerResultsLog: WARNING: Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
+[2019.10.21-07.34.17:359][946]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
+[2019.10.21-07.34.17:359][946]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> feature/PlayerMove' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
+[2019.10.21-07.34.17:359][946]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT).
+[2019.10.21-07.34.17:359][946]CompilerResultsLog: Parsing headers for LastResistersEditor
+[2019.10.21-07.34.17:359][946]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\LastResisters.uproject" "C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\LastResistersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.21-07.34.17:359][946]CompilerResultsLog: Reflection code generated for LastResistersEditor in 5.7893945 seconds
+[2019.10.21-07.34.17:359][946]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.21-07.34.17:360][946]CompilerResultsLog: Building 3 actions with 12 processes...
+[2019.10.21-07.34.17:360][946]CompilerResultsLog:   [1/3] UE4Editor-LastResisters-0294.lib
+[2019.10.21-07.34.17:360][946]CompilerResultsLog:      Creating library C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0294.lib and object C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0294.exp
+[2019.10.21-07.34.17:360][946]CompilerResultsLog:   [2/3] UE4Editor-LastResisters-0294.dll
+[2019.10.21-07.34.17:360][946]CompilerResultsLog:      Creating library C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0294.suppressed.lib and object C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0294.suppressed.exp
+[2019.10.21-07.34.17:360][946]CompilerResultsLog:   [3/3] LastResistersEditor.target
+[2019.10.21-07.34.17:360][946]CompilerResultsLog: Total time in Parallel executor: 1.31 seconds
+[2019.10.21-07.34.17:360][946]CompilerResultsLog: Total execution time: 8.14 seconds
+[2019.10.21-07.34.17:360][946]LogMainFrame: MainFrame: Module compiling took 8.252 seconds
+[2019.10.21-07.34.17:398][946]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.10.21-07.34.17:415][946]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2870 classes and 687 folders.
+[2019.10.21-07.34.17:415][946]Display: HotReload took  8.3s.
+[2019.10.21-07.34.18:910][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-07.34.18:960][ 23]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-07.34.18:979][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap'
+[2019.10.21-07.34.18:979][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-07.34.18:979][ 23]PIE: New page: PIE session: PlayerMoveTestMap (22 Oct 2019 1:34:18 am)
+[2019.10.21-07.34.18:979][ 23]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap
+[2019.10.21-07.34.18:990][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010907s)
+[2019.10.21-07.34.18:991][ 23]LogAIModule: Creating AISystem for world PlayerMoveTestMap
+[2019.10.21-07.34.18:991][ 23]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2019.10.21-07.34.18:991][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap.PlayerMoveTestMap (0.011852s)
+[2019.10.21-07.34.19:054][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.10.21-07.34.19:061][ 23]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.21-07.34.19:074][ 23]LogInit: FAudioDevice initialized.
+[2019.10.21-07.34.19:082][ 23]LogLoad: Game class is 'GameModeBase'
+[2019.10.21-07.34.19:085][ 23]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap.PlayerMoveTestMap up for play (max tick rate 60) at 2019.10.21-16.34.19
+[2019.10.21-07.34.19:085][ 23]LogWorld: Bringing up level for play took: 0.002269
+[2019.10.21-07.34.19:086][ 23]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.10.21-07.34.19:090][ 23]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap -0.48
+[2019.10.21-07.34.19:090][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap'
+[2019.10.21-07.34.25:890][430]LogEditorViewport: Clicking on Actor (LMB): AI1_Character_C (AI1_Character)
+[2019.10.21-07.34.30:768][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-07.34.32:019][789]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/AI_1/AI1_Controller.AI1_Controller
+[2019.10.21-07.34.43:181][424]LogSlate: Window 'AI1_Controller' being destroyed
+[2019.10.21-07.34.43:184][424]LogSlate: Window 'AI1_Controller' being destroyed
+[2019.10.21-07.34.43:191][424]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-07.34.43:249][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.10.21-07.34.43:249][424]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-07.34.44:695][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-07.34.52:694][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap'
+[2019.10.21-07.34.52:694][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-07.34.52:694][983]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap
+[2019.10.21-07.34.52:695][983]LogWorld: UWorld::CleanupWorld for PlayerMoveTestMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-07.34.52:700][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-07.34.52:700][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap'
+[2019.10.21-07.34.52:734][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-07.34.52:772][983]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.10.21-07.34.52:804][985]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.10.21-07.34.54:521][ 87]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/AI_1/AI1_Character.AI1_Character
+[2019.10.21-07.35.00:142][402]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.21-07.35.03:702][614]BlueprintLog: New page: Compile AI1_Character
+[2019.10.21-07.35.03:955][614]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2019.10.21-07.35.04:510][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_1/AI1_Character" FILE="../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Content/AI/AI_1/AI1_Character.uasset" SILENT=true
+[2019.10.21-07.35.04:534][644]LogSavePackage: Moving '../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Saved/AI1_Character4F4287B64DF4627030CD1E9810E60E5D.tmp' to '../../../../../../Users/drelj/Desktop/Folder(NYP)/NAGOYA OITP/ProjectGIT/LastResisters/Content/AI/AI_1/AI1_Character.uasset'
+[2019.10.21-07.35.05:378][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-07.35.05:476][700]LogSlate: Window 'AI1_Character' being destroyed
+[2019.10.21-07.35.05:481][700]LogSlate: Window 'AI1_Character' being destroyed
+[2019.10.21-07.35.05:497][700]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-07.35.06:835][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-07.35.06:952][784]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-07.35.06:968][784]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap:PersistentLevel.PlayerMoveTestMap'
+[2019.10.21-07.35.06:968][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-07.35.06:968][784]PIE: New page: PIE session: PlayerMoveTestMap (22 Oct 2019 1:35:06 am)
+[2019.10.21-07.35.06:968][784]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap
+[2019.10.21-07.35.06:979][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010322s)
+[2019.10.21-07.35.06:979][784]LogAIModule: Creating AISystem for world PlayerMoveTestMap
+[2019.10.21-07.35.06:980][784]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2019.10.21-07.35.06:980][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap.PlayerMoveTestMap (0.011153s)
+[2019.10.21-07.35.07:005][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.10.21-07.35.07:012][784]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.21-07.35.07:025][784]LogInit: FAudioDevice initialized.
+[2019.10.21-07.35.07:033][784]LogLoad: Game class is 'GameModeBase'
+[2019.10.21-07.35.07:035][784]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PlayerMoveTestMap.PlayerMoveTestMap up for play (max tick rate 60) at 2019.10.21-16.35.07
+[2019.10.21-07.35.08:805][784]LogWindows: Error: === Critical error: ===
+[2019.10.21-07.35.08:805][784]LogWindows: Error: 
+[2019.10.21-07.35.08:805][784]LogWindows: Error: Fatal error!
+[2019.10.21-07.35.08:805][784]LogWindows: Error: 
+[2019.10.21-07.35.08:805][784]LogWindows: Error: Unhandled Exception: EXCEPTION_STACK_OVERFLOW
+[2019.10.21-07.35.08:805][784]LogWindows: Error: 
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb639398b8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb638cb4cd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb6391dfcf UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2fbb113e UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a352 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:805][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffb2ef2a361 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-07.35.08:806][784]LogWindows: Error: [Callstack] 0x00007ffbb17a3757 UE4Editor-LastResisters-1461.dll!AAI1_AIController::OnPossess() [c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\ai\ai1\ai1_aicontroller.cpp:22]
+[2019.10.21-07.35.08:806][784]LogWindows: Error: 
+[2019.10.21-07.35.08:826][784]LogExit: Executing StaticShutdownAfterError
+[2019.10.21-07.35.08:835][784]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.10.21-07.35.08:836][784]Log file closed, 10/21/19 16:35:08
