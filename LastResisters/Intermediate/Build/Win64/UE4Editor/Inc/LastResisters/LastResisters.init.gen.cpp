@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeLastResisters_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x0E6B6951,
-				0xE28B2E09,
+				0x850B56B9,
+				0xC4FE18B4,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

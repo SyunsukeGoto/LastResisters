@@ -1,2 +1,2 @@
-C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h
-c:\users\drelj\desktop\folder(nyp)\nagoya oitp\projectgit\lastresisters\source\lastresisters\LastResisters.h
+C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h
+c:\users\17004523\documents\lastresisters\lastresisters\source\lastresisters\LastResisters.h

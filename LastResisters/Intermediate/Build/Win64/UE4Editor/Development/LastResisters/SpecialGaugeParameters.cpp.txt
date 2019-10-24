@@ -1,0 +1,2 @@
+C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h
+c:\users\17004523\documents\lastresisters\lastresisters\source\lastresisters\SpecialGaugeParameters.h

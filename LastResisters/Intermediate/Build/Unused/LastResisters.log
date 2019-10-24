@@ -1,17 +1,17 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT).
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> feature/PlayerMove' in UnrealBuildTool.ConfigFileSection of C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Config\DefaultEngine.ini
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\17004523\Documents\LastResisters).
   Parsing headers for LastResistersEditor
-    Running UnrealHeaderTool "C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\LastResisters.uproject" "C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\LastResistersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for LastResistersEditor in 5.224282 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] AI1_Character.cpp
-    [2/4] UE4Editor-LastResisters-0112.lib
-       Creating library C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0112.lib and object C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0112.exp
-    [3/4] UE4Editor-LastResisters-0112.dll
-       Creating library C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0112.suppressed.lib and object C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0112.suppressed.exp
-    [4/4] LastResistersEditor.target
-  Total time in Parallel executor: 3.06 seconds
-  Total execution time: 9.07 seconds
+    Running UnrealHeaderTool "C:\Users\17004523\Documents\LastResisters\LastResisters\LastResisters.uproject" "C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\LastResistersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for LastResistersEditor in 14.2981376 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (D:\Visual Studio 2017\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] PlayerUI.cpp
+c:\users\17004523\documents\lastresisters\lastresisters\source\lastresisters\PlayerUI.h(120): warning C5038: data member 'FHealthbarParameters::backWavePanSpeed' will be initialized after data member 'FHealthbarParameters::backWavePanX'
+    [2/5] PlayerUI.gen.cpp
+C:\Users\17004523\Documents\LastResisters\LastResisters\Source\LastResisters/PlayerUI.h(120): warning C5038: data member 'FHealthbarParameters::backWavePanSpeed' will be initialized after data member 'FHealthbarParameters::backWavePanX'
+    [3/5] UE4Editor-LastResisters-0102.lib
+       Creating library C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0102.lib and object C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0102.exp
+    [4/5] UE4Editor-LastResisters-0102.dll
+       Creating library C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0102.suppressed.lib and object C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-0102.suppressed.exp
+    [5/5] LastResistersEditor.target
+  Total time in Parallel executor: 9.84 seconds
+  Total execution time: 25.93 seconds
