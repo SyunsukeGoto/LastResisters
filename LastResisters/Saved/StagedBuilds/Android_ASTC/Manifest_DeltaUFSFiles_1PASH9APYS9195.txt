@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+Engine/GlobalShaderCache-GLSL_ES3_1_ANDROID.bin
+LastResisters/AssetRegistry.bin
+LastResisters/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+LastResisters/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uexp
+LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.uexp
+LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.umap
+=======
 Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 Engine/Plugins/AI/AISupport/AISupport.uplugin
 Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
@@ -1663,5 +1671,6 @@ LastResisters/Content/VirtualRealityBP/Maps/Stage1Proto_BuiltData.ubulk
 LastResisters/Content/VirtualRealityBP/Maps/Stage1Proto_BuiltData.uexp
 LastResisters/Content/VirtualRealityBP/Maps/StartupMap.uexp
 LastResisters/Content/VirtualRealityBP/Maps/StartupMap.umap
+>>>>>>> 036cad65b96d795c404101799f6cc3b9564ea581
 Manifest_NonUFSFiles_Android.txt
 Manifest_UFSFiles_Android.txt
