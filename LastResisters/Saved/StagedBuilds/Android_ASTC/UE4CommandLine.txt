@@ -1,0 +1,1 @@
+../../../LastResisters/LastResisters.uproject  /Game/VirtualRealityBP/Maps/PlayerMoveTestMap -Messaging -SessionId=7C97F5764028F3142C8022AD554E024A -SessionOwner="s172078" -SessionName="Launch On Device" -iterative
