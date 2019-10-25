@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LastResisters.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{40926EEB-5AAC-48E1-81E8-D6D3B97AA765}</UniqueIdentifier>
+      <UniqueIdentifier>{0224D888-E3EF-4782-82D3-9D27BEB50688}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LastResisters.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8329E4AD-5FF3-4679-8F6E-0D1A88625403}</UniqueIdentifier>
+      <UniqueIdentifier>{232B6112-5309-4A66-B3EF-1F26BBD57C3F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LastResisters">
-      <UniqueIdentifier>{C18E97F9-BCAF-4A8F-9064-E9C685FBA971}</UniqueIdentifier>
+      <UniqueIdentifier>{88C8C730-EF21-4841-9D68-AEDD8F0313A5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LastResisters\LastResisters.Build.cs">
       <Filter>Source\LastResisters</Filter>
@@ -45,64 +45,70 @@
       <Filter>Source\LastResisters</Filter>
     </ClInclude>
     <Filter Include="Source\LastResisters\AI">
-      <UniqueIdentifier>{9E270463-2DD6-4A65-A2F3-065D0FBFC5BF}</UniqueIdentifier>
+      <UniqueIdentifier>{0D36BFAA-21D7-4F25-AFAD-7B077114BA02}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\LastResisters\AI\AI1">
-      <UniqueIdentifier>{F69AD815-8EA0-4345-9FF0-1BD3AA4167C5}</UniqueIdentifier>
+      <UniqueIdentifier>{04796E6E-DC38-478C-8957-8AAC3B3E76D3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_AIController.cpp">
+      <Filter>Source\LastResisters\AI\AI1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_AIController.h">
+      <Filter>Source\LastResisters\AI\AI1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_Character.cpp">
+      <Filter>Source\LastResisters\AI\AI1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_Character.h">
+      <Filter>Source\LastResisters\AI\AI1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_PatrolTargetPoint.cpp">
+      <Filter>Source\LastResisters\AI\AI1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_PatrolTargetPoint.h">
+      <Filter>Source\LastResisters\AI\AI1</Filter>
+    </ClInclude>
     <Filter Include="Source\LastResisters\AI\AI1\AI1_TaskNodes">
-      <UniqueIdentifier>{29FEAA9A-254E-45C5-9B58-F27571D13752}</UniqueIdentifier>
+      <UniqueIdentifier>{3C2B9E38-D7C6-4B65-8AD3-BBB7C328D76B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_FindPatrolLocation.cpp">
+      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_FindPatrolLocation.h">
+      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_IncrementPathIndex.cpp">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_IncrementPathIndex.h">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_Init.cpp">
+      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_Init.h">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_FindPatrolLocation.h">
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_MoveTo.cpp">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_AIController.h">
-      <Filter>Source\LastResisters\AI\AI1</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_Character.h">
-      <Filter>Source\LastResisters\AI\AI1</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_PatrolTargetPoint.h">
-      <Filter>Source\LastResisters\AI\AI1</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_MoveTo.h">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_StateManagement.cpp">
+      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_StateManagement.h">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_Init.cpp">
+    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_CombatManagement.h">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_FindPatrolLocation.cpp">
-      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_AIController.cpp">
-      <Filter>Source\LastResisters\AI\AI1</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_Character.cpp">
-      <Filter>Source\LastResisters\AI\AI1</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_PatrolTargetPoint.cpp">
-      <Filter>Source\LastResisters\AI\AI1</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_MoveTo.cpp">
-      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_StateManagement.cpp">
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_CombatManagement.cpp">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
     </ClCompile>
   </ItemGroup>
