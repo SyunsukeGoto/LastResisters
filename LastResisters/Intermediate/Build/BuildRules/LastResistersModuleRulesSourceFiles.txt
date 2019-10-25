@@ -1,3 +1,3 @@
-C:\Users\17004523\Documents\LastResisters\LastResisters\Source\LastResisters\LastResisters.Build.cs
-C:\Users\17004523\Documents\LastResisters\LastResisters\Source\LastResisters.Target.cs
-C:\Users\17004523\Documents\LastResisters\LastResisters\Source\LastResistersEditor.Target.cs
+D:\LastRegisters\LastResisters\Source\LastResisters\LastResisters.Build.cs
+D:\LastRegisters\LastResisters\Source\LastResisters.Target.cs
+D:\LastRegisters\LastResisters\Source\LastResistersEditor.Target.cs
