@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\17004523\Documents\LastResisters).
   Parsing headers for LastResistersEditor
     Running UnrealHeaderTool "C:\Users\17004523\Documents\LastResisters\LastResisters\LastResisters.uproject" "C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\LastResistersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
@@ -16,9 +15,3 @@ C:\Users\17004523\Documents\LastResisters\LastResisters\Source\LastResisters/Pla
     [5/5] LastResistersEditor.target
   Total time in Parallel executor: 9.84 seconds
   Total execution time: 25.93 seconds
-=======
-﻿  Cleaning LastResistersEditor and UnrealHeaderTool binaries...
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\TRIDENT_GIT\LastResisters\Config\DefaultEngine.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\TRIDENT_GIT\LastResisters\Config\DefaultEngine.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> feature/PlayerMove' in UnrealBuildTool.ConfigFileSection of C:\TRIDENT_GIT\LastResisters\Config\DefaultEngine.ini
->>>>>>> feature/AI_TheMovement

@@ -1,7 +1,7 @@
-D:\LastRegisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h
 D:\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\LastRegisters\LastResisters\Source\LastResisters/PlayerUI.h
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Source\LastResisters/PlayerUI.h
 D:\UE_4.23\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 D:\UE_4.23\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -119,4 +119,4 @@ D:\UE_4.23\Engine\Source\Runtime\Engine\Public\Slate/SlateTextureAtlasInterface.
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SlateTextureAtlasInterface.generated.h
 D:\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/StreamableManager.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Image.generated.h
-d:\lastregisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\PlayerUI.generated.h
+c:\users\s172078\documents\github\lastresisters\lastresisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\PlayerUI.generated.h
