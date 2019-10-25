@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-LastResisters-4900.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\LastResisters.cpp.obj"
+"C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\PlayerUI.cpp.obj"
+"C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\SpecialGaugeParameters.cpp.obj"
+"C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\LastResisters.init.gen.cpp.obj"
+"C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\PlayerUI.gen.cpp.obj"
+"C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Default.rc2.res"
+/OUT:"C:\Users\17004523\Documents\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters-4900.lib"
+/INCLUDE:IMPLEMENT_MODULE_LastResisters

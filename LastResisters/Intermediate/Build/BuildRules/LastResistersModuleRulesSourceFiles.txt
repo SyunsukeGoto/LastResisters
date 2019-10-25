@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+D:\LastRegisters\LastResisters\Source\LastResisters\LastResisters.Build.cs
+D:\LastRegisters\LastResisters\Source\LastResisters.Target.cs
+D:\LastRegisters\LastResisters\Source\LastResistersEditor.Target.cs
+=======
+C:\TRIDENT_GIT\LastResisters\Source\LastResisters\LastResisters.Build.cs
+C:\TRIDENT_GIT\LastResisters\Source\LastResisters.Target.cs
+C:\TRIDENT_GIT\LastResisters\Source\LastResistersEditor.Target.cs
+>>>>>>> feature/AI_TheMovement
