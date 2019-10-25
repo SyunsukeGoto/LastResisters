@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "BehaviorTree/BTTaskNode.h"
-#include "AI1_TaskNodes_CombatManagement.generated.h"
+#include "AI1_TaskNodes_MoveTo.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class LASTRESISTERS_API UAI1_TaskNodes_CombatManagement : public UBTTaskNode
+class LASTRESISTERS_API UAI1_TaskNodes_MoveTo : public UBTTaskNode
 {
 	GENERATED_BODY()
 
