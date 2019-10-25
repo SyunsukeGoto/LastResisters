@@ -1,6 +1,4 @@
-Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
 LastResisters/Config/DefaultEngine.ini
-LastResisters/Config/DefaultScalability.ini
 Engine/GlobalShaderCache-GLSL_ES3_1_ANDROID.bin
 Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset
 Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uexp
@@ -713,8 +711,6 @@ Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.
 LastResisters/AssetRegistry.bin
 LastResisters/Content/Game/Wepons/Provisional/Swords/BP/BP_DarkRepulus.uasset
 LastResisters/Content/Game/Wepons/Provisional/Swords/BP/BP_DarkRepulus.uexp
-LastResisters/Content/Game/Wepons/Provisional/Swords/BP/BP_EluciDator.uasset
-LastResisters/Content/Game/Wepons/Provisional/Swords/BP/BP_EluciDator.uexp
 LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/DarkRepulus/dark_repulus.uasset
 LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/DarkRepulus/dark_repulus.uexp
 LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/DarkRepulus/Material_001.uasset
@@ -723,12 +719,6 @@ LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/DarkRepulus/Mate
 LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/DarkRepulus/Material_002.uexp
 LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/DarkRepulus/Material_003.uasset
 LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/DarkRepulus/Material_003.uexp
-LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/EluciDator/eluci_dator.uasset
-LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/EluciDator/eluci_dator.uexp
-LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/EluciDator/Material_001.uasset
-LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/EluciDator/Material_001.uexp
-LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/EluciDator/Material_002.uasset
-LastResisters/Content/Game/Wepons/Provisional/Swords/Models/FBX/EluciDator/Material_002.uexp
 LastResisters/Content/Geometry/Meshes/1M_Cube.uasset
 LastResisters/Content/Geometry/Meshes/1M_Cube.uexp
 LastResisters/Content/Geometry/Meshes/CubeMaterial.uasset
@@ -807,11 +797,6 @@ LastResisters/Content/VirtualRealityBP/Blueprints/PickupActorInterface.uasset
 LastResisters/Content/VirtualRealityBP/Blueprints/PickupActorInterface.uexp
 LastResisters/Content/VirtualRealityBP/Maps/MotionControllerMap.uexp
 LastResisters/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.uexp
-LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.umap
-LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap_BuiltData.uasset
-LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap_BuiltData.ubulk
-LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap_BuiltData.uexp
 LastResisters/Content/VirtualRealityBP/Maps/StartupMap.uexp
 LastResisters/Content/VirtualRealityBP/Maps/StartupMap.umap
 Manifest_NonUFSFiles_Android.txt
