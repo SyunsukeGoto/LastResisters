@@ -1,1 +1,0 @@
-../../../LastResisters/LastResisters.uproject  /Game/VirtualRealityBP/Maps/StartupMap -Messaging -SessionId=D591476543DD5A21068B3BB8FE4F977E -SessionOwner="s172078" -SessionName="Launch On Device" -iterative
