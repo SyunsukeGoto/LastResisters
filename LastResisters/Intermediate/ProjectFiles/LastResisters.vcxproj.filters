@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LastResisters.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8ABE8499-51E1-4350-BA8E-BF549A632926}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LastResisters.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LastResistersEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1A468AD4-9F78-49FC-9001-74CA23DD4FDA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultScalability.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LastResisters">
+      <UniqueIdentifier>{11B8ED3F-9858-4469-B4A2-215D72BCAA3C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LastResisters\LastResisters.Build.cs">
+      <Filter>Source\LastResisters</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LastResisters\LastResisters.cpp">
+      <Filter>Source\LastResisters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\LastResisters.h">
+      <Filter>Source\LastResisters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LastResisters\PlayerUI.cpp">
+      <Filter>Source\LastResisters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\PlayerUI.h">
+      <Filter>Source\LastResisters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
