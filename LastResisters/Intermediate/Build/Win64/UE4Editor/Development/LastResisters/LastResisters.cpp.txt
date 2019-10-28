@@ -1,2 +1,0 @@
-C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h
-c:\users\s172078\documents\github\lastresisters\lastresisters\lastresisters\source\lastresisters\LastResisters.h
