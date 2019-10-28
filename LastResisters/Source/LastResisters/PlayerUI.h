@@ -129,11 +129,11 @@ struct FSpecialGauge
 	GENERATED_BODY()
 
 		//Our base material that will be the template for our material instance
-		UPROPERTY(EditDefaultsOnly)
-		UMaterialInterface * Material = nullptr;
+	UPROPERTY(EditDefaultsOnly)
+	 UMaterialInterface * Material = nullptr;
 
 	//Our actual materialInstance 
-	UMaterialInstanceDynamic * MaterialInstance = nullptr;
+	 UMaterialInstanceDynamic * MaterialInstance = nullptr;
 
 	//Texture we'll set as a parameter to our dynamic material instance
 	UPROPERTY(EditDefaultsOnly)
@@ -177,11 +177,11 @@ struct FHealthbar
 	GENERATED_BODY()
 
 		//Our base material that will be the template for our material instance
-		UPROPERTY(EditDefaultsOnly)
-		UMaterialInterface * Material = nullptr;
+	UPROPERTY(EditDefaultsOnly)
+	 UMaterialInterface * Material = nullptr;
 
 	//Our actual materialInstance 
-	UMaterialInstanceDynamic * MaterialInstance = nullptr;
+	 UMaterialInstanceDynamic * MaterialInstance = nullptr;
 
 	//Texture we'll set as a parameter to our dynamic material instance
 	UPROPERTY(EditDefaultsOnly)
