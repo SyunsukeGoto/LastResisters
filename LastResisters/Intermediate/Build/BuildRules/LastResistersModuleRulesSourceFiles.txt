@@ -1,3 +1,0 @@
-C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Source\LastResisters\LastResisters.Build.cs
-C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Source\LastResisters.Target.cs
-C:\Users\drelj\Desktop\Folder(NYP)\NAGOYA OITP\ProjectGIT\LastResisters\Source\LastResistersEditor.Target.cs
