@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/Image.h"
+#include "Materials/MaterialInterface.h"
+#include "Materials/MaterialInstanceDynamic.h"
 #include "PlayerUI.generated.h"
 
 /**
@@ -175,8 +177,8 @@ struct FHealthbar
 	GENERATED_BODY()
 
 		//Our base material that will be the template for our material instance
-	UPROPERTY(EditDefaultsOnly)
-	UMaterialInterface * Material = nullptr;
+		UPROPERTY(EditDefaultsOnly)
+		UMaterialInterface * Material = nullptr;
 
 	//Our actual materialInstance 
 	UMaterialInstanceDynamic * MaterialInstance = nullptr;

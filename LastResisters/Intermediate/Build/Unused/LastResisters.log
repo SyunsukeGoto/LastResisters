@@ -1,9 +1,10 @@
 ﻿  Cleaning LastResistersEditor and UnrealHeaderTool binaries...
+UnrealBuildTool : error : Unable to delete C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Binaries\Win64\UE4Editor-LastResisters.dll (パス 'C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Binaries\Win64\UE4Editor-LastResisters.dll' へのアクセスが拒否されました。)
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s172078\Documents\GitHub\LastResisters).
   Creating makefile for LastResistersEditor (no existing makefile)
   Parsing headers for LastResistersEditor
     Running UnrealHeaderTool "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters.uproject" "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\LastResistersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for LastResistersEditor in 10.3439933 seconds
+  Reflection code generated for LastResistersEditor in 11.6947224 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 25 actions with 8 processes...
     [1/25] Default.rc2
@@ -15,23 +16,37 @@
     [7/25] AI1_TaskNodes_MoveTo.cpp
     [8/25] AI1_TaskNodes_StateManagement.cpp
     [9/25] AI1_TaskNodes_FindPatrolLocation.cpp
-    [10/25] AI1_PatrolTargetPoint.gen.cpp
-    [11/25] AI1_Character.cpp
+    [10/25] AI1_Character.cpp
+    [11/25] AI1_PatrolTargetPoint.gen.cpp
     [12/25] AI1_AIController.cpp
     [13/25] LastResisters.init.gen.cpp
     [14/25] AI1_AIController.gen.cpp
-    [15/25] AI1_TaskNodes_IncrementPathIndex.gen.cpp
-    [16/25] AI1_TaskNodes_Init.gen.cpp
-    [17/25] AI1_TaskNodes_FindPatrolLocation.gen.cpp
-    [18/25] AI1_TaskNodes_MoveTo.gen.cpp
-    [19/25] AI1_TaskNodes_StateManagement.gen.cpp
-    [20/25] AI1_Character.gen.cpp
+    [15/25] AI1_TaskNodes_FindPatrolLocation.gen.cpp
+    [16/25] AI1_TaskNodes_IncrementPathIndex.gen.cpp
+    [17/25] AI1_TaskNodes_Init.gen.cpp
+    [18/25] AI1_Character.gen.cpp
+    [19/25] AI1_TaskNodes_MoveTo.gen.cpp
+    [20/25] AI1_TaskNodes_StateManagement.gen.cpp
     [21/25] PlayerUI.cpp
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(255): error C2084: 関数 'UPlayerUI::UPlayerUI(const FObjectInitializer &)' は既に本体を持っています。
+    C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(9): note: '{ctor}' の以前の定義を確認してください
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(261): error C2084: 関数 'void UPlayerUI::NativeConstruct(void)' は既に本体を持っています。
+    C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(15): note: 'NativeConstruct' の以前の定義を確認してください
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(292): error C2084: 関数 'void UPlayerUI::NativeTick(const FGeometry &,float)' は既に本体を持っています。
+    C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(46): note: 'NativeTick' の以前の定義を確認してください
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(332): error C2084: 関数 'void UPlayerUI::UpdateSpecialGauge(float)' は既に本体を持っています。
+    C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(86): note: 'UpdateSpecialGauge' の以前の定義を確認してください
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(385): error C2084: 関数 'void UPlayerUI::UpdateHealthbar(float)' は既に本体を持っています。
+    C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(139): note: 'UpdateHealthbar' の以前の定義を確認してください
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(408): error C2084: 関数 'float UPlayerUI::NormalizeValue(float,float,float)' は既に本体を持っています。
+    C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(162): note: 'NormalizeValue' の以前の定義を確認してください
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(413): error C2084: 関数 'float UPlayerUI::NormalizeValueCustomRange(float,float,float)' は既に本体を持っています。
+    C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(167): note: 'NormalizeValueCustomRange' の以前の定義を確認してください
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(419): error C2084: 関数 'void UPlayerUI::NormalizeHealthValue(void)' は既に本体を持っています。
+    C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(173): note: 'NormalizeHealthValue' の以前の定義を確認してください
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(424): error C2084: 関数 'void UPlayerUI::NormalizeDashGauge(void)' は既に本体を持っています。
+    C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(178): note: 'NormalizeDashGauge' の以前の定義を確認してください
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(429): error C2084: 関数 'void UPlayerUI::Hit(float)' は既に本体を持っています。
+    C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp(183): note: 'Hit' の以前の定義を確認してください
     [22/25] PlayerUI.gen.cpp
-    [23/25] UE4Editor-LastResisters.lib
-       ライブラリ C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters.lib とオブジェクト C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters.exp を作成中
-    [24/25] UE4Editor-LastResisters.dll
-       ライブラリ C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters.suppressed.lib とオブジェクト C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters.suppressed.exp を作成中
-    [25/25] LastResistersEditor.target
-  Total time in Parallel executor: 30.23 seconds
-  Total execution time: 46.45 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: コマンド "D:\UE_4.23\Engine\Build\BatchFiles\Rebuild.bat LastResistersEditor Win64 Development -Project="C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters.uproject" -WaitMutex -FromMsBuild" はコード -1 で終了しました。

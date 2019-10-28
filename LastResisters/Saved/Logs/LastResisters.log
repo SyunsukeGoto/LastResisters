@@ -1,4 +1,4 @@
-﻿Log file open, 10/28/19 10:49:07
+﻿Log file open, 10/28/19 11:31:44
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: LastResisters
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.086590
+LogStats: Stats thread started at 0.074027
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,1125 +157,419 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
-[2019.10.28-01.49.07:344][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.10.28-01.49.07:344][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
-[2019.10.28-01.49.07:345][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
-[2019.10.28-01.49.07:349][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.28-01.49.07:349][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.28-01.49.07:350][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.28-01.49.07:350][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.28-01.49.07:350][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.28-01.49.07:358][  0]LogHAL: Display: Platform has ~ 32 GB [34292334592 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.28-01.49.07:358][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.28-01.49.07:358][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.28-01.49.07:358][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.28-01.49.07:359][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.10.28-01.49.07:362][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.10.28-01.49.07:362][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.10.28-01.49.07:362][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
-[2019.10.28-01.49.07:362][  0]LogInit: Computer: F53PC02
-[2019.10.28-01.49.07:362][  0]LogInit: User: s172078
-[2019.10.28-01.49.07:362][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.10.28-01.49.07:362][  0]LogInit: High frequency timer resolution =4.101559 MHz
-[2019.10.28-01.49.07:362][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.10.28-01.49.07:362][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.28-01.49.07:362][  0]LogMemory: Process Physical Memory: 101.24 MB used, 101.24 MB peak
-[2019.10.28-01.49.07:362][  0]LogMemory: Process Virtual Memory: 98.91 MB used, 98.91 MB peak
-[2019.10.28-01.49.07:362][  0]LogMemory: Physical Memory: 6081.99 MB used,  26621.73 MB free, 32703.72 MB total
-[2019.10.28-01.49.07:362][  0]LogMemory: Virtual Memory: 4683.32 MB used,  134213048.00 MB free, 134217728.00 MB total
-[2019.10.28-01.49.07:366][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.10.28-01.49.07:401][  0]LogInit: Overriding language with editor language configuration option (en).
-[2019.10.28-01.49.07:401][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2019.10.28-01.49.07:557][  0]LogInit: Setting process to per monitor DPI aware
-[2019.10.28-01.49.07:604][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.28-01.49.07:604][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.28-01.49.08:827][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.28-01.49.08:827][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.28-01.49.08:912][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.10.28-01.49.08:912][  0]LogD3D11RHI:       8079/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.10.28-01.49.08:916][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.28-01.49.08:916][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.28-01.49.08:916][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.28-01.49.08:921][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.28-01.49.08:921][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.10.28-01.49.08:921][  0]LogWindows: EnumDisplayDevices:
-[2019.10.28-01.49.08:922][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.10.28-01.49.08:922][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.10.28-01.49.08:922][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.10.28-01.49.08:922][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.10.28-01.49.08:922][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.10.28-01.49.08:922][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.10.28-01.49.08:922][  0]LogD3D11RHI:   Driver Version: 431.07 (internal:26.21.14.3107, unified:431.07)
-[2019.10.28-01.49.08:922][  0]LogD3D11RHI:      Driver Date: 6-5-2019
-[2019.10.28-01.49.08:922][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.10.28-01.49.08:975][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.28-01.49.08:985][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.10.28-01.49.09:319][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.10.28-01.49.09:328][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.10.28-01.49.09:336][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.10.28-01.49.09:345][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.10.28-01.49.09:356][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.10.28-01.49.09:365][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.10.28-01.49.09:377][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.10.28-01.49.09:386][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.10.28-01.49.09:390][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.10.28-01.49.09:422][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.10.28-01.49.09:422][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.10.28-01.49.09:422][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.10.28-01.49.09:422][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.10.28-01.49.09:422][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.10.28-01.49.09:422][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.10.28-01.49.09:422][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.10.28-01.49.09:423][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.10.28-01.49.09:425][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.10.28-01.49.09:448][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.10.28-01.49.09:448][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.10.28-01.49.09:464][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.10.28-01.49.09:464][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.10.28-01.49.09:472][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.10.28-01.49.09:480][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.10.28-01.49.09:488][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.10.28-01.49.09:501][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.10.28-01.49.09:532][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.10.28-01.49.09:532][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.10.28-01.49.09:532][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.28-01.49.09:542][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.10.28-01.49.09:593][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Shaders/WorkingDirectory/17636/).
-[2019.10.28-01.49.09:593][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s172078/AppData/Local/Temp/UnrealShaderWorkingDir/EB102E4A47DD9290CD4D00A413CDE266/'.
-[2019.10.28-01.49.09:595][  0]LogXGEController: Cleaning working directory: C:/Users/s172078/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.10.28-01.49.09:595][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.10.28-01.49.09:595][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.10.28-01.49.09:595][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.28-01.49.11:279][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.28-01.49.11:333][  0]LogDerivedDataCache: Loaded boot cache 0.05s 90MB C:/Users/s172078/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.28-01.49.11:333][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s172078/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.10.28-01.49.11:333][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.28-01.49.11:333][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.28-01.49.11:333][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.28-01.49.11:333][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.28-01.49.11:342][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.28-01.49.11:342][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.28-01.49.11:342][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.10.28-01.49.11:345][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s172078/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.28-01.49.11:345][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.28-01.49.11:345][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.28-01.49.11:371][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.28-01.49.11:373][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.28-01.49.11:377][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.28-01.49.11:631][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
-[2019.10.28-01.49.11:934][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.28-01.49.12:129][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.28-01.49.12:129][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.10.28-01.49.12:129][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.28-01.49.12:129][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.10.28-01.49.12:129][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.10.28-01.49.12:148][  0]LogNetVersion: LastResisters 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2470489391)
-[2019.10.28-01.49.12:786][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.088784 seconds
-[2019.10.28-01.49.12:792][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.10.28-01.49.12:792][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.10.28-01.49.12:792][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.28-01.49.15:546][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.28-01.49.15:550][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.28-01.49.15:621][  0]SourceControl: Source control is disabled
-[2019.10.28-01.49.15:621][  0]SourceControl: Source control is disabled
-[2019.10.28-01.49.15:623][  0]SourceControl: Source control is disabled
-[2019.10.28-01.49.15:625][  0]SourceControl: Source control is disabled
-[2019.10.28-01.49.15:758][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.28-01.49.15:878][  0]LogOcInput: OculusInput pre-init called
-[2019.10.28-01.49.15:885][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.10.28-01.49.15:885][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.10.28-01.49.15:954][  0]LogEngine: Initializing Engine...
-[2019.10.28-01.49.15:956][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.28-01.49.15:957][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.10.28-01.49.16:208][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.28-01.49.16:219][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.28-01.49.16:230][  0]LogInit: XAudio2 using 'RDT233WLM (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.28-01.49.16:243][  0]LogInit: FAudioDevice initialized.
-[2019.10.28-01.49.16:243][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.28-01.49.16:312][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/s172078/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.28-01.49.16:313][  0]LogInit: Texture streaming: Enabled
-[2019.10.28-01.49.16:333][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.28-01.49.16:414][  0]LogInit: Transaction tracking system initialized
-[2019.10.28-01.49.16:443][  0]BlueprintLog: New page: Editor Load
-[2019.10.28-01.49.16:516][  0]LocalizationService: Localization service is disabled
-[2019.10.28-01.49.16:809][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.28-01.49.16:809][  0]LogCook: Display: Mobile HDR setting 1
-[2019.10.28-01.49.17:102][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/' took 0.01s
-[2019.10.28-01.49.17:102][  0]SourceControl: Source control is disabled
-[2019.10.28-01.49.17:102][  0]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.28-01.49.17:103][  0]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.17:106][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.10.28-01.49.17:106][  0]MapCheck: New page: Map Check
-[2019.10.28-01.49.17:106][  0]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.17:126][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
-[2019.10.28-01.49.17:236][  0]LogAIModule: Creating AISystem for world StartupMap
-[2019.10.28-01.49.17:240][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.28-01.49.17:260][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
-[2019.10.28-01.49.17:260][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.28-01.49.17:260][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.139ms to complete.
-[2019.10.28-01.49.17:261][  0]LogFileHelpers: Loading map 'StartupMap' took 0.158
-[2019.10.28-01.49.17:371][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.28-01.49.17:377][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.28-01.49.17:382][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.28-01.49.17:388][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.28-01.49.17:395][  0]LogCollectionManager: Loaded 0 collections in 0.000687 seconds
-[2019.10.28-01.49.17:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Collections/' took 0.00s
-[2019.10.28-01.49.17:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/Developers/s172078/Collections/' took 0.00s
-[2019.10.28-01.49.17:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/Collections/' took 0.00s
-[2019.10.28-01.49.17:401][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2019.10.28-01.49.17:409][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2872 classes and 685 folders.
-[2019.10.28-01.49.17:414][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.10.28-01.49.17:582][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.10.28-01.49.17:588][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.10.28-01.49.18:451][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.10.28-01.49.18:472][  0]LogSlate: Took 0.001053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.28-01.49.18:475][  0]LogSlate: Took 0.001314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.28-01.49.18:484][  0]LogSlate: Took 0.002148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.28-01.49.18:570][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 26 NumSamples 1 (Frame:1).
-[2019.10.28-01.49.18:618][  0]LogSlate: Took 0.001571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.28-01.49.18:655][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.10.28-01.49.18:655][  0]LogLoad: (Engine Initialization) Total time: 12.99 seconds
-[2019.10.28-01.49.18:655][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.28-01.49.18:672][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2019.10.28-01.49.18:734][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.28-01.49.18:762][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/' took 0.08s
-[2019.10.28-01.49.18:905][  4]LogAssetRegistry: Asset discovery search completed in 7.2743 seconds
-[2019.10.28-01.49.18:908][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2019.10.28-01.49.18:908][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
-[2019.10.28-01.49.24:678][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.28-01.49.37:110][184]LogSlate: Took 0.000629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.28-01.49.37:327][184]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
-[2019.10.28-01.49.37:328][184]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
-[2019.10.28-01.49.37:330][184]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
-[2019.10.28-01.49.37:330][184]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
-[2019.10.28-01.49.37:330][184]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
-[2019.10.28-01.49.37:330][184]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
-[2019.10.28-01.49.37:331][184]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
-[2019.10.28-01.49.37:331][184]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
-[2019.10.28-01.49.37:339][184]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
-[2019.10.28-01.49.37:339][184]LoadErrors: Failed to load /Game/VirtualRealityBP/Maps/UITestMap_BuiltData.UITestMap_BuiltData Referenced by PersistentLevel
-[2019.10.28-01.49.37:339][184]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
-[2019.10.28-01.49.37:434][184]LogAIModule: Creating AISystem for world UITestMap
-[2019.10.28-01.49.37:442][184]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/UITestMap.UITestMap
-[2019.10.28-01.49.37:465][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
-[2019.10.28-01.49.37:465][184]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.28-01.49.37:465][184]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.37:466][184]LoadErrors: New page: Loading map: UITestMap.umap
-[2019.10.28-01.49.37:466][184]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.28-01.49.37:467][184]MapCheck: New page: Map Check
-[2019.10.28-01.49.37:467][184]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.37:490][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
-[2019.10.28-01.49.37:496][184]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.28-01.49.37:521][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
-[2019.10.28-01.49.37:544][184]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.28-01.49.37:544][184]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.132ms to complete.
-[2019.10.28-01.49.37:544][184]LogFileHelpers: Loading map 'UITestMap' took 0.080
-[2019.10.28-01.49.40:135][484]LogAIModule: Creating AISystem for world PlayerMoveTestMap
-[2019.10.28-01.49.40:140][484]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
-[2019.10.28-01.49.40:161][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2019.10.28-01.49.40:162][484]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.28-01.49.40:162][484]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.40:162][484]LoadErrors: New page: Loading map: PlayerMoveTestMap.umap
-[2019.10.28-01.49.40:162][484]LogWorld: UWorld::CleanupWorld for UITestMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.28-01.49.40:163][484]MapCheck: New page: Map Check
-[2019.10.28-01.49.40:163][484]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.40:184][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
-[2019.10.28-01.49.40:189][484]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.28-01.49.40:210][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
-[2019.10.28-01.49.40:236][484]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.28-01.49.40:237][484]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.187ms to complete.
-[2019.10.28-01.49.40:237][484]LogFileHelpers: Loading map 'PlayerMoveTestMap' took 0.076
-[2019.10.28-01.49.41:320][603]LogAIModule: Creating AISystem for world MotionControllerMap
-[2019.10.28-01.49.41:325][603]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
-[2019.10.28-01.49.41:346][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
-[2019.10.28-01.49.41:347][603]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.28-01.49.41:347][603]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.41:347][603]LoadErrors: New page: Loading map: MotionControllerMap.umap
-[2019.10.28-01.49.41:348][603]LogWorld: UWorld::CleanupWorld for PlayerMoveTestMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.28-01.49.41:348][603]MapCheck: New page: Map Check
-[2019.10.28-01.49.41:348][603]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.41:370][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
-[2019.10.28-01.49.41:376][603]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.28-01.49.41:400][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
-[2019.10.28-01.49.41:424][603]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.28-01.49.41:424][603]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.143ms to complete.
-[2019.10.28-01.49.41:424][603]LogFileHelpers: Loading map 'MotionControllerMap' took 0.078
-[2019.10.28-01.49.42:575][731]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
-[2019.10.28-01.49.42:575][731]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
-[2019.10.28-01.49.42:576][731]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
-[2019.10.28-01.49.42:577][731]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
-[2019.10.28-01.49.42:577][731]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
-[2019.10.28-01.49.42:577][731]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
-[2019.10.28-01.49.42:577][731]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
-[2019.10.28-01.49.42:577][731]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
-[2019.10.28-01.49.42:582][731]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
-[2019.10.28-01.49.42:582][731]LoadErrors: Failed to load /Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData.HMDLocomotionMap_BuiltData Referenced by PersistentLevel
-[2019.10.28-01.49.42:582][731]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
-[2019.10.28-01.49.42:610][731]LogAIModule: Creating AISystem for world HMDLocomotionMap
-[2019.10.28-01.49.42:614][731]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap
-[2019.10.28-01.49.42:635][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
-[2019.10.28-01.49.42:636][731]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.28-01.49.42:636][731]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.42:637][731]LoadErrors: New page: Loading map: HMDLocomotionMap.umap
-[2019.10.28-01.49.42:638][731]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.28-01.49.42:638][731]MapCheck: New page: Map Check
-[2019.10.28-01.49.42:638][731]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.42:659][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
-[2019.10.28-01.49.42:663][731]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.28-01.49.42:685][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
-[2019.10.28-01.49.42:711][731]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.28-01.49.42:711][731]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.148ms to complete.
-[2019.10.28-01.49.42:711][731]LogFileHelpers: Loading map 'HMDLocomotionMap' took 0.075
-[2019.10.28-01.49.44:523][941]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/Stage1Proto.umap' failed to load '/Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData': Can't find file.
-[2019.10.28-01.49.44:523][941]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/Stage1Proto.umap' failed to load '/Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData': Can't find file.
-[2019.10.28-01.49.44:540][941]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/Stage1Proto.umap' failed to load '/Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData': Can't find file.
-[2019.10.28-01.49.44:540][941]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/Stage1Proto.umap' failed to load '/Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData': Can't find file.
-[2019.10.28-01.49.44:542][941]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData': Can't find file.
-[2019.10.28-01.49.44:542][941]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData': Can't find file.
-[2019.10.28-01.49.44:542][941]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData': Can't find file.
-[2019.10.28-01.49.44:542][941]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData': Can't find file.
-[2019.10.28-01.49.44:551][941]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/Stage1Proto.umap' failed to load '/Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData': Can't find file.
-[2019.10.28-01.49.44:551][941]LoadErrors: Failed to load /Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData.Stage1Proto_BuiltData Referenced by PersistentLevel
-[2019.10.28-01.49.44:552][941]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/Stage1Proto.umap' failed to load '/Game/VirtualRealityBP/Maps/Stage1Proto_BuiltData': Can't find file.
-[2019.10.28-01.49.44:696][941]LogAIModule: Creating AISystem for world Stage1Proto
-[2019.10.28-01.49.44:702][941]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/Stage1Proto.Stage1Proto
-[2019.10.28-01.49.44:723][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
-[2019.10.28-01.49.44:724][941]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/Stage1Proto.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.28-01.49.44:724][941]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.44:724][941]LoadErrors: New page: Loading map: Stage1Proto.umap
-[2019.10.28-01.49.44:724][941]LogWorld: UWorld::CleanupWorld for HMDLocomotionMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.28-01.49.44:725][941]MapCheck: New page: Map Check
-[2019.10.28-01.49.44:725][941]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.44:746][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
-[2019.10.28-01.49.44:752][941]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.28-01.49.44:774][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
-[2019.10.28-01.49.44:799][941]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.28-01.49.44:799][941]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.145ms to complete.
-[2019.10.28-01.49.44:799][941]LogFileHelpers: Loading map 'Stage1Proto' took 0.077
-[2019.10.28-01.49.46:357][120]LogAIModule: Creating AISystem for world StartupMap
-[2019.10.28-01.49.46:361][120]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/StartupMap.StartupMap
-[2019.10.28-01.49.46:380][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
-[2019.10.28-01.49.46:381][120]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.28-01.49.46:381][120]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.46:381][120]LoadErrors: New page: Loading map: StartupMap.umap
-[2019.10.28-01.49.46:382][120]LogWorld: UWorld::CleanupWorld for Stage1Proto, bSessionEnded=true, bCleanupResources=true
-[2019.10.28-01.49.46:383][120]MapCheck: New page: Map Check
-[2019.10.28-01.49.46:383][120]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.46:403][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
-[2019.10.28-01.49.46:406][120]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.28-01.49.46:426][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
-[2019.10.28-01.49.46:450][120]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.28-01.49.46:451][120]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.134ms to complete.
-[2019.10.28-01.49.46:451][120]LogFileHelpers: Loading map 'StartupMap' took 0.071
-[2019.10.28-01.49.47:837][278]LogAIModule: Creating AISystem for world PlayerMoveTestMap
-[2019.10.28-01.49.47:843][278]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
-[2019.10.28-01.49.47:862][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
-[2019.10.28-01.49.47:863][278]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.28-01.49.47:863][278]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.47:863][278]LoadErrors: New page: Loading map: PlayerMoveTestMap.umap
-[2019.10.28-01.49.47:864][278]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.28-01.49.47:864][278]MapCheck: New page: Map Check
-[2019.10.28-01.49.47:864][278]LightingResults: New page: Lighting Build
-[2019.10.28-01.49.47:885][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
-[2019.10.28-01.49.47:890][278]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.28-01.49.47:912][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
-[2019.10.28-01.49.47:936][278]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.28-01.49.47:936][278]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.153ms to complete.
-[2019.10.28-01.49.47:936][278]LogFileHelpers: Loading map 'PlayerMoveTestMap' took 0.073
-[2019.10.28-01.49.50:245][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.28-01.49.54:569][ 65]LogEditor: Attempting to add actor of class 'AI1_PatrolTargetPoint' to level at -620.00,90.00,200.00
-[2019.10.28-01.49.55:146][128]LogEditor: Attempting to add actor of class 'AI1_PatrolTargetPoint' to level at -550.00,20.00,200.00
-[2019.10.28-01.49.56:598][292]Cmd: DELETE
-[2019.10.28-01.49.56:598][292]Cmd: ACTOR DELETE
-[2019.10.28-01.49.56:622][292]LogEditorActor: Deleted Actor: AI1_PatrolTargetPoint
-[2019.10.28-01.49.56:642][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
-[2019.10.28-01.49.56:643][292]LogEditorActor: Deleted 1 Actors (0.022 secs)
-[2019.10.28-01.50.01:065][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.28-01.50.01:165][835]MapCheck: New page: Map Check
-[2019.10.28-01.50.01:176][835]Cmd: MAP REBUILD ALLVISIBLE
-[2019.10.28-01.50.01:176][835]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2019.10.28-01.50.01:199][835]LogWorld: UWorld::CleanupWorld for PlayerMoveTestMap, bSessionEnded=true, bCleanupResources=false
-[2019.10.28-01.50.01:246][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
-[2019.10.28-01.50.01:306][835]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.10.28-01.50.01:338][835]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.10.28-01.50.01:352][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
-[2019.10.28-01.50.01:352][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
-[2019.10.28-01.50.01:352][835]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
-[2019.10.28-01.50.01:384][835]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.10.28-01.50.01:391][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 42
-[2019.10.28-01.50.01:391][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 41
-[2019.10.28-01.50.01:391][835]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 42
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 41
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 40
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 38
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 37
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 35
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 18
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
-[2019.10.28-01.50.05:280][835]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
-[2019.10.28-01.50.05:280][835]TextureStreamingBuild: Display: Compiling optional shaders took 3.983 seconds.
-[2019.10.28-01.50.05:289][835]LogLevel: Display: Export Material TexCoord Scales took 0.008 seconds.
-[2019.10.28-01.50.05:318][835]TextureStreamingBuild: Display: Build Texture Streaming took 0.029 seconds.
-[2019.10.28-01.50.05:340][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
-[2019.10.28-01.50.05:357][835]LightingResults: New page: Lighting Build - Oct 28, 2019, 7:50:05 PM
-[2019.10.28-01.50.05:445][835]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2019.10.28-01.50.05:518][835]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2019.10.28-01.50.05:534][835]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2019.10.28-01.50.06:070][835]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2019.10.28-01.50.06:070][835]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17636
-[2019.10.28-01.50.11:939][835]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2019.10.28-01.50.11:939][835]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2019.10.28-01.50.11:939][835]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2019.10.28-01.50.11:939][835]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2019.10.28-01.50.11:939][835]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.10.28-01.50.12:154][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
-[2019.10.28-01.50.17:385][835]Job is a success!
-[2019.10.28-01.50.17:466][835]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.050s
-[2019.10.28-01.50.17:467][835]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2019.10.28-01.50.17:467][835]LogVolumetricLightmapImport:      BrickData 405x5x5 = 0.4Mb
-[2019.10.28-01.50.17:467][835]LogVolumetricLightmapImport:      Bricks at Level
-[2019.10.28-01.50.17:467][835]LogVolumetricLightmapImport:          0: 1.2% covering 100.0% of volume
-[2019.10.28-01.50.17:467][835]LogVolumetricLightmapImport:          1: 9.9% covering 12.5% of volume
-[2019.10.28-01.50.17:467][835]LogVolumetricLightmapImport:          2: 88.9% covering 1.8% of volume
-[2019.10.28-01.50.18:143][835]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2019.10.28-01.50.18:143][835]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2019.10.28-01.50.18:143][835]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
-[2019.10.28-01.50.18:143][835]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
-[2019.10.28-01.50.18:143][835]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
-[2019.10.28-01.50.18:143][835]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
-[2019.10.28-01.50.18:143][835]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
-[2019.10.28-01.50.18:143][835]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X256)
-[2019.10.28-01.50.18:143][835]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
-[2019.10.28-01.50.18:143][835]Lightmass on F53PC02: 5.22 sec total, 104 ms importing, 3 ms setup, 1.25 sec photons, 3.83 sec processing, 0 ms extra exporting [51/51 mappings]. Threads: 26.8 sec total, 7.14 sec processing.
-[2019.10.28-01.50.18:143][835]LogStaticLightingSystem: PlayerMoveTestMap_BuiltData storing lightmap data for 27 meshes in 3 LightmapResourceClusters (9.0 Meshes per cluster).
-[2019.10.28-01.50.18:168][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
-[2019.10.28-01.50.18:172][835]LogStaticLightingSystem: Illumination: 12.8 sec (421 ms encoding lightmaps, 100 ms encoding shadowmaps)
-[2019.10.28-01.50.18:172][835]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
-[2019.10.28-01.50.18:172][835]LogStaticLightingSystem: Shadowmap texture memory: 1.0 MB (0.3 MB streaming, 0.7 MB non-streaming), 3 textures
-[2019.10.28-01.50.18:933][835]DumpUnbuiltLightIteractions
-[2019.10.28-01.50.18:933][835]Lights with unbuilt interactions: 0
-[2019.10.28-01.50.18:933][835]
-[2019.10.28-01.50.18:933][835]Primitives with unbuilt interactions: 0
-[2019.10.28-01.50.18:968][835]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2019.10.28-01.50.18:968][835]MapCheck: New page: PlayerMoveTestMap - Oct 28, 2019, 7:50:18 PM
-[2019.10.28-01.50.18:969][835]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.494ms to complete.
-[2019.10.28-01.50.18:970][835]LogEditorBuildUtils: Build time 0:17
-[2019.10.28-01.50.18:996][836]Cmd: MAP CHECK NOTIFYRESULTS
-[2019.10.28-01.50.18:996][836]MapCheck: New page: PlayerMoveTestMap - Oct 28, 2019, 7:50:18 PM
-[2019.10.28-01.50.18:996][836]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.7ms to complete.
-[2019.10.28-01.50.30:072][163]LogAssetEditorManager: Opening Asset editor for Class /Script/LastResisters.AI1_TaskNodes_FindPatrolLocation
-[2019.10.28-01.50.52:730][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:731][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:731][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:731][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:731][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:731][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:734][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimSequence_Hit.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:734][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimSequence_Hit.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:734][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimSequence_Hit.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:734][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimSequence_Hit.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:735][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:735][ 97]LoadErrors: Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton.Mixamo_Alpha_Skeleton Referenced by MyAnimBP_Alpha_C
-[2019.10.28-01.50.52:735][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:737][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:737][ 97]LoadErrors: Failed to load /Game/AI/AI_1/AI1_CombatStatesEnum.AI1_CombatStatesEnum Referenced by eCombatStates
-[2019.10.28-01.50.52:737][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:739][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha': Can't find file.
-[2019.10.28-01.50.52:739][ 97]LoadErrors: Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha.Maximo_Alpha Referenced by Default__MyAI1_Character_C
-[2019.10.28-01.50.52:739][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha': Can't find file.
-[2019.10.28-01.50.52:740][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:740][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:740][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:740][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:740][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:740][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:741][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:741][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:742][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:742][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:742][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:742][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:742][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:742][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:743][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:743][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:743][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:743][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:743][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:743][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:744][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:744][ 97]LoadErrors: Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run.mixamo_run Referenced by Default__MyAnimBP_Alpha_C
-[2019.10.28-01.50.52:744][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:744][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:744][ 97]LoadErrors: Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing.mixamo_Sword_Swing Referenced by Default__MyAnimBP_Alpha_C
-[2019.10.28-01.50.52:744][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:744][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:744][ 97]LoadErrors: Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle.mixamo_idle Referenced by Default__MyAnimBP_Alpha_C
-[2019.10.28-01.50.52:744][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:745][ 97]LogClass: Warning: Failed to find enum 'AI1_CombatStatesEnum' when converting property 'eCombatStates' during property loading - setting to 0
-[2019.10.28-01.50.52:745][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:745][ 97]LoadErrors: Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton.Mixamo_Alpha_Skeleton Referenced by MyAnimBP_Alpha
-[2019.10.28-01.50.52:745][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:745][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:745][ 97]LoadErrors: Failed to load /Game/AI/AI_1/AI1_CombatStatesEnum.AI1_CombatStatesEnum Referenced by MyAnimBP_Alpha
-[2019.10.28-01.50.52:746][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:747][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:747][ 97]LoadErrors: Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle.mixamo_idle Referenced by AnimGraphNode_SequencePlayer_0
-[2019.10.28-01.50.52:747][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:748][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:748][ 97]LoadErrors: Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing.mixamo_Sword_Swing Referenced by AnimGraphNode_SequencePlayer_1
-[2019.10.28-01.50.52:748][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:748][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:748][ 97]LoadErrors: Failed to load /Game/AI/AI_1/AI1_CombatStatesEnum.AI1_CombatStatesEnum Referenced by K2Node_VariableGet_0
-[2019.10.28-01.50.52:748][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:748][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:749][ 97]LoadErrors: Failed to load /Game/AI/AI_1/AI1_CombatStatesEnum.AI1_CombatStatesEnum Referenced by K2Node_EnumEquality_0
-[2019.10.28-01.50.52:749][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:749][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:749][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:749][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:749][ 97]LoadErrors: Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run.mixamo_run Referenced by AnimGraphNode_SequencePlayer_2
-[2019.10.28-01.50.52:749][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:751][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:751][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:751][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:751][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:751][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:751][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:752][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:752][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:752][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:752][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:752][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:752][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:753][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:753][ 97]LoadErrors: Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton.Mixamo_Alpha_Skeleton Referenced by MyAnimSequence_Hit
-[2019.10.28-01.50.52:754][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:757][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha': Can't find file.
-[2019.10.28-01.50.52:757][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha': Can't find file.
-[2019.10.28-01.50.52:758][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha': Can't find file.
-[2019.10.28-01.50.52:758][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha': Can't find file.
-[2019.10.28-01.50.52:765][ 97]LogBlueprint: Error: [Compiler MyAnimBP_Alpha] MyAnimBP_Alpha  - The skeleton asset for this animation Blueprint is missing, so it cannot be compiled!
-[2019.10.28-01.50.52:768][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:768][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:768][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:768][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:769][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:769][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_idle': Can't find file.
-[2019.10.28-01.50.52:769][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:769][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_run': Can't find file.
-[2019.10.28-01.50.52:769][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:769][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Sword_Swing': Can't find file.
-[2019.10.28-01.50.52:769][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:770][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton': Can't find file.
-[2019.10.28-01.50.52:770][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:770][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/MixamoAnimPack/Mixamo_Alpha/Anims/MyAnims/MyAnimBP_Alpha.uasset' failed to load '/Game/AI/AI_1/AI1_CombatStatesEnum': Can't find file.
-[2019.10.28-01.50.52:770][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/AI/AI_1/MyAI1_Character.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha': Can't find file.
-[2019.10.28-01.50.52:771][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/AI/AI_1/MyAI1_Character.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha': Can't find file.
-[2019.10.28-01.50.52:771][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/AI/AI_1/MyAI1_Character.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha': Can't find file.
-[2019.10.28-01.50.52:771][ 97]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/AI/AI_1/MyAI1_Character.uasset' failed to load '/Game/MixamoAnimPack/Mixamo_Alpha/Mesh/Maximo_Alpha': Can't find file.
-[2019.10.28-01.50.56:596][530]Cmd: DELETE
-[2019.10.28-01.50.56:596][530]Cmd: ACTOR DELETE
-[2019.10.28-01.50.56:598][530]LogEditorActor: Deleted Actor: MyAI1_Character_C
-[2019.10.28-01.50.56:619][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
-[2019.10.28-01.50.56:620][530]LogEditorActor: Deleted 1 Actors (0.023 secs)
-[2019.10.28-01.50.57:700][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.28-01.50.57:801][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
-[2019.10.28-01.51.02:894][670]LogSlate: Window 'Save Content' being destroyed
-[2019.10.28-01.51.02:965][670]LogSlate: Window 'LastResisters - Unreal Editor' being destroyed
-[2019.10.28-01.51.03:071][671]Cmd: QUIT_EDITOR
-[2019.10.28-01.51.03:104][671]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2019.10.28-01.51.03:114][671]LogExit: Preparing to exit.
-[2019.10.28-01.51.03:611][671]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2019.10.28-01.51.03:629][671]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
-[2019.10.28-01.51.03:629][671]LogExit: Editor shut down
-[2019.10.28-01.51.03:629][671]LogExit: Transaction tracking system shut down
-[2019.10.28-01.51.03:631][671]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2019.10.28-01.51.03:887][671]LogExit: Object subsystem successfully closed.
-[2019.10.28-01.51.03:911][671]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (674)
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (672)
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (670)
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module SceneOutliner (668)
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module AddContentDialog (666)
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module WidgetCarousel (665)
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module EditorWidgets (662)
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module CollectionManager (660)
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module StatsViewer (658)
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (656)
-[2019.10.28-01.51.03:920][671]LogModuleManager: Shutting down and abandoning module FoliageEdit (654)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module LandscapeEditor (652)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module MeshPaintMode (650)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (648)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module ActorPickerMode (646)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module GeometryMode (644)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module TextureAlignMode (642)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module BspMode (640)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (638)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (636)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module AutomationWorker (634)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module OculusMR (632)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (630)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (628)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (626)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module PlacementMode (625)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module MaterialEditor (624)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (620)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (618)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (616)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (614)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (612)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module WebMMedia (610)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (608)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (606)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module SequenceRecorder (605)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (602)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (600)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (598)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (596)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (594)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (592)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (590)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (588)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (586)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (584)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (582)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module CharacterAI (580)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module SmartSnapping (578)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module SessionServices (576)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module MeshPaint (574)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module ViewportSnapping (572)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module ViewportInteraction (570)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module ClothPainter (568)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (567)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module LogVisualizer (564)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module IntroTutorials (562)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (561)
-[2019.10.28-01.51.03:921][671]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (558)
-[2019.10.28-01.51.03:922][671]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (556)
-[2019.10.28-01.51.03:922][671]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (554)
-[2019.10.28-01.51.03:922][671]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (552)
-[2019.10.28-01.51.03:922][671]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (551)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (548)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (546)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (544)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (542)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (540)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module InputBindingEditor (538)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module MergeActors (536)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (534)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module LocalizationService (533)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module HardwareTargeting (530)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (528)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module UndoHistory (526)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module XmlParser (524)
-[2019.10.28-01.51.04:613][671]LogModuleManager: Shutting down and abandoning module Blutility (522)
-[2019.10.28-01.51.04:614][671]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (520)
-[2019.10.28-01.51.04:614][671]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (519)
-[2019.10.28-01.51.04:614][671]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (516)
-[2019.10.28-01.51.04:614][671]LogModuleManager: Shutting down and abandoning module SettingsEditor (514)
-[2019.10.28-01.51.04:614][671]LogModuleManager: Shutting down and abandoning module ProjectLauncher (512)
-[2019.10.28-01.51.04:614][671]LogModuleManager: Shutting down and abandoning module SessionFrontend (510)
-[2019.10.28-01.51.04:614][671]LogModuleManager: Shutting down and abandoning module ProfilerClient (508)
-[2019.10.28-01.51.04:614][671]LogModuleManager: Shutting down and abandoning module DeviceManager (506)
-[2019.10.28-01.51.04:614][671]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (505)
-[2019.10.28-01.51.04:657][671]LogModuleManager: Shutting down and abandoning module AutomationController (502)
-[2019.10.28-01.51.04:657][671]LogModuleManager: Shutting down and abandoning module AutomationWindow (500)
-[2019.10.28-01.51.04:657][671]LogModuleManager: Shutting down and abandoning module Layers (498)
-[2019.10.28-01.51.04:657][671]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (496)
-[2019.10.28-01.51.04:657][671]LogModuleManager: Shutting down and abandoning module DetailCustomizations (494)
-[2019.10.28-01.51.04:657][671]LogModuleManager: Shutting down and abandoning module PackagesDialog (492)
-[2019.10.28-01.51.04:658][671]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (490)
-[2019.10.28-01.51.04:658][671]LogModuleManager: Shutting down and abandoning module Persona (488)
-[2019.10.28-01.51.04:658][671]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (487)
-[2019.10.28-01.51.04:658][671]LogModuleManager: Shutting down and abandoning module AnimGraph (485)
-[2019.10.28-01.51.04:658][671]LogModuleManager: Shutting down and abandoning module Kismet (482)
-[2019.10.28-01.51.04:659][671]LogModuleManager: Shutting down and abandoning module KismetWidgets (481)
-[2019.10.28-01.51.04:659][671]LogModuleManager: Shutting down and abandoning module GraphEditor (478)
-[2019.10.28-01.51.04:659][671]LogModuleManager: Shutting down and abandoning module StructViewer (476)
-[2019.10.28-01.51.04:659][671]LogModuleManager: Shutting down and abandoning module ClassViewer (474)
-[2019.10.28-01.51.04:659][671]LogModuleManager: Shutting down and abandoning module Toolbox (472)
-[2019.10.28-01.51.04:659][671]LogModuleManager: Shutting down and abandoning module DesktopPlatform (471)
-[2019.10.28-01.51.04:659][671]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
-[2019.10.28-01.51.04:659][671]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
-[2019.10.28-01.51.04:660][671]LogModuleManager: Shutting down and abandoning module OutputLog (464)
-[2019.10.28-01.51.04:660][671]LogModuleManager: Shutting down and abandoning module GammaUI (462)
-[2019.10.28-01.51.04:660][671]LogModuleManager: Shutting down and abandoning module Documentation (460)
-[2019.10.28-01.51.04:660][671]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
-[2019.10.28-01.51.04:660][671]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
-[2019.10.28-01.51.04:660][671]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
-[2019.10.28-01.51.04:660][671]LogModuleManager: Shutting down and abandoning module MovieScene (452)
-[2019.10.28-01.51.04:660][671]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
-[2019.10.28-01.51.04:660][671]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
-[2019.10.28-01.51.04:660][671]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
-[2019.10.28-01.51.04:661][671]LogModuleManager: Shutting down and abandoning module PortalServices (444)
-[2019.10.28-01.51.04:661][671]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
-[2019.10.28-01.51.04:661][671]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
-[2019.10.28-01.51.04:661][671]LogModuleManager: Shutting down and abandoning module AIModule (438)
-[2019.10.28-01.51.04:661][671]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
-[2019.10.28-01.51.04:661][671]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
-[2019.10.28-01.51.04:661][671]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
-[2019.10.28-01.51.04:661][671]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (430)
-[2019.10.28-01.51.04:668][671]LogModuleManager: Shutting down and abandoning module ProfilerService (428)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module TaskGraph (426)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module ScreenshotTools (424)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module SteamVRController (422)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (420)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (418)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module OculusEditor (416)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module OculusInput (414)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (412)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module EditableMesh (410)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (408)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module CableComponent (406)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module AudioCapture (404)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (402)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (400)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module AppleImageUtils (398)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module AndroidPermission (396)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (394)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (392)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module MediaCompositing (390)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module ImgMedia (388)
-[2019.10.28-01.51.04:873][671]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (386)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (384)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (382)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module HTML5Networking (380)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (378)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (376)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module BackChannel (374)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (372)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module AutomationUtils (370)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module AlembicImporter (368)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module AlembicLibrary (367)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module GeometryCache (366)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (365)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module VariantManagerContent (360)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (358)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (356)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module PluginBrowser (354)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (352)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (350)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module CurveEditorTools (348)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module CurveEditor (347)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (344)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module CryptoKeys (342)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (340)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (338)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module UObjectPlugin (336)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (334)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (332)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module GitSourceControl (330)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module SourceControl (329)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (326)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (324)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (322)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (320)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (318)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (316)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (314)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module Paper2DEditor (312)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module LastResisters (310)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
-[2019.10.28-01.51.04:874][671]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
-[2019.10.28-01.51.04:975][671]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
-[2019.10.28-01.51.05:076][671]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module DataValidation (272)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
-[2019.10.28-01.51.05:076][671]LogModuleManager: Shutting down and abandoning module MainFrame (264)
-[2019.10.28-01.51.05:077][671]LogModuleManager: Shutting down and abandoning module HotReload (263)
-[2019.10.28-01.51.05:078][671]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
-[2019.10.28-01.51.05:078][671]LogModuleManager: Shutting down and abandoning module TreeMap (257)
-[2019.10.28-01.51.05:078][671]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
-[2019.10.28-01.51.05:078][671]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.10.28-01.51.05:078][671]LogModuleManager: Shutting down and abandoning module Paper2D (250)
-[2019.10.28-01.51.05:078][671]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module Overlay (234)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module VREditor (230)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module UMG (216)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module Sequencer (214)
-[2019.10.28-01.51.05:079][671]LogModuleManager: Shutting down and abandoning module MessageLog (211)
-[2019.10.28-01.51.05:080][671]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
-[2019.10.28-01.51.05:080][671]LogModuleManager: Shutting down and abandoning module Slate (204)
-[2019.10.28-01.51.05:080][671]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
-[2019.10.28-01.51.05:080][671]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module Networking (188)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module Core (186)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
-[2019.10.28-01.51.05:081][671]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
-[2019.10.28-01.51.05:511][671]LogDerivedDataCache: Shutdown
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module XGEController (162)
-[2019.10.28-01.51.05:511][671]LogXGEController: Cleaning working directory: C:/Users/s172078/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
-[2019.10.28-01.51.05:511][671]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
-[2019.10.28-01.51.05:512][671]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
-[2019.10.28-01.51.05:512][671]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
-[2019.10.28-01.51.05:512][671]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
-[2019.10.28-01.51.05:512][671]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
-[2019.10.28-01.51.05:512][671]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
-[2019.10.28-01.51.05:512][671]LogModuleManager: Shutting down and abandoning module Messaging (117)
-[2019.10.28-01.51.05:512][671]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
-[2019.10.28-01.51.05:513][671]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
-[2019.10.28-01.51.05:513][671]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module InputCore (90)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module Settings (88)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module SteamVR (78)
-[2019.10.28-01.51.05:517][671]LogHMD: Freeing OpenVRDLLHandle.
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2019.10.28-01.51.05:517][671]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
-[2019.10.28-01.51.05:518][671]LogModuleManager: Shutting down and abandoning module XMPP (61)
-[2019.10.28-01.51.05:518][671]LogModuleManager: Shutting down and abandoning module WebSockets (60)
-[2019.10.28-01.51.05:550][671]LogModuleManager: Shutting down and abandoning module HTTP (57)
-[2019.10.28-01.51.05:550][671]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.10.28-01.51.05:550][671]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B043D5A19-42A3-BDE9-31DD-0ABF4B3CB3A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=4a23ba914c36ea0f1f448695943bdd7a%7Ce8aeb9fbef35480185dcdd6ac37f16be%7Cc8ff6fcd-9daf-4d8d-80ed-47de7cb92fab&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.10.28-01.51.05:565][671]LogModuleManager: Shutting down and abandoning module SSL (56)
-[2019.10.28-01.51.05:567][671]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
-[2019.10.28-01.51.05:568][671]LogModuleManager: Shutting down and abandoning module Media (51)
-[2019.10.28-01.51.05:568][671]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
-[2019.10.28-01.51.05:568][671]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
-[2019.10.28-01.51.05:569][671]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
-[2019.10.28-01.51.05:569][671]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
-[2019.10.28-01.51.05:569][671]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2019.10.28-01.51.05:569][671]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2019.10.28-01.51.05:569][671]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2019.10.28-01.51.05:569][671]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2019.10.28-01.51.05:569][671]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2019.10.28-01.51.05:569][671]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2019.10.28-01.51.05:569][671]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2019.10.28-01.51.05:569][671]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2019.10.28-01.51.05:570][671]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2019.10.28-01.51.05:570][671]LogD3D11RHI: Shutdown
-[2019.10.28-01.51.05:570][671]LogD3D11RHI: CleanupD3DDevice
-[2019.10.28-01.51.05:570][671]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.10.28-01.51.05:570][671]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.10.28-01.51.05:570][671]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.10.28-01.51.05:636][671]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.10.28-01.51.05:643][671]LogExit: Exiting.
-[2019.10.28-01.51.05:657][671]Log file closed, 10/28/19 10:51:05
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.31.45:297][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.28-02.31.45:297][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.28-02.31.45:298][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.28-02.31.45:298][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.28-02.31.45:298][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.28-02.31.45:298][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.28-02.31.45:298][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.28-02.31.45:298][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.28-02.31.45:298][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.31.45:298][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.31.45:302][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.28-02.31.45:302][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.28-02.31.45:303][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.28-02.31.45:303][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.28-02.31.45:303][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.28-02.31.45:310][  0]LogHAL: Display: Platform has ~ 32 GB [34292334592 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.28-02.31.45:310][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.28-02.31.45:310][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.28-02.31.45:310][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.28-02.31.45:311][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.28-02.31.45:311][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.28-02.31.45:311][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.28-02.31.45:311][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.31.45:311][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.28-02.31.45:311][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.28-02.31.45:311][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.28-02.31.45:313][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.28-02.31.45:313][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.28-02.31.45:313][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.31.45:313][  0]LogInit: Computer: F53PC02
+[2019.10.28-02.31.45:313][  0]LogInit: User: s172078
+[2019.10.28-02.31.45:313][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.28-02.31.45:313][  0]LogInit: High frequency timer resolution =4.101559 MHz
+[2019.10.28-02.31.45:313][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.10.28-02.31.45:313][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.28-02.31.45:313][  0]LogMemory: Process Physical Memory: 101.07 MB used, 101.07 MB peak
+[2019.10.28-02.31.45:313][  0]LogMemory: Process Virtual Memory: 98.96 MB used, 98.96 MB peak
+[2019.10.28-02.31.45:313][  0]LogMemory: Physical Memory: 5845.97 MB used,  26857.75 MB free, 32703.72 MB total
+[2019.10.28-02.31.45:313][  0]LogMemory: Virtual Memory: 4683.32 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.10.28-02.31.45:317][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.28-02.31.45:351][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.10.28-02.31.45:351][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.10.28-02.31.45:513][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.28-02.31.45:580][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.28-02.31.45:580][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.28-02.31.46:765][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.28-02.31.46:765][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.28-02.31.46:850][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.10.28-02.31.46:850][  0]LogD3D11RHI:       8079/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.10.28-02.31.46:853][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.28-02.31.46:853][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.28-02.31.46:853][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.28-02.31.46:858][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.28-02.31.46:858][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.28-02.31.46:858][  0]LogWindows: EnumDisplayDevices:
+[2019.10.28-02.31.46:858][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.10.28-02.31.46:858][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.10.28-02.31.46:859][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.10.28-02.31.46:859][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.10.28-02.31.46:859][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.10.28-02.31.46:859][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.10.28-02.31.46:859][  0]LogD3D11RHI:   Driver Version: 431.07 (internal:26.21.14.3107, unified:431.07)
+[2019.10.28-02.31.46:859][  0]LogD3D11RHI:      Driver Date: 6-5-2019
+[2019.10.28-02.31.46:859][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.10.28-02.31.46:911][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.28-02.31.46:922][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.28-02.31.47:247][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.28-02.31.47:256][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.28-02.31.47:264][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.28-02.31.47:273][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.28-02.31.47:284][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.28-02.31.47:292][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.28-02.31.47:302][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.28-02.31.47:310][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.28-02.31.47:314][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.28-02.31.47:343][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.28-02.31.47:345][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.28-02.31.47:368][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.28-02.31.47:368][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.28-02.31.47:384][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.28-02.31.47:384][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.28-02.31.47:392][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.28-02.31.47:400][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.28-02.31.47:408][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.28-02.31.47:419][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.28-02.31.47:447][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.28-02.31.47:447][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.28-02.31.47:447][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.28-02.31.47:457][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.28-02.31.47:507][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Shaders/WorkingDirectory/16480/).
+[2019.10.28-02.31.47:507][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s172078/AppData/Local/Temp/UnrealShaderWorkingDir/8A8058DC4AF9CDA4E2803F95E11A1A51/'.
+[2019.10.28-02.31.47:508][  0]LogXGEController: Cleaning working directory: C:/Users/s172078/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.28-02.31.47:509][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.28-02.31.47:509][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.28-02.31.47:509][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.28-02.31.49:055][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.28-02.31.49:100][  0]LogDerivedDataCache: Loaded boot cache 0.04s 74MB C:/Users/s172078/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.28-02.31.49:100][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s172078/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.28-02.31.49:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.28-02.31.49:100][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.28-02.31.49:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.28-02.31.49:100][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.28-02.31.49:109][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.28-02.31.49:109][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.28-02.31.49:109][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.28-02.31.49:113][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s172078/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.28-02.31.49:113][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.28-02.31.49:113][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.28-02.31.49:134][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.28-02.31.49:136][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.28-02.31.49:140][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.28-02.31.49:383][  0]LogAssetRegistry: FAssetRegistry took 0.0028 seconds to start up
+[2019.10.28-02.31.49:630][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.28-02.31.49:776][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.28-02.31.49:776][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.28-02.31.49:776][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.28-02.31.49:776][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.28-02.31.49:776][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.28-02.31.49:791][  0]LogNetVersion: LastResisters 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2470489391)
+[2019.10.28-02.31.50:324][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.079285 seconds
+[2019.10.28-02.31.50:330][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.28-02.31.50:330][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.28-02.31.50:330][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.28-02.31.52:845][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.28-02.31.52:848][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.28-02.31.52:918][  0]SourceControl: Source control is disabled
+[2019.10.28-02.31.52:918][  0]SourceControl: Source control is disabled
+[2019.10.28-02.31.52:920][  0]SourceControl: Source control is disabled
+[2019.10.28-02.31.52:921][  0]SourceControl: Source control is disabled
+[2019.10.28-02.31.53:049][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.28-02.31.53:168][  0]LogOcInput: OculusInput pre-init called
+[2019.10.28-02.31.53:175][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.28-02.31.53:175][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.28-02.31.53:241][  0]LogEngine: Initializing Engine...
+[2019.10.28-02.31.53:243][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.28-02.31.53:244][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.28-02.31.53:491][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.28-02.31.53:502][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.28-02.31.53:512][  0]LogInit: XAudio2 using 'RDT233WLM (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.28-02.31.53:524][  0]LogInit: FAudioDevice initialized.
+[2019.10.28-02.31.53:524][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.28-02.31.53:589][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/s172078/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.28-02.31.53:591][  0]LogInit: Texture streaming: Enabled
+[2019.10.28-02.31.53:610][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.28-02.31.53:693][  0]LogInit: Transaction tracking system initialized
+[2019.10.28-02.31.53:723][  0]BlueprintLog: New page: Editor Load
+[2019.10.28-02.31.53:791][  0]LocalizationService: Localization service is disabled
+[2019.10.28-02.31.54:055][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.28-02.31.54:055][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.28-02.31.54:330][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/' took 0.01s
+[2019.10.28-02.31.54:330][  0]SourceControl: Source control is disabled
+[2019.10.28-02.31.54:330][  0]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.28-02.31.54:331][  0]LightingResults: New page: Lighting Build
+[2019.10.28-02.31.54:333][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-02.31.54:333][  0]MapCheck: New page: Map Check
+[2019.10.28-02.31.54:333][  0]LightingResults: New page: Lighting Build
+[2019.10.28-02.31.54:353][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.10.28-02.31.54:462][  0]LogAIModule: Creating AISystem for world StartupMap
+[2019.10.28-02.31.54:467][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.28-02.31.54:488][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2019.10.28-02.31.54:488][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.28-02.31.54:489][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.157ms to complete.
+[2019.10.28-02.31.54:489][  0]LogFileHelpers: Loading map 'StartupMap' took 0.158
+[2019.10.28-02.31.54:594][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-02.31.54:599][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-02.31.54:604][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-02.31.54:609][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-02.31.54:617][  0]LogCollectionManager: Loaded 0 collections in 0.000974 seconds
+[2019.10.28-02.31.54:623][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Collections/' took 0.00s
+[2019.10.28-02.31.54:623][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/Developers/s172078/Collections/' took 0.00s
+[2019.10.28-02.31.54:623][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/Collections/' took 0.00s
+[2019.10.28-02.31.54:623][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.10.28-02.31.54:631][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2864 classes and 682 folders.
+[2019.10.28-02.31.54:636][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.28-02.31.54:800][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.28-02.31.54:805][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.10.28-02.31.55:678][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.28-02.31.55:694][  0]LogSlate: Took 0.000869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.28-02.31.55:697][  0]LogSlate: Took 0.001164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.28-02.31.55:704][  0]LogSlate: Took 0.002087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.28-02.31.55:790][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 26 NumSamples 1 (Frame:1).
+[2019.10.28-02.31.55:860][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.10.28-02.31.55:860][  0]LogLoad: (Engine Initialization) Total time: 12.28 seconds
+[2019.10.28-02.31.55:860][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.28-02.31.55:933][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.28-02.31.55:964][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/' took 0.09s
+[2019.10.28-02.31.56:093][  3]LogAssetRegistry: Asset discovery search completed in 6.7104 seconds
+[2019.10.28-02.31.56:097][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2019.10.28-02.31.56:097][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
+[2019.10.28-02.31.59:960][464]LogSlate: Took 0.001947 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.28-02.32.10:385][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-02.32.28:913][933]LogSlate: Took 0.000691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.28-02.32.28:920][933]LogAssetEditorManager: Opening Asset editor for Class /Script/LastResisters.PlayerUI
+[2019.10.28-02.33.04:375][940]LogAssetEditorManager: Opening Asset editor for Class /Script/LastResisters.PlayerUI
+[2019.10.28-02.34.12:045][317]LogHotReload: New module detected: UE4Editor-LastResisters-0001.dll
+[2019.10.28-02.34.13:097][321]LogHotReload: Starting Hot-Reload from IDE
+[2019.10.28-02.34.13:133][321]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.10.28-02.34.13:139][321]LogClass: Could not find existing class AI1_AIController in package /Script/LastResisters for HotReload, assuming new class
+[2019.10.28-02.34.13:139][321]LogClass: Could not find existing class AI1_Character in package /Script/LastResisters for HotReload, assuming new class
+[2019.10.28-02.34.13:139][321]LogClass: Function OnSeePlayer is new.
+[2019.10.28-02.34.13:139][321]LogClass: Could not find existing class AI1_PatrolTargetPoint in package /Script/LastResisters for HotReload, assuming new class
+[2019.10.28-02.34.13:139][321]LogClass: Could not find existing class AI1_TaskNodes_FindPatrolLocation in package /Script/LastResisters for HotReload, assuming new class
+[2019.10.28-02.34.13:139][321]LogClass: Could not find existing class AI1_TaskNodes_IncrementPathIndex in package /Script/LastResisters for HotReload, assuming new class
+[2019.10.28-02.34.13:139][321]LogClass: Could not find existing class AI1_TaskNodes_Init in package /Script/LastResisters for HotReload, assuming new class
+[2019.10.28-02.34.13:139][321]LogClass: Could not find existing class AI1_TaskNodes_MoveTo in package /Script/LastResisters for HotReload, assuming new class
+[2019.10.28-02.34.13:139][321]LogClass: Could not find existing class AI1_TaskNodes_StateManagement in package /Script/LastResisters for HotReload, assuming new class
+[2019.10.28-02.34.13:141][321]LogClass: Healthbar HotReload.
+[2019.10.28-02.34.13:141][321]LogClass: SpecialGauge HotReload.
+[2019.10.28-02.34.13:141][321]LogClass: HealthbarParameters HotReload.
+[2019.10.28-02.34.13:141][321]LogClass: SpecialGaugeParameters HotReload.
+[2019.10.28-02.34.13:144][321]LogContentBrowser: Native class hierarchy updated for 'LastResisters' in 0.0005 seconds. Added 9 classes and 5 folders.
+[2019.10.28-02.34.13:147][321]Display: HotReload successful (0 functions remapped  4 scriptstructs remapped)
+[2019.10.28-02.34.13:211][321]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.10.28-02.34.13:316][321]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2873 classes and 687 folders.
+[2019.10.28-02.34.13:328][321]Display: HotReload took  0.2s.
