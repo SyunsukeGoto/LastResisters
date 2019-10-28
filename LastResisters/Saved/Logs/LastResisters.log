@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 10/25/19 20:00:40
+=======
+﻿Log file open, 10/28/19 11:48:46
+>>>>>>> feature/Goto_Develop
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +13,11 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: LastResisters
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.088311
+=======
+LogStats: Stats thread started at 0.079592
+>>>>>>> feature/Goto_Develop
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,6 +165,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2019.10.25-11.00.41:270][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.10.25-11.00.41:270][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2019.10.25-11.00.41:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
@@ -6298,3 +6307,1559 @@ Missing Cooked Info(expected 0): 0
 [2019.10.25-11.28.36:821][471]LogD3D11RHI: ~FD3D11DynamicRHI
 [2019.10.25-11.28.36:832][471]LogExit: Exiting.
 [2019.10.25-11.28.36:850][471]Log file closed, 10/25/19 20:28:36
+=======
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.48.46:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.28-02.48.46:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.48.46:527][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.48.46:533][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.28-02.48.46:533][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.28-02.48.46:533][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.28-02.48.46:533][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.28-02.48.46:541][  0]LogHAL: Display: Platform has ~ 32 GB [34292334592 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.28-02.48.46:541][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.28-02.48.46:541][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.10.28-02.48.46:541][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-02.48.46:542][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.28-02.48.46:542][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.28-02.48.46:544][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.28-02.48.46:544][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.28-02.48.46:544][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.28-02.48.46:544][  0]LogInit: Computer: F53PC02
+[2019.10.28-02.48.46:544][  0]LogInit: User: s172078
+[2019.10.28-02.48.46:545][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.28-02.48.46:545][  0]LogInit: High frequency timer resolution =4.101559 MHz
+[2019.10.28-02.48.46:545][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.10.28-02.48.46:545][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.28-02.48.46:545][  0]LogMemory: Process Physical Memory: 101.11 MB used, 101.11 MB peak
+[2019.10.28-02.48.46:545][  0]LogMemory: Process Virtual Memory: 98.95 MB used, 98.95 MB peak
+[2019.10.28-02.48.46:545][  0]LogMemory: Physical Memory: 5604.88 MB used,  27098.84 MB free, 32703.72 MB total
+[2019.10.28-02.48.46:545][  0]LogMemory: Virtual Memory: 4683.32 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.10.28-02.48.46:548][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.28-02.48.46:600][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.10.28-02.48.46:600][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.10.28-02.48.46:857][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.28-02.48.46:917][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.28-02.48.46:917][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.28-02.48.48:155][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.28-02.48.48:155][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.28-02.48.48:231][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.10.28-02.48.48:231][  0]LogD3D11RHI:       8079/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.10.28-02.48.48:234][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.28-02.48.48:235][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.28-02.48.48:235][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.28-02.48.48:240][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.28-02.48.48:240][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.28-02.48.48:240][  0]LogWindows: EnumDisplayDevices:
+[2019.10.28-02.48.48:240][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.10.28-02.48.48:241][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.10.28-02.48.48:241][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.10.28-02.48.48:241][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.10.28-02.48.48:241][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.10.28-02.48.48:241][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.10.28-02.48.48:241][  0]LogD3D11RHI:   Driver Version: 431.07 (internal:26.21.14.3107, unified:431.07)
+[2019.10.28-02.48.48:241][  0]LogD3D11RHI:      Driver Date: 6-5-2019
+[2019.10.28-02.48.48:241][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.10.28-02.48.48:293][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.28-02.48.48:303][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.28-02.48.48:817][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.28-02.48.48:830][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.28-02.48.48:843][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.28-02.48.48:855][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.28-02.48.48:869][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.28-02.48.48:877][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.28-02.48.48:886][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.28-02.48.48:895][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.28-02.48.48:899][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.28-02.48.48:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.28-02.48.48:932][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.28-02.48.48:953][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.28-02.48.48:953][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.28-02.48.48:969][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.28-02.48.48:969][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.28-02.48.48:977][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.28-02.48.48:985][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.28-02.48.48:992][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.28-02.48.49:003][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.28-02.48.49:032][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.28-02.48.49:032][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.28-02.48.49:032][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.28-02.48.49:041][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.28-02.48.49:092][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Shaders/WorkingDirectory/2604/).
+[2019.10.28-02.48.49:092][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s172078/AppData/Local/Temp/UnrealShaderWorkingDir/7C34E44241CC069BAD27C3B7C20B4A2D/'.
+[2019.10.28-02.48.49:093][  0]LogXGEController: Cleaning working directory: C:/Users/s172078/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.28-02.48.49:094][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.28-02.48.49:094][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.28-02.48.49:094][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.28-02.48.50:943][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.28-02.48.50:986][  0]LogDerivedDataCache: Loaded boot cache 0.04s 74MB C:/Users/s172078/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.28-02.48.50:986][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s172078/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.28-02.48.50:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.28-02.48.50:986][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.28-02.48.50:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.28-02.48.50:986][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.28-02.48.50:996][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.28-02.48.50:996][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.28-02.48.50:996][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.28-02.48.50:999][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s172078/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.28-02.48.50:999][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.28-02.48.50:999][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.28-02.48.51:019][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.28-02.48.51:021][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.28-02.48.51:025][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.28-02.48.51:276][  0]LogAssetRegistry: FAssetRegistry took 0.0049 seconds to start up
+[2019.10.28-02.48.51:683][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.28-02.48.51:866][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.28-02.48.51:866][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.28-02.48.51:866][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.28-02.48.51:866][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.28-02.48.51:866][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.28-02.48.51:884][  0]LogNetVersion: LastResisters 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2470489391)
+[2019.10.28-02.48.52:580][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.080635 seconds
+[2019.10.28-02.48.52:587][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.28-02.48.52:587][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.28-02.48.52:587][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.28-02.48.55:467][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.28-02.48.55:470][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.28-02.48.56:095][  0]SourceControl: Source control is disabled
+[2019.10.28-02.48.56:095][  0]SourceControl: Source control is disabled
+[2019.10.28-02.48.56:169][  0]SourceControl: Source control is disabled
+[2019.10.28-02.48.56:191][  0]SourceControl: Source control is disabled
+[2019.10.28-02.48.57:307][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.28-02.48.57:996][  0]LogOcInput: OculusInput pre-init called
+[2019.10.28-02.48.58:057][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.28-02.48.58:057][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.28-02.48.58:271][  0]LogEngine: Initializing Engine...
+[2019.10.28-02.48.58:273][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.28-02.48.58:274][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.28-02.48.58:629][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.28-02.48.58:703][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.28-02.48.58:724][  0]LogInit: XAudio2 using 'RDT233WLM (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.28-02.48.58:736][  0]LogInit: FAudioDevice initialized.
+[2019.10.28-02.48.58:737][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.28-02.48.58:811][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/s172078/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.28-02.48.58:812][  0]LogInit: Texture streaming: Enabled
+[2019.10.28-02.48.58:892][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.28-02.48.59:059][  0]LogInit: Transaction tracking system initialized
+[2019.10.28-02.48.59:286][  0]BlueprintLog: New page: Editor Load
+[2019.10.28-02.49.00:057][  0]LocalizationService: Localization service is disabled
+[2019.10.28-02.49.00:830][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.28-02.49.00:830][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.28-02.49.01:521][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/' took 0.01s
+[2019.10.28-02.49.01:957][  0]SourceControl: Source control is disabled
+[2019.10.28-02.49.01:957][  0]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.28-02.49.01:960][  0]LightingResults: New page: Lighting Build
+[2019.10.28-02.49.01:964][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-02.49.01:964][  0]MapCheck: New page: Map Check
+[2019.10.28-02.49.01:964][  0]LightingResults: New page: Lighting Build
+[2019.10.28-02.49.01:986][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.10.28-02.49.02:185][  0]LogAIModule: Creating AISystem for world StartupMap
+[2019.10.28-02.49.02:191][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.28-02.49.02:216][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.10.28-02.49.02:216][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.28-02.49.02:217][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.161ms to complete.
+[2019.10.28-02.49.02:217][  0]LogFileHelpers: Loading map 'StartupMap' took 0.259
+[2019.10.28-02.49.02:370][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-02.49.02:376][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-02.49.02:383][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-02.49.02:389][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-02.49.02:436][  0]LogCollectionManager: Loaded 0 collections in 0.000861 seconds
+[2019.10.28-02.49.02:443][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Saved/Collections/' took 0.00s
+[2019.10.28-02.49.02:443][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/Developers/s172078/Collections/' took 0.00s
+[2019.10.28-02.49.02:443][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/Collections/' took 0.00s
+[2019.10.28-02.49.02:443][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2019.10.28-02.49.02:451][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2872 classes and 685 folders.
+[2019.10.28-02.49.02:455][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.28-02.49.02:648][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.10.28-02.49.02:693][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.10.28-02.49.03:854][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.28-02.49.03:876][  0]LogSlate: Took 0.000610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.28-02.49.03:879][  0]LogSlate: Took 0.001410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.28-02.49.03:887][  0]LogSlate: Took 0.002227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.28-02.49.04:003][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 26 NumSamples 1 (Frame:1).
+[2019.10.28-02.49.04:139][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.28-02.49.04:139][  0]LogLoad: (Engine Initialization) Total time: 19.22 seconds
+[2019.10.28-02.49.04:139][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.28-02.49.04:156][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2019.10.28-02.49.04:211][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.28-02.49.04:241][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/' took 0.08s
+[2019.10.28-02.49.04:430][  4]LogAssetRegistry: Asset discovery search completed in 13.1553 seconds
+[2019.10.28-02.49.04:433][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.10.28-02.49.04:433][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2019.10.28-02.49.05:829][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-02.49.06:733][261]LogSlate: Took 0.001578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.28-02.49.22:046][920]LogSlate: Window 'Android SDK License' being destroyed
+[2019.10.28-02.49.44:356][316]LogTcpMessaging: Started Connection to '127.0.0.1:6666'
+[2019.10.28-02.50.15:654][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.10.28-02.50.15:657][504]LogPlayLevel: Launcher Device ID: Android_ASTC@1PASH9B9N99323
+[2019.10.28-02.50.15:666][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.28-02.50.15:666][504]LogCook: Display: Creating asset registry
+[2019.10.28-02.50.15:669][504]LogSlate: Took 0.000640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.28-02.50.16:320][504]LogCook: Display: Discovering localized assets
+[2019.10.28-02.50.16:324][504]LogCook: Display: Cooked content cleared for platform AllDesktop
+[2019.10.28-02.50.16:341][504]LogCook: Display: Unable to read previous cook inisettings for platform AllDesktop invalidating cook
+[2019.10.28-02.50.16:413][504]LogCook: Display: Cooked content cleared for platform MacClient
+[2019.10.28-02.50.16:418][504]LogCook: Display: Unable to read previous cook inisettings for platform MacClient invalidating cook
+[2019.10.28-02.50.16:475][504]LogCook: Display: Cooked content cleared for platform MacNoEditor
+[2019.10.28-02.50.16:479][504]LogCook: Display: Unable to read previous cook inisettings for platform MacNoEditor invalidating cook
+[2019.10.28-02.50.16:515][504]LogCook: Display: Cooked content cleared for platform MacServer
+[2019.10.28-02.50.16:519][504]LogCook: Display: Unable to read previous cook inisettings for platform MacServer invalidating cook
+[2019.10.28-02.50.16:556][504]LogCook: Display: Cooked content cleared for platform Mac
+[2019.10.28-02.50.16:562][504]LogCook: Display: Unable to read previous cook inisettings for platform Mac invalidating cook
+[2019.10.28-02.50.16:598][504]LogCook: Display: Cooked content cleared for platform WindowsClient
+[2019.10.28-02.50.16:603][504]LogCook: Display: Unable to read previous cook inisettings for platform WindowsClient invalidating cook
+[2019.10.28-02.50.16:645][504]LogCook: Display: Cooked content cleared for platform WindowsNoEditor
+[2019.10.28-02.50.16:648][504]LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2019.10.28-02.50.16:692][504]LogCook: Display: Cooked content cleared for platform WindowsServer
+[2019.10.28-02.50.16:697][504]LogCook: Display: Unable to read previous cook inisettings for platform WindowsServer invalidating cook
+[2019.10.28-02.50.16:743][504]LogCook: Display: Cooked content cleared for platform Windows
+[2019.10.28-02.50.16:749][504]LogCook: Display: Unable to read previous cook inisettings for platform Windows invalidating cook
+[2019.10.28-02.50.16:786][504]LogCook: Display: Cooked content cleared for platform Android
+[2019.10.28-02.50.16:789][504]LogCook: Display: Unable to read previous cook inisettings for platform Android invalidating cook
+[2019.10.28-02.50.16:823][504]LogCook: Display: Cooked content cleared for platform Android_ASTC
+[2019.10.28-02.50.17:294][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_ASTC invalidating cook
+[2019.10.28-02.50.17:327][504]LogCook: Display: Cooked content cleared for platform Android_ATC
+[2019.10.28-02.50.17:331][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_ATC invalidating cook
+[2019.10.28-02.50.17:366][504]LogCook: Display: Cooked content cleared for platform Android_DXT
+[2019.10.28-02.50.17:370][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_DXT invalidating cook
+[2019.10.28-02.50.17:409][504]LogCook: Display: Cooked content cleared for platform Android_ETC1
+[2019.10.28-02.50.17:415][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1 invalidating cook
+[2019.10.28-02.50.17:461][504]LogCook: Display: Cooked content cleared for platform Android_ETC1a
+[2019.10.28-02.50.17:465][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1a invalidating cook
+[2019.10.28-02.50.17:502][504]LogCook: Display: Cooked content cleared for platform Android_ETC2
+[2019.10.28-02.50.17:507][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2 invalidating cook
+[2019.10.28-02.50.17:542][504]LogCook: Display: Cooked content cleared for platform Android_PVRTC
+[2019.10.28-02.50.17:546][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_PVRTC invalidating cook
+[2019.10.28-02.50.17:583][504]LogCook: Display: Cooked content cleared for platform AndroidClient
+[2019.10.28-02.50.17:587][504]LogCook: Display: Unable to read previous cook inisettings for platform AndroidClient invalidating cook
+[2019.10.28-02.50.17:624][504]LogCook: Display: Cooked content cleared for platform Android_ASTCClient
+[2019.10.28-02.50.17:629][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_ASTCClient invalidating cook
+[2019.10.28-02.50.17:670][504]LogCook: Display: Cooked content cleared for platform Android_ATCClient
+[2019.10.28-02.50.17:674][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_ATCClient invalidating cook
+[2019.10.28-02.50.17:718][504]LogCook: Display: Cooked content cleared for platform Android_DXTClient
+[2019.10.28-02.50.17:724][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_DXTClient invalidating cook
+[2019.10.28-02.50.17:768][504]LogCook: Display: Cooked content cleared for platform Android_ETC1Client
+[2019.10.28-02.50.17:774][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1Client invalidating cook
+[2019.10.28-02.50.17:815][504]LogCook: Display: Cooked content cleared for platform Android_ETC1aClient
+[2019.10.28-02.50.17:820][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1aClient invalidating cook
+[2019.10.28-02.50.17:862][504]LogCook: Display: Cooked content cleared for platform Android_ETC2Client
+[2019.10.28-02.50.17:867][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2Client invalidating cook
+[2019.10.28-02.50.17:913][504]LogCook: Display: Cooked content cleared for platform Android_PVRTCClient
+[2019.10.28-02.50.17:919][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_PVRTCClient invalidating cook
+[2019.10.28-02.50.17:963][504]LogCook: Display: Cooked content cleared for platform Android_Multi
+[2019.10.28-02.50.17:969][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_Multi invalidating cook
+[2019.10.28-02.50.18:011][504]LogCook: Display: Cooked content cleared for platform Android_MultiClient
+[2019.10.28-02.50.18:015][504]LogCook: Display: Unable to read previous cook inisettings for platform Android_MultiClient invalidating cook
+[2019.10.28-02.50.18:052][504]LogCook: Display: Cooked content cleared for platform HTML5
+[2019.10.28-02.50.18:056][504]LogCook: Display: Unable to read previous cook inisettings for platform HTML5 invalidating cook
+[2019.10.28-02.50.18:089][504]LogCook: Display: Cooked content cleared for platform IOSClient
+[2019.10.28-02.50.18:093][504]LogCook: Display: Unable to read previous cook inisettings for platform IOSClient invalidating cook
+[2019.10.28-02.50.18:135][504]LogCook: Display: Cooked content cleared for platform IOS
+[2019.10.28-02.50.18:139][504]LogCook: Display: Unable to read previous cook inisettings for platform IOS invalidating cook
+[2019.10.28-02.50.18:173][504]LogCook: Display: Cooked content cleared for platform TVOSClient
+[2019.10.28-02.50.18:177][504]LogCook: Display: Unable to read previous cook inisettings for platform TVOSClient invalidating cook
+[2019.10.28-02.50.18:213][504]LogCook: Display: Cooked content cleared for platform TVOS
+[2019.10.28-02.50.18:217][504]LogCook: Display: Unable to read previous cook inisettings for platform TVOS invalidating cook
+[2019.10.28-02.50.18:255][504]LogCook: Display: Cooked content cleared for platform LinuxClient
+[2019.10.28-02.50.18:260][504]LogCook: Display: Unable to read previous cook inisettings for platform LinuxClient invalidating cook
+[2019.10.28-02.50.18:321][504]LogCook: Display: Cooked content cleared for platform LinuxNoEditor
+[2019.10.28-02.50.18:333][504]LogCook: Display: Unable to read previous cook inisettings for platform LinuxNoEditor invalidating cook
+[2019.10.28-02.50.18:426][504]LogCook: Display: Cooked content cleared for platform LinuxServer
+[2019.10.28-02.50.18:438][504]LogCook: Display: Unable to read previous cook inisettings for platform LinuxServer invalidating cook
+[2019.10.28-02.50.18:504][504]LogCook: Display: Cooked content cleared for platform Linux
+[2019.10.28-02.50.18:512][504]LogCook: Display: Unable to read previous cook inisettings for platform Linux invalidating cook
+[2019.10.28-02.50.18:564][504]LogCook: Display: Cooked content cleared for platform Lumin
+[2019.10.28-02.50.18:569][504]LogCook: Display: Unable to read previous cook inisettings for platform Lumin invalidating cook
+[2019.10.28-02.50.18:610][504]LogCook: Display: Cooked content cleared for platform LuminClient
+[2019.10.28-02.50.18:615][504]LogCook: Display: Unable to read previous cook inisettings for platform LuminClient invalidating cook
+[2019.10.28-02.50.18:655][504]LogCook: Display: Sandbox cleanup took 2.330 seconds for platforms AllDesktop MacClient MacNoEditor MacServer Mac WindowsClient WindowsNoEditor WindowsServer Windows Android Android_ASTC Android_ATC Android_DXT Android_ETC1 Android_ETC1a Android_ETC2 Android_PVRTC AndroidClient Android_ASTCClient Android_ATCClient Android_DXTClient Android_ETC1Client Android_ETC1aClient Android_ETC2Client Android_PVRTCClient Android_Multi Android_MultiClient HTML5 IOSClient IOS TVOSClient TVOS LinuxClient LinuxNoEditor LinuxServer Linux Lumin LuminClient  iterative false
+[2019.10.28-02.50.19:344][504]LogMaterial: Verifying Global Shaders for GLSL_ES3_1_ANDROID
+[2019.10.28-02.50.19:473][505]LogCook: Display: Cooked packages 0 Packages Remain 341 Total 341
+[2019.10.28-02.50.19:482][505]LogAIModule: Creating AISystem for world Entry
+[2019.10.28-02.50.19:582][506]LogCook: Display: Cooked packages 0 Packages Remain 342 Total 342
+[2019.10.28-02.50.19:863][506]LogAIModule: Creating AISystem for world MotionControllerMap
+[2019.10.28-02.50.19:870][507]LogCook: Display: Cooked packages 0 Packages Remain 368 Total 368
+[2019.10.28-02.50.20:707][514]LogContentBrowser: Native class hierarchy updated for 'BlueprintNativeCodeGen' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.10.28-02.50.20:791][515]LogCook: Display: Cooked packages 10 Packages Remain 367 Total 377
+[2019.10.28-02.50.20:897][516]LogCook: Display: Cooked packages 36 Packages Remain 366 Total 402
+[2019.10.28-02.50.21:113][518]LogCook: Display: Cooked packages 77 Packages Remain 365 Total 442
+[2019.10.28-02.50.21:220][519]LogCook: Display: Cooked packages 95 Packages Remain 364 Total 459
+[2019.10.28-02.50.21:331][520]LogCook: Display: Cooked packages 103 Packages Remain 363 Total 466
+[2019.10.28-02.50.21:437][521]LogCook: Display: Cooked packages 130 Packages Remain 362 Total 492
+[2019.10.28-02.50.21:553][522]LogCook: Display: Cooked packages 134 Packages Remain 361 Total 495
+[2019.10.28-02.50.21:669][523]LogCook: Display: Cooked packages 149 Packages Remain 360 Total 509
+[2019.10.28-02.50.21:776][524]LogCook: Display: Cooked packages 165 Packages Remain 359 Total 524
+[2019.10.28-02.50.21:947][525]LogCook: Display: Cooked packages 201 Packages Remain 358 Total 559
+[2019.10.28-02.50.22:280][528]LogCook: Display: Cooked packages 204 Packages Remain 357 Total 561
+[2019.10.28-02.50.22:386][529]LogCook: Display: Cooked packages 220 Packages Remain 356 Total 576
+[2019.10.28-02.50.22:631][531]LogCook: Display: Cooked packages 237 Packages Remain 355 Total 592
+[2019.10.28-02.50.22:720][532]LogCook: Display: Cooked packages 287 Packages Remain 354 Total 641
+[2019.10.28-02.50.23:053][534]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.10.28-02.50.23:209][535]LogCook: Display: Cooked packages 305 Packages Remain 353 Total 658
+[2019.10.28-02.50.23:313][535]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.10.28-02.50.23:328][536]LogCook: Display: Cooked packages 320 Packages Remain 352 Total 672
+[2019.10.28-02.50.23:450][536]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.10.28-02.50.23:640][537]LogCook: Display: Cooked packages 322 Packages Remain 62 Total 384
+[2019.10.28-02.50.23:753][538]LogCook: Display: Cooked packages 340 Packages Remain 61 Total 401
+[2019.10.28-02.50.23:799][538]LogCook: Display: Cooked packages 351 Packages Remain 60 Total 411
+[2019.10.28-02.50.23:806][538]LogCook: Display: Cooked packages 352 Packages Remain 59 Total 411
+[2019.10.28-02.50.23:832][538]LogCook: Display: Cooked packages 353 Packages Remain 58 Total 411
+[2019.10.28-02.50.23:851][538]LogCook: Display: Cooked packages 355 Packages Remain 57 Total 412
+[2019.10.28-02.50.23:870][539]LogCook: Display: Cooked packages 357 Packages Remain 56 Total 413
+[2019.10.28-02.50.23:889][539]LogCook: Display: Cooked packages 359 Packages Remain 55 Total 414
+[2019.10.28-02.50.23:896][539]LogCook: Display: Cooked packages 360 Packages Remain 54 Total 414
+[2019.10.28-02.50.23:902][539]LogCook: Display: Cooked packages 361 Packages Remain 53 Total 414
+[2019.10.28-02.50.23:908][539]LogCook: Display: Cooked packages 362 Packages Remain 52 Total 414
+[2019.10.28-02.50.23:919][539]LogCook: Display: Cooked packages 363 Packages Remain 51 Total 414
+[2019.10.28-02.50.23:926][539]LogCook: Display: Cooked packages 364 Packages Remain 50 Total 414
+[2019.10.28-02.50.23:934][539]LogCook: Display: Cooked packages 365 Packages Remain 49 Total 414
+[2019.10.28-02.50.23:943][539]LogCook: Display: Cooked packages 366 Packages Remain 48 Total 414
+[2019.10.28-02.50.23:960][539]LogCook: Display: Cooked packages 367 Packages Remain 48 Total 415
+[2019.10.28-02.50.23:968][540]LogCook: Display: Cooked packages 367 Packages Remain 1 Total 368
+[2019.10.28-02.50.23:970][540]LogCook: Display: Cooked packages 368 Packages Remain 0 Total 368
+[2019.10.28-02.50.23:970][540]LogCook: Display: Finishing up...
+[2019.10.28-02.50.24:001][540]LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2019.10.28-02.50.24:001][540]LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2019.10.28-02.50.24:001][540]LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2019.10.28-02.50.24:077][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:080][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:080][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:107][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:107][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:131][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:133][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:134][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:166][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:166][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:189][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:192][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:192][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:224][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:224][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:246][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:249][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:249][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:283][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:283][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:306][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:309][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:309][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:343][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:343][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:366][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:370][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:370][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:402][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:402][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:427][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:431][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.004 s
+[2019.10.28-02.50.24:431][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:466][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:466][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:490][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:494][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.004 s
+[2019.10.28-02.50.24:495][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:530][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:530][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:555][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:559][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.004 s
+[2019.10.28-02.50.24:559][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:594][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:594][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:616][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:618][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:619][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:652][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:652][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:677][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:679][540]LogAssetRegistryGenerator: Chunk: 0, Started with 366 packages, Final after dependency resolve: 366
+[2019.10.28-02.50.24:681][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:681][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:699][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 366, size is 156.10kb
+[2019.10.28-02.50.24:699][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:715][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:718][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:718][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:749][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:749][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:771][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:773][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:773][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:803][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:803][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:825][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:828][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:828][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:859][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:859][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:881][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:884][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:884][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:915][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:915][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:935][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:937][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:938][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.24:969][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.24:970][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.24:992][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.24:996][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.24:996][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:028][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:028][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:051][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:055][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:055][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:084][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:084][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:106][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:109][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:109][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:139][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:139][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:163][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:166][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:166][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:197][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:197][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:218][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:221][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:221][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:251][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:251][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:272][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:275][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:275][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:305][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:305][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:328][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:331][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:331][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:361][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:361][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:381][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:384][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:384][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:414][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:414][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:434][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:437][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:437][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:466][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:466][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:485][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:488][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.28-02.50.25:488][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:509][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:509][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:525][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:527][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.28-02.50.25:527][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:550][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:550][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:570][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:574][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:574][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:600][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:600][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:619][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:622][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:622][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:652][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:652][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:675][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:678][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:678][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:712][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:712][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:736][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:739][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:739][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:771][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:771][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:806][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:809][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:809][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:841][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:841][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:875][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:878][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:878][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:915][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:915][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:938][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.25:942][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.25:942][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.25:974][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.25:974][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.25:998][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.26:001][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.26:001][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.26:032][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.26:032][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.26:053][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.26:056][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.26:056][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.26:086][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.26:086][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.26:110][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.26:113][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.26:113][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.26:144][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.26:144][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.26:168][540]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.28-02.50.26:171][540]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.28-02.50.26:171][540]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.28-02.50.26:204][540]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.28-02.50.26:204][540]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.28-02.50.26:218][540]LogCook: Display: Cook by the book total time in tick 4.302249s total time 10.551125
+[2019.10.28-02.50.26:218][540]LogCook: Display: Peak Used virtual 1944MB Peak Used physical 1221MB
+[2019.10.28-02.50.26:218][540]LogCook: Display: Hierarchy Timer Information:
+[2019.10.28-02.50.26:218][540]LogCook: Display:   Root: 0.000s (0)
+[2019.10.28-02.50.26:218][540]LogCook: Display:     StartCookByTheBookTime: 3.793s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       GenerateAssetRegistryTime: 0.000s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       CleanSandboxTime: 2.330s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:         ProcessingAccessedStrings: 0.183s (38)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       CollectFilesToCook: 0.108s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:         CookModificationDelegate: 0.000s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:         SearchForPackageOnDisk: 0.000s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:         GeneratePackageNames: 0.000s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       GenerateLongPackageName: 0.000s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:     TickCookOnTheSide: 4.299s (53)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       LoadPackage: 0.389s (21)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.023s (53)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       PostLoadPackageFixup: 0.000s (53)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       SavingPackages: 1.908s (53)
+[2019.10.28-02.50.26:218][540]LogCook: Display:         EnqueueUnsavedPackages: 0.002s (39)
+[2019.10.28-02.50.26:218][540]LogCook: Display:         PrecachePlatformDataForNextPackage: 0.001s (354)
+[2019.10.28-02.50.26:218][540]LogCook: Display:         PrecachePlatformDataForNextNextPackage: 0.285s (349)
+[2019.10.28-02.50.26:218][540]LogCook: Display:         SaveCookedPackage: 1.602s (368)
+[2019.10.28-02.50.26:218][540]LogCook: Display:           LoadPackage: 0.001s (368)
+[2019.10.28-02.50.26:218][540]LogCook: Display:           GEditorSavePackage: 1.578s (368)
+[2019.10.28-02.50.26:218][540]LogCook: Display:             ConvertingBlueprints: 0.006s (368)
+[2019.10.28-02.50.26:218][540]LogCook: Display:             VerifyCanCookPackage: 0.002s (366)
+[2019.10.28-02.50.26:218][540]LogCook: Display:     GeneratingBlueprintAssets: 0.008s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:     SavingCurrentIniSettings: 0.070s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       ProcessingAccessedStrings: 0.006s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:     SavingAssetRegistry: 2.146s (1)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       BuildChunkManifest: 0.306s (38)
+[2019.10.28-02.50.26:218][540]LogCook: Display:       SaveManifests: 0.121s (38)
+[2019.10.28-02.50.26:219][540]LogCook: Display:       SaveRealAssetRegistry: 1.173s (38)
+[2019.10.28-02.50.26:219][540]LogCook: Display:       WriteCookerOpenOrder: 0.546s (38)
+[2019.10.28-02.50.26:219][540]LogCook: Display: Done!
+[2019.10.28-02.50.26:301][549]LogPlayLevel: Completed Launch On Stage: Cooking in the editor, Time: 5.837319
+[2019.10.28-02.50.27:114][628]LogPlayLevel: Running AutomationTool...
+[2019.10.28-02.50.27:814][708]LogPlayLevel: Parsing command line: -ScriptsForProject=C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/LastResisters.uproject BuildCookRun -project=C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/LastResisters.uproject -noP4 -clientconfig=Development -serverconfig=Development -nocompile -nocompileeditor -installed -ue4exe=D:\UE_4.23\Engine\Binaries\Win64\UE4Editor-Cmd.exe -utf8output -platform=Android -targetplatform=Android -cookflavor=ASTC -ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled -build -map=/Game/VirtualRealityBP/Maps/StartupMap -skipcook -CookInEditor -iterativecooking -compressed -iterativedeploy -stage -deploy -cmdline="/Game/VirtualRealityBP/Maps/StartupMap -Messaging" -device=Android_ASTC@1PASH9B9N99323 -addcmdline="-SessionId=CBFE528A403378781DAECAB21EDF286E -SessionOwner='s172078' -SessionName='Launch On Device'  " -run
+[2019.10.28-02.50.28:521][786]LogPlayLevel: Setting up ProjectParams for C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters.uproject
+[2019.10.28-02.50.28:554][790]LogPlayLevel: ********** BUILD COMMAND STARTED **********
+[2019.10.28-02.50.28:581][793]LogPlayLevel: Completed Launch On Stage: Build Task, Time: 1.775143
+[2019.10.28-02.50.29:270][849]LogPlayLevel: Running: D:\UE_4.23\Engine\Binaries\DotNET\UnrealBuildTool.exe LastResisters Android Development -Project=C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters.uproject  C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters.uproject -NoUBTMakefiles  -remoteini="C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters" -skipdeploy -ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled -Manifest=C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\s172078\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+UE_4.23\UBT-LastResisters-Android-Development.txt"
+[2019.10.28-02.50.31:335][ 44]LogPlayLevel:   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s172078\Documents\GitHub\LastResisters).
+[2019.10.28-02.50.31:335][ 44]LogPlayLevel:   PLATFORM_ANDROID_NDK_VERSION = 140200
+[2019.10.28-02.50.32:204][137]LogPlayLevel:   NDK toolchain: r14b, NDK version: 19, GccVersion: 4.9, ClangVersion: 3.8.275480
+[2019.10.28-02.50.32:250][142]LogPlayLevel:   Parsing headers for LastResisters
+[2019.10.28-02.50.38:163][708]LogSlate: Took 0.015944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.10.28-02.50.46:060][498]LogPlayLevel:     Running UnrealHeaderTool "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters.uproject" "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Android\LastResisters\Development\LastResisters.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.28-02.50.46:366][531]LogPlayLevel:   Reflection code generated for LastResisters in 13.8129886 seconds
+[2019.10.28-02.50.46:987][603]LogPlayLevel:   Compiling Native code with NDK API 'android-19'
+[2019.10.28-02.50.47:187][621]LogPlayLevel:   Writing manifest to C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Manifest.xml
+[2019.10.28-02.51.11:223][286]LogPlayLevel:   Building 23 actions with 8 processes...
+[2019.10.28-02.51.42:527][637]LogPlayLevel:     [1/23] SharedPCH.Slate.h [armv7-es2]
+[2019.10.28-02.52.05:532][137]LogPlayLevel:     [2/23] AI1_PatrolTargetPoint.cpp [armv7-es2]
+[2019.10.28-02.52.07:560][360]LogPlayLevel:     [3/23] AI1_TaskNodes_Init.cpp [armv7-es2]
+[2019.10.28-02.52.13:598][ 26]LogPlayLevel:     [4/23] LastResisters.cpp [armv7-es2]
+[2019.10.28-02.52.15:192][188]LogPlayLevel:     [5/23] AI1_TaskNodes_MoveTo.cpp [armv7-es2]
+[2019.10.28-02.52.35:713][443]LogPlayLevel:     [6/23] AI1_TaskNodes_IncrementPathIndex.cpp [armv7-es2]
+[2019.10.28-02.52.51:402][164]LogPlayLevel:     [7/23] AI1_PatrolTargetPoint.gen.cpp [armv7-es2]
+[2019.10.28-02.52.52:307][261]LogPlayLevel:     [8/23] AI1_Character.gen.cpp [armv7-es2]
+[2019.10.28-02.52.58:642][962]LogPlayLevel:     [9/23] AI1_TaskNodes_IncrementPathIndex.gen.cpp [armv7-es2]
+[2019.10.28-02.52.58:963][997]LogPlayLevel:     [10/23] AI1_TaskNodes_StateManagement.cpp [armv7-es2]
+[2019.10.28-02.53.19:529][258]LogPlayLevel:     [11/23] AI1_TaskNodes_FindPatrolLocation.cpp [armv7-es2]
+[2019.10.28-02.53.21:529][470]LogPlayLevel:     [12/23] AI1_TaskNodes_Init.gen.cpp [armv7-es2]
+[2019.10.28-02.53.26:857][ 53]LogPlayLevel:     [13/23] LastResisters.init.gen.cpp [armv7-es2]
+[2019.10.28-02.53.32:020][631]LogPlayLevel:     [14/23] AI1_TaskNodes_FindPatrolLocation.gen.cpp [armv7-es2]
+[2019.10.28-02.53.32:139][645]LogPlayLevel:     [15/23] AI1_TaskNodes_MoveTo.gen.cpp [armv7-es2]
+[2019.10.28-02.53.39:550][472]LogPlayLevel:     [16/23] AI1_TaskNodes_StateManagement.gen.cpp [armv7-es2]
+[2019.10.28-02.54.18:561][815]LogPlayLevel:     [17/23] AI1_Character.cpp [armv7-es2]
+[2019.10.28-02.54.24:269][454]LogPlayLevel:     [18/23] AI1_AIController.gen.cpp [armv7-es2]
+[2019.10.28-02.54.36:931][865]LogPlayLevel:     [19/23] AI1_AIController.cpp [armv7-es2]
+[2019.10.28-02.54.40:816][298]LogPlayLevel:     [20/23] PlayerUI.gen.cpp [armv7-es2]
+[2019.10.28-02.56.12:659][531]LogPlayLevel:     [21/23] PlayerUI.cpp [armv7-es2]
+[2019.10.28-02.56.12:827][551]LogPlayLevel:     [22/23] LastResisters-armv7-es2.so
+[2019.10.28-02.56.12:827][551]LogPlayLevel:     [23/23] LastResisters.target
+[2019.10.28-02.56.12:852][554]LogPlayLevel:   Total time in Parallel executor: 325.65 seconds
+[2019.10.28-02.56.12:877][557]LogPlayLevel:   Total execution time: 344.22 seconds
+[2019.10.28-02.56.12:902][560]LogPlayLevel: Took 344.3260788s to run UnrealBuildTool.exe, ExitCode=0
+[2019.10.28-02.56.12:902][560]LogPlayLevel: ********** BUILD COMMAND COMPLETED **********
+[2019.10.28-02.56.12:951][566]LogPlayLevel: ********** STAGE COMMAND STARTED **********
+[2019.10.28-02.56.12:968][568]LogPlayLevel: Creating UE4CommandLine.txt
+[2019.10.28-02.56.12:984][570]LogPlayLevel: Creating Staging Manifest...
+[2019.10.28-02.56.12:984][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\BaseEditor.ini
+[2019.10.28-02.56.12:985][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\BaseEditorKeyBindings.ini
+[2019.10.28-02.56.12:985][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\BaseEditorLayout.ini
+[2019.10.28-02.56.12:985][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2019.10.28-02.56.12:985][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\BaseEditorSettings.ini
+[2019.10.28-02.56.12:985][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\BaseLightmass.ini
+[2019.10.28-02.56.12:985][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\BasePakFileRules.ini
+[2019.10.28-02.56.12:986][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\Category.ini
+[2019.10.28-02.56.12:986][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\Editor.ini
+[2019.10.28-02.56.12:986][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\EditorTutorials.ini
+[2019.10.28-02.56.12:986][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\Engine.ini
+[2019.10.28-02.56.12:986][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\Keywords.ini
+[2019.10.28-02.56.12:986][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\PortableObjectExport.ini
+[2019.10.28-02.56.12:986][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\PortableObjectImport.ini
+[2019.10.28-02.56.12:987][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\PropertyNames.ini
+[2019.10.28-02.56.12:987][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\RepairData.ini
+[2019.10.28-02.56.12:987][570]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\ToolTips.ini
+[2019.10.28-02.56.12:993][571]LogPlayLevel: Excluding config file D:\UE_4.23\Engine\Config\Localization\WordCount.ini
+[2019.10.28-02.56.12:994][571]LogPlayLevel: Excluding config file C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Config\DefaultEditor.ini
+[2019.10.28-02.56.13:019][574]LogPlayLevel: Completed Launch On Stage: Build Task, Time: 343.945551
+[2019.10.28-02.56.13:388][606]LogPlayLevel: Excluding config file C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Config\DefaultEditorPerProjectUserSettings.ini
+[2019.10.28-02.56.16:062][905]LogPlayLevel: Cleaning Stage Directory: C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Saved\StagedBuilds\Android_ASTC
+[2019.10.28-02.56.16:099][908]LogPlayLevel: Copying NonUFSFiles to staging directory: C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Saved\StagedBuilds\Android_ASTC
+[2019.10.28-02.56.28:840][366]LogPlayLevel: Copying UFSFiles to staging directory: C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Saved\StagedBuilds\Android_ASTC
+[2019.10.28-02.56.28:932][377]LogPlayLevel: Copying DebugFiles to staging directory: C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Saved\StagedBuilds\Android_ASTC
+[2019.10.28-02.56.28:990][384]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell "echo $EXTERNAL_STORAGE"
+[2019.10.28-02.56.28:990][384]LogPlayLevel: Took 0.0638297s to run adb.exe, ExitCode=0
+[2019.10.28-02.56.29:065][393]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323  pull /sdcard/UE4Game/LastResisters/Manifest_UFSFiles_Android.txt "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Saved\StagedBuilds\Android_ASTC\Manifest_UFSFiles_Android_1PASH9B9N99323.txt"
+[2019.10.28-02.56.29:066][393]LogPlayLevel: Took 0.0698579s to run adb.exe, ExitCode=0
+[2019.10.28-02.56.29:124][400]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323  pull /sdcard/UE4Game/LastResisters/Manifest_NonUFSFiles_Android.txt "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Saved\StagedBuilds\Android_ASTC\Manifest_NonUFSFiles_Android_1PASH9B9N99323.txt"
+[2019.10.28-02.56.29:165][405]LogPlayLevel: Took 0.0598389s to run adb.exe, ExitCode=0
+[2019.10.28-02.56.29:166][405]LogPlayLevel: ********** STAGE COMMAND COMPLETED **********
+[2019.10.28-02.56.29:166][405]LogPlayLevel: ********** PACKAGE COMMAND STARTED **********
+[2019.10.28-02.56.29:166][405]LogPlayLevel: ********** PACKAGE COMMAND COMPLETED **********
+[2019.10.28-02.56.29:207][410]LogPlayLevel: ********** DEPLOY COMMAND STARTED **********
+[2019.10.28-02.56.29:274][418]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323  shell getprop ro.product.cpu.abi
+[2019.10.28-02.56.29:283][419]LogPlayLevel: Took 0.0718079s to run adb.exe, ExitCode=0
+[2019.10.28-02.56.29:283][419]LogPlayLevel: AndroidPlugin: Plugins\Online\Android\OnlineSubsystemGooglePlay\Source\OnlineSubsystemGooglePlay_UPL.xml
+[2019.10.28-02.56.29:283][419]LogPlayLevel: AndroidPlugin: Plugins\Runtime\AndroidPermission\Source\AndroidPermission\AndroidPermission_APL.xml
+[2019.10.28-02.56.29:284][419]LogPlayLevel: AndroidPlugin: Plugins\Runtime\GoogleCloudMessaging\Source\GoogleCloudMessaging\GoogleCloudMessaging_UPL.xml
+[2019.10.28-02.56.29:284][419]LogPlayLevel: AndroidPlugin: Plugins\Runtime\Oculus\OculusVR\Source\OculusHMD\OculusMobile_APL.xml
+[2019.10.28-02.56.29:284][419]LogPlayLevel: AndroidPlugin: Source\Runtime\Online\Voice\AndroidVoiceImpl_UPL.xml
+[2019.10.28-02.56.29:291][420]LogPlayLevel: UPL: Engine\Plugins/Online/Android/OnlineSubsystemGooglePlay/Source/OnlineSubsystemGooglePlay_UPL.xml
+[2019.10.28-02.56.29:291][420]LogPlayLevel: UPL: Engine\Plugins/Runtime/AndroidPermission/Source/AndroidPermission/AndroidPermission_APL.xml
+[2019.10.28-02.56.29:299][421]LogPlayLevel: UPL: Engine\Plugins/Runtime/GoogleCloudMessaging/Source/GoogleCloudMessaging/GoogleCloudMessaging_UPL.xml
+[2019.10.28-02.56.29:300][421]LogPlayLevel: UPL: Engine\Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/OculusMobile_APL.xml
+[2019.10.28-02.56.29:316][423]LogPlayLevel: UPL: Engine\Source/Runtime/Online/Voice/AndroidVoiceImpl_UPL.xml
+[2019.10.28-02.56.29:316][423]LogPlayLevel: Using package name: 'com.YourCompany.LastResisters'
+[2019.10.28-02.56.29:316][423]LogPlayLevel: GotStoreVersion found v1. (bUseChangeListAsStoreVersion=False IsBuildMachine=False EngineChangeList=0)
+[2019.10.28-02.56.29:349][427]LogPlayLevel: Writing packageInfo pkgName:com.YourCompany.LastResisters storeVersion:1 versionDisplayName:1.0 to C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Binaries\Android\packageInfo.txt
+[2019.10.28-02.56.29:350][427]LogPlayLevel: 
+[2019.10.28-02.56.29:350][427]LogPlayLevel: ====2019/10/28 11:56:29====PREPARING TO MAKE APK=================================================================
+[2019.10.28-02.56.29:350][427]LogPlayLevel: bBuildForES2: false
+[2019.10.28-02.56.29:351][427]LogPlayLevel: bBuildForES31: true
+[2019.10.28-02.56.29:351][427]LogPlayLevel: bSupportsVulkan: false
+[2019.10.28-02.56.29:357][428]LogPlayLevel: Building Java with SDK API level 'android-29'
+[2019.10.28-02.56.29:366][429]LogPlayLevel: Building with Build Tools version '28.0.3'
+[2019.10.28-02.56.29:366][429]LogPlayLevel: 
+[2019.10.28-02.56.29:366][429]LogPlayLevel: ==== Writing to OBB data file C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Build\Android\src\com\YourCompany\LastResisters\OBBData.java ====
+[2019.10.28-02.56.29:366][429]LogPlayLevel: 
+[2019.10.28-02.56.29:375][430]LogPlayLevel: ==== OBB data file up to date so not writing. ====
+[2019.10.28-02.56.29:375][430]LogPlayLevel: 
+[2019.10.28-02.56.29:375][430]LogPlayLevel: ==== Writing to shim file C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Build\Android\src\com\epicgames\ue4\DownloadShim.java ====
+[2019.10.28-02.56.29:375][430]LogPlayLevel: 
+[2019.10.28-02.56.29:383][431]LogPlayLevel: ==== Shim data file up to date so not writing. ====
+[2019.10.28-02.56.29:383][431]LogPlayLevel: 
+[2019.10.28-02.56.29:383][431]LogPlayLevel: ==== Writing to template target file C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Build\Android\src\com\YourCompany\LastResisters\AlarmReceiver.java ====
+[2019.10.28-02.56.29:384][431]LogPlayLevel: 
+[2019.10.28-02.56.29:390][432]LogPlayLevel: ==== Template target file up to date so not writing. ====
+[2019.10.28-02.56.29:391][432]LogPlayLevel: 
+[2019.10.28-02.56.29:391][432]LogPlayLevel: ==== Writing to template target file C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Build\Android\src\com\YourCompany\LastResisters\DownloaderActivity.java ====
+[2019.10.28-02.56.29:391][432]LogPlayLevel: 
+[2019.10.28-02.56.29:400][433]LogPlayLevel: ==== Template target file up to date so not writing. ====
+[2019.10.28-02.56.29:400][433]LogPlayLevel: 
+[2019.10.28-02.56.29:400][433]LogPlayLevel: ==== Writing to template target file C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Build\Android\src\com\YourCompany\LastResisters\OBBDownloaderService.java ====
+[2019.10.28-02.56.29:401][433]LogPlayLevel: 
+[2019.10.28-02.56.29:401][433]LogPlayLevel: ==== Template target file up to date so not writing. ====
+[2019.10.28-02.56.29:989][503]LogPlayLevel: Cleaning up files based on template dir C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Build\Android\src\com\YourCompany\LastResisters
+[2019.10.28-02.56.29:990][503]LogPlayLevel: Previous .apk file(s) were made with different build settings, forcing repackage.
+[2019.10.28-02.56.30:048][510]LogPlayLevel: UPL Init: armeabi-v7a
+[2019.10.28-02.56.30:048][510]LogPlayLevel: Subsystem Google Play SDK Android init
+[2019.10.28-02.56.30:081][514]LogPlayLevel: Android Permission Plugin Init
+[2019.10.28-02.56.30:083][514]LogPlayLevel: Google Cloud Messaging init
+[2019.10.28-02.56.30:083][514]LogPlayLevel: GCMClientSenderID set: false
+[2019.10.28-02.56.30:083][514]LogPlayLevel: Oculus mobile init
+[2019.10.28-02.56.30:083][514]LogPlayLevel: Android Voice init
+[2019.10.28-02.56.30:114][518]LogPlayLevel: APK contains data.
+[2019.10.28-02.56.30:114][518]LogPlayLevel: Disabling Show Launch Image for Oculus Mobile enabled application
+[2019.10.28-02.56.32:212][764]LogPlayLevel: Performing complete package - wiping C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Android\APK, except for predexedLibs
+[2019.10.28-02.56.32:212][764]LogPlayLevel: Failed to delete all files in directory C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Android\APK\gradle\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes\com\google\android\vending\expansion\downloader\impl. Continuing on...
+[2019.10.28-02.56.35:021][ 95]LogPlayLevel: Failed to delete all files in directory C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Android\APK\gradle\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes\com\google\android\vending\expansion\downloader\impl. Continuing on...
+[2019.10.28-02.56.35:021][ 95]LogPlayLevel: bPackageDataInsideApk = False
+[2019.10.28-02.56.35:022][ 95]LogPlayLevel: UE4CommandLine.txt exists...
+[2019.10.28-02.56.36:394][256]LogPlayLevel: Copying C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Saved\StagedBuilds\Android_ASTC\UE4CommandLine.txt to C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Android\APK\assets\UE4CommandLine.txt
+[2019.10.28-02.56.36:486][267]LogPlayLevel: Added repository: C:\NVPACK\android-sdk-windows\extras\android\m2repository
+[2019.10.28-02.56.36:486][267]LogPlayLevel: Added repository: D:\UE_4.23\Engine\Source\ThirdParty\Android\extras\google\m2repository
+[2019.10.28-02.56.36:487][267]LogPlayLevel: Added repository: D:\UE_4.23\Engine\Source\ThirdParty\Android\extras\android\m2repository
+[2019.10.28-02.56.36:487][267]LogPlayLevel: AARImports: com.google.android.gms, play-services-auth, 11.8.0
+[2019.10.28-02.56.36:487][267]LogPlayLevel: AARImports: com.google.android.gms, play-services-games, 11.8.0
+[2019.10.28-02.56.36:487][267]LogPlayLevel: AARImports: com.google.android.gms, play-services-nearby, 11.8.0
+[2019.10.28-02.56.36:520][271]LogPlayLevel: AARImports: com.google.android.gms, play-services-plus, 11.8.0
+[2019.10.28-02.56.36:520][271]LogPlayLevel: 
+[2019.10.28-02.56.36:520][271]LogPlayLevel: ====2019/10/28 11:56:36====PREPARING NATIVE CODE=================================================================
+[2019.10.28-02.56.36:520][271]LogPlayLevel: APK contains data.
+[2019.10.28-02.56.36:528][272]LogPlayLevel: Disabling Show Launch Image for Oculus Mobile enabled application
+[2019.10.28-02.56.36:577][278]LogPlayLevel: Copying permission_library directory to staging before build
+[2019.10.28-02.56.36:578][278]LogPlayLevel: 
+[2019.10.28-02.56.36:578][278]LogPlayLevel: Directory D:/UE_4.23/Engine/Source/ThirdParty/AndroidPermission/permission_library copied to C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Android/APK/JavaLibs/permission_library
+[2019.10.28-02.56.36:578][278]LogPlayLevel: 
+[2019.10.28-02.56.36:578][278]LogPlayLevel: ==== Writing to OBB data file C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Build\Android\src\com\YourCompany\LastResisters\OBBData.java ====
+[2019.10.28-02.56.36:578][278]LogPlayLevel: 
+[2019.10.28-02.56.36:602][281]LogPlayLevel: ==== OBB data file up to date so not writing. ====
+[2019.10.28-02.56.36:603][281]LogPlayLevel: 
+[2019.10.28-02.56.36:611][282]LogPlayLevel: ==== Writing new GameActivity.java file to C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Android\APK\src\com\epicgames\ue4\GameActivity.java ====
+[2019.10.28-02.56.36:611][282]LogPlayLevel: 
+[2019.10.28-02.56.36:636][285]LogPlayLevel: ==== Writing new GameApplication.java file to C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Android\APK\src\com\epicgames\ue4\GameApplication.java ====
+[2019.10.28-02.56.36:636][285]LogPlayLevel: 
+[2019.10.28-02.56.36:933][319]LogPlayLevel: Copying new .so C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Binaries\Android\LastResisters-armv7-es2.so file to jni folder...
+[2019.10.28-02.56.36:942][320]LogPlayLevel: Copying libvrapi.so
+[2019.10.28-02.56.36:942][320]LogPlayLevel: 
+[2019.10.28-02.56.36:942][320]LogPlayLevel: File D:/UE_4.23/Engine/Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/ExtLibs/armeabi-v7a/libvrapi.so copied to C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Android/APK/libs/armeabi-v7a/libvrapi.so
+[2019.10.28-02.56.36:959][322]LogPlayLevel: Copying libvrintegrationloader.so
+[2019.10.28-02.56.36:959][322]LogPlayLevel: 
+[2019.10.28-02.56.36:967][323]LogPlayLevel: File D:/UE_4.23/Engine/Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/ExtLibs/armeabi-v7a/libvrintegrationloader.so copied to C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Android/APK/libs/armeabi-v7a/libvrintegrationloader.so
+[2019.10.28-02.56.36:975][324]LogPlayLevel: Copying libOVRPlugin.so
+[2019.10.28-02.56.36:975][324]LogPlayLevel: 
+[2019.10.28-02.56.36:983][325]LogPlayLevel: File D:/UE_4.23/Engine/Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Lib/armeabi-v7a/libOVRPlugin.so copied to C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Android/APK/libs/armeabi-v7a/libOVRPlugin.so
+[2019.10.28-02.56.36:984][325]LogPlayLevel: 
+[2019.10.28-02.56.36:984][325]LogPlayLevel: File D:/UE_4.23/Engine/Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/ExtLibs/VrApi.jar does not exist, not copied!
+[2019.10.28-02.56.36:984][325]LogPlayLevel: 
+[2019.10.28-02.56.36:984][325]LogPlayLevel: File D:/UE_4.23/Engine/Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/ExtLibs/SystemUtils.jar does not exist, not copied!
+[2019.10.28-02.56.36:984][325]LogPlayLevel: 
+[2019.10.28-02.56.38:334][484]LogPlayLevel: ====2019/10/28 11:56:36====PERFORMING FINAL APK PACKAGE OPERATION================================================
+[2019.10.28-02.56.38:335][484]LogPlayLevel: 
+[2019.10.28-02.56.38:335][484]LogPlayLevel: Creating rungradle.bat to work around commandline length limit (using unused drive letter Z:)
+[2019.10.28-02.56.40:716][761]LogPlayLevel: Making .apk with Gradle...
+[2019.10.28-02.56.44:521][207]LogPlayLevel: To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.6/userguide/gradle_daemon.html.
+[2019.10.28-02.56.56:056][340]LogPlayLevel: Daemon will be stopped at the end of the build stopping after processing
+[2019.10.28-02.56.56:056][340]LogPlayLevel: :app:checkDebugClasspath
+[2019.10.28-02.56.56:056][340]LogPlayLevel: :app:preBuild UP-TO-DATE
+[2019.10.28-02.56.56:056][340]LogPlayLevel: :downloader_library:preBuild UP-TO-DATE
+[2019.10.28-02.56.56:056][340]LogPlayLevel: :downloader_library:preDebugBuild UP-TO-DATE
+[2019.10.28-02.56.56:720][342]LogPlayLevel: :downloader_library:checkDebugManifest
+[2019.10.28-02.56.56:720][342]LogPlayLevel: :downloader_library:processDebugManifest
+[2019.10.28-02.56.56:721][342]LogPlayLevel: :permission_library:preBuild UP-TO-DATE
+[2019.10.28-02.56.56:721][342]LogPlayLevel: :permission_library:preDebugBuild UP-TO-DATE
+[2019.10.28-02.56.56:721][342]LogPlayLevel: :permission_library:checkDebugManifest
+[2019.10.28-02.56.56:722][342]LogPlayLevel: :permission_library:processDebugManifest
+[2019.10.28-02.56.56:722][342]LogPlayLevel: :app:preDebugBuild
+[2019.10.28-02.56.56:722][342]LogPlayLevel: :downloader_library:compileDebugAidl NO-SOURCE
+[2019.10.28-02.56.57:059][343]LogPlayLevel: :permission_library:compileDebugAidl NO-SOURCE
+[2019.10.28-02.56.57:059][343]LogPlayLevel: :app:compileDebugAidl
+[2019.10.28-02.56.57:059][343]LogPlayLevel: :downloader_library:packageDebugRenderscript NO-SOURCE
+[2019.10.28-02.56.57:392][344]LogPlayLevel: :permission_library:packageDebugRenderscript NO-SOURCE
+[2019.10.28-02.56.57:393][344]LogPlayLevel: :app:compileDebugRenderscript
+[2019.10.28-02.56.57:393][344]LogPlayLevel: :app:checkDebugManifest
+[2019.10.28-02.56.57:393][344]LogPlayLevel: :app:generateDebugBuildConfig
+[2019.10.28-02.56.57:393][344]LogPlayLevel: :app:prepareLintJar
+[2019.10.28-02.56.57:393][344]LogPlayLevel: :app:mainApkListPersistenceDebug
+[2019.10.28-02.56.57:393][344]LogPlayLevel: :app:generateDebugResValues
+[2019.10.28-02.56.57:393][344]LogPlayLevel: :app:generateDebugResources
+[2019.10.28-02.56.57:393][344]LogPlayLevel: :downloader_library:compileDebugRenderscript
+[2019.10.28-02.56.57:393][344]LogPlayLevel: :downloader_library:generateDebugResValues
+[2019.10.28-02.56.57:730][345]LogPlayLevel: :downloader_library:generateDebugResources
+[2019.10.28-02.56.57:730][345]LogPlayLevel: :downloader_library:packageDebugResources
+[2019.10.28-02.56.57:730][345]LogPlayLevel: :permission_library:compileDebugRenderscript
+[2019.10.28-02.56.57:731][345]LogPlayLevel: :permission_library:generateDebugResValues
+[2019.10.28-02.56.57:731][345]LogPlayLevel: :permission_library:generateDebugResources
+[2019.10.28-02.57.00:432][353]LogPlayLevel: :permission_library:packageDebugResources
+[2019.10.28-02.57.00:432][353]LogPlayLevel: :app:mergeDebugResources
+[2019.10.28-02.57.00:432][353]LogPlayLevel: :app:createDebugCompatibleScreenManifests
+[2019.10.28-02.57.00:433][353]LogPlayLevel: :app:processDebugManifest
+[2019.10.28-02.57.00:767][354]LogPlayLevel: :app:splitsDiscoveryTaskDebug
+[2019.10.28-02.57.01:108][355]LogPlayLevel: :downloader_library:generateDebugRFile
+[2019.10.28-02.57.01:779][357]LogPlayLevel: :permission_library:generateDebugRFile
+[2019.10.28-02.57.01:780][357]LogPlayLevel: :app:processDebugResources
+[2019.10.28-02.57.02:466][358]LogPlayLevel: :app:generateDebugSources
+[2019.10.28-02.57.02:468][358]LogPlayLevel: :downloader_library:generateDebugBuildConfig
+[2019.10.28-02.57.02:468][358]LogPlayLevel: :downloader_library:prepareLintJar
+[2019.10.28-02.57.02:469][358]LogPlayLevel: :downloader_library:generateDebugSources
+[2019.10.28-02.57.03:397][361]LogPlayLevel: :downloader_library:javaPreCompileDebug
+[2019.10.28-02.57.03:397][361]LogPlayLevel: :downloader_library:compileDebugJavaWithJavac
+[2019.10.28-02.57.03:397][361]LogPlayLevel: :downloader_library:processDebugJavaRes NO-SOURCE
+[2019.10.28-02.57.03:729][362]LogPlayLevel: :downloader_library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+[2019.10.28-02.57.03:729][362]LogPlayLevel: :permission_library:generateDebugBuildConfig
+[2019.10.28-02.57.03:729][362]LogPlayLevel: :permission_library:prepareLintJar
+[2019.10.28-02.57.03:730][362]LogPlayLevel: :permission_library:generateDebugSources
+[2019.10.28-02.57.04:072][363]LogPlayLevel: :permission_library:javaPreCompileDebug
+[2019.10.28-02.57.04:072][363]LogPlayLevel: ����:Z:\permission_library\src\main\java\com\google\vr\sdk\samples\permission\PermissionFragment.java�͔񐄏���API��g�p�܂��̓I�[�o�[���C�h���Ă��܂��B
+[2019.10.28-02.57.04:086][363]LogSlate: Took 0.011579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.10.28-02.57.04:087][363]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: '͔ (U+0354)'
+[2019.10.28-02.57.04:106][363]LogSlate: Took 0.010151 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.10.28-02.57.05:112][366]LogPlayLevel: ����:�ڍׂ́A-Xlint:deprecation�I�v�V������w�肵�čăR���p�C�����Ă��������B
+[2019.10.28-02.57.05:123][366]LogSlate: Took 0.010534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2019.10.28-02.57.05:124][366]LogPlayLevel: :permission_library:compileDebugJavaWithJavac
+[2019.10.28-02.57.05:125][366]LogPlayLevel: :permission_library:processDebugJavaRes NO-SOURCE
+[2019.10.28-02.57.05:443][367]LogPlayLevel: :permission_library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+[2019.10.28-02.57.11:168][383]LogPlayLevel: :app:javaPreCompileDebug
+[2019.10.28-02.57.11:168][383]LogPlayLevel: ����:�ꕔ�̓��̓t�@�C���͔񐄏���API��g�p�܂��̓I�[�o�[���C�h���Ă��܂��B
+[2019.10.28-02.57.13:156][389]LogPlayLevel: ����:�ڍׂ́A-Xlint:deprecation�I�v�V������w�肵�čăR���p�C�����Ă��������B
+[2019.10.28-02.57.13:157][389]LogPlayLevel: :app:compileDebugJavaWithJavac
+[2019.10.28-02.57.13:157][389]LogPlayLevel: :app:compileDebugNdk NO-SOURCE
+[2019.10.28-02.57.13:157][389]LogPlayLevel: :app:compileDebugSources
+[2019.10.28-02.57.13:197][389]LogPlayLevel: :app:mergeDebugShaders
+[2019.10.28-02.57.13:197][389]LogPlayLevel: :app:compileDebugShaders
+[2019.10.28-02.57.13:198][389]LogPlayLevel: :app:generateDebugAssets
+[2019.10.28-02.57.13:198][389]LogPlayLevel: :downloader_library:mergeDebugShaders
+[2019.10.28-02.57.13:198][389]LogPlayLevel: :downloader_library:compileDebugShaders
+[2019.10.28-02.57.13:198][389]LogPlayLevel: :downloader_library:generateDebugAssets
+[2019.10.28-02.57.13:199][389]LogPlayLevel: :downloader_library:packageDebugAssets
+[2019.10.28-02.57.13:199][389]LogPlayLevel: :permission_library:mergeDebugShaders
+[2019.10.28-02.57.13:199][389]LogPlayLevel: :permission_library:compileDebugShaders
+[2019.10.28-02.57.13:199][389]LogPlayLevel: :permission_library:generateDebugAssets
+[2019.10.28-02.57.13:202][389]LogPlayLevel: :permission_library:packageDebugAssets
+[2019.10.28-02.57.18:658][405]LogPlayLevel: :app:mergeDebugAssets
+[2019.10.28-02.57.20:024][409]LogPlayLevel: :app:transformClassesWithDexBuilderForDebug
+[2019.10.28-02.57.20:873][452]LogHttp: Warning: 000001CA620D7100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD5E8EC85-4BE4-BC16-ABB9-33AEF50D32F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=4a23ba914c36ea0f1f448695943bdd7a%7Ce8aeb9fbef35480185dcdd6ac37f16be%7Cc8ff6fcd-9daf-4d8d-80ed-47de7cb92fab&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.28-02.57.20:874][452]LogHttp: Warning: 000001CA620D7100: request failed, libcurl error: 0 (No error)
+[2019.10.28-02.57.20:875][452]LogHttp: Warning: 000001CA620D7100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1ca299e3f70 [can pipeline])
+[2019.10.28-02.57.20:875][452]LogHttp: Warning: 000001CA620D7100: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2019.10.28-02.57.20:875][452]LogHttp: Warning: 000001CA620D7100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.236.55.8) port 443 (#1))
+[2019.10.28-02.57.20:875][452]LogHttp: Warning: 000001CA620D7100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.28-02.57.20:875][452]LogHttp: Warning: 000001CA620D7100: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.28-02.57.20:876][452]LogHttp: Warning: 000001CA620D7100: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.28-02.57.20:876][452]LogHttp: Warning: 000001CA620D7100: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.28-02.57.20:876][452]LogHttp: Warning: 000001CA620D7100: libcurl info message cache 7 (Closing connection 1)
+[2019.10.28-02.57.20:876][452]LogHttp: Warning: 000001CA620D7100: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.28-02.57.20:876][452]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD5E8EC85-4BE4-BC16-ABB9-33AEF50D32F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=4a23ba914c36ea0f1f448695943bdd7a%7Ce8aeb9fbef35480185dcdd6ac37f16be%7Cc8ff6fcd-9daf-4d8d-80ed-47de7cb92fab&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.28-02.57.21:060][472]LogPlayLevel: :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+[2019.10.28-02.57.23:446][754]LogPlayLevel: :app:transformDexArchiveWithDexMergerForDebug
+[2019.10.28-02.57.23:446][754]LogPlayLevel: :app:mergeDebugJniLibFolders
+[2019.10.28-02.57.23:454][755]LogPlayLevel: :downloader_library:compileDebugNdk NO-SOURCE
+[2019.10.28-02.57.23:513][761]LogPlayLevel: :downloader_library:mergeDebugJniLibFolders
+[2019.10.28-02.57.23:523][762]LogPlayLevel: :downloader_library:transformNativeLibsWithMergeJniLibsForDebug
+[2019.10.28-02.57.23:540][764]LogPlayLevel: :downloader_library:transformNativeLibsWithStripDebugSymbolForDebug
+[2019.10.28-02.57.23:540][764]LogPlayLevel: :downloader_library:transformNativeLibsWithIntermediateJniLibsForDebug
+[2019.10.28-02.57.23:547][765]LogPlayLevel: :permission_library:compileDebugNdk NO-SOURCE
+[2019.10.28-02.57.23:573][768]LogPlayLevel: :permission_library:mergeDebugJniLibFolders
+[2019.10.28-02.57.23:592][769]LogPlayLevel: :permission_library:transformNativeLibsWithMergeJniLibsForDebug
+[2019.10.28-02.57.23:592][769]LogPlayLevel: :permission_library:transformNativeLibsWithStripDebugSymbolForDebug
+[2019.10.28-02.57.26:607][121]LogPlayLevel: :permission_library:transformNativeLibsWithIntermediateJniLibsForDebug
+[2019.10.28-02.57.28:238][314]LogPlayLevel: :app:transformNativeLibsWithMergeJniLibsForDebug
+[2019.10.28-02.57.28:238][314]LogPlayLevel: :app:transformNativeLibsWithStripDebugSymbolForDebug
+[2019.10.28-02.57.28:239][314]LogPlayLevel: :app:checkDebugLibraries
+[2019.10.28-02.57.29:441][455]LogPlayLevel: :app:processDebugJavaRes NO-SOURCE
+[2019.10.28-02.57.29:459][457]LogPlayLevel: :app:transformResourcesWithMergeJavaResForDebug
+[2019.10.28-02.57.36:517][264]LogPlayLevel: :app:validateSigningDebug
+[2019.10.28-02.57.36:517][264]LogPlayLevel: :app:packageDebug
+[2019.10.28-02.57.39:414][607]LogPlayLevel: :app:assembleDebug
+[2019.10.28-02.57.39:415][607]LogPlayLevel: :app:ue4CompleteDebug
+[2019.10.28-02.57.39:423][608]LogPlayLevel: 
+[2019.10.28-02.57.39:423][608]LogPlayLevel: BUILD SUCCESSFUL in 1m 0s
+[2019.10.28-02.57.39:918][667]LogPlayLevel: 66 actionable tasks: 66 executed
+[2019.10.28-02.57.40:171][695]LogPlayLevel: Writing symbols to C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Binaries/Android\LastResisters_Symbols_v1/LastResisters-armv7-es2\libUE4.so
+[2019.10.28-02.57.40:211][700]LogPlayLevel: Using this aapt: C:/NVPACK/android-sdk-windows\build-tools\28.0.3\aapt.exe
+[2019.10.28-02.57.40:212][700]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.LastResisters
+[2019.10.28-02.57.40:278][708]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell "echo $EXTERNAL_STORAGE"
+[2019.10.28-02.57.40:303][711]LogPlayLevel: Took 0.0648254s to run adb.exe, ExitCode=0
+[2019.10.28-02.57.40:320][713]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.LastResisters
+[2019.10.28-02.57.40:345][716]LogPlayLevel: GetPackageInfo ReturnValue: 1
+[2019.10.28-02.57.40:362][718]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.LastResisters
+[2019.10.28-02.57.40:387][721]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.LastResisters
+[2019.10.28-02.57.40:404][723]LogPlayLevel: GetPackageInfo ReturnValue: 1
+[2019.10.28-02.57.40:404][723]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.LastResisters
+[2019.10.28-02.57.40:888][781]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell pm list packages com.YourCompany.LastResisters
+[2019.10.28-02.57.40:888][781]LogPlayLevel: Took 0.4837028s to run adb.exe, ExitCode=0
+[2019.10.28-02.57.40:955][789]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell cat /sdcard/UE4Game/LastResisters/APKFileStamp.txt
+[2019.10.28-02.57.40:955][789]LogPlayLevel: Took 0.0678182s to run adb.exe, ExitCode=0
+[2019.10.28-02.57.41:446][848]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell am force-stop com.YourCompany.LastResisters
+[2019.10.28-02.57.41:454][849]LogPlayLevel: Took 0.4949265s to run adb.exe, ExitCode=0
+[2019.10.28-02.57.41:762][885]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 uninstall com.YourCompany.LastResisters
+[2019.10.28-02.57.41:762][885]LogPlayLevel:   Success
+[2019.10.28-02.57.41:770][886]LogPlayLevel: Took 0.3142597s to run adb.exe, ExitCode=0
+[2019.10.28-02.57.49:140][759]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 install "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Binaries/Android\LastResisters-armv7-es2.apk"
+[2019.10.28-02.57.49:140][759]LogPlayLevel:   Performing Streamed Install
+[2019.10.28-02.57.49:140][759]LogPlayLevel:   Success
+[2019.10.28-02.57.49:147][760]LogPlayLevel: Took 7.3697458s to run adb.exe, ExitCode=0
+[2019.10.28-02.57.49:599][807]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell pm grant com.YourCompany.LastResisters android.permission.READ_EXTERNAL_STORAGE
+[2019.10.28-02.57.49:600][807]LogPlayLevel: Took 0.4506951s to run adb.exe, ExitCode=0
+[2019.10.28-02.57.50:065][863]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell pm grant com.YourCompany.LastResisters android.permission.WRITE_EXTERNAL_STORAGE
+[2019.10.28-02.57.50:066][863]LogPlayLevel: Took 0.4684833s to run adb.exe, ExitCode=0
+[2019.10.28-02.57.50:082][865]LogPlayLevel: Creating UE4CommandLine.txt
+[2019.10.28-02.57.50:333][895]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell rm -r /sdcard/UE4Game/LastResisters
+[2019.10.28-02.57.50:333][895]LogPlayLevel: Took 0.2531609s to run adb.exe, ExitCode=0
+[2019.10.28-02.58.03:357][453]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 push "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Saved\StagedBuilds\Android_ASTC" "/sdcard/UE4Game/LastResisters"
+[2019.10.28-02.58.03:357][453]LogPlayLevel: C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Saved\StagedBuilds\Android_ASTC\: 1653 files pushed. 9.8 MB/s (133145315 bytes in 12.980s)
+[2019.10.28-02.58.03:424][461]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell rm /sdcard/obb/com.YourCompany.LastResisters/main.1.com.YourCompany.LastResisters.obb
+[2019.10.28-02.58.03:424][461]LogPlayLevel:   rm: /sdcard/obb/com.YourCompany.LastResisters/main.1.com.YourCompany.LastResisters.obb: No such file or directory
+[2019.10.28-02.58.03:424][461]LogPlayLevel: Took 0.0635707s to run adb.exe, ExitCode=1
+[2019.10.28-02.58.03:482][468]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell rm /sdcard/obb/com.YourCompany.LastResisters/patch.1.com.YourCompany.LastResisters.obb
+[2019.10.28-02.58.03:482][468]LogPlayLevel:   rm: /sdcard/obb/com.YourCompany.LastResisters/patch.1.com.YourCompany.LastResisters.obb: No such file or directory
+[2019.10.28-02.58.03:491][469]LogPlayLevel: Took 0.0623783s to run adb.exe, ExitCode=1
+[2019.10.28-02.58.03:549][476]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell "echo 'APK: 2019/10/28 11:57:39' > /sdcard/UE4Game/LastResisters/APKFileStamp.txt"
+[2019.10.28-02.58.03:549][476]LogPlayLevel: Took 0.0588076s to run adb.exe, ExitCode=0
+[2019.10.28-02.58.03:549][476]LogPlayLevel: ********** DEPLOY COMMAND COMPLETED **********
+[2019.10.28-02.58.03:549][476]LogPlayLevel: ********** RUN COMMAND STARTED **********
+[2019.10.28-02.58.03:557][477]LogPlayLevel: Starting Client....
+[2019.10.28-02.58.03:645][487]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323  shell getprop ro.product.cpu.abi
+[2019.10.28-02.58.03:650][487]LogPlayLevel: Took 0.0774091s to run adb.exe, ExitCode=0
+[2019.10.28-02.58.03:679][489]LogPlayLevel: Apk='C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Binaries/Android\LastResisters-armv7-es2.apk', ClientApp='C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Saved\StagedBuilds\Android_ASTC\LastResisters\Binaries\Android\LastResisters', ExeName='C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Binaries\Android\LastResisters'
+[2019.10.28-02.58.03:680][489]LogPlayLevel: GetPackageInfo ReturnValue: com.YourCompany.LastResisters
+[2019.10.28-02.58.03:681][489]LogPlayLevel: Running Package@Device:com.YourCompany.LastResisters@1PASH9B9N99323
+[2019.10.28-02.58.03:767][496]LogPlayLevel: Completed Launch On Stage: Deploy Task, Time: 110.231121
+[2019.10.28-02.58.03:880][508]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 logcat -c
+[2019.10.28-02.58.03:881][508]LogPlayLevel: Took 0.1949867s to run adb.exe, ExitCode=0
+[2019.10.28-02.58.04:358][564]LogPlayLevel: Running: C:\NVPACK\android-sdk-windows\platform-tools\adb.exe -s 1PASH9B9N99323 shell am start -n com.YourCompany.LastResisters/com.epicgames.ue4.GameActivity
+[2019.10.28-02.58.04:432][573]LogPlayLevel:   Starting: Intent { cmp=com.YourCompany.LastResisters/com.epicgames.ue4.GameActivity }
+[2019.10.28-02.58.08:291][ 29]LogTcpMessaging: Discovered node '0042E3B608D75B9E18E29644E6F33CE9' on connection '127.0.0.1:6666'...
+[2019.10.28-02.58.12:839][569]LogTcpMessaging: Discovered node '0064AF5B08D75B9E1BEDA518E74124A6' on connection '127.0.0.1:6666'...
+[2019.10.28-02.58.19:206][250]LogPlayLevel: Completed Launch On Stage: Run Task, Time: 14.552315
+[2019.10.28-02.58.27:200][194]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
+[2019.10.28-02.58.27:200][194]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
+[2019.10.28-02.58.27:203][194]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
+[2019.10.28-02.58.27:203][194]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
+[2019.10.28-02.58.27:203][194]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
+[2019.10.28-02.58.27:204][194]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
+[2019.10.28-02.58.27:204][194]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
+[2019.10.28-02.58.27:204][194]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
+[2019.10.28-02.58.27:214][194]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
+[2019.10.28-02.58.27:214][194]LoadErrors: Failed to load /Game/VirtualRealityBP/Maps/UITestMap_BuiltData.UITestMap_BuiltData Referenced by PersistentLevel
+[2019.10.28-02.58.27:214][194]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap' failed to load '/Game/VirtualRealityBP/Maps/UITestMap_BuiltData': Can't find file.
+[2019.10.28-02.58.27:384][194]LogTexture: Display: Building textures: T_Tech_Hex_Tile_M (AutoDXT, 1024X1024)
+[2019.10.28-02.58.27:409][194]LogAIModule: Creating AISystem for world UITestMap
+[2019.10.28-02.58.27:420][194]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/UITestMap.UITestMap
+[2019.10.28-02.58.27:445][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2019.10.28-02.58.27:446][194]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.28-02.58.27:446][194]LightingResults: New page: Lighting Build
+[2019.10.28-02.58.27:447][194]LoadErrors: New page: Loading map: UITestMap.umap
+[2019.10.28-02.58.27:447][194]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-02.58.27:448][194]MapCheck: New page: Map Check
+[2019.10.28-02.58.27:448][194]LightingResults: New page: Lighting Build
+[2019.10.28-02.58.27:471][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.10.28-02.58.27:494][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.10.28-02.58.27:519][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.10.28-02.58.27:542][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.10.28-02.58.27:553][194]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.28-02.58.27:588][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.10.28-02.58.27:643][194]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.28-02.58.27:645][194]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.326ms to complete.
+[2019.10.28-02.58.27:646][194]LogFileHelpers: Loading map 'UITestMap' took 0.200
+[2019.10.28-02.58.32:593][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-02.58.32:797][772]LogAIModule: Creating AISystem for world PlayerMoveTestMap
+[2019.10.28-02.58.32:805][772]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/PlayerMoveTestMap.PlayerMoveTestMap
+[2019.10.28-02.58.32:828][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.10.28-02.58.32:829][772]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.28-02.58.32:830][772]LightingResults: New page: Lighting Build
+[2019.10.28-02.58.32:830][772]LoadErrors: New page: Loading map: PlayerMoveTestMap.umap
+[2019.10.28-02.58.32:831][772]LogWorld: UWorld::CleanupWorld for UITestMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-02.58.32:831][772]MapCheck: New page: Map Check
+[2019.10.28-02.58.32:832][772]LightingResults: New page: Lighting Build
+[2019.10.28-02.58.32:856][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.10.28-02.58.32:865][772]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.28-02.58.32:892][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.10.28-02.58.32:924][772]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.28-02.58.32:924][772]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.175ms to complete.
+[2019.10.28-02.58.32:924][772]LogFileHelpers: Loading map 'PlayerMoveTestMap' took 0.095
+[2019.10.28-02.58.34:231][907]LogAIModule: Creating AISystem for world MotionControllerMap
+[2019.10.28-02.58.34:237][907]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2019.10.28-02.58.34:258][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.10.28-02.58.34:259][907]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.28-02.58.34:259][907]LightingResults: New page: Lighting Build
+[2019.10.28-02.58.34:259][907]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2019.10.28-02.58.34:260][907]LogWorld: UWorld::CleanupWorld for PlayerMoveTestMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-02.58.34:260][907]MapCheck: New page: Map Check
+[2019.10.28-02.58.34:260][907]LightingResults: New page: Lighting Build
+[2019.10.28-02.58.34:282][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.10.28-02.58.34:288][907]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.28-02.58.34:312][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2019.10.28-02.58.34:334][907]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.28-02.58.34:335][907]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.13ms to complete.
+[2019.10.28-02.58.34:335][907]LogFileHelpers: Loading map 'MotionControllerMap' took 0.077
+[2019.10.28-02.58.35:597][ 48]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
+[2019.10.28-02.58.35:598][ 48]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
+[2019.10.28-02.58.35:600][ 48]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
+[2019.10.28-02.58.35:601][ 48]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
+[2019.10.28-02.58.35:602][ 48]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
+[2019.10.28-02.58.35:602][ 48]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
+[2019.10.28-02.58.35:602][ 48]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
+[2019.10.28-02.58.35:603][ 48]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
+[2019.10.28-02.58.35:609][ 48]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
+[2019.10.28-02.58.35:609][ 48]LoadErrors: Failed to load /Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData.HMDLocomotionMap_BuiltData Referenced by PersistentLevel
+[2019.10.28-02.58.35:609][ 48]LogLinker: Warning: While loading 'C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap' failed to load '/Game/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData': Can't find file.
+[2019.10.28-02.58.35:631][ 48]LogAIModule: Creating AISystem for world HMDLocomotionMap
+[2019.10.28-02.58.35:638][ 48]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap
+[2019.10.28-02.58.35:661][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.10.28-02.58.35:662][ 48]Cmd: MAP LOAD FILE="C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.28-02.58.35:662][ 48]LightingResults: New page: Lighting Build
+[2019.10.28-02.58.35:662][ 48]LoadErrors: New page: Loading map: HMDLocomotionMap.umap
+[2019.10.28-02.58.35:663][ 48]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-02.58.35:664][ 48]MapCheck: New page: Map Check
+[2019.10.28-02.58.35:664][ 48]LightingResults: New page: Lighting Build
+[2019.10.28-02.58.35:684][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2019.10.28-02.58.35:688][ 48]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.28-02.58.35:713][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.10.28-02.58.35:734][ 48]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.28-02.58.35:734][ 48]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.138ms to complete.
+[2019.10.28-02.58.35:735][ 48]LogFileHelpers: Loading map 'HMDLocomotionMap' took 0.073
+[2019.10.28-02.58.51:470][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.10.28-02.58.51:530][916]LogSlate: Window 'LastResisters - Unreal Editor' being destroyed
+[2019.10.28-02.58.51:636][917]Cmd: QUIT_EDITOR
+[2019.10.28-02.58.51:663][917]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2019.10.28-02.58.51:672][917]LogExit: Preparing to exit.
+[2019.10.28-02.58.53:164][917]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-02.58.53:183][917]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-02.58.53:183][917]LogExit: Editor shut down
+[2019.10.28-02.58.53:184][917]LogExit: Transaction tracking system shut down
+[2019.10.28-02.58.53:185][917]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.10.28-02.58.53:383][917]LogExit: Object subsystem successfully closed.
+[2019.10.28-02.58.53:405][917]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module BlueprintCompilerCppBackend (678)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module LauncherServices (674)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (672)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (670)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module SceneOutliner (668)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module AddContentDialog (666)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module WidgetCarousel (665)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module EditorWidgets (662)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module CollectionManager (660)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module StatsViewer (658)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (656)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module FoliageEdit (654)
+[2019.10.28-02.58.53:415][917]LogModuleManager: Shutting down and abandoning module LandscapeEditor (652)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module MeshPaintMode (650)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (648)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module ActorPickerMode (646)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module GeometryMode (644)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module TextureAlignMode (642)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module BspMode (640)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (638)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (636)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module AutomationWorker (634)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module OculusMR (632)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (630)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (628)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (626)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module PlacementMode (625)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module MaterialEditor (624)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (620)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (618)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (616)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (614)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (612)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module WebMMedia (610)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (608)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (606)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module SequenceRecorder (605)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (602)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (600)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (598)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (596)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (594)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (592)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (590)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (588)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (586)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (584)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (582)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module CharacterAI (580)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module SmartSnapping (578)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module SessionServices (576)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module MeshPaint (574)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module ViewportSnapping (572)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module ViewportInteraction (570)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module ClothPainter (568)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (567)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module LogVisualizer (564)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module IntroTutorials (562)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (561)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (558)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (556)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (554)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (552)
+[2019.10.28-02.58.53:416][917]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (551)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (548)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (546)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (544)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (542)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (540)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module InputBindingEditor (538)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module MergeActors (536)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (534)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module LocalizationService (533)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module HardwareTargeting (530)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (528)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module UndoHistory (526)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module XmlParser (524)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module Blutility (522)
+[2019.10.28-02.58.54:692][917]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (520)
+[2019.10.28-02.58.54:693][917]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (519)
+[2019.10.28-02.58.54:693][917]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (516)
+[2019.10.28-02.58.54:693][917]LogModuleManager: Shutting down and abandoning module SettingsEditor (514)
+[2019.10.28-02.58.54:693][917]LogModuleManager: Shutting down and abandoning module ProjectLauncher (512)
+[2019.10.28-02.58.54:693][917]LogModuleManager: Shutting down and abandoning module SessionFrontend (510)
+[2019.10.28-02.58.54:693][917]LogModuleManager: Shutting down and abandoning module ProfilerClient (508)
+[2019.10.28-02.58.54:693][917]LogModuleManager: Shutting down and abandoning module DeviceManager (506)
+[2019.10.28-02.58.54:693][917]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (505)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module AutomationController (502)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module AutomationWindow (500)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module Layers (498)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (496)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module DetailCustomizations (494)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module PackagesDialog (492)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (490)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module Persona (488)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (487)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module AnimGraph (485)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module Kismet (482)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module KismetWidgets (481)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module GraphEditor (478)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module StructViewer (476)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module ClassViewer (474)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module Toolbox (472)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module DesktopPlatform (471)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
+[2019.10.28-02.58.54:748][917]LogModuleManager: Shutting down and abandoning module OutputLog (464)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module GammaUI (462)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module Documentation (460)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module MovieScene (452)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module AIModule (438)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
+[2019.10.28-02.58.54:749][917]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (430)
+[2019.10.28-02.58.54:753][917]LogModuleManager: Shutting down and abandoning module ProfilerService (428)
+[2019.10.28-02.58.54:882][917]LogModuleManager: Shutting down and abandoning module TaskGraph (426)
+[2019.10.28-02.58.54:882][917]LogModuleManager: Shutting down and abandoning module ScreenshotTools (424)
+[2019.10.28-02.58.54:882][917]LogModuleManager: Shutting down and abandoning module SteamVRController (422)
+[2019.10.28-02.58.54:882][917]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (420)
+[2019.10.28-02.58.54:882][917]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (418)
+[2019.10.28-02.58.54:882][917]LogModuleManager: Shutting down and abandoning module OculusEditor (416)
+[2019.10.28-02.58.54:882][917]LogModuleManager: Shutting down and abandoning module OculusInput (414)
+[2019.10.28-02.58.54:882][917]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (412)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module EditableMesh (410)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (408)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module CableComponent (406)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module AudioCapture (404)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (402)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (400)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module AppleImageUtils (398)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module AndroidPermission (396)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (394)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (392)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module MediaCompositing (390)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module ImgMedia (388)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (386)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (384)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (382)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module HTML5Networking (380)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (378)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (376)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module BackChannel (374)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (372)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module AutomationUtils (370)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module AlembicImporter (368)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module AlembicLibrary (367)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module GeometryCache (366)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (365)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module VariantManagerContent (360)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (358)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (356)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module PluginBrowser (354)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (352)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (350)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module CurveEditorTools (348)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module CurveEditor (347)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (344)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module CryptoKeys (342)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (340)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (338)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module UObjectPlugin (336)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (334)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (332)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module GitSourceControl (330)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module SourceControl (329)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (326)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (324)
+[2019.10.28-02.58.54:883][917]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (322)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (320)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (318)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (316)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (314)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module Paper2DEditor (312)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module LastResisters (310)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2019.10.28-02.58.54:884][917]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2019.10.28-02.58.54:985][917]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2019.10.28-02.58.55:086][917]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.10.28-02.58.55:086][917]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.10.28-02.58.55:087][917]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.10.28-02.58.55:087][917]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.10.28-02.58.55:087][917]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.10.28-02.58.55:087][917]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.10.28-02.58.55:087][917]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.10.28-02.58.55:088][917]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.10.28-02.58.55:088][917]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2019.10.28-02.58.55:088][917]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.10.28-02.58.55:088][917]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.10.28-02.58.55:088][917]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2019.10.28-02.58.55:089][917]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2019.10.28-02.58.55:090][917]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.10.28-02.58.55:190][917]LogDerivedDataCache: Shutdown
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.10.28-02.58.55:190][917]LogXGEController: Cleaning working directory: C:/Users/s172078/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.10.28-02.58.55:190][917]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.10.28-02.58.55:191][917]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.10.28-02.58.55:191][917]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.10.28-02.58.55:191][917]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.10.28-02.58.55:191][917]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.10.28-02.58.55:191][917]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.10.28-02.58.55:191][917]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.10.28-02.58.55:191][917]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.10.28-02.58.55:192][917]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.10.28-02.58.55:192][917]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.10.28-02.58.55:192][917]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.10.28-02.58.55:192][917]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.10.28-02.58.55:192][917]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.10.28-02.58.55:192][917]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.10.28-02.58.55:192][917]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.10.28-02.58.55:193][917]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.10.28-02.58.55:193][917]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.10.28-02.58.55:198][917]LogHMD: Freeing OpenVRDLLHandle.
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.10.28-02.58.55:198][917]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.10.28-02.58.55:199][917]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.10.28-02.58.55:199][917]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.10.28-02.58.55:219][917]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.10.28-02.58.55:219][917]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.10.28-02.58.55:219][917]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD5E8EC85-4BE4-BC16-ABB9-33AEF50D32F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=4a23ba914c36ea0f1f448695943bdd7a%7Ce8aeb9fbef35480185dcdd6ac37f16be%7Cc8ff6fcd-9daf-4d8d-80ed-47de7cb92fab&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.10.28-02.58.55:230][917]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.10.28-02.58.55:231][917]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.10.28-02.58.55:235][917]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.10.28-02.58.55:236][917]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.10.28-02.58.55:236][917]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.10.28-02.58.55:236][917]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.10.28-02.58.55:236][917]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.10.28-02.58.55:236][917]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.10.28-02.58.55:236][917]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.10.28-02.58.55:236][917]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.10.28-02.58.55:237][917]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.10.28-02.58.55:237][917]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.10.28-02.58.55:237][917]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.10.28-02.58.55:237][917]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.10.28-02.58.55:237][917]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.10.28-02.58.55:238][917]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.10.28-02.58.55:238][917]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.10.28-02.58.55:238][917]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.10.28-02.58.55:238][917]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.10.28-02.58.55:238][917]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.10.28-02.58.55:239][917]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.10.28-02.58.55:239][917]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.10.28-02.58.55:239][917]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.10.28-02.58.55:239][917]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.10.28-02.58.55:239][917]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.10.28-02.58.55:239][917]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.10.28-02.58.55:239][917]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.10.28-02.58.55:239][917]LogD3D11RHI: Shutdown
+[2019.10.28-02.58.55:239][917]LogD3D11RHI: CleanupD3DDevice
+[2019.10.28-02.58.55:239][917]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.28-02.58.55:239][917]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.28-02.58.55:239][917]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.28-02.58.55:312][917]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.28-02.58.55:321][917]LogExit: Exiting.
+[2019.10.28-02.58.55:341][917]Log file closed, 10/28/19 11:58:55
+>>>>>>> feature/Goto_Develop

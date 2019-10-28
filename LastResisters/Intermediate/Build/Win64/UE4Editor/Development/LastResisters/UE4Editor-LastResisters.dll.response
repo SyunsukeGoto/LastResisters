@@ -32,12 +32,37 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
+<<<<<<< HEAD
 "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h.obj"
 "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\LastResisters.cpp.obj"
 "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\PlayerUI.cpp.obj"
 "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\LastResisters.init.gen.cpp.obj"
 "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\PlayerUI.gen.cpp.obj"
 "C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Default.rc2.res"
+=======
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_FindPatrolLocation.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_IncrementPathIndex.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_Init.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_MoveTo.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_StateManagement.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_AIController.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_Character.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_PatrolTargetPoint.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\LastResisters.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\PlayerUI.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_AIController.gen.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_Character.gen.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_PatrolTargetPoint.gen.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_FindPatrolLocation.gen.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_IncrementPathIndex.gen.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_Init.gen.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_MoveTo.gen.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_StateManagement.gen.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\LastResisters.init.gen.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\PlayerUI.gen.cpp.obj"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Default.rc2.res"
+>>>>>>> feature/Goto_Develop
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -69,8 +94,16 @@
 "D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
 "D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
 "D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+<<<<<<< HEAD
 /OUT:"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Binaries\Win64\UE4Editor-LastResisters.dll"
 /IMPLIB:"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters.suppressed.lib"
 /PDB:"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\LastResisters\Binaries\Win64\UE4Editor-LastResisters.pdb"
+=======
+"D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Development\AIModule\UE4Editor-AIModule.lib"
+"D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Development\GameplayTasks\UE4Editor-GameplayTasks.lib"
+/OUT:"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Binaries\Win64\UE4Editor-LastResisters.dll"
+/IMPLIB:"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\UE4Editor-LastResisters.suppressed.lib"
+/PDB:"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Binaries\Win64\UE4Editor-LastResisters.pdb"
+>>>>>>> feature/Goto_Develop
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_LastResisters

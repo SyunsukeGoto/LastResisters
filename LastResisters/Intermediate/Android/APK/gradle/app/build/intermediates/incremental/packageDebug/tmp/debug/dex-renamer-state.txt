@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Fri Oct 25 20:20:10 JST 2019
+=======
+#Mon Oct 28 11:57:35 JST 2019
+>>>>>>> feature/Goto_Develop
 base.0=Z\:\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

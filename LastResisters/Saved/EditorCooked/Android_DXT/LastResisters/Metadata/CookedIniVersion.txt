@@ -146,6 +146,10 @@ Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:EnableTunnel:0=False
 Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:TunnelUnicastEndpoint:0=
 Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:TunnelMulticastEndpoint:0=
 Windows.Engine:/Script/LuminPlatformEditor.MagicLeapSDKSettings:MLSDKPath:0=(Path="")
+<<<<<<< HEAD
+=======
+Windows.Engine:/Script/LuminPlatformEditor.MagicLeapSDKSettings:None:0=======
+>>>>>>> feature/Goto_Develop
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:SDKPath:0=(Path="C/NVPACK/android-sdk-windows")
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:NDKPath:0=(Path="C/NVPACK/android-ndk-r14b")
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:ANTPath:0=(Path="C/NVPACK/apache-ant-1.8.2")
@@ -153,6 +157,10 @@ Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:JavaPath:0=(Path
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:SDKAPILevel:0=latest
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:NDKAPILevel:0=android-19
 Windows.Engine:/Script/UnrealEd.EditorEngine:FlipNormalMapGreenChannel:0=False
+<<<<<<< HEAD
+=======
+Windows.Engine:/Script/UnrealEd.EditorEngine:None:0=======
+>>>>>>> feature/Goto_Develop
 Windows.Engine:/Script/UnrealEd.EditorEngine:LocalPlayerClassName:0=/Script/Engine.LocalPlayer
 Windows.Engine:/Script/UnrealEd.EditorEngine:GameCommandLine:0=-log
 Windows.Engine:/Script/UnrealEd.EditorEngine:FOVAngle:0=90.000000

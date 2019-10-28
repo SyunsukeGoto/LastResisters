@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/PlayerUI.gen.cppa7.o: \
   C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters/PlayerUI.gen.cpp \
   C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/LastResisters/Intermediate/Build/Android/LastResisters/Development/Slate/SharedPCH.Slate.h \
@@ -6,6 +7,16 @@ C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/LastResisters/Inte
   D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/MetaData.h \
   D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/TextProperty.h \
   C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/LastResisters/Source\LastResisters/PlayerUI.h \
+=======
+C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/PlayerUI.gen.cppa7.o: \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters/PlayerUI.gen.cpp \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/LastResisters/Development/Slate/SharedPCH.Slate.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/Definitions.LastResisters.h \
+  D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/GeneratedCppIncludes.h \
+  D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/MetaData.h \
+  D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/TextProperty.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source\LastResisters/PlayerUI.h \
+>>>>>>> feature/Goto_Develop
   D:/UE_4.23/Engine/Source/Runtime/UMG/Public\Blueprint/UserWidget.h \
   D:/UE_4.23/Engine/Source/Runtime/UMG/Public\Components/SlateWrapperTypes.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/UMG\SlateWrapperTypes.generated.h \
@@ -348,4 +359,8 @@ C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/LastResisters/Inte
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\MaterialInstanceBasePropertyOverrides.generated.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\MaterialInstance.generated.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\MaterialInstanceDynamic.generated.h \
+<<<<<<< HEAD
   C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\PlayerUI.generated.h
+=======
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\PlayerUI.generated.h
+>>>>>>> feature/Goto_Develop
