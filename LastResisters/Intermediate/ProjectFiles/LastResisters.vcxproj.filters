@@ -3,11 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LastResisters.uproject" />
     <Filter Include="Source">
-<<<<<<< HEAD
-      <UniqueIdentifier>{841853C1-66CE-4F9A-893C-A7D87A1497C0}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{0224D888-E3EF-4782-82D3-9D27BEB50688}</UniqueIdentifier>
->>>>>>> feature/AI_TheMovement
+      <UniqueIdentifier>{12205810-573B-4C58-9B0B-A1F19860D0B7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LastResisters.Target.cs">
       <Filter>Source</Filter>
@@ -16,11 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-<<<<<<< HEAD
-      <UniqueIdentifier>{88AD4EFD-79E6-4AB7-9E55-480C859EBD2F}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{232B6112-5309-4A66-B3EF-1F26BBD57C3F}</UniqueIdentifier>
->>>>>>> feature/AI_TheMovement
+      <UniqueIdentifier>{7BEBEF20-4D1F-4A99-A27E-DC22CD4ECD5E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -41,11 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LastResisters">
-<<<<<<< HEAD
-      <UniqueIdentifier>{15BD9499-5647-4325-BABB-E21DD00DE996}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{88C8C730-EF21-4841-9D68-AEDD8F0313A5}</UniqueIdentifier>
->>>>>>> feature/AI_TheMovement
+      <UniqueIdentifier>{C293DEAF-F050-4AF1-B645-0FDD5F7A9E16}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LastResisters\LastResisters.Build.cs">
       <Filter>Source\LastResisters</Filter>
@@ -56,25 +44,17 @@
     <ClInclude Include="..\..\Source\LastResisters\LastResisters.h">
       <Filter>Source\LastResisters</Filter>
     </ClInclude>
-<<<<<<< HEAD
     <ClCompile Include="..\..\Source\LastResisters\PlayerUI.cpp">
       <Filter>Source\LastResisters</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\LastResisters\PlayerUI.h">
       <Filter>Source\LastResisters</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\LastResisters\SpecialGaugeParameters.cpp">
-      <Filter>Source\LastResisters</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\LastResisters\SpecialGaugeParameters.h">
-      <Filter>Source\LastResisters</Filter>
-    </ClInclude>
-=======
     <Filter Include="Source\LastResisters\AI">
-      <UniqueIdentifier>{0D36BFAA-21D7-4F25-AFAD-7B077114BA02}</UniqueIdentifier>
+      <UniqueIdentifier>{E0513A22-8E55-4961-8DAD-B6BCF12C7194}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\LastResisters\AI\AI1">
-      <UniqueIdentifier>{04796E6E-DC38-478C-8957-8AAC3B3E76D3}</UniqueIdentifier>
+      <UniqueIdentifier>{7AA839EF-3489-41C9-9EE3-37CF69297498}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_AIController.cpp">
       <Filter>Source\LastResisters\AI\AI1</Filter>
@@ -95,7 +75,7 @@
       <Filter>Source\LastResisters\AI\AI1</Filter>
     </ClInclude>
     <Filter Include="Source\LastResisters\AI\AI1\AI1_TaskNodes">
-      <UniqueIdentifier>{3C2B9E38-D7C6-4B65-8AD3-BBB7C328D76B}</UniqueIdentifier>
+      <UniqueIdentifier>{F7AB5888-7EC0-429D-9C43-62FF706C4A6A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_FindPatrolLocation.cpp">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
@@ -127,16 +107,5 @@
     <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_StateManagement.h">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_CombatManagement.h">
-      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_CombatManagement.cpp">
-      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
-    </ClCompile>
->>>>>>> feature/AI_TheMovement
   </ItemGroup>
 </Project>
