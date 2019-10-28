@@ -24,6 +24,17 @@ Windows.Engine:AssetRegistry:CookedTagsAsPathName:0=GeneratedClass
 Windows.Engine:AssetRegistry:CookedTagsAsPathName:1=ParentClass
 Windows.Engine:AssetRegistry:CookedTagsAsLocText:0=DisplayName
 Windows.Engine:AssetRegistry:bSerializeSearchableNameDependencies:0=false
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/VirtualRealityBP/Maps/StartupMap.StartupMap
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:TransitionMap:0=
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:bUseSplitscreen:0=True
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:TwoPlayerSplitscreenLayout:0=Horizontal
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:ThreePlayerSplitscreenLayout:0=FavorTop
 Windows.Engine:Core.System:CutdownPaths:0=%GAMEDIR%CutdownPackages
 Windows.Engine:Core.System:ZeroEngineVersionWarning:0=True
 Windows.Engine:Core.System:UseStrictEngineVersioning:0=True
@@ -164,17 +175,6 @@ Windows.Engine:/Script/UnrealEd.EditorEngine:bSmoothFrameRate:0=false
 Windows.Engine:/Script/UnrealEd.EditorEngine:SmoothedFrameRateRange:0=(LowerBound=(Type="ERangeBoundTypesInclusive",Value=5),UpperBound=(Type="ERangeBoundTypesInclusive",Value=120))
 Windows.Engine:/Script/UnrealEd.EditorEngine:UseOldStyleMICEditorGroups:0=true
 Windows.Engine:/Script/UnrealEd.EditorEngine:InEditorGameURLOptions:0=
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/VirtualRealityBP/Maps/StartupMap.StartupMap
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:TransitionMap:0=
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:bUseSplitscreen:0=True
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:TwoPlayerSplitscreenLayout:0=Horizontal
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:ThreePlayerSplitscreenLayout:0=FavorTop
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Windows.Engine:InstallBundleManager:ModuleName:0=NullInstallBundleManager
 Windows.Engine:URL:Protocol:0=unreal
 Windows.Engine:URL:Name:0=Player
@@ -2135,7 +2135,7 @@ Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningInterval:0=30.0
 Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")))
 Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")))
 Windows.Game:Staging:RemapDirectories:0=(From="Engine/Plugins/Lumin", To="Engine/Plugins/MagicLeap")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=False
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")

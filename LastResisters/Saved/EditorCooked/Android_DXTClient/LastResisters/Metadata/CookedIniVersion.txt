@@ -2111,7 +2111,7 @@ Windows.Input:/Script/OpenXRInput.XRInputSettings:ValveIndexBindings:16=(Path="/
 Windows.Input:/Script/OpenXRInput.XRInputSettings:ValveIndexBindings:17=(Path="/user/hand/right/input/a/click",Key=MotionController_Right_FaceButton1)
 Windows.Input:/Script/OpenXRInput.XRInputSettings:ValveIndexBindings:18=(Path="/user/hand/left/input/b/click",Key=MotionController_Left_FaceButton2)
 Windows.Input:/Script/OpenXRInput.XRInputSettings:ValveIndexBindings:19=(Path="/user/hand/right/input/b/click",Key=MotionController_Right_FaceButton2)
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=False
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
