@@ -1,0 +1,14 @@
+Engine/GlobalShaderCache-GLSL_ES3_1_ANDROID.bin
+LastResisters/AssetRegistry.bin
+LastResisters/Content/Game/Weapons/BP/BP_Weapons.uasset
+LastResisters/Content/Game/Weapons/BP/BP_Weapons.uexp
+LastResisters/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset
+LastResisters/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uexp
+LastResisters/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset
+LastResisters/Content/VirtualRealityBP/Blueprints/BP_MotionController.uexp
+LastResisters/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+LastResisters/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uexp
+LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.uexp
+LastResisters/Content/VirtualRealityBP/Maps/PlayerMoveTestMap.umap
+Manifest_NonUFSFiles_Android.txt
+Manifest_UFSFiles_Android.txt
