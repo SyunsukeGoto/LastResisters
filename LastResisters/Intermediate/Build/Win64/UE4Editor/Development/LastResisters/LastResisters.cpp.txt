@@ -1,0 +1,2 @@
+C:\TRIDENT_GIT\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h
+c:\trident_git\lastresisters\source\lastresisters\LastResisters.h

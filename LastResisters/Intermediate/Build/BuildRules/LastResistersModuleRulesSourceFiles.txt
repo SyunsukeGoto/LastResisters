@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 D:\GitHub\LastResisters\LastResisters\Source\LastResisters\LastResisters.Build.cs
 D:\GitHub\LastResisters\LastResisters\Source\LastResisters.Target.cs
 D:\GitHub\LastResisters\LastResisters\Source\LastResistersEditor.Target.cs
+=======
+C:\TRIDENT_GIT\LastResisters\Source\LastResisters\LastResisters.Build.cs
+C:\TRIDENT_GIT\LastResisters\Source\LastResisters.Target.cs
+C:\TRIDENT_GIT\LastResisters\Source\LastResistersEditor.Target.cs
+>>>>>>> 8b7ef5735dcf6675a598e99f02a2f8497aa91231
