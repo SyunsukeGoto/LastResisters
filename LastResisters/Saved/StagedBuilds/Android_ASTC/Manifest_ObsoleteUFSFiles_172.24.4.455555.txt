@@ -1,1 +1,8 @@
+Engine/Content/EditorResources/BadBlueprintSprite.uasset
+Engine/Content/EditorResources/BadBlueprintSprite.ubulk
+Engine/Content/EditorResources/BadBlueprintSprite.uexp
+Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset
+Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uexp
+Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset
+Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uexp
 LastResisters/Saved/Logs/LastResisters-backup-0001.01.01-00.00.00.log
