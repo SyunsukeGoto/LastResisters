@@ -34,6 +34,7 @@ EBTNodeResult::Type UAI1_TaskNodes_StateManagement::ExecuteTask(UBehaviorTreeCom
 			FVector targetLocation = m_bbComp->GetValueAsVector("targetLocation");
 			FVector myPosition = aiCon_->GetPawn()->GetActorLocation();
 			FFloat16 dist_ = FVector::Dist(targetLocation, myPosition);
+			UE_LOG(LogTemp, Warning, TEXT("Setting Index: %s"), *FString::FromInt(dist_));
 
 			if (dist_ <= m_combatRange)
 			{ // If within range of target			
@@ -95,16 +96,4 @@ EBTNodeResult::Type UAI1_TaskNodes_StateManagement::ExecuteTask(UBehaviorTreeCom
 void UAI1_TaskNodes_StateManagement::ChangeState(int _state)
 {
 	m_bbComp->SetValueAsEnum("currState", _state);
-
-	switch (_state)
-	{
-		case 3:
-		{ // If changing currState to combat
-			// Set stance to ready
-			m_bbComp->SetValueAsEnum("currStance", 0);
-		} break;
-		default:
-		{
-		} break;
-	}
 }

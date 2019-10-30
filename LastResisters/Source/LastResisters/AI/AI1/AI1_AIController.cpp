@@ -33,39 +33,8 @@ void AAI1_AIController::OnPossess(APawn * _pawn)
 			m_blackboardComp->InitializeBlackboard(*(aiChar_->m_behaviorTree->BlackboardAsset));
 		}
 
-		FName a = FName("MyAI1_Character2", 17);
-		
 		// Populate array with patrol target points
-		//UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), AAI1_PatrolTargetPoint::StaticClass(), a, m_patrolPoints);
 		UGameplayStatics::GetAllActorsOfClass(GetWorld(), AAI1_PatrolTargetPoint::StaticClass(), m_patrolPoints);
-
-		if (m_patrolPoints.Num() == 0)
-		{ // Prevent crashes, if there are no patrol points, the AI will be stationed at its spawned location
-			m_patrolPoints.Add(
-				// Spawn and add to patrol points
-				GetWorld()->SpawnActor<AAI1_PatrolTargetPoint>(
-					AAI1_PatrolTargetPoint::StaticClass(), aiChar_->GetActorLocation(), FRotator(0, 0, 0), FActorSpawnParameters()
-					)
-			);
-			m_patrolPoints.Add(
-				// Spawn and add to patrol points
-				GetWorld()->SpawnActor<AAI1_PatrolTargetPoint>(
-					AAI1_PatrolTargetPoint::StaticClass(), aiChar_->GetActorLocation(), FRotator(0, 0, 0), FActorSpawnParameters()
-					)
-			);
-		}
-		else
-		{
-			for (int i = 0; i < m_patrolPoints.Num(); i++)
-			{
-				FString temp = m_patrolPoints[i]->GetName();
-				if (!temp.Contains(aiChar_->GetName()))
-				{ // If the patrol point does not belong to the AI
-					m_patrolPoints.RemoveAt(i, 1, true);
-					i--;
-				}
-			}
-		}
 
 		//Start the behavior tree which corresponds to the specific character
 		m_behaviorComp->StartTree(*aiChar_->m_behaviorTree);
