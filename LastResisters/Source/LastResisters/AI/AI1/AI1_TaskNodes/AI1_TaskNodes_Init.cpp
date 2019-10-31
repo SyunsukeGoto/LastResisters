@@ -15,7 +15,7 @@ EBTNodeResult::Type UAI1_TaskNodes_Init::ExecuteTask(UBehaviorTreeComponent & Ow
 	bbComp_->SetValueAsInt("patrolPathIndex", 0);
 
 	// Init such that the AI can't see the player
-	bbComp_->SetValueAsInt("canSeePlayer", false);
+	bbComp_->SetValueAsBool("canSeePlayer", false);
 
 	
 	return EBTNodeResult::Succeeded;
