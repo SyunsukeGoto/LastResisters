@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LastResisters.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9B3C23B8-C5BD-46EF-8582-C746A0F08C02}</UniqueIdentifier>
+      <UniqueIdentifier>{D2A8BD3C-ADDD-4DA0-9E1D-D5D110E45296}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LastResisters.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,14 @@
     <None Include="..\..\Source\LastResistersEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{028824A3-7045-445F-B6F0-C8BE1BA723A3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\LastResisters">
-      <UniqueIdentifier>{22576241-A23F-421F-8163-2E64F0790B91}</UniqueIdentifier>
+      <UniqueIdentifier>{0D1F51DE-680F-4B86-AD98-D71F340CE5FD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LastResisters\LastResisters.Build.cs">
       <Filter>Source\LastResisters</Filter>
@@ -24,10 +30,10 @@
       <Filter>Source\LastResisters</Filter>
     </ClInclude>
     <Filter Include="Source\LastResisters\AI">
-      <UniqueIdentifier>{A89FC849-B8D6-4D29-86EC-B058D6B2A195}</UniqueIdentifier>
+      <UniqueIdentifier>{06CD0342-2C35-41DC-8DE1-79726C1BF65E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\LastResisters\AI\AI1">
-      <UniqueIdentifier>{F3E71A1B-79DE-4F53-9887-F424680B9E53}</UniqueIdentifier>
+      <UniqueIdentifier>{9F9328C6-5AFC-44DB-903C-D1024000F6CB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_AIController.cpp">
       <Filter>Source\LastResisters\AI\AI1</Filter>
@@ -48,12 +54,30 @@
       <Filter>Source\LastResisters\AI\AI1</Filter>
     </ClInclude>
     <Filter Include="Source\LastResisters\AI\AI1\AI1_TaskNodes">
-      <UniqueIdentifier>{BA1F208A-C325-4BE4-899F-311DFE6744CE}</UniqueIdentifier>
+      <UniqueIdentifier>{2679E4F2-D5A6-4688-971D-909E9E030609}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_CombatManagement.cpp">
+      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_CombatManagement.h">
+      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_FindPatrolLocation.cpp">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_FindPatrolLocation.h">
+      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_GoToOffenseStance.cpp">
+      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_GoToOffenseStance.h">
+      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_GoToReadyStance.cpp">
+      <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_GoToReadyStance.h">
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\LastResisters\AI\AI1\AI1_TaskNodes\AI1_TaskNodes_IncrementPathIndex.cpp">
@@ -81,10 +105,10 @@
       <Filter>Source\LastResisters\AI\AI1\AI1_TaskNodes</Filter>
     </ClInclude>
     <Filter Include="Source\LastResisters\UI">
-      <UniqueIdentifier>{278E8A9E-ED97-44B3-AAA2-FD665CC72BEE}</UniqueIdentifier>
+      <UniqueIdentifier>{1FBB7B99-CFE6-493C-98E1-35E20F28790E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\LastResisters\UI\CircularHealth">
-      <UniqueIdentifier>{7EBD2F4C-6A64-41EB-B821-2F9D35408357}</UniqueIdentifier>
+      <UniqueIdentifier>{290E06DC-9450-4027-A5CF-86361ED2BF3B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LastResisters\UI\CircularHealth\CircularHealth.cpp">
       <Filter>Source\LastResisters\UI\CircularHealth</Filter>
@@ -99,7 +123,7 @@
       <Filter>Source\LastResisters\UI\CircularHealth</Filter>
     </ClInclude>
     <Filter Include="Source\LastResisters\UI\DashGauge">
-      <UniqueIdentifier>{61693994-FADD-4826-8009-624A13E376C1}</UniqueIdentifier>
+      <UniqueIdentifier>{5F1A8188-1706-4026-A772-F581AFE9421C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LastResisters\UI\DashGauge\DashGauge.cpp">
       <Filter>Source\LastResisters\UI\DashGauge</Filter>
@@ -114,7 +138,7 @@
       <Filter>Source\LastResisters\UI\DashGauge</Filter>
     </ClInclude>
     <Filter Include="Source\LastResisters\UI\MainUI">
-      <UniqueIdentifier>{6D2CBBC0-D6EA-44F4-A7FA-05E9811DFBF4}</UniqueIdentifier>
+      <UniqueIdentifier>{5B122EA0-2479-4B4B-BD51-7BCFA33679B1}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LastResisters\UI\MainUI\PlayerUI.cpp">
       <Filter>Source\LastResisters\UI\MainUI</Filter>
@@ -123,7 +147,7 @@
       <Filter>Source\LastResisters\UI\MainUI</Filter>
     </ClInclude>
     <Filter Include="Source\LastResisters\UI\SpriteAnimation">
-      <UniqueIdentifier>{592FB4E9-D30C-47A5-8408-568262F924E7}</UniqueIdentifier>
+      <UniqueIdentifier>{96BDD951-CB5B-4C7B-A822-156D88C40E86}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LastResisters\UI\SpriteAnimation\SpriteAnimation.cpp">
       <Filter>Source\LastResisters\UI\SpriteAnimation</Filter>
@@ -132,7 +156,7 @@
       <Filter>Source\LastResisters\UI\SpriteAnimation</Filter>
     </ClInclude>
     <Filter Include="Source\LastResisters\UI\WeaponIcons">
-      <UniqueIdentifier>{95719CEC-9B36-438D-B1F7-1898571B359A}</UniqueIdentifier>
+      <UniqueIdentifier>{3AC15953-9360-4F44-8B75-238A525D2FA4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LastResisters\UI\WeaponIcons\WeaponSkillGauge.cpp">
       <Filter>Source\LastResisters\UI\WeaponIcons</Filter>
