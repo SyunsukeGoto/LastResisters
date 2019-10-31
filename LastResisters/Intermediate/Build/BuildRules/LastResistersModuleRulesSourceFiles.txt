@@ -1,3 +1,0 @@
-D:\GitHub\LastResisters\LastResisters\Source\LastResisters\LastResisters.Build.cs
-D:\GitHub\LastResisters\LastResisters\Source\LastResisters.Target.cs
-D:\GitHub\LastResisters\LastResisters\Source\LastResistersEditor.Target.cs
