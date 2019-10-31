@@ -1,8 +1,8 @@
-C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/DashGauge.cppa7.o: \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/DashGauge/DashGauge.cpp \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/LastResisters/Development/Slate/SharedPCH.Slate.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/Definitions.LastResisters.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/DashGauge/DashGauge.h \
+D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/DashGauge.cppa7.o: \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/DashGauge/DashGauge.cpp \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/LastResisters/Development/Slate/SharedPCH.Slate.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/Definitions.LastResisters.h \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/DashGauge/DashGauge.h \
   D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/NoExportTypes.h \
   D:/UE_4.23/Engine/Source/Runtime/Core/Public\PixelFormat.h \
   D:/UE_4.23/Engine/Source/Runtime/Core/Public\Math/UnitConversion.h \
@@ -166,9 +166,9 @@ C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\SlateTextureAtlasInterface.generated.h \
   D:/UE_4.23/Engine/Source/Runtime/Engine/Classes\Engine/StreamableManager.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/UMG\Image.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/DashGauge/DashGaugeParameters.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\DashGaugeParameters.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\DashGauge.generated.h \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/DashGauge/DashGaugeParameters.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\DashGaugeParameters.generated.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\DashGauge.generated.h \
   D:/UE_4.23/Engine/Source/Runtime/Engine/Classes\Materials/MaterialInterface.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\MaterialInterface.generated.h \
   D:/UE_4.23/Engine/Source/Runtime/Engine/Classes\Materials/MaterialInstanceDynamic.h \

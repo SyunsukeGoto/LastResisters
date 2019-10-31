@@ -1,8 +1,8 @@
-C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/PlayerUI.cppa7.o: \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/MainUI/PlayerUI.cpp \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/LastResisters/Development/Slate/SharedPCH.Slate.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/Definitions.LastResisters.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/MainUI/PlayerUI.h \
+D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/PlayerUI.cppa7.o: \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/MainUI/PlayerUI.cpp \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/LastResisters/Development/Slate/SharedPCH.Slate.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/Definitions.LastResisters.h \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/MainUI/PlayerUI.h \
   D:/UE_4.23/Engine/Source/Runtime/UMG/Public\Blueprint/UserWidget.h \
   D:/UE_4.23/Engine/Source/Runtime/UMG/Public\Components/SlateWrapperTypes.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/UMG\SlateWrapperTypes.generated.h \
@@ -346,26 +346,26 @@ C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\MaterialInstanceBasePropertyOverrides.generated.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\MaterialInstance.generated.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\MaterialInstanceDynamic.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/MainUI/../CircularHealth/CircularHealth.h \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/MainUI/../CircularHealth/CircularHealth.h \
   D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/NoExportTypes.h \
   D:/UE_4.23/Engine/Source/Runtime/Core/Public\Math/UnitConversion.h \
   D:/UE_4.23/Engine/Source/Runtime/Core/Public\Math/UnitConversion.inl \
   D:/UE_4.23/Engine/Source/Runtime/Core/Public\Internationalization/PolyglotTextData.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/MainUI/../CircularHealth/CircularHealthParameters.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\CircularHealthParameters.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\CircularHealth.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/MainUI/../DashGauge/DashGauge.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/MainUI/../DashGauge/DashGaugeParameters.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\DashGaugeParameters.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\DashGauge.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/MainUI/../WeaponIcons/WeaponSkillGauge.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/MainUI/../WeaponIcons/WeaponSkillGaugeParameters.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\WeaponSkillGaugeParameters.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\WeaponSkillGauge.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\PlayerUI.generated.h \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/MainUI/../CircularHealth/CircularHealthParameters.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\CircularHealthParameters.generated.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\CircularHealth.generated.h \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/MainUI/../DashGauge/DashGauge.h \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/MainUI/../DashGauge/DashGaugeParameters.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\DashGaugeParameters.generated.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\DashGauge.generated.h \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/MainUI/../WeaponIcons/WeaponSkillGauge.h \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/MainUI/../WeaponIcons/WeaponSkillGaugeParameters.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\WeaponSkillGaugeParameters.generated.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\WeaponSkillGauge.generated.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\PlayerUI.generated.h \
   D:/UE_4.23/Engine/Source/Runtime/UMG/Public\Components/TextBlock.h \
   D:/UE_4.23/Engine/Source/Runtime/UMG/Public\Components/TextWidgetTypes.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/UMG\TextWidgetTypes.generated.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/UMG\TextBlock.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/MainUI/../SpriteAnimation/SpriteAnimation.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\SpriteAnimation.generated.h
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/MainUI/../SpriteAnimation/SpriteAnimation.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\SpriteAnimation.generated.h

@@ -1,8 +1,8 @@
-C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/SpriteAnimation.cppa7.o: \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/SpriteAnimation/SpriteAnimation.cpp \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/LastResisters/Development/Slate/SharedPCH.Slate.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/Definitions.LastResisters.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source/LastResisters/UI/SpriteAnimation/SpriteAnimation.h \
+D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/SpriteAnimation.cppa7.o: \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/SpriteAnimation/SpriteAnimation.cpp \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/LastResisters/Development/Slate/SharedPCH.Slate.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Development/LastResisters/Definitions.LastResisters.h \
+  D:/LastRegisters/LastResisters/Source/LastResisters/UI/SpriteAnimation/SpriteAnimation.h \
   D:/UE_4.23/Engine/Source/Runtime/UMG/Public\Components/Image.h \
   D:/UE_4.23/Engine/Source/Runtime/UMG/Public\Components/Widget.h \
   D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\Templates/SubclassOf.h \
@@ -162,7 +162,7 @@ C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\SlateTextureAtlasInterface.generated.h \
   D:/UE_4.23/Engine/Source/Runtime/Engine/Classes\Engine/StreamableManager.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/UMG\Image.generated.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\SpriteAnimation.generated.h \
+  D:/LastRegisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\SpriteAnimation.generated.h \
   D:/UE_4.23/Engine/Source\Runtime/UMG/Public/UMG.h \
   D:/UE_4.23/Engine/Source/Runtime/Core/Public\Misc/MonolithicHeaderBoilerplate.h \
   D:/UE_4.23/Engine/Source/Runtime/Core/Public\Core.h \
