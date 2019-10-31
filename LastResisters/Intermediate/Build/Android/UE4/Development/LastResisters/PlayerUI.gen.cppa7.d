@@ -5,7 +5,7 @@ C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build
   D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/GeneratedCppIncludes.h \
   D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/MetaData.h \
   D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/TextProperty.h \
-  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source\LastResisters/PlayerUI.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source\LastResisters/UI/MainUI/PlayerUI.h \
   D:/UE_4.23/Engine/Source/Runtime/UMG/Public\Blueprint/UserWidget.h \
   D:/UE_4.23/Engine/Source/Runtime/UMG/Public\Components/SlateWrapperTypes.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/UMG\SlateWrapperTypes.generated.h \
@@ -348,4 +348,20 @@ C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\MaterialInstanceBasePropertyOverrides.generated.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\MaterialInstance.generated.h \
   D:/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\MaterialInstanceDynamic.generated.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source\LastResisters/UI/MainUI/../CircularHealth/CircularHealth.h \
+  D:/UE_4.23/Engine/Source/Runtime/CoreUObject/Public\UObject/NoExportTypes.h \
+  D:/UE_4.23/Engine/Source/Runtime/Core/Public\Math/UnitConversion.h \
+  D:/UE_4.23/Engine/Source/Runtime/Core/Public\Math/UnitConversion.inl \
+  D:/UE_4.23/Engine/Source/Runtime/Core/Public\Internationalization/PolyglotTextData.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source\LastResisters/UI/MainUI/../CircularHealth/CircularHealthParameters.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\CircularHealthParameters.generated.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\CircularHealth.generated.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source\LastResisters/UI/MainUI/../DashGauge/DashGauge.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source\LastResisters/UI/MainUI/../DashGauge/DashGaugeParameters.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\DashGaugeParameters.generated.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\DashGauge.generated.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source\LastResisters/UI/MainUI/../WeaponIcons/WeaponSkillGauge.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Source\LastResisters/UI/MainUI/../WeaponIcons/WeaponSkillGaugeParameters.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\WeaponSkillGaugeParameters.generated.h \
+  C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\WeaponSkillGauge.generated.h \
   C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Android/UE4/Inc/LastResisters\PlayerUI.generated.h

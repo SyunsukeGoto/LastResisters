@@ -533,7 +533,7 @@
 /FI"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\PlayerUI.cpp"
+"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\UI\MainUI\PlayerUI.cpp"
 /FI"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h"
 /Fo"C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\PlayerUI.cpp.obj"
 /TP

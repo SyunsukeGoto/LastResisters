@@ -13,37 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LASTRESISTERS_PlayerUI_generated_h
 
-#define LastResisters_Source_LastResisters_PlayerUI_h_177_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FHealthbar_Statics; \
-	LASTRESISTERS_API static class UScriptStruct* StaticStruct();
-
-
-template<> LASTRESISTERS_API UScriptStruct* StaticStruct<struct FHealthbar>();
-
-#define LastResisters_Source_LastResisters_PlayerUI_h_129_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FSpecialGauge_Statics; \
-	LASTRESISTERS_API static class UScriptStruct* StaticStruct();
-
-
-template<> LASTRESISTERS_API UScriptStruct* StaticStruct<struct FSpecialGauge>();
-
-#define LastResisters_Source_LastResisters_PlayerUI_h_63_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FHealthbarParameters_Statics; \
-	LASTRESISTERS_API static class UScriptStruct* StaticStruct();
-
-
-template<> LASTRESISTERS_API UScriptStruct* StaticStruct<struct FHealthbarParameters>();
-
-#define LastResisters_Source_LastResisters_PlayerUI_h_19_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FSpecialGaugeParameters_Statics; \
-	LASTRESISTERS_API static class UScriptStruct* StaticStruct();
-
-
-template<> LASTRESISTERS_API UScriptStruct* StaticStruct<struct FSpecialGaugeParameters>();
-
-#define LastResisters_Source_LastResisters_PlayerUI_h_276_RPC_WRAPPERS
-#define LastResisters_Source_LastResisters_PlayerUI_h_276_RPC_WRAPPERS_NO_PURE_DECLS
-#define LastResisters_Source_LastResisters_PlayerUI_h_276_INCLASS_NO_PURE_DECLS \
+#define LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_RPC_WRAPPERS
+#define LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayerUI(); \
 	friend struct Z_Construct_UClass_UPlayerUI_Statics; \
@@ -52,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayerUI)
 
 
-#define LastResisters_Source_LastResisters_PlayerUI_h_276_INCLASS \
+#define LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayerUI(); \
 	friend struct Z_Construct_UClass_UPlayerUI_Statics; \
@@ -61,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayerUI)
 
 
-#define LastResisters_Source_LastResisters_PlayerUI_h_276_STANDARD_CONSTRUCTORS \
+#define LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayerUI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayerUI) \
@@ -74,7 +46,7 @@ private: \
 public:
 
 
-#define LastResisters_Source_LastResisters_PlayerUI_h_276_ENHANCED_CONSTRUCTORS \
+#define LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPlayerUI(UPlayerUI&&); \
@@ -85,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayerUI); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayerUI)
 
 
-#define LastResisters_Source_LastResisters_PlayerUI_h_276_PRIVATE_PROPERTY_OFFSET
-#define LastResisters_Source_LastResisters_PlayerUI_h_273_PROLOG
-#define LastResisters_Source_LastResisters_PlayerUI_h_276_GENERATED_BODY_LEGACY \
+#define LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_PRIVATE_PROPERTY_OFFSET
+#define LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_19_PROLOG
+#define LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LastResisters_Source_LastResisters_PlayerUI_h_276_PRIVATE_PROPERTY_OFFSET \
-	LastResisters_Source_LastResisters_PlayerUI_h_276_RPC_WRAPPERS \
-	LastResisters_Source_LastResisters_PlayerUI_h_276_INCLASS \
-	LastResisters_Source_LastResisters_PlayerUI_h_276_STANDARD_CONSTRUCTORS \
+	LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_PRIVATE_PROPERTY_OFFSET \
+	LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_RPC_WRAPPERS \
+	LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_INCLASS \
+	LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define LastResisters_Source_LastResisters_PlayerUI_h_276_GENERATED_BODY \
+#define LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LastResisters_Source_LastResisters_PlayerUI_h_276_PRIVATE_PROPERTY_OFFSET \
-	LastResisters_Source_LastResisters_PlayerUI_h_276_RPC_WRAPPERS_NO_PURE_DECLS \
-	LastResisters_Source_LastResisters_PlayerUI_h_276_INCLASS_NO_PURE_DECLS \
-	LastResisters_Source_LastResisters_PlayerUI_h_276_ENHANCED_CONSTRUCTORS \
+	LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_PRIVATE_PROPERTY_OFFSET \
+	LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_INCLASS_NO_PURE_DECLS \
+	LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -112,7 +84,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> LASTRESISTERS_API UClass* StaticClass<class UPlayerUI>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID LastResisters_Source_LastResisters_PlayerUI_h
+#define CURRENT_FILE_ID LastResisters_Source_LastResisters_UI_MainUI_PlayerUI_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
