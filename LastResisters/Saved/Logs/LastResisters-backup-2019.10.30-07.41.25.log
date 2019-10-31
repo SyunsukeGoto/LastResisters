@@ -1,0 +1,990 @@
+﻿Log file open, 10/30/19 16:39:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LastResisters
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.365462
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line:  -EpicPortal -epicusername=isaacchunn -epicuserid=a7367820a2f2447f94c6f1bdf181b826 -epiclocale=en-US
+LogInit: Base Directory: D:/Unreal Engine/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.30-07.39.57:598][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.30-07.39.57:598][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.30-07.39.57:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.30-07.39.57:599][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.30-07.39.57:609][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.30-07.39.57:609][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.30-07.39.57:610][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.30-07.39.57:611][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.30-07.39.57:611][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.30-07.39.57:611][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.30-07.39.57:611][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.30-07.39.57:611][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:611][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.30-07.39.57:611][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.30-07.39.57:611][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.30-07.39.57:611][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.30-07.39.57:628][  0]LogHAL: Display: Platform has ~ 16 GB [17055166464 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.30-07.39.57:628][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.30-07.39.57:629][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.30-07.39.57:629][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.30-07.39.57:630][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.30-07.39.57:631][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.30-07.39.57:631][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Scalability.ini]
+[2019.10.30-07.39.57:631][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.30-07.39.57:631][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.30-07.39.57:631][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.30-07.39.57:631][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.30-07.39.57:631][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.30-07.39.57:631][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitHub/LastResisters/LastResisters/Saved/Config/Windows/Engine.ini]
+[2019.10.30-07.39.57:631][  0]LogInit: Computer: PFT-17004523
+[2019.10.30-07.39.57:631][  0]LogInit: User: 17004523
+[2019.10.30-07.39.57:631][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.30-07.39.57:631][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.30-07.39.57:631][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.30-07.39.57:631][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.30-07.39.57:632][  0]LogMemory: Process Physical Memory: 101.69 MB used, 101.69 MB peak
+[2019.10.30-07.39.57:632][  0]LogMemory: Process Virtual Memory: 137.02 MB used, 137.02 MB peak
+[2019.10.30-07.39.57:632][  0]LogMemory: Physical Memory: 7856.93 MB used,  8408.14 MB free, 16265.07 MB total
+[2019.10.30-07.39.57:632][  0]LogMemory: Virtual Memory: 4704.90 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2019.10.30-07.39.57:640][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.30-07.39.58:012][  0]LogInit: Using OS detected language (en-US).
+[2019.10.30-07.39.58:012][  0]LogInit: Using OS detected locale (en-SG).
+[2019.10.30-07.39.58:014][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.30-07.39.59:799][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.30-07.39.59:923][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.30-07.39.59:923][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.30-07.40.01:321][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.30-07.40.01:321][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.30-07.40.01:485][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.10.30-07.40.01:485][  0]LogD3D11RHI:       4021/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.10.30-07.40.01:502][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.10.30-07.40.01:502][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.30-07.40.01:513][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.30-07.40.01:513][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.30-07.40.01:513][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.30-07.40.01:573][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.30-07.40.01:574][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.10.30-07.40.01:574][  0]LogWindows: EnumDisplayDevices:
+[2019.10.30-07.40.01:574][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.10.30-07.40.01:575][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2019.10.30-07.40.01:576][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.30-07.40.01:577][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.10.30-07.40.01:577][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.10.30-07.40.01:577][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.10.30-07.40.01:577][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.10.30-07.40.01:577][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.10.30-07.40.01:693][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.30-07.40.01:714][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.30-07.40.02:646][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.30-07.40.02:661][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.30-07.40.02:674][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.30-07.40.02:685][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.30-07.40.02:723][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.30-07.40.02:749][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.30-07.40.02:786][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.30-07.40.02:799][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.30-07.40.02:824][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.30-07.40.02:903][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.30-07.40.02:913][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.30-07.40.03:027][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.30-07.40.03:027][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.30-07.40.03:054][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.30-07.40.03:055][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.30-07.40.03:079][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.30-07.40.03:095][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.30-07.40.03:106][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.30-07.40.03:121][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.30-07.40.03:176][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.30-07.40.03:176][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.30-07.40.03:177][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.30-07.40.03:229][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.30-07.40.03:504][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../GitHub/LastResisters/LastResisters/Intermediate/Shaders/WorkingDirectory/22784/).
+[2019.10.30-07.40.03:505][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/17004523/AppData/Local/Temp/UnrealShaderWorkingDir/239D463241B0C9E2C6B6B79C7BCDB57B/'.
+[2019.10.30-07.40.03:508][  0]LogXGEController: Cleaning working directory: C:/Users/17004523/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.30-07.40.03:508][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.30-07.40.03:508][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.30-07.40.03:508][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.30-07.40.06:057][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.30-07.40.06:460][  0]LogDerivedDataCache: Loaded boot cache 0.40s 73MB C:/Users/17004523/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.30-07.40.06:460][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/17004523/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.30-07.40.06:460][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/LastResisters/LastResisters/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.30-07.40.06:460][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.30-07.40.06:460][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/LastResisters/LastResisters/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.30-07.40.06:461][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.30-07.40.06:543][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.30-07.40.06:543][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.30-07.40.06:543][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.30-07.40.06:550][  0]LogDerivedDataCache: Using Local data cache path C:/Users/17004523/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.30-07.40.06:550][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.30-07.40.06:550][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.30-07.40.06:634][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.30-07.40.06:639][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.30-07.40.06:647][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.30-07.40.07:163][  0]LogAssetRegistry: FAssetRegistry took 0.0048 seconds to start up
+[2019.10.30-07.40.08:325][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.30-07.40.09:156][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.30-07.40.09:156][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.30-07.40.09:156][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.30-07.40.09:156][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.30-07.40.09:156][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.30-07.40.09:187][  0]LogNetVersion: LastResisters 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2470489391)
+[2019.10.30-07.40.10:635][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.183347 seconds
+[2019.10.30-07.40.10:665][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.30-07.40.10:666][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.30-07.40.10:666][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.30-07.40.24:232][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.30-07.40.24:253][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.30-07.40.24:865][  0]SourceControl: Source control is disabled
+[2019.10.30-07.40.24:866][  0]SourceControl: Source control is disabled
+[2019.10.30-07.40.24:893][  0]SourceControl: Source control is disabled
+[2019.10.30-07.40.24:920][  0]SourceControl: Source control is disabled
+[2019.10.30-07.40.25:866][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.30-07.40.27:910][  0]LogOcInput: OculusInput pre-init called
+[2019.10.30-07.40.27:970][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.30-07.40.27:970][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.30-07.40.28:415][  0]LogClass: Warning: FWeaponSkillGauge::Color is not initialized properly
+[2019.10.30-07.40.28:415][  0]LogClass: Display: 1 Uninitialized script stuct members found
+[2019.10.30-07.40.28:420][  0]LogAutomationTest: Warning: FWeaponSkillGauge::Color is not initialized properly
+[2019.10.30-07.40.28:423][  0]LogEngine: Initializing Engine...
+[2019.10.30-07.40.28:431][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.30-07.40.28:436][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.10.30-07.40.29:619][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.30-07.40.30:743][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.30-07.40.30:812][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.30-07.40.30:947][  0]LogInit: FAudioDevice initialized.
+[2019.10.30-07.40.30:947][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.30-07.40.31:625][  0]LogDerivedDataCache: Saved boot cache 0.68s 73MB C:/Users/17004523/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.30-07.40.31:649][  0]LogInit: Texture streaming: Enabled
+[2019.10.30-07.40.32:363][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.30-07.40.32:366][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={DFC6B744-47EF-0CD3-26AD-87A0DA1E2242}
+[2019.10.30-07.40.32:588][  0]LogInit: Transaction tracking system initialized
+[2019.10.30-07.40.33:178][  0]BlueprintLog: New page: Editor Load
+[2019.10.30-07.40.33:696][  0]LocalizationService: Localization service is disabled
+[2019.10.30-07.40.35:099][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/LastResisters/LastResisters/Content/' took 0.01s
+[2019.10.30-07.40.35:100][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.30-07.40.35:101][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.30-07.40.36:538][  0]SourceControl: Source control is disabled
+[2019.10.30-07.40.36:538][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.30-07.40.36:554][  0]LightingResults: New page: Lighting Build
+[2019.10.30-07.40.36:568][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.30-07.40.36:569][  0]MapCheck: New page: Map Check
+[2019.10.30-07.40.36:569][  0]LightingResults: New page: Lighting Build
+[2019.10.30-07.40.36:633][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.10.30-07.40.37:026][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.10.30-07.40.37:039][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.30-07.40.37:126][  0]LogUObjectHash: Compacting FUObjectHashTables data took  10.85ms
+[2019.10.30-07.40.37:127][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.30-07.40.37:127][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.222ms to complete.
+[2019.10.30-07.40.37:127][  0]LogFileHelpers: Loading map 'Template_Default' took 0.588
+[2019.10.30-07.40.37:418][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.30-07.40.37:444][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.30-07.40.37:473][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.30-07.40.37:491][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.30-07.40.37:527][  0]LogCollectionManager: Loaded 0 collections in 0.002158 seconds
+[2019.10.30-07.40.37:578][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/LastResisters/LastResisters/Saved/Collections/' took 0.01s
+[2019.10.30-07.40.37:578][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/LastResisters/LastResisters/Content/Developers/17004523/Collections/' took 0.01s
+[2019.10.30-07.40.37:578][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/LastResisters/LastResisters/Content/Collections/' took 0.00s
+[2019.10.30-07.40.37:578][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.10.30-07.40.37:621][  0]LogContentBrowser: Native class hierarchy populated in 0.0426 seconds. Added 2873 classes and 688 folders.
+[2019.10.30-07.40.37:656][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.10.30-07.40.38:858][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.10.30-07.40.38:884][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2019.10.30-07.40.39:163][  0]LogSlate: Took 0.001276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.30-07.40.39:176][  0]LogSlate: Took 0.002931 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.30-07.40.39:257][  0]LogSlate: Took 0.062172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.30-07.40.39:570][  0]LogRenderer: Reallocating scene render targets to support 1148x572 Format 10 NumSamples 1 (Frame:1).
+[2019.10.30-07.40.39:961][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.10.30-07.40.39:961][  0]LogLoad: (Engine Initialization) Total time: 45.47 seconds
+[2019.10.30-07.40.39:961][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.01 seconds
+[2019.10.30-07.40.40:045][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.30-07.40.40:325][  0]LogSlate: Took 0.166410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.30-07.40.41:175][  8]LogSlate: Took 0.000724 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.30-07.40.42:140][ 20]LogAssetRegistry: Asset discovery search completed in 34.9790 seconds
+[2019.10.30-07.40.42:148][ 20]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2019.10.30-07.40.42:149][ 20]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000651 seconds (updated 0 objects)
+[2019.10.30-07.41.04:088][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.30-07.41.06:868][228]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_X' for  Get MotionControllerThumbRight_X
+[2019.10.30-07.41.06:868][228]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_Y' for  Get MotionControllerThumbRight_Y
+[2019.10.30-07.41.06:869][228]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_Y' for  Get MotionControllerThumbLeft_Y
+[2019.10.30-07.41.06:869][228]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_X' for  Get MotionControllerThumbLeft_X
+[2019.10.30-07.41.06:869][228]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
+[2019.10.30-07.41.06:869][228]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
+[2019.10.30-07.41.06:869][228]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabRight' for  InputAction GrabRight
+[2019.10.30-07.41.06:870][228]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabLeft' for  InputAction GrabLeft
+[2019.10.30-07.41.07:351][228]LogAIModule: Creating AISystem for world UITestMap
+[2019.10.30-07.41.07:393][228]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/UITestMap.UITestMap
+[2019.10.30-07.41.07:449][228]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2019.10.30-07.41.07:450][228]Cmd: MAP LOAD FILE="../../../../../GitHub/LastResisters/LastResisters/Content/VirtualRealityBP/Maps/UITestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.30-07.41.07:450][228]LightingResults: New page: Lighting Build
+[2019.10.30-07.41.07:451][228]LoadErrors: New page: Loading map: UITestMap.umap
+[2019.10.30-07.41.07:452][228]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2019.10.30-07.41.07:452][228]MapCheck: New page: Map Check
+[2019.10.30-07.41.07:452][228]LightingResults: New page: Lighting Build
+[2019.10.30-07.41.07:487][228]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.10.30-07.41.07:638][228]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.30-07.41.07:681][228]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2019.10.30-07.41.07:704][228]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.30-07.41.07:704][228]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.111ms to complete.
+[2019.10.30-07.41.07:704][228]LogFileHelpers: Loading map 'UITestMap' took 0.255
+[2019.10.30-07.41.08:204][242]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Game/UI/In_Game/Blueprints/BP_3DTest.BP_3DTest
+[2019.10.30-07.41.08:945][242]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 121 classes and 0 folders.
+[2019.10.30-07.41.10:752][242]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Game/UI/In_Game/Blueprints/BP_PlayerUI.BP_PlayerUI
+[2019.10.30-07.41.12:252][242]LogSlate: Took 0.059080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.30-07.41.14:452][334]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.30-07.41.14:497][334]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap'
+[2019.10.30-07.41.14:498][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.30-07.41.14:499][334]PIE: New page: PIE session: UITestMap (31 Oct 2019 1:41:14 am)
+[2019.10.30-07.41.14:500][334]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.10.30-07.41.14:502][334]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_UITestMap
+[2019.10.30-07.41.14:537][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034961s)
+[2019.10.30-07.41.14:538][334]LogAIModule: Creating AISystem for world UITestMap
+[2019.10.30-07.41.14:539][334]LogPlayLevel: PIE: World Init took: (0.001908s)
+[2019.10.30-07.41.14:539][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/UITestMap.UITestMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_UITestMap.UITestMap (0.037236s)
+[2019.10.30-07.41.14:658][334]LogUObjectHash: Compacting FUObjectHashTables data took   7.52ms
+[2019.10.30-07.41.14:686][334]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.30-07.41.14:746][334]LogInit: FAudioDevice initialized.
+[2019.10.30-07.41.14:776][334]LogLoad: Game class is 'GameModeBase'
+[2019.10.30-07.41.14:781][334]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_UITestMap.UITestMap up for play (max tick rate 60) at 2019.10.30-16.41.14
+[2019.10.30-07.41.14:782][334]LogWorld: Bringing up level for play took: 0.004490
+[2019.10.30-07.41.14:782][334]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2019.10.30-07.41.15:833][334]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0030 seconds. Added 20 classes and 0 folders.
+[2019.10.30-07.41.15:850][334]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_UITestMap 0.796
+[2019.10.30-07.41.15:850][334]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap'
+[2019.10.30-07.41.16:621][336]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:621][336]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.323200
+[2019.10.30-07.41.16:621][336]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.323200
+[2019.10.30-07.41.16:668][337]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:668][337]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.332040
+[2019.10.30-07.41.16:668][337]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.332040
+[2019.10.30-07.41.16:687][338]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:687][338]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.340880
+[2019.10.30-07.41.16:687][338]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.340880
+[2019.10.30-07.41.16:714][339]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:715][339]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.349720
+[2019.10.30-07.41.16:715][339]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.349720
+[2019.10.30-07.41.16:735][340]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:736][340]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.358560
+[2019.10.30-07.41.16:736][340]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.358560
+[2019.10.30-07.41.16:755][341]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:755][341]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.367400
+[2019.10.30-07.41.16:756][341]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.367400
+[2019.10.30-07.41.16:778][342]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:778][342]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.376240
+[2019.10.30-07.41.16:778][342]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.376240
+[2019.10.30-07.41.16:802][343]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:803][343]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.385080
+[2019.10.30-07.41.16:803][343]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.385080
+[2019.10.30-07.41.16:822][344]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:823][344]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.393920
+[2019.10.30-07.41.16:823][344]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.393920
+[2019.10.30-07.41.16:845][345]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:845][345]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.402760
+[2019.10.30-07.41.16:845][345]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.402760
+[2019.10.30-07.41.16:868][346]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:868][346]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.411600
+[2019.10.30-07.41.16:868][346]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.411600
+[2019.10.30-07.41.16:888][347]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:889][347]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.420440
+[2019.10.30-07.41.16:889][347]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.420440
+[2019.10.30-07.41.16:911][348]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:911][348]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.429280
+[2019.10.30-07.41.16:911][348]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.429280
+[2019.10.30-07.41.16:932][349]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:932][349]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.438120
+[2019.10.30-07.41.16:933][349]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.438120
+[2019.10.30-07.41.16:950][350]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:950][350]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.446960
+[2019.10.30-07.41.16:950][350]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.446960
+[2019.10.30-07.41.16:971][351]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:972][351]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.455800
+[2019.10.30-07.41.16:972][351]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.455800
+[2019.10.30-07.41.16:997][352]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.16:997][352]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.464640
+[2019.10.30-07.41.16:997][352]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.464640
+[2019.10.30-07.41.17:014][353]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:014][353]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.473480
+[2019.10.30-07.41.17:014][353]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.473480
+[2019.10.30-07.41.17:033][354]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:033][354]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.482320
+[2019.10.30-07.41.17:033][354]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.482320
+[2019.10.30-07.41.17:052][355]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:052][355]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.491160
+[2019.10.30-07.41.17:052][355]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.491160
+[2019.10.30-07.41.17:073][356]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:074][356]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.500000
+[2019.10.30-07.41.17:074][356]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.500000
+[2019.10.30-07.41.17:099][357]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:099][357]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.508840
+[2019.10.30-07.41.17:099][357]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.508840
+[2019.10.30-07.41.17:117][358]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:118][358]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.517680
+[2019.10.30-07.41.17:118][358]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.517680
+[2019.10.30-07.41.17:136][359]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:136][359]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.526520
+[2019.10.30-07.41.17:136][359]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.526520
+[2019.10.30-07.41.17:162][360]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:163][360]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.535360
+[2019.10.30-07.41.17:163][360]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.535360
+[2019.10.30-07.41.17:185][361]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:186][361]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.544200
+[2019.10.30-07.41.17:186][361]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.544200
+[2019.10.30-07.41.17:211][362]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:212][362]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.553040
+[2019.10.30-07.41.17:212][362]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.553040
+[2019.10.30-07.41.17:233][363]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:233][363]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.561880
+[2019.10.30-07.41.17:233][363]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.561880
+[2019.10.30-07.41.17:253][364]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:253][364]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.570720
+[2019.10.30-07.41.17:253][364]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.570720
+[2019.10.30-07.41.17:279][365]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:279][365]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.579560
+[2019.10.30-07.41.17:279][365]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.579560
+[2019.10.30-07.41.17:308][366]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:309][366]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.588400
+[2019.10.30-07.41.17:309][366]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.588400
+[2019.10.30-07.41.17:339][367]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:340][367]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.597240
+[2019.10.30-07.41.17:340][367]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.597240
+[2019.10.30-07.41.17:373][368]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:374][368]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.606080
+[2019.10.30-07.41.17:374][368]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.606080
+[2019.10.30-07.41.17:405][369]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:405][369]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.614920
+[2019.10.30-07.41.17:406][369]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.614920
+[2019.10.30-07.41.17:437][370]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:437][370]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.623760
+[2019.10.30-07.41.17:437][370]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.623760
+[2019.10.30-07.41.17:466][371]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:467][371]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.632600
+[2019.10.30-07.41.17:467][371]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.632600
+[2019.10.30-07.41.17:498][372]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.17:498][372]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.641440
+[2019.10.30-07.41.17:498][372]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.641440
+[2019.10.30-07.41.17:500][372]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap'
+[2019.10.30-07.41.17:501][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.30-07.41.17:501][372]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_UITestMap
+[2019.10.30-07.41.17:502][372]LogWorld: UWorld::CleanupWorld for UITestMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.30-07.41.17:528][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.30-07.41.17:528][372]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap'
+[2019.10.30-07.41.17:611][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.30-07.41.17:734][372]LogUObjectHash: Compacting FUObjectHashTables data took  14.02ms
+[2019.10.30-07.41.17:782][373]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.10.30-07.41.18:670][409]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.30-07.41.18:702][409]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap'
+[2019.10.30-07.41.18:703][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.30-07.41.18:703][409]PIE: New page: PIE session: UITestMap (31 Oct 2019 1:41:18 am)
+[2019.10.30-07.41.18:703][409]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_UITestMap
+[2019.10.30-07.41.18:749][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045723s)
+[2019.10.30-07.41.18:750][409]LogAIModule: Creating AISystem for world UITestMap
+[2019.10.30-07.41.18:751][409]LogPlayLevel: PIE: World Init took: (0.001786s)
+[2019.10.30-07.41.18:751][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/UITestMap.UITestMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_UITestMap.UITestMap (0.047863s)
+[2019.10.30-07.41.18:835][409]LogUObjectHash: Compacting FUObjectHashTables data took   9.93ms
+[2019.10.30-07.41.18:871][409]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.30-07.41.18:964][409]LogInit: FAudioDevice initialized.
+[2019.10.30-07.41.18:983][409]LogLoad: Game class is 'GameModeBase'
+[2019.10.30-07.41.18:992][409]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_UITestMap.UITestMap up for play (max tick rate 60) at 2019.10.30-16.41.18
+[2019.10.30-07.41.18:993][409]LogWorld: Bringing up level for play took: 0.008699
+[2019.10.30-07.41.18:994][409]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2019.10.30-07.41.19:014][409]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_UITestMap -0.039
+[2019.10.30-07.41.19:015][409]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/UITestMap.UITestMap:PersistentLevel.UITestMap'
+[2019.10.30-07.41.19:127][411]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:127][411]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.323200
+[2019.10.30-07.41.19:127][411]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.323200
+[2019.10.30-07.41.19:158][412]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:158][412]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.332040
+[2019.10.30-07.41.19:158][412]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.332040
+[2019.10.30-07.41.19:176][413]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:176][413]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.340880
+[2019.10.30-07.41.19:176][413]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.340880
+[2019.10.30-07.41.19:200][414]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:200][414]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.349720
+[2019.10.30-07.41.19:200][414]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.349720
+[2019.10.30-07.41.19:233][415]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:233][415]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.358560
+[2019.10.30-07.41.19:233][415]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.358560
+[2019.10.30-07.41.19:262][416]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:263][416]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.367400
+[2019.10.30-07.41.19:263][416]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.367400
+[2019.10.30-07.41.19:293][417]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:293][417]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.376240
+[2019.10.30-07.41.19:293][417]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.376240
+[2019.10.30-07.41.19:307][418]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:307][418]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.385080
+[2019.10.30-07.41.19:307][418]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.385080
+[2019.10.30-07.41.19:342][419]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:342][419]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.393920
+[2019.10.30-07.41.19:342][419]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.393920
+[2019.10.30-07.41.19:398][420]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:398][420]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.402760
+[2019.10.30-07.41.19:400][420]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.402760
+[2019.10.30-07.41.19:423][421]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:423][421]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.411600
+[2019.10.30-07.41.19:423][421]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.411600
+[2019.10.30-07.41.19:441][422]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:441][422]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.420440
+[2019.10.30-07.41.19:441][422]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.420440
+[2019.10.30-07.41.19:468][423]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:468][423]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.429280
+[2019.10.30-07.41.19:468][423]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.429280
+[2019.10.30-07.41.19:495][424]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:495][424]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.438120
+[2019.10.30-07.41.19:495][424]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.438120
+[2019.10.30-07.41.19:507][425]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:508][425]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.446960
+[2019.10.30-07.41.19:509][425]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.446960
+[2019.10.30-07.41.19:536][426]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:536][426]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.455800
+[2019.10.30-07.41.19:536][426]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.455800
+[2019.10.30-07.41.19:569][427]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:569][427]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.464640
+[2019.10.30-07.41.19:569][427]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.464640
+[2019.10.30-07.41.19:607][428]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:607][428]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.473480
+[2019.10.30-07.41.19:608][428]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.473480
+[2019.10.30-07.41.19:634][429]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:635][429]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.482320
+[2019.10.30-07.41.19:635][429]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.482320
+[2019.10.30-07.41.19:662][430]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:663][430]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.491160
+[2019.10.30-07.41.19:663][430]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.491160
+[2019.10.30-07.41.19:687][431]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:688][431]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.500000
+[2019.10.30-07.41.19:688][431]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.500000
+[2019.10.30-07.41.19:705][432]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:705][432]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.508840
+[2019.10.30-07.41.19:706][432]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.508840
+[2019.10.30-07.41.19:725][433]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:725][433]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.517680
+[2019.10.30-07.41.19:725][433]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.517680
+[2019.10.30-07.41.19:747][434]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:747][434]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.526520
+[2019.10.30-07.41.19:747][434]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.526520
+[2019.10.30-07.41.19:769][435]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:769][435]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.535360
+[2019.10.30-07.41.19:769][435]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.535360
+[2019.10.30-07.41.19:792][436]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:794][436]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.544200
+[2019.10.30-07.41.19:794][436]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.544200
+[2019.10.30-07.41.19:814][437]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:814][437]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.553040
+[2019.10.30-07.41.19:814][437]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.553040
+[2019.10.30-07.41.19:830][438]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:831][438]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.561880
+[2019.10.30-07.41.19:831][438]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.561880
+[2019.10.30-07.41.19:852][439]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:853][439]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.570720
+[2019.10.30-07.41.19:853][439]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.570720
+[2019.10.30-07.41.19:882][440]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:883][440]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.579560
+[2019.10.30-07.41.19:883][440]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.579560
+[2019.10.30-07.41.19:914][441]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:914][441]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.588400
+[2019.10.30-07.41.19:914][441]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.588400
+[2019.10.30-07.41.19:936][442]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:936][442]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.597240
+[2019.10.30-07.41.19:936][442]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.597240
+[2019.10.30-07.41.19:967][443]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:968][443]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.606080
+[2019.10.30-07.41.19:968][443]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.606080
+[2019.10.30-07.41.19:998][444]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.19:998][444]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.614920
+[2019.10.30-07.41.19:998][444]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.614920
+[2019.10.30-07.41.20:020][445]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:020][445]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.623760
+[2019.10.30-07.41.20:020][445]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.623760
+[2019.10.30-07.41.20:041][446]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:041][446]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.632600
+[2019.10.30-07.41.20:041][446]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.632600
+[2019.10.30-07.41.20:088][447]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:088][447]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.641440
+[2019.10.30-07.41.20:088][447]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.641440
+[2019.10.30-07.41.20:104][448]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:104][448]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.650280
+[2019.10.30-07.41.20:105][448]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.650280
+[2019.10.30-07.41.20:137][449]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:138][449]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.659120
+[2019.10.30-07.41.20:139][449]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.659120
+[2019.10.30-07.41.20:173][450]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:173][450]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.667960
+[2019.10.30-07.41.20:173][450]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.667960
+[2019.10.30-07.41.20:203][451]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:203][451]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.676800
+[2019.10.30-07.41.20:203][451]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.676800
+[2019.10.30-07.41.20:236][452]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:236][452]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.685640
+[2019.10.30-07.41.20:236][452]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.685640
+[2019.10.30-07.41.20:263][453]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:263][453]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.694480
+[2019.10.30-07.41.20:263][453]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.694480
+[2019.10.30-07.41.20:290][454]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:290][454]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.703320
+[2019.10.30-07.41.20:290][454]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.703320
+[2019.10.30-07.41.20:308][455]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:308][455]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.712160
+[2019.10.30-07.41.20:308][455]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.712160
+[2019.10.30-07.41.20:335][456]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:336][456]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.721000
+[2019.10.30-07.41.20:336][456]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.721000
+[2019.10.30-07.41.20:366][457]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:366][457]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.729840
+[2019.10.30-07.41.20:366][457]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.729840
+[2019.10.30-07.41.20:394][458]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:395][458]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.738680
+[2019.10.30-07.41.20:396][458]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.738680
+[2019.10.30-07.41.20:437][459]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:437][459]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.747520
+[2019.10.30-07.41.20:437][459]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.747520
+[2019.10.30-07.41.20:464][460]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:465][460]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.756360
+[2019.10.30-07.41.20:465][460]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.756360
+[2019.10.30-07.41.20:496][461]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:497][461]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.765200
+[2019.10.30-07.41.20:497][461]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.765200
+[2019.10.30-07.41.20:518][462]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:518][462]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.774040
+[2019.10.30-07.41.20:518][462]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.774040
+[2019.10.30-07.41.20:555][463]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:555][463]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.782880
+[2019.10.30-07.41.20:555][463]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.782880
+[2019.10.30-07.41.20:582][464]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:582][464]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.791720
+[2019.10.30-07.41.20:582][464]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.791720
+[2019.10.30-07.41.20:611][465]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:611][465]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.800560
+[2019.10.30-07.41.20:611][465]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.800560
+[2019.10.30-07.41.20:640][466]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:640][466]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.809400
+[2019.10.30-07.41.20:640][466]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.809400
+[2019.10.30-07.41.20:666][467]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:666][467]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.818240
+[2019.10.30-07.41.20:667][467]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.818240
+[2019.10.30-07.41.20:690][468]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:690][468]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.827080
+[2019.10.30-07.41.20:690][468]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.827080
+[2019.10.30-07.41.20:718][469]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:718][469]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.835920
+[2019.10.30-07.41.20:718][469]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.835920
+[2019.10.30-07.41.20:748][470]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:749][470]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.844760
+[2019.10.30-07.41.20:749][470]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.844760
+[2019.10.30-07.41.20:773][471]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:773][471]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.853600
+[2019.10.30-07.41.20:773][471]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.853600
+[2019.10.30-07.41.20:798][472]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:799][472]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.862440
+[2019.10.30-07.41.20:799][472]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.862440
+[2019.10.30-07.41.20:827][473]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:827][473]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.871280
+[2019.10.30-07.41.20:827][473]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.871280
+[2019.10.30-07.41.20:852][474]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:853][474]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.880120
+[2019.10.30-07.41.20:853][474]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.880120
+[2019.10.30-07.41.20:875][475]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:875][475]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.888960
+[2019.10.30-07.41.20:875][475]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.888960
+[2019.10.30-07.41.20:905][476]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:906][476]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.897800
+[2019.10.30-07.41.20:906][476]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.897800
+[2019.10.30-07.41.20:923][477]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:924][477]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.906640
+[2019.10.30-07.41.20:926][477]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.906640
+[2019.10.30-07.41.20:952][478]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:952][478]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.915480
+[2019.10.30-07.41.20:952][478]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.915480
+[2019.10.30-07.41.20:976][479]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.20:976][479]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.924320
+[2019.10.30-07.41.20:976][479]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.924320
+[2019.10.30-07.41.21:002][480]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.21:002][480]LogTemp: Warning: Main Skill: 0, Main Skill Float: 0.933160
+[2019.10.30-07.41.21:002][480]LogTemp: Warning: Sub Skill: 0, Sub Skill Float: 0.933160
+[2019.10.30-07.41.21:020][481]LogTemp: Warning: They are equal.
+[2019.10.30-07.41.21:020][481]LogTemp: Warning: Play Animation
+[2019.10.30-07.41.21:020][481]LogTemp: Warning: Timer Handle was valid
+[2019.10.30-07.41.21:020][481]LogTemp: Warning: Play Animation
+[2019.10.30-07.41.21:020][481]LogTemp: Warning: Timer Handle was valid
+[2019.10.30-07.41.24:835][481]LogWindows: Error: === Critical error: ===
+[2019.10.30-07.41.24:835][481]LogWindows: Error: 
+[2019.10.30-07.41.24:835][481]LogWindows: Error: Fatal error!
+[2019.10.30-07.41.24:835][481]LogWindows: Error: 
+[2019.10.30-07.41.24:835][481]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000039d
+[2019.10.30-07.41.24:835][481]LogWindows: Error: 
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffab6d29d44 UE4Editor-LastResisters-1091.dll!USpriteAnimation::PlayAnimation() [d:\github\lastresisters\lastresisters\source\lastresisters\ui\spriteanimation\spriteanimation.cpp:26]
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffab6d292c1 UE4Editor-LastResisters-1091.dll!UPlayerUI::UpdateSubWeaponSkillGauge() [d:\github\lastresisters\lastresisters\source\lastresisters\ui\mainui\playerui.cpp:240]
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffac806c813 UE4Editor-UMG.dll!UnknownFunction []
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffb19249a91 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffb19247c94 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffada0e5695 UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffb19249db0 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffac7fd6427 UE4Editor-UMG.dll!UnknownFunction []
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffac7fd6b8b UE4Editor-UMG.dll!UnknownFunction []
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffac7fd6a04 UE4Editor-UMG.dll!UnknownFunction []
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffac7fd6cdc UE4Editor-UMG.dll!UnknownFunction []
+[2019.10.30-07.41.24:835][481]LogWindows: Error: [Callstack] 0x00007ffac7fd6206 UE4Editor-UMG.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffac806e02d UE4Editor-UMG.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffac9fff6e0 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffaca02ddf4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffacad1f9b3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffacad2cba7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffada434e4a UE4Editor-Core.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffada43510a UE4Editor-Core.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffacad4bd9d UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffacad51ed2 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffaca546e1f UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffaca5526ae UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffac875e00b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffac8fb4b16 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ff7fed47b0a UE4Editor.exe!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ff7fed5a91c UE4Editor.exe!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ff7fed5a9fa UE4Editor.exe!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ff7fed6b92c UE4Editor.exe!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ff7fed6e60e UE4Editor.exe!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffb32be7bd4 KERNEL32.DLL!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: [Callstack] 0x00007ffb3382ced1 ntdll.dll!UnknownFunction []
+[2019.10.30-07.41.24:836][481]LogWindows: Error: 
+[2019.10.30-07.41.24:859][481]LogExit: Executing StaticShutdownAfterError
+[2019.10.30-07.41.24:880][481]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.10.30-07.41.25:399][481]Log file closed, 10/30/19 16:41:25
