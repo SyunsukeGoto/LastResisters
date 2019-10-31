@@ -1,0 +1,3 @@
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters\LastResisters.Build.cs
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters.Target.cs
+C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResistersEditor.Target.cs
