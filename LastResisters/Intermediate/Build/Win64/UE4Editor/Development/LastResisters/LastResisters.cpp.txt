@@ -1,2 +1,0 @@
-D:\LastRegisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h
-d:\lastregisters\lastresisters\source\lastresisters\LastResisters.h
