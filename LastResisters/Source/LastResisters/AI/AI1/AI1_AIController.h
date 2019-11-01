@@ -30,7 +30,6 @@ class LASTRESISTERS_API AAI1_AIController : public AAIController
 	FFloat16 m_colliderRadius;
 	FFloat16 m_colliderHalfHeight;
 	FFloat16 m_colliderLengthCheck; // Used for collision checking
-	AActor* m_playerRef;
 
 public:
 	FORCEINLINE UBlackboardComponent* GetBlackboardComp() const { return m_blackboardComp; }
@@ -39,8 +38,6 @@ public:
 	FORCEINLINE FFloat16 GetColliderRadius() { return m_colliderRadius; }
 	FORCEINLINE FFloat16 GetColliderHalfHeight() { return m_colliderHalfHeight; }
 	FORCEINLINE FFloat16 GetColliderLengthCheck() { return m_colliderLengthCheck; }
-	FORCEINLINE AActor* GetPlayerRef() { return m_playerRef; }
 
 	void SetSeenPlayer(APawn* _pawn);
-	void SetTheFocusOnPlayer();
 };

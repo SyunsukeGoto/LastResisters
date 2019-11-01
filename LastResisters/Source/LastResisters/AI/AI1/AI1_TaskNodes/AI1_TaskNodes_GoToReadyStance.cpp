@@ -22,8 +22,6 @@ EBTNodeResult::Type UAI1_TaskNodes_GoToReadyStance::ExecuteTask(UBehaviorTreeCom
 
 void UAI1_TaskNodes_GoToReadyStance::ChangeStance(int _stance)
 {
-	m_bbComp->SetValueAsEnum("prevStance", m_bbComp->GetValueAsEnum("currStance"));
-	UE_LOG(LogTemp, Warning, TEXT("Setting Index: %s"), *FString::FromInt(m_bbComp->GetValueAsEnum("prevStance")));
-
 	m_bbComp->SetValueAsEnum("currStance", _stance);
+
 }

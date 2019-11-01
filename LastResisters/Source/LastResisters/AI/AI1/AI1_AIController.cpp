@@ -32,8 +32,11 @@ void AAI1_AIController::OnPossess(APawn * _pawn)
 		{
 			m_blackboardComp->InitializeBlackboard(*(aiChar_->m_behaviorTree->BlackboardAsset));
 		}
+
+		FName a = FName("MyAI1_Character2", 17);
 		
 		// Populate array with patrol target points
+		//UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), AAI1_PatrolTargetPoint::StaticClass(), a, m_patrolPoints);
 		UGameplayStatics::GetAllActorsOfClass(GetWorld(), AAI1_PatrolTargetPoint::StaticClass(), m_patrolPoints);
 
 		if (m_patrolPoints.Num() == 0)
@@ -78,22 +81,6 @@ void AAI1_AIController::SetSeenPlayer(APawn * _pawn)
 			// Set visibility and target location
 			m_blackboardComp->SetValueAsBool("canSeePlayer", true);
 			m_blackboardComp->SetValueAsVector("targetLocation", _pawn->GetActorLocation());
-			m_playerRef = _pawn;
-		}
-	}
-}
-
-void AAI1_AIController::SetTheFocusOnPlayer()
-{
-	if (m_blackboardComp)
-	{
-		if (!m_blackboardComp->GetValueAsBool("canSeePlayer"))
-		{
-			ClearFocus(EAIFocusPriority::Gameplay);
-		}
-		else if (m_playerRef)
-		{
-			SetFocus(m_playerRef);
 		}
 	}
 }
