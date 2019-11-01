@@ -247,11 +247,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I D:\LastRegisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine
-/Yc"D:\LastRegisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\LastRegisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\LastRegisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\LastRegisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I ..\..\LastRegister2\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine
+/Yc"D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

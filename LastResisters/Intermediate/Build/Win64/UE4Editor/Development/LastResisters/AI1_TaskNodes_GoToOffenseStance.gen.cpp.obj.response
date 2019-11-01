@@ -498,9 +498,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
 /I Runtime\PropertyPath
-/I D:\LastRegisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Inc\LastResisters
-/I D:\LastRegisters\LastResisters\Source
-/I D:\LastRegisters\LastResisters\Source\LastResisters
+/I ..\..\LastRegister2\LastResisters\Intermediate\Build\Win64\UE4Editor\Inc\LastResisters
+/I ..\..\LastRegister2\LastResisters\Source
+/I ..\..\LastRegister2\LastResisters\Source\LastResisters
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -530,12 +530,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\LastRegisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\LastRegisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\LastRegisters\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\LastRegisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Inc\LastResisters\AI1_TaskNodes_GoToOffenseStance.gen.cpp"
-/FI"D:\LastRegisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h"
-/Fo"D:\LastRegisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_GoToOffenseStance.gen.cpp.obj"
+/FI"D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\LastResistersEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\UE4Editor\Inc\LastResisters\AI1_TaskNodes_GoToOffenseStance.gen.cpp"
+/FI"D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h"
+/Fo"D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\AI1_TaskNodes_GoToOffenseStance.gen.cpp.obj"
 /TP
 /GR-
 /W4
