@@ -1,0 +1,2 @@
+tics.uasset
+LastResisters/Saved/Logs/LastResisters-backup-0001.01.01-00.00.00.log
