@@ -1,9 +1,5 @@
 Engine/GlobalShaderCache-GLSL_ES3_1_ANDROID.bin
 LastResisters/AssetRegistry.bin
-LastResisters/Content/Game/Animation/PlayerAnimation/BP_PlayerAnimation.uasset
-LastResisters/Content/Game/Animation/PlayerAnimation/BP_PlayerAnimation.uexp
-LastResisters/Content/Game/Blueprints/Player/BP_Player.uasset
-LastResisters/Content/Game/Blueprints/Player/BP_Player.uexp
 LastResisters/Content/Game/Level/Maps/Play/Play.uexp
 LastResisters/Content/Game/Level/Maps/Play/Play.umap
 Manifest_NonUFSFiles_Android.txt
