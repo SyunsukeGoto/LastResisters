@@ -14,9 +14,27 @@
 			]
 		}
 	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystemOculus",
+			"Enabled": true
+		},
+		{
+			"Name": "OculusAvatar",
+			"Enabled": true
+		},
+		{
+			"Name": "OculusAudio",
+			"Enabled": true
+		},
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
+		}
+	],
 	"TargetPlatforms": [
 		"PS4",
-		"WindowsNoEditor",
-		"Android"
+		"Android",
+		"WindowsNoEditor"
 	]
 }
