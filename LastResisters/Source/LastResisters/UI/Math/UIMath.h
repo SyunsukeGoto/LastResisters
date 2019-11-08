@@ -1,7 +1,7 @@
 #ifndef UI_MATH_H
 #define UI_MATH_H
 
-static class UIMath
+class UIMath
 {
 
 protected:
