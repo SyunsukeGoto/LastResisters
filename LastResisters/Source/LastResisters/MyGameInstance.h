@@ -29,5 +29,8 @@ public:
 	MyUIManager* GetUIManagerInstance();
 	MyAttackManager* GetAttackManagerInstance();
 
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+	void StorePlayerManagerValues(FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot);
+
 	void Update(float inDeltaTime);
 };

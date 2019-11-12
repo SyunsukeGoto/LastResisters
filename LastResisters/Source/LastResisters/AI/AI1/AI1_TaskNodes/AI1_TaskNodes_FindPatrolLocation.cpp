@@ -19,7 +19,10 @@ EBTNodeResult::Type UAI1_TaskNodes_FindPatrolLocation::ExecuteTask(UBehaviorTree
 		TArray<AActor*> availableTargetPoints_ = aiCon_->GetAvailableTargetPoints();
 
 		// Set target location based on current patrol index
-		bbComp_->SetValueAsVector("targetLocation", availableTargetPoints_[patrolPathIndex_]->GetActorLocation());
+		if (!bbComp_->GetValueAsBool("canSeePlayer"))
+		{
+			bbComp_->SetValueAsVector("targetLocation", availableTargetPoints_[patrolPathIndex_]->GetActorLocation());
+		}
 
 		return EBTNodeResult::Succeeded;
 	}
