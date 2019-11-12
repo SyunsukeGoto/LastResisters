@@ -34,7 +34,7 @@ void AAI1_AIController::OnPossess(APawn * _pawn)
 		{
 			m_blackboardComp->InitializeBlackboard(*(aiChar_->m_behaviorTree->BlackboardAsset));
 		}
-
+		
 		// Populate array with patrol target points
 		//UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), AAI1_PatrolTargetPoint::StaticClass(), a, m_patrolPoints);
 		UGameplayStatics::GetAllActorsOfClass(GetWorld(), AAI1_PatrolTargetPoint::StaticClass(), m_patrolPoints);
@@ -78,8 +78,39 @@ void AAI1_AIController::SetSeenPlayer(APawn * _pawn)
 		if (_pawn->IsPlayerControlled())
 		{ // If can see player
 			// Set visibility and target location
-			m_blackboardComp->SetValueAsBool("canSeePlayer", true);
+			if (!m_blackboardComp->GetValueAsVector("targetLocation").Equals(_pawn->GetActorLocation()))
+			{
+				UE_LOG(LogTemp, Warning, TEXT("New Pawn seen: %s , Robot Pos: [%f, %f, %f]")
+					, *_pawn->GetName()
+					, _pawn->GetActorLocation().X
+					, _pawn->GetActorLocation().Y
+					, _pawn->GetActorLocation().Z);
+			}
 			m_blackboardComp->SetValueAsVector("targetLocation", _pawn->GetActorLocation());
+			m_blackboardComp->SetValueAsBool("canSeePlayer", true);
+			m_playerRef = _pawn;
+
+			
 		}
 	}
+}
+
+void AAI1_AIController::SetTheFocusOnPlayer()
+{
+	if (m_blackboardComp)
+	{
+		if (!m_blackboardComp->GetValueAsBool("canSeePlayer"))
+		{
+			ClearFocus(EAIFocusPriority::Gameplay);
+		}
+		else if (m_playerRef)
+		{
+			SetFocus(m_playerRef);
+		}
+	}
+}
+
+void AAI1_AIController::StopFocusOnPlayer()
+{
+	ClearFocus(EAIFocusPriority::Gameplay);
 }

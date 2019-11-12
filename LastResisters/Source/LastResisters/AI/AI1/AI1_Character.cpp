@@ -57,7 +57,7 @@ void AAI1_Character::Tick(float DeltaTime)
 			AAI1_AIController* AIController = Cast<AAI1_AIController>(GetController());
 			if (AIController)
 			{
-				AIController->GetBlackboardComp()->SetValueAsBool("canSeePlayer", 0);
+				AIController->GetBlackboardComp()->SetValueAsBool("canSeePlayer", false);
 			}
 		}
 		else

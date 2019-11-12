@@ -79,9 +79,12 @@ EBTNodeResult::Type UAI1_TaskNodes_StateManagement::ExecuteTask(UBehaviorTreeCom
 			FVector targetLocation = m_bbComp->GetValueAsVector("targetLocation");
 			FVector myPosition = aiCon_->GetPawn()->GetActorLocation();
 			FFloat16 dist_ = FVector::Dist(targetLocation, myPosition);
-			if (dist_ > m_combatRange)
+			uint8 currStance = m_bbComp->GetValueAsEnum("currStance");
+			if (dist_ > m_combatRange && currStance == 0)
 			{ // If player ran away
 				// Change state to chase
+
+
 				ChangeState(1);
 			}
 		} break;
@@ -90,7 +93,6 @@ EBTNodeResult::Type UAI1_TaskNodes_StateManagement::ExecuteTask(UBehaviorTreeCom
 		{
 		} break;
 	}
-
 
 	return EBTNodeResult::Succeeded;
 }

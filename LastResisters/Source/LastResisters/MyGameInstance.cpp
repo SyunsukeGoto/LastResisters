@@ -76,6 +76,11 @@ MyAttackManager * UMyGameInstance::GetAttackManagerInstance()
 	return nullptr;
 }
 
+void UMyGameInstance::StorePlayerManagerValues(FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot)
+{
+	m_playerManager->StoreValues(_leftPos, _rightPos, _leftRot, _rightRot);
+}
+
 void UMyGameInstance::Update(float inDeltaTime)
 {
 	m_UIManager->Update(inDeltaTime);
