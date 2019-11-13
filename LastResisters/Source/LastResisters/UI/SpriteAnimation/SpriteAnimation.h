@@ -11,8 +11,6 @@ class LASTRESISTERS_API USpriteAnimation : public UImage
 {
 	GENERATED_BODY()
 
-public:
-
 protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "SpriteAnimation")
