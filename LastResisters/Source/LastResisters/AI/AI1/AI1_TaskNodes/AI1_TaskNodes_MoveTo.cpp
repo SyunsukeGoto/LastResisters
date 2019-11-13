@@ -11,6 +11,8 @@ EBTNodeResult::Type UAI1_TaskNodes_MoveTo::ExecuteTask(UBehaviorTreeComponent & 
 
 	if (aiCon_)
 	{
+		aiCon_->SetTheFocusOnPlayer();
+
 		// If the AI has moved to the target location
 		if (EPathFollowingRequestResult::AlreadyAtGoal == 
 			aiCon_->MoveToLocation(aiCon_->GetBlackboardComp()->GetValueAsVector("targetLocation"), aiCon_->GetCombatRange(), true, true, true, true, 0, true))
