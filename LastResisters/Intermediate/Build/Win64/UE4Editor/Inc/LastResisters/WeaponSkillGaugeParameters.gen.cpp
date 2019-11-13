@@ -79,9 +79,15 @@ static struct FScriptStruct_LastResisters_StaticRegisterNativesFWeaponSkillGauge
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWeaponSkillGaugeParameters_Statics::NewProp_useTexture_MetaData[] = {
 		{ "Category", "WeaponSkillGaugeParameters" },
+<<<<<<< HEAD
 		{ "Comment", "//Do we use a texture for this instance of the material?\n" },
 		{ "ModuleRelativePath", "UI/PlayerUI/WeaponIcons/WeaponSkillGaugeParameters.h" },
 		{ "ToolTip", "Do we use a texture for this instance of the material?" },
+=======
+		{ "Comment", "//The progress of the image in the range of 0 to 1.\n" },
+		{ "ModuleRelativePath", "UI/PlayerUI/WeaponIcons/WeaponSkillGaugeParameters.h" },
+		{ "ToolTip", "The progress of the image in the range of 0 to 1." },
+>>>>>>> feature/AddSparkEffect2
 	};
 #endif
 	void Z_Construct_UScriptStruct_FWeaponSkillGaugeParameters_Statics::NewProp_useTexture_SetBit(void* Obj)
@@ -121,7 +127,11 @@ static struct FScriptStruct_LastResisters_StaticRegisterNativesFWeaponSkillGauge
 		}
 		return ReturnStruct;
 	}
+<<<<<<< HEAD
 	uint32 Get_Z_Construct_UScriptStruct_FWeaponSkillGaugeParameters_Hash() { return 3371342000U; }
+=======
+	uint32 Get_Z_Construct_UScriptStruct_FWeaponSkillGaugeParameters_Hash() { return 746354942U; }
+>>>>>>> feature/AddSparkEffect2
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

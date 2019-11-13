@@ -18,7 +18,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_LastResisters();
 	UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
+<<<<<<< HEAD
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FColor();
+=======
+>>>>>>> feature/AddSparkEffect2
 	ENGINE_API UClass* Z_Construct_UClass_UTexture_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 // End Cross Module References
@@ -56,6 +59,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BackgroundOne;
 #if WITH_METADATA
+<<<<<<< HEAD
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitImageTen_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitImageTen;
@@ -76,6 +80,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitImageSix;
 #if WITH_METADATA
+=======
+>>>>>>> feature/AddSparkEffect2
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitImageFive_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitImageFive;
@@ -96,6 +102,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitImageOne;
 #if WITH_METADATA
+<<<<<<< HEAD
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DesiredHitColor_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_DesiredHitColor;
@@ -116,6 +123,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DesiredBlockTexture;
 #if WITH_METADATA
+=======
+>>>>>>> feature/AddSparkEffect2
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MainTexture_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MainTexture;
@@ -195,6 +204,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_BackgroundOne = { "BackgroundOne", nullptr, (EPropertyFlags)0x001000000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerHitUI, BackgroundOne), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_BackgroundOne_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_BackgroundOne_MetaData)) };
 #if WITH_METADATA
+<<<<<<< HEAD
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageTen_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "Category", "PlayerHitUI" },
@@ -250,6 +260,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageSix = { "HitImageSix", nullptr, (EPropertyFlags)0x001000000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerHitUI, HitImageSix), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageSix_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageSix_MetaData)) };
 #if WITH_METADATA
+=======
+>>>>>>> feature/AddSparkEffect2
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageFive_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "Category", "PlayerHitUI" },
@@ -305,6 +317,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageOne = { "HitImageOne", nullptr, (EPropertyFlags)0x001000000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerHitUI, HitImageOne), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageOne_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageOne_MetaData)) };
 #if WITH_METADATA
+<<<<<<< HEAD
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_DesiredHitColor_MetaData[] = {
 		{ "Category", "PlayerHitUI" },
 		{ "Comment", "//Desired color just in case we are not using texture\n" },
@@ -350,6 +363,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_DesiredBlockTexture = { "DesiredBlockTexture", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerHitUI, DesiredBlockTexture), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_DesiredBlockTexture_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_DesiredBlockTexture_MetaData)) };
 #if WITH_METADATA
+=======
+>>>>>>> feature/AddSparkEffect2
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_MainTexture_MetaData[] = {
 		{ "Category", "PlayerHitUI" },
 		{ "Comment", "//Texture we'll set as a parameter to our dynamic material instance\n" },
@@ -373,21 +388,27 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_BackgroundThree,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_BackgroundTwo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_BackgroundOne,
+<<<<<<< HEAD
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageTen,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageNine,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageEight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageSeven,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageSix,
+=======
+>>>>>>> feature/AddSparkEffect2
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageFive,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageFour,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageThree,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageTwo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_HitImageOne,
+<<<<<<< HEAD
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_DesiredHitColor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_DesiredBlockColor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_MainColor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_DesiredHitTexture,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_DesiredBlockTexture,
+=======
+>>>>>>> feature/AddSparkEffect2
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_MainTexture,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHitUI_Statics::NewProp_MainMaterial,
 	};
@@ -418,7 +439,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerHitUI() {}
 		}
 		return OuterClass;
 	}
+<<<<<<< HEAD
 	IMPLEMENT_CLASS(UPlayerHitUI, 2763371047);
+=======
+	IMPLEMENT_CLASS(UPlayerHitUI, 2802404050);
+>>>>>>> feature/AddSparkEffect2
 	template<> LASTRESISTERS_API UClass* StaticClass<UPlayerHitUI>()
 	{
 		return UPlayerHitUI::StaticClass();

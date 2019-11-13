@@ -82,18 +82,26 @@ static struct FScriptStruct_LastResisters_StaticRegisterNativesFWeaponSkillGauge
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWeaponSkillGauge_Statics::NewProp_weaponSkillParameters_MetaData[] = {
 		{ "Category", "WeaponSkillGauge" },
+<<<<<<< HEAD
 		{ "Comment", "//All the other parameters.\n" },
 		{ "ModuleRelativePath", "UI/PlayerUI/WeaponIcons/WeaponSkillGauge.h" },
 		{ "ToolTip", "All the other parameters." },
+=======
+		{ "ModuleRelativePath", "UI/PlayerUI/WeaponIcons/WeaponSkillGauge.h" },
+>>>>>>> feature/AddSparkEffect2
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWeaponSkillGauge_Statics::NewProp_weaponSkillParameters = { "weaponSkillParameters", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FWeaponSkillGauge, weaponSkillParameters), Z_Construct_UScriptStruct_FWeaponSkillGaugeParameters, METADATA_PARAMS(Z_Construct_UScriptStruct_FWeaponSkillGauge_Statics::NewProp_weaponSkillParameters_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FWeaponSkillGauge_Statics::NewProp_weaponSkillParameters_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWeaponSkillGauge_Statics::NewProp_Color_MetaData[] = {
 		{ "Category", "WeaponSkillGauge" },
+<<<<<<< HEAD
 		{ "Comment", "//Color just in case we are not using texture.\n" },
 		{ "ModuleRelativePath", "UI/PlayerUI/WeaponIcons/WeaponSkillGauge.h" },
 		{ "ToolTip", "Color just in case we are not using texture." },
+=======
+		{ "ModuleRelativePath", "UI/PlayerUI/WeaponIcons/WeaponSkillGauge.h" },
+>>>>>>> feature/AddSparkEffect2
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWeaponSkillGauge_Statics::NewProp_Color = { "Color", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FWeaponSkillGauge, Color), Z_Construct_UScriptStruct_FColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FWeaponSkillGauge_Statics::NewProp_Color_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FWeaponSkillGauge_Statics::NewProp_Color_MetaData)) };
@@ -149,7 +157,11 @@ static struct FScriptStruct_LastResisters_StaticRegisterNativesFWeaponSkillGauge
 		}
 		return ReturnStruct;
 	}
+<<<<<<< HEAD
 	uint32 Get_Z_Construct_UScriptStruct_FWeaponSkillGauge_Hash() { return 3105577838U; }
+=======
+	uint32 Get_Z_Construct_UScriptStruct_FWeaponSkillGauge_Hash() { return 3423830748U; }
+>>>>>>> feature/AddSparkEffect2
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

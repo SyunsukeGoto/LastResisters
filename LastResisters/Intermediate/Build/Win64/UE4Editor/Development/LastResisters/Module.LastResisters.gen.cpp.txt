@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_AIController.gen.cpp
 D:\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters/AI/AI1/AI1_AIController.h
+=======
+D:\UE_4.23\LastRegister2\LastResisters\Intermediate\Build\Win64\UE4Editor\Development\LastResisters\Definitions.LastResisters.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_AIController.gen.cpp
+D:\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_AIController.h
+>>>>>>> feature/AddSparkEffect2
 D:\UE_4.23\Engine\Source\Runtime\AIModule\Classes\AIController.h
 D:\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
 D:\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
@@ -50,13 +58,20 @@ D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags\GameplayTa
 D:\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BrainComponent.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BrainComponent.generated.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeComponent.generated.h
+<<<<<<< HEAD
 c:\users\s172078\documents\github\lastresisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_AIController.generated.h
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_Character.gen.cpp
 C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters/AI/AI1/AI1_Character.h
+=======
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_AIController.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_Character.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_Character.h
+>>>>>>> feature/AddSparkEffect2
 D:\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+<<<<<<< HEAD
 c:\users\s172078\documents\github\lastresisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_Character.generated.h
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_PatrolTargetPoint.gen.cpp
 C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters/AI/AI1/AI1_PatrolTargetPoint.h
@@ -65,12 +80,23 @@ D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TargetPoint.gene
 c:\users\s172078\documents\github\lastresisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_PatrolTargetPoint.generated.h
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_TaskNodes_CombatManagement.gen.cpp
 C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters/AI/AI1/AI1_TaskNodes/AI1_TaskNodes_CombatManagement.h
+=======
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_Character.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_PatrolTargetPoint.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_PatrolTargetPoint.h
+D:\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/TargetPoint.h
+D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TargetPoint.generated.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_PatrolTargetPoint.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_TaskNodes_CombatManagement.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_TaskNodes/AI1_TaskNodes_CombatManagement.h
+>>>>>>> feature/AddSparkEffect2
 D:\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTTaskNode.h
 D:\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTNode.h
 D:\UE_4.23\Engine\Source\Runtime\AIModule\Classes\Tasks/AITask.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITask.generated.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTNode.generated.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTaskNode.generated.h
+<<<<<<< HEAD
 c:\users\s172078\documents\github\lastresisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_TaskNodes_CombatManagement.generated.h
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_TaskNodes_FindPatrolLocation.gen.cpp
 C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters/AI/AI1/AI1_TaskNodes/AI1_TaskNodes_FindPatrolLocation.h
@@ -101,6 +127,32 @@ C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResiste
 c:\users\s172078\documents\github\lastresisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_TaskNodes_StateManagement.generated.h
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/CircularHealth.gen.cpp
 C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters/UI/PlayerUI/CircularHealth/CircularHealth.h
+=======
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_TaskNodes_CombatManagement.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_TaskNodes_FindPatrolLocation.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_TaskNodes/AI1_TaskNodes_FindPatrolLocation.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_TaskNodes_FindPatrolLocation.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_TaskNodes_GoToOffenseStance.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_TaskNodes/AI1_TaskNodes_GoToOffenseStance.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_TaskNodes_GoToOffenseStance.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_TaskNodes_GoToReadyStance.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_TaskNodes/AI1_TaskNodes_GoToReadyStance.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_TaskNodes_GoToReadyStance.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_TaskNodes_IncrementPathIndex.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_TaskNodes/AI1_TaskNodes_IncrementPathIndex.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_TaskNodes_IncrementPathIndex.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_TaskNodes_Init.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_TaskNodes/AI1_TaskNodes_Init.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_TaskNodes_Init.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_TaskNodes_MoveTo.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_TaskNodes/AI1_TaskNodes_MoveTo.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_TaskNodes_MoveTo.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/AI1_TaskNodes_StateManagement.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/AI/AI1/AI1_TaskNodes/AI1_TaskNodes_StateManagement.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\AI1_TaskNodes_StateManagement.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/CircularHealth.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/UI/PlayerUI/CircularHealth/CircularHealth.h
+>>>>>>> feature/AddSparkEffect2
 D:\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
 D:\UE_4.23\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
 D:\UE_4.23\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
@@ -120,6 +172,7 @@ D:\UE_4.23\Engine\Source\Runtime\Engine\Public\Slate/SlateTextureAtlasInterface.
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SlateTextureAtlasInterface.generated.h
 D:\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/StreamableManager.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Image.generated.h
+<<<<<<< HEAD
 c:\users\s172078\documents\github\lastresisters\lastresisters\source\lastresisters\ui\playerui\circularhealth\CircularHealthParameters.h
 c:\users\s172078\documents\github\lastresisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\CircularHealthParameters.generated.h
 c:\users\s172078\documents\github\lastresisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\CircularHealth.generated.h
@@ -147,6 +200,35 @@ c:\users\s172078\documents\github\lastresisters\lastresisters\intermediate\build
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/EnemyHealthGaugeParameters.gen.cpp
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/EnemyUI.gen.cpp
 C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters/UI/EnemyUI/EnemyUI/EnemyUI.h
+=======
+d:\ue_4.23\lastregister2\lastresisters\source\lastresisters\ui\playerui\circularhealth\CircularHealthParameters.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\CircularHealthParameters.generated.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\CircularHealth.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/CircularHealthParameters.gen.cpp
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/CrackedEdge.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/UI/EnemyUI/CrackEdges/CrackedEdge.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\CrackedEdge.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/DashGauge.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/UI/PlayerUI/DashGauge/DashGauge.h
+d:\ue_4.23\lastregister2\lastresisters\source\lastresisters\ui\playerui\dashgauge\DashGaugeParameters.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\DashGaugeParameters.generated.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\DashGauge.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/DashGaugeParameters.gen.cpp
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/EnemyArmorGauge.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/UI/EnemyUI/ArmorGauge/EnemyArmorGauge.h
+d:\ue_4.23\lastregister2\lastresisters\source\lastresisters\ui\enemyui\armorgauge\EnemyArmorGaugeParameters.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\EnemyArmorGaugeParameters.generated.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\EnemyArmorGauge.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/EnemyArmorGaugeParameters.gen.cpp
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/EnemyHealthGauge.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/UI/EnemyUI/HealthGauge/EnemyHealthGauge.h
+d:\ue_4.23\lastregister2\lastresisters\source\lastresisters\ui\enemyui\healthgauge\EnemyHealthGaugeParameters.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\EnemyHealthGaugeParameters.generated.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\EnemyHealthGauge.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/EnemyHealthGaugeParameters.gen.cpp
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/EnemyUI.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/UI/EnemyUI/EnemyUI/EnemyUI.h
+>>>>>>> feature/AddSparkEffect2
 D:\UE_4.23\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 D:\UE_4.23\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\NamedSlotInterface.generated.h
@@ -249,6 +331,7 @@ D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath\PropertyPa
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 D:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
+<<<<<<< HEAD
 c:\users\s172078\documents\github\lastresisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\EnemyUI.generated.h
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/InstanceUpdater.gen.cpp
 C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResisters/InstanceUpdater.h
@@ -280,3 +363,36 @@ C:\Users\s172078\Documents\GitHub\LastResisters\LastResisters\Source\LastResiste
 c:\users\s172078\documents\github\lastresisters\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\SpriteAnimation.generated.h
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/WeaponSkillGauge.gen.cpp
 C:/Users/s172078/Documents/GitHub/LastResisters/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/WeaponSkillGaugeParameters.gen.cpp
+=======
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\EnemyUI.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/InstanceUpdater.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/InstanceUpdater.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\InstanceUpdater.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/LastResisters.init.gen.cpp
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/MyGameInstance.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/MyGameInstance.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\MyGameInstance.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/PlayerHitIndicator.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/UI/PlayerUI/PlayerHitUI/PlayerHitIndicator.h
+d:\ue_4.23\lastregister2\lastresisters\source\lastresisters\ui\playerui\playerhitui\PlayerHitUIParameters.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\PlayerHitUIParameters.generated.h
+d:\ue_4.23\lastregister2\lastresisters\source\lastresisters\ui\playerui\playerhitui\../../../Managers/MyAttackManager.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\PlayerHitIndicator.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/PlayerHitUI.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/UI/PlayerUI/PlayerHitUI/PlayerHitUI.h
+d:\ue_4.23\lastregister2\lastresisters\source\lastresisters\ui\playerui\playerhitui\../../../Managers/MyUIManager.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\PlayerHitUI.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/PlayerHitUIParameters.gen.cpp
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/PlayerUI.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/UI/PlayerUI/MainUI/PlayerUI.h
+d:\ue_4.23\lastregister2\lastresisters\source\lastresisters\ui\playerui\mainui\../WeaponIcons/WeaponSkillGauge.h
+d:\ue_4.23\lastregister2\lastresisters\source\lastresisters\ui\playerui\weaponicons\WeaponSkillGaugeParameters.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\WeaponSkillGaugeParameters.generated.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\WeaponSkillGauge.generated.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\PlayerUI.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/SpriteAnimation.gen.cpp
+D:\UE_4.23\LastRegister2\LastResisters\Source\LastResisters/UI/SpriteAnimation/SpriteAnimation.h
+d:\ue_4.23\lastregister2\lastresisters\intermediate\build\win64\ue4editor\inc\lastresisters\SpriteAnimation.generated.h
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/WeaponSkillGauge.gen.cpp
+D:/UE_4.23/LastRegister2/LastResisters/Intermediate/Build/Win64/UE4Editor/Inc/LastResisters/WeaponSkillGaugeParameters.gen.cpp
+>>>>>>> feature/AddSparkEffect2

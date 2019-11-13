@@ -21,8 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeLastResisters_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< HEAD
 				0x631B4A99,
 				0x5122CA06,
+=======
+				0x2B559481,
+				0xE0A0AA0B,
+>>>>>>> feature/AddSparkEffect2
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

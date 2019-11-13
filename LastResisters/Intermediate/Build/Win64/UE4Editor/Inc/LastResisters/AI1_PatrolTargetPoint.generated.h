@@ -13,9 +13,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LASTRESISTERS_AI1_PatrolTargetPoint_generated_h
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_RPC_WRAPPERS
 #define LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_INCLASS_NO_PURE_DECLS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_RPC_WRAPPERS
+#define LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_INCLASS_NO_PURE_DECLS \
+>>>>>>> feature/AddSparkEffect2
 private: \
 	static void StaticRegisterNativesAAI1_PatrolTargetPoint(); \
 	friend struct Z_Construct_UClass_AAI1_PatrolTargetPoint_Statics; \
@@ -24,7 +30,11 @@ public: \
 	DECLARE_SERIALIZER(AAI1_PatrolTargetPoint)
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_INCLASS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_INCLASS \
+>>>>>>> feature/AddSparkEffect2
 private: \
 	static void StaticRegisterNativesAAI1_PatrolTargetPoint(); \
 	friend struct Z_Construct_UClass_AAI1_PatrolTargetPoint_Statics; \
@@ -33,7 +43,11 @@ public: \
 	DECLARE_SERIALIZER(AAI1_PatrolTargetPoint)
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_STANDARD_CONSTRUCTORS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_STANDARD_CONSTRUCTORS \
+>>>>>>> feature/AddSparkEffect2
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAI1_PatrolTargetPoint(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAI1_PatrolTargetPoint) \
@@ -46,7 +60,11 @@ private: \
 public:
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_ENHANCED_CONSTRUCTORS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_ENHANCED_CONSTRUCTORS \
+>>>>>>> feature/AddSparkEffect2
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAI1_PatrolTargetPoint(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,6 +77,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAI1_PatrolTargetPoint); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAI1_PatrolTargetPoint)
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_PRIVATE_PROPERTY_OFFSET
 #define LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_12_PROLOG
 #define LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_GENERATED_BODY_LEGACY \
@@ -68,10 +87,22 @@ public: \
 	LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_RPC_WRAPPERS \
 	LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_INCLASS \
 	LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_STANDARD_CONSTRUCTORS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_PRIVATE_PROPERTY_OFFSET
+#define LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_12_PROLOG
+#define LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_PRIVATE_PROPERTY_OFFSET \
+	LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_RPC_WRAPPERS \
+	LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_INCLASS \
+	LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_STANDARD_CONSTRUCTORS \
+>>>>>>> feature/AddSparkEffect2
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
@@ -79,6 +110,15 @@ public: \
 	LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_INCLASS_NO_PURE_DECLS \
 	LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_ENHANCED_CONSTRUCTORS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_PRIVATE_PROPERTY_OFFSET \
+	LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_INCLASS_NO_PURE_DECLS \
+	LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h_15_ENHANCED_CONSTRUCTORS \
+>>>>>>> feature/AddSparkEffect2
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -86,7 +126,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> LASTRESISTERS_API UClass* StaticClass<class AAI1_PatrolTargetPoint>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< HEAD
 #define CURRENT_FILE_ID LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h
+=======
+#define CURRENT_FILE_ID LastRegister2_LastResisters_Source_LastResisters_AI_AI1_AI1_PatrolTargetPoint_h
+>>>>>>> feature/AddSparkEffect2
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

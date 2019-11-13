@@ -7,13 +7,19 @@
 			"AI1_PatrolTargetPoint.cpp.obj",
 			"AI1_TaskNodes_CombatManagement.cpp.obj",
 			"AI1_TaskNodes_FindPatrolLocation.cpp.obj",
+<<<<<<< HEAD
 			"AI1_TaskNodes_GoingDownProcess.cpp.obj",
+=======
+>>>>>>> feature/AddSparkEffect2
 			"AI1_TaskNodes_GoToOffenseStance.cpp.obj",
 			"AI1_TaskNodes_GoToReadyStance.cpp.obj",
 			"AI1_TaskNodes_IncrementPathIndex.cpp.obj",
 			"AI1_TaskNodes_Init.cpp.obj",
 			"AI1_TaskNodes_MoveTo.cpp.obj",
+<<<<<<< HEAD
 			"AI1_TaskNodes_SetArmor.cpp.obj",
+=======
+>>>>>>> feature/AddSparkEffect2
 			"AI1_TaskNodes_StateManagement.cpp.obj",
 			"InstanceUpdater.cpp.obj",
 			"LastResisters.cpp.obj",
@@ -46,13 +52,19 @@
 			"AI1_PatrolTargetPoint.gen.cpp.obj",
 			"AI1_TaskNodes_CombatManagement.gen.cpp.obj",
 			"AI1_TaskNodes_FindPatrolLocation.gen.cpp.obj",
+<<<<<<< HEAD
 			"AI1_TaskNodes_GoingDownProcess.gen.cpp.obj",
+=======
+>>>>>>> feature/AddSparkEffect2
 			"AI1_TaskNodes_GoToOffenseStance.gen.cpp.obj",
 			"AI1_TaskNodes_GoToReadyStance.gen.cpp.obj",
 			"AI1_TaskNodes_IncrementPathIndex.gen.cpp.obj",
 			"AI1_TaskNodes_Init.gen.cpp.obj",
 			"AI1_TaskNodes_MoveTo.gen.cpp.obj",
+<<<<<<< HEAD
 			"AI1_TaskNodes_SetArmor.gen.cpp.obj",
+=======
+>>>>>>> feature/AddSparkEffect2
 			"AI1_TaskNodes_StateManagement.gen.cpp.obj",
 			"CircularHealth.gen.cpp.obj",
 			"CircularHealthParameters.gen.cpp.obj",

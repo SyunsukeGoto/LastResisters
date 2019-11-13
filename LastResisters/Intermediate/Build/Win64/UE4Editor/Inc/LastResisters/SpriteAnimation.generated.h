@@ -13,7 +13,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LASTRESISTERS_SpriteAnimation_generated_h
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_RPC_WRAPPERS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_RPC_WRAPPERS \
+>>>>>>> feature/AddSparkEffect2
  \
 	DECLARE_FUNCTION(execStopAnimation) \
 	{ \
@@ -41,7 +45,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> feature/AddSparkEffect2
  \
 	DECLARE_FUNCTION(execStopAnimation) \
 	{ \
@@ -69,7 +77,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_INCLASS_NO_PURE_DECLS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_INCLASS_NO_PURE_DECLS \
+>>>>>>> feature/AddSparkEffect2
 private: \
 	static void StaticRegisterNativesUSpriteAnimation(); \
 	friend struct Z_Construct_UClass_USpriteAnimation_Statics; \
@@ -78,7 +90,11 @@ public: \
 	DECLARE_SERIALIZER(USpriteAnimation)
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_INCLASS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_INCLASS \
+>>>>>>> feature/AddSparkEffect2
 private: \
 	static void StaticRegisterNativesUSpriteAnimation(); \
 	friend struct Z_Construct_UClass_USpriteAnimation_Statics; \
@@ -87,7 +103,11 @@ public: \
 	DECLARE_SERIALIZER(USpriteAnimation)
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_STANDARD_CONSTRUCTORS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_STANDARD_CONSTRUCTORS \
+>>>>>>> feature/AddSparkEffect2
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USpriteAnimation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USpriteAnimation) \
@@ -100,7 +120,11 @@ private: \
 public:
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_ENHANCED_CONSTRUCTORS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_ENHANCED_CONSTRUCTORS \
+>>>>>>> feature/AddSparkEffect2
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USpriteAnimation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -113,13 +137,18 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USpriteAnimation); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USpriteAnimation)
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_PRIVATE_PROPERTY_OFFSET \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_PRIVATE_PROPERTY_OFFSET \
+>>>>>>> feature/AddSparkEffect2
 	FORCEINLINE static uint32 __PPO__framesPerSecond() { return STRUCT_OFFSET(USpriteAnimation, framesPerSecond); } \
 	FORCEINLINE static uint32 __PPO__currentFrame() { return STRUCT_OFFSET(USpriteAnimation, currentFrame); } \
 	FORCEINLINE static uint32 __PPO__totalFrames() { return STRUCT_OFFSET(USpriteAnimation, totalFrames); } \
 	FORCEINLINE static uint32 __PPO__playOnce() { return STRUCT_OFFSET(USpriteAnimation, playOnce); }
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_9_PROLOG
 #define LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -128,10 +157,21 @@ public: \
 	LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_RPC_WRAPPERS \
 	LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_INCLASS \
 	LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_STANDARD_CONSTRUCTORS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_9_PROLOG
+#define LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_PRIVATE_PROPERTY_OFFSET \
+	LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_RPC_WRAPPERS \
+	LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_INCLASS \
+	LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_STANDARD_CONSTRUCTORS \
+>>>>>>> feature/AddSparkEffect2
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+<<<<<<< HEAD
 #define LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
@@ -139,6 +179,15 @@ public: \
 	LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_INCLASS_NO_PURE_DECLS \
 	LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_ENHANCED_CONSTRUCTORS \
+=======
+#define LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_PRIVATE_PROPERTY_OFFSET \
+	LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_INCLASS_NO_PURE_DECLS \
+	LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h_12_ENHANCED_CONSTRUCTORS \
+>>>>>>> feature/AddSparkEffect2
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -146,7 +195,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> LASTRESISTERS_API UClass* StaticClass<class USpriteAnimation>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< HEAD
 #define CURRENT_FILE_ID LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h
+=======
+#define CURRENT_FILE_ID LastRegister2_LastResisters_Source_LastResisters_UI_SpriteAnimation_SpriteAnimation_h
+>>>>>>> feature/AddSparkEffect2
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
