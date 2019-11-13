@@ -5,22 +5,19 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "AI/AI1/AI1_AIController.h"
 #include "AIController.h"
-#include "MyGameInstance.h"
-#include "Managers/MyAttackManager.h"
-#include "../../../UI/PlayerUI/PlayerHitUI/PlayerHitUI.h"
 
 EBTNodeResult::Type UAI1_TaskNodes_StateManagement::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
 {
 	AAI1_AIController* aiCon_ = Cast<AAI1_AIController>(OwnerComp.GetAIOwner());
 	if (!aiCon_)
 		return EBTNodeResult::Failed;
-
+	
 	// Get all necessary values for state management
 	m_bbComp = aiCon_->GetBlackboardComp();
 	m_currState = m_bbComp->GetValueAsEnum("currState");
 	m_canSeePlayer = m_bbComp->GetValueAsBool("canSeePlayer");
 	m_combatRange = aiCon_->GetCombatRange() + aiCon_->GetColliderLengthCheck();
-
+	
 	switch (m_currState)
 	{
 		case 0:
