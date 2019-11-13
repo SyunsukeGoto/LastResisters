@@ -42,5 +42,5 @@ public:
 	void Update(float deltaTime);
 	void UpdateAllAttacks(float _dt);
 
-	void DamageTheAI(FString _ID);
+	void DamageTheAIArmor(FString _ID);
 };
