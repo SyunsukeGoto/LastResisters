@@ -19,4 +19,13 @@ class LASTRESISTERS_API UAI1_TaskNodes_GoToOffenseStance : public UBTTaskNode
 	UBlackboardComponent* m_bbComp;
 	
 	void ChangeStance(int _stance);
+
+	FFloat16 infoDuration1 = 2.0f;
+	FFloat16 infoRotation1 = 30.0f;
+	FFloat16 infoDuration2 = 1.5f;
+	FFloat16 infoRotation2 = 60.0f;
+	FFloat16 infoDuration3 = 1.0f;
+	FFloat16 infoRotation3 = 120.0f;
+	FFloat16 infoDuration4 = 1.3f;
+	FFloat16 infoRotation4 = 10.0f;
 };
