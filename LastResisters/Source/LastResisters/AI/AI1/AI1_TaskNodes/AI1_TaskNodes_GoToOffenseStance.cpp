@@ -17,8 +17,8 @@ EBTNodeResult::Type UAI1_TaskNodes_GoToOffenseStance::ExecuteTask(UBehaviorTreeC
 	// Get all necessary values for state management
 	m_bbComp = aiCon_->GetBlackboardComp();
 
-	int32 randAtk_ = FMath::RandRange(1, 4);
-	randAtk_ = 3;
+//	int32 randAtk_ = FMath::RandRange(1, 4);
+	int32 randAtk_ = 1;
 	ChangeStance(randAtk_);
 
 	// Send attack info to attack manager

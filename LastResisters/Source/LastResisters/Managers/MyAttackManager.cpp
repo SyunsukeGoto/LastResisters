@@ -59,8 +59,6 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 			// Delete the attack from the UI
 			UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i].info_EnemyID);
 
-			DamageTheAI(myListOfAttacks[i].info_EnemyID);
-
 			// Remove the attack from the list
 			myListOfAttacks.RemoveAt(i);
 			myListOfAttacks.Shrink();
@@ -78,7 +76,7 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 			if (UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->CheckIfBlocked(myListOfAttacks[i].info_Position, myListOfAttacks[i].info_Rotation))
 			{ // If attack has been successfully blocked
 				// Damage the AI's armor
-				DamageTheAI(myListOfAttacks[i].info_EnemyID);
+				DamageTheAIArmor(myListOfAttacks[i].info_EnemyID);
 
 				// Delete the attack from the UI
 				UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i].info_EnemyID);
@@ -97,7 +95,7 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 	}
 }
 
-void MyAttackManager::DamageTheAI(FString _ID)
+void MyAttackManager::DamageTheAIArmor(FString _ID)
 {
 	for (int i = 0; i < myListOfAI1.Num(); i++)
 	{
@@ -107,10 +105,10 @@ void MyAttackManager::DamageTheAI(FString _ID)
 		{
 			if (ai1Con_->GetPawn()->GetName() == _ID)
 			{
-				ai1Con_->SetHP(0);
-				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] HP : (%f)")
+				ai1Con_->SetArmor(ai1Con_->GetArmor() - 1);
+				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] ActualArmor : (%f)")
 					, i
-					, ai1Con_->GetHP().GetFloat());
+					, ai1Con_->GetArmor().GetFloat());
 			}
 		}
 	}
