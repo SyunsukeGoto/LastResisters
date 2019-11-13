@@ -28,7 +28,7 @@ class LASTRESISTERS_API AAI1_AIController : public AAIController
 	FFloat16 m_colliderHalfHeight;
 	FFloat16 m_colliderLengthCheck; // Used for collision checking
 	FFloat16 m_HP = 1;
-	FFloat16 m_armor = 1;
+	FFloat16 m_armor = 3;
 	FFloat16 m_damage = 1;
 
 public:

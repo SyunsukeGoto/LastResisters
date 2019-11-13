@@ -13,7 +13,7 @@ MyPlayerManager::~MyPlayerManager()
 
 bool MyPlayerManager::CheckIfBlocked(FVector _attPos, FFloat16 _attRot)
 {
-	return false;
+	return true;
 }
 
 void MyPlayerManager::Update(float deltaTime)

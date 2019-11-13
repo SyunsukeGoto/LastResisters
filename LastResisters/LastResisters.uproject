@@ -10,7 +10,13 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"UMG",
+<<<<<<< HEAD
 				"CoreUObject"
+=======
+				"CoreUObject",
+				"Engine",
+				"AIModule"
+>>>>>>> origin/feature/RedoingStuff
 			]
 		}
 	],

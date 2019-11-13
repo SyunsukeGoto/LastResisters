@@ -4,20 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "BehaviorTree/BTTaskNode.h"
-#include "AI1_TaskNodes_CombatManagement.generated.h"
+#include "AI1_TaskNodes_SetArmor.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class LASTRESISTERS_API UAI1_TaskNodes_CombatManagement : public UBTTaskNode
+class LASTRESISTERS_API UAI1_TaskNodes_SetArmor : public UBTTaskNode
 {
 	GENERATED_BODY()
 
 	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
 
-	UBlackboardComponent* m_bbComp;
-	uint8 m_currStance;
-
-	void ChangeStance(int _stance);
 };

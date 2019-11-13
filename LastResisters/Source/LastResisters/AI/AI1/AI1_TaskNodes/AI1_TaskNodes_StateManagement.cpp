@@ -103,8 +103,8 @@ void UAI1_TaskNodes_StateManagement::ChangeState(int _state)
 	{
 		case 3:
 		{ // If changing currState to combat
-			// Set stance to ready
-			m_bbComp->SetValueAsEnum("currStance", 0);
+			// Set stance to getting ready
+			m_bbComp->SetValueAsEnum("currStance", 5);
 		} break;
 		default:
 		{
