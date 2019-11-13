@@ -9,8 +9,6 @@
 #include "Kismet/GameplayStatics.h"
 #include "AI1_PatrolTargetPoint.h"
 #include "Components/CapsuleComponent.h"
-#include "Managers/MyAttackManager.h"
-#include "MyGameInstance.h"
 
 AAI1_AIController::AAI1_AIController()
 {
@@ -34,6 +32,8 @@ void AAI1_AIController::OnPossess(APawn * _pawn)
 		{
 			m_blackboardComp->InitializeBlackboard(*(aiChar_->m_behaviorTree->BlackboardAsset));
 		}
+
+		FName a = FName("MyAI1_Character2", 17);
 		
 		// Populate array with patrol target points
 		//UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), AAI1_PatrolTargetPoint::StaticClass(), a, m_patrolPoints);
@@ -41,13 +41,18 @@ void AAI1_AIController::OnPossess(APawn * _pawn)
 
 		if (m_patrolPoints.Num() == 0)
 		{ // Prevent crashes, if there are no patrol points, the AI will be stationed at its spawned location
-			for (int i = 0; i < 2; i++)
-			{
-				m_patrolPoints.Add(
-					// Spawn and add to patrol points
-					GetWorld()->SpawnActor<AAI1_PatrolTargetPoint>(AAI1_PatrolTargetPoint::StaticClass(), aiChar_->GetActorLocation(), FRotator(0, 0, 0), FActorSpawnParameters())
-				);
-			}
+			m_patrolPoints.Add(
+				// Spawn and add to patrol points
+				GetWorld()->SpawnActor<AAI1_PatrolTargetPoint>(
+					AAI1_PatrolTargetPoint::StaticClass(), aiChar_->GetActorLocation(), FRotator(0, 0, 0), FActorSpawnParameters()
+					)
+			);
+			m_patrolPoints.Add(
+				// Spawn and add to patrol points
+				GetWorld()->SpawnActor<AAI1_PatrolTargetPoint>(
+					AAI1_PatrolTargetPoint::StaticClass(), aiChar_->GetActorLocation(), FRotator(0, 0, 0), FActorSpawnParameters()
+					)
+			);
 		}
 		else
 		{
@@ -64,10 +69,6 @@ void AAI1_AIController::OnPossess(APawn * _pawn)
 
 		//Start the behavior tree which corresponds to the specific character
 		m_behaviorComp->StartTree(*aiChar_->m_behaviorTree);
-
-		// Add to list of AI1
-		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAI1(this);
-		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->PrintOutListOfAI1();
 	}
 }
 
@@ -78,39 +79,8 @@ void AAI1_AIController::SetSeenPlayer(APawn * _pawn)
 		if (_pawn->IsPlayerControlled())
 		{ // If can see player
 			// Set visibility and target location
-			if (!m_blackboardComp->GetValueAsVector("targetLocation").Equals(_pawn->GetActorLocation()))
-			{
-				UE_LOG(LogTemp, Warning, TEXT("New Pawn seen: %s , Robot Pos: [%f, %f, %f]")
-					, *_pawn->GetName()
-					, _pawn->GetActorLocation().X
-					, _pawn->GetActorLocation().Y
-					, _pawn->GetActorLocation().Z);
-			}
-			m_blackboardComp->SetValueAsVector("targetLocation", _pawn->GetActorLocation());
 			m_blackboardComp->SetValueAsBool("canSeePlayer", true);
-			m_playerRef = _pawn;
-
-			
+			m_blackboardComp->SetValueAsVector("targetLocation", _pawn->GetActorLocation());
 		}
 	}
-}
-
-void AAI1_AIController::SetTheFocusOnPlayer()
-{
-	if (m_blackboardComp)
-	{
-		if (!m_blackboardComp->GetValueAsBool("canSeePlayer"))
-		{
-			ClearFocus(EAIFocusPriority::Gameplay);
-		}
-		else if (m_playerRef)
-		{
-			SetFocus(m_playerRef);
-		}
-	}
-}
-
-void AAI1_AIController::StopFocusOnPlayer()
-{
-	ClearFocus(EAIFocusPriority::Gameplay);
 }
