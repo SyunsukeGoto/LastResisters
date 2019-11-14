@@ -21,7 +21,7 @@ public:
 
 		Attack_Info()
 			: info_CountdownTimer(1)
-			, info_BlockTimeWindow(1)
+			, info_BlockTimeWindow(0.2f)
 			, info_Rotation(0)
 			, info_Position(FVector(0, 0, 0))
 			, info_EnemyID(FString("monkaS"))

@@ -32,7 +32,9 @@ public:
 	//Our base material that will be the template for our material instance
 	UPROPERTY(EditDefaultsOnly)
 		class UMaterialInterface * MainMaterial = nullptr;
-
+	//Our base material that will be the template for our material instance
+	UPROPERTY(EditDefaultsOnly)
+		class UMaterialInterface * SubMaterial = nullptr;
 	//Texture we'll set as a parameter to our dynamic material instance
 	UPROPERTY(EditDefaultsOnly)
 		class UTexture * MainTexture = nullptr;

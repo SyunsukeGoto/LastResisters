@@ -68,34 +68,27 @@ void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 		//Check for material now and create if it's not already there.
 		if (hitArray[i].MaterialInstance == nullptr)
 		{
+			//Create the first one
 			hitArray[i].MaterialInstance = UMaterialInstanceDynamic::Create(MainMaterial, this);
+			hitArray[i].MaterialInstanceTwo = UMaterialInstanceDynamic::Create(SubMaterial, this);
 			hitArray[i].MainTexture = MainTexture;
 			hitArray[i].DesiredBlockTexture = DesiredBlockTexture;
 			hitArray[i].DesiredHitTexture = DesiredHitTexture;
 			hitArray[i].MainColor = MainColor;
 			hitArray[i].DesiredBlockColor = DesiredBlockColor;
 			hitArray[i].DesiredHitColor = DesiredHitColor;
+
 			hitArray[i].ApplyToMaterial();
-			hitArray[i].ApplyToImage(hitArray[i].LinkedImage);
-			hitArray[i].ApplyToImage(hitArray[i].LinkedImageTwo);
+			hitArray[i].ApplyToImage(hitArray[i].MaterialInstance,hitArray[i].LinkedImage);
+			hitArray[i].ApplyToImage(hitArray[i].MaterialInstanceTwo,hitArray[i].LinkedImageTwo);
 		}
 
 		hitArray[i].UpdateState();
 		hitArray[i].UpdateBlockPercentage();
-
-		//Set all images to be visible so it shows on screen.
-		if (hitArray[i].LinkedImage != nullptr)
-			hitArray[i].LinkedImage->SetVisibility(ESlateVisibility::Visible);
-		
-		if (hitArray[i].LinkedImageTwo != nullptr)
-			hitArray[i].LinkedImageTwo->SetVisibility(ESlateVisibility::Visible);
-		
-		if (hitArray[i].LinkedBackground != nullptr)
-			hitArray[i].LinkedBackground->SetVisibility(ESlateVisibility::Visible);
 		
 		//Set rotations based on the type it is. I can improve this laster on.
 		hitArray[i].LinkedImage->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
-		hitArray[i].LinkedImageTwo->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation + 180.f);
+		hitArray[i].LinkedImageTwo->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
 		hitArray[i].LinkedBackground->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
 
 		//Basic calculation on rate.
