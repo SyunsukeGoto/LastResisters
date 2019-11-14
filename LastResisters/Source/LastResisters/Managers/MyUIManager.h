@@ -33,7 +33,7 @@ public:
 
 	//Handle functions
 	void HandleInit(MyAttackManager::Attack_Info infoToReceive);
-	void HandleDelete(FString nameToDelete);
+	void HandleDelete(MyAttackManager::Attack_Info infoToReceive, bool blocked);
 
 	//Prints every single indicator
 	void PrintIndicatorList();

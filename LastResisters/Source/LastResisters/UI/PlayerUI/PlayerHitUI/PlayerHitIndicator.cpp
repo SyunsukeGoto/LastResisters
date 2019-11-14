@@ -16,17 +16,18 @@ FPlayerHitIndicator::FPlayerHitIndicator(bool isDefault_)
 {
 }
 
-void FPlayerHitIndicator::ApplyToImage(UImage * imageToApply)
+void FPlayerHitIndicator::ApplyToImage(UMaterialInstanceDynamic * dynamicInstance, UImage * imageToApply)
 {
-	imageToApply->SetBrushFromMaterial(MaterialInstance);
+	imageToApply->SetBrushFromMaterial(dynamicInstance);
 }
 
 void FPlayerHitIndicator::UpdatePercent()
 {
-	float percent = UIMath::NormalizeValueCustomRange(playerHitParameters.currentFill, 0.5f, 1.f);
 	//This is the time thingy?
 	//MaterialInstance->SetScalarParameterValue("Percentage", playerHitParameters.currentFill);
+	float percent = UIMath::NormalizeValueCustomRange(playerHitParameters.currentFill, 0.5f, 1.0f);
 	MaterialInstance->SetScalarParameterValue("Percentage", percent);
+	MaterialInstanceTwo->SetScalarParameterValue("Percentage", percent);
 
 }
 
@@ -34,38 +35,63 @@ void FPlayerHitIndicator::UpdateState()
 {
 	//Update the state based on the results also.
 	if (playerHitParameters.useTexture)
+	{
 		MaterialInstance->SetScalarParameterValue("TextureState", (int)playerHitParameters.hitState);
+		MaterialInstanceTwo->SetScalarParameterValue("TextureState", (int)playerHitParameters.hitState);
+	}
 	else
+	{
 		MaterialInstance->SetScalarParameterValue("ColorState", (int)playerHitParameters.hitState);
+		MaterialInstanceTwo->SetScalarParameterValue("ColorState", (int)playerHitParameters.hitState);
+	}
 }
 
 void FPlayerHitIndicator::UpdateBlockPercentage()
 {
 	MaterialInstance->SetScalarParameterValue("BlockPercentage", playerHitParameters.blockPercentage);
+	MaterialInstanceTwo->SetScalarParameterValue("BlockPercentage", playerHitParameters.blockPercentage);
 }
 
 
 
 void FPlayerHitIndicator::ApplyToMaterial()
 {
+	//Whether to use texture.
 	MaterialInstance->SetScalarParameterValue("Use Texture", playerHitParameters.useTexture);
+	MaterialInstanceTwo->SetScalarParameterValue("Use Texture", playerHitParameters.useTexture);
+
 	if (playerHitParameters.useTexture)
 	{
+		//First material
 		MaterialInstance->SetTextureParameterValue("MainTexture", MainTexture);
 		MaterialInstance->SetTextureParameterValue("DesiredBlockTexture", DesiredBlockTexture);
 		MaterialInstance->SetTextureParameterValue("DesiredMissTexture", DesiredHitTexture);
 		MaterialInstance->SetScalarParameterValue("TextureBrightness", playerHitParameters.textureBrightness);
 		MaterialInstance->SetScalarParameterValue("TextureState", (int)playerHitParameters.hitState);
+
+		//Second Material
+		MaterialInstanceTwo->SetTextureParameterValue("MainTexture", MainTexture);
+		MaterialInstanceTwo->SetTextureParameterValue("DesiredBlockTexture", DesiredBlockTexture);
+		MaterialInstanceTwo->SetTextureParameterValue("DesiredMissTexture", DesiredHitTexture);
+		MaterialInstanceTwo->SetScalarParameterValue("TextureBrightness", playerHitParameters.textureBrightness);
+		MaterialInstanceTwo->SetScalarParameterValue("TextureState", (int)playerHitParameters.hitState);
 	}
 	else
 	{
+		//First color
 		MaterialInstance->SetVectorParameterValue("MainColor", MainColor);
 		MaterialInstance->SetVectorParameterValue("DesiredMissColor", DesiredHitColor);
 		MaterialInstance->SetVectorParameterValue("DesiredBlockColor", DesiredBlockColor);
 		MaterialInstance->SetScalarParameterValue("ColorState", (int)playerHitParameters.hitState);
-	}
 
-		MaterialInstance->SetScalarParameterValue("Percentage", playerHitParameters.currentFill);
+		//Second color.
+		MaterialInstanceTwo->SetVectorParameterValue("MainColor", MainColor);
+		MaterialInstanceTwo->SetVectorParameterValue("DesiredMissColor", DesiredHitColor);
+		MaterialInstanceTwo->SetVectorParameterValue("DesiredBlockColor", DesiredBlockColor);
+		MaterialInstanceTwo->SetScalarParameterValue("ColorState", (int)playerHitParameters.hitState);
+	}
+	//Update percentage.
+	UpdatePercent();
 }
 
 void FPlayerHitIndicator::AssignParametersFromInfo(MyAttackManager::Attack_Info infoReceived)
@@ -96,13 +122,20 @@ void FPlayerHitIndicator::UpdateFillAmount(float inDeltaTime)
 {
 	if (playerHitParameters.calculateRate)
 	{
-
 		playerHitParameters.rate = (playerHitParameters.desiredFill - playerHitParameters.currentFill) / playerHitParameters.duration;
 		playerHitParameters.calculateRate = false;
+
+		if (LinkedImage != nullptr)
+			LinkedImage->SetVisibility(ESlateVisibility::Visible);
+		if (LinkedBackground != nullptr)
+			LinkedBackground->SetVisibility(ESlateVisibility::Visible);
+		if (LinkedImageTwo != nullptr)
+			LinkedImageTwo->SetVisibility(ESlateVisibility::Visible);
 		//UE_LOG(LogTemp, Warning, TEXT("Calculated rate : %f"), playerHitParameters.rate);
 	}
 	//Else we keep minusing and only if they;re not already the same
 
+	//UE_LOG(LogTemp, Warning, TEXT("Current Fill: %f"),playerHitParameters.currentFill);
 	if (playerHitParameters.desiredFill != playerHitParameters.currentFill)
 	{
 		playerHitParameters.currentFill += (playerHitParameters.rate)* inDeltaTime;
@@ -127,42 +160,42 @@ void FPlayerHitIndicator::UpdateFillAmount(float inDeltaTime)
 		//Set the brush to cant see but sure.
 		//Can add effects to it also.
 
-		playerHitParameters.awaitingResponse = true;
+		//playerHitParameters.awaitingResponse = true;
 
-		if (playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES)
-		{
-			playerHitParameters.hitState = (FPlayerHitUIParameters::HIT_STATES)FMath::RandRange(0, 1);
+		//if (playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES)
+		//{
+		//	playerHitParameters.hitState = (FPlayerHitUIParameters::HIT_STATES)FMath::RandRange(0, 1);
 	
-			switch (playerHitParameters.hitState)
-			{
-			case	FPlayerHitUIParameters::HIT_STATES::STATE_HIT:
-			{
-				UE_LOG(LogTemp, Warning, TEXT("Generated hit."));
-				//LinkedBackground->Brush.TintColor = FSlateColor(DesiredHitColor);
-				break;
-			}
-			case	FPlayerHitUIParameters::HIT_STATES::STATE_BLOCK:
-			{
-				UE_LOG(LogTemp, Warning, TEXT("Generated block."));
-				//LinkedBackground->Brush.TintColor = FSlateColor(DesiredBlockColor);
-				break;
-			}
-			case	FPlayerHitUIParameters::HIT_STATES::STATE_MISS:
-			{
-				UE_LOG(LogTemp, Warning, TEXT("Generated miss."));
-				break;
-			}
-			case	FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES:
-			default:
-			{
-				UE_LOG(LogTemp, Warning, TEXT(" Total states."));
-				break;
-			}
-			}
-		}
+		//	switch (playerHitParameters.hitState)
+		//	{
+		//	case	FPlayerHitUIParameters::HIT_STATES::STATE_HIT:
+		//	{
+		//		UE_LOG(LogTemp, Warning, TEXT("Generated hit."));
+		//		//LinkedBackground->Brush.TintColor = FSlateColor(DesiredHitColor);
+		//		break;
+		//	}
+		//	case	FPlayerHitUIParameters::HIT_STATES::STATE_BLOCK:
+		//	{
+		//		UE_LOG(LogTemp, Warning, TEXT("Generated block."));
+		//		//LinkedBackground->Brush.TintColor = FSlateColor(DesiredBlockColor);
+		//		break;
+		//	}
+		//	case	FPlayerHitUIParameters::HIT_STATES::STATE_MISS:
+		//	{
+		//		UE_LOG(LogTemp, Warning, TEXT("Generated miss."));
+		//		break;
+		//	}
+		//	case	FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES:
+		//	default:
+		//	{
+		//		UE_LOG(LogTemp, Warning, TEXT(" Total states."));
+		//		break;
+		//	}
+		//	}
+		//}
 		if (playerHitParameters.blockPercentage < 1)
 		{
-			playerHitParameters.blockPercentage += 0.4f;
+			playerHitParameters.blockPercentage += 0.15f;
 		}
 		else
 		{

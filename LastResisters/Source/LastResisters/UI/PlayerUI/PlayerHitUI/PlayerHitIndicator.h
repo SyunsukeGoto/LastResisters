@@ -17,26 +17,28 @@ struct FPlayerHitIndicator
 {
 	GENERATED_BODY()
 
-	//Linked image One
-	class UImage * LinkedImage;
+		//Linked image One
+		class UImage * LinkedImage;
 	//Linked Image Two - the other one
 	class UImage * LinkedImageTwo;
 	//Background Images. These are pointers to the actual ones.
 	class UImage * LinkedBackground;
 	//Texture we'll set as a parameter to our dynamic material instance
-		class UTexture * MainTexture = nullptr;
+	class UTexture * MainTexture = nullptr;
 	//Desired Texture we'll set as a parameter to our dynamic material instance
-		class UTexture * DesiredBlockTexture = nullptr;
+	class UTexture * DesiredBlockTexture = nullptr;
 	//Desired Texture we'll set as a parameter to our dynamic material instance
-		class UTexture * DesiredHitTexture = nullptr;
+	class UTexture * DesiredHitTexture = nullptr;
 	//Color just in case we are not using texture.
-		FColor MainColor;
+	FColor MainColor;
 	//Desired color just in case we are not using texture
-		FColor DesiredBlockColor;
+	FColor DesiredBlockColor;
 	//Desired color just in case we are not using texture
-		FColor DesiredHitColor;
+	FColor DesiredHitColor;
 	//Our actual MaterialInstance 
 	class UMaterialInstanceDynamic * MaterialInstance = nullptr;
+	//Our actual MaterialInstance 
+	class UMaterialInstanceDynamic * MaterialInstanceTwo = nullptr;
 
 	UPROPERTY(EditDefaultsOnly)
 		FPlayerHitUIParameters playerHitParameters;
@@ -49,7 +51,7 @@ struct FPlayerHitIndicator
 	bool isDefault;
 
 	//Functions for dealing with info.
-	void ApplyToImage(UImage * imageToApply);
+	void ApplyToImage(UMaterialInstanceDynamic * dynamicInstance, UImage * imageToApply);
 	void UpdatePercent();
 	void UpdateState();
 	void UpdateBlockPercentage();

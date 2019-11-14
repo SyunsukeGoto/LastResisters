@@ -144,9 +144,69 @@ void MyUIManager::HandleInit(MyAttackManager::Attack_Info infoToReceive)
 }
 
 
-void MyUIManager::HandleDelete(FString nameToDelete)
+void MyUIManager::HandleDelete(MyAttackManager::Attack_Info infoToReceive, bool blocked)
 {
 	UE_LOG(LogTemp, Warning, TEXT("-----Player UI HandleDelete Init Invoked-----"));
+	//UE_LOG(LogTemp, Warning, TEXT("Received MyCharacter's Name is %s , Robot Position : (%f, %f, %f), Rotation : (%f), Duration : (%f)")
+	//	, *infoToReceive.info_EnemyID
+	//	, infoToReceive.info_Position.X
+	//	, infoToReceive.info_Position.Y
+	//	, infoToReceive.info_Position.Z
+	//	, (float)infoToReceive.info_Rotation
+	//	, (float)infoToReceive.info_CountdownTimer);
+	UE_LOG(LogTemp, Warning, TEXT("-----Blocked : %d-----"),blocked);
+	//Loop through all the ones and set based on blocked.
+	for (int i = 0; i < playerHitIndicators.Num(); i++)
+	{
+		//Compare stuff
+		if (playerHitIndicators[i].playerHitParameters.position == infoToReceive.info_Position
+			&& playerHitIndicators[i].playerHitParameters.rotation == infoToReceive.info_Rotation
+			&& playerHitIndicators[i].playerHitParameters.enemyID == infoToReceive.info_EnemyID)
+		{
+
+			//If everything is roughly the same, then we can add.
+			if (/*playerHitIndicators[i].playerHitParameters.awaitingResponse
+				&&*/ playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES)
+			{
+
+				if (playerHitIndicators[i].playerHitParameters.desiredFill != playerHitIndicators[i].playerHitParameters.currentFill)
+				{
+					playerHitIndicators[i].playerHitParameters.desiredFill = playerHitIndicators[i].playerHitParameters.currentFill;
+					playerHitIndicators[i].UpdatePercent();
+				}
+				//We change its values.
+				playerHitIndicators[i].playerHitParameters.hitState = (FPlayerHitUIParameters::HIT_STATES)blocked;
+
+				switch (playerHitIndicators[i].playerHitParameters.hitState)
+				{
+				case	FPlayerHitUIParameters::HIT_STATES::STATE_HIT:
+				{
+					UE_LOG(LogTemp, Warning, TEXT("Generated hit."));
+					break;
+				}
+				case	FPlayerHitUIParameters::HIT_STATES::STATE_BLOCK:
+				{
+					UE_LOG(LogTemp, Warning, TEXT("Generated block."));
+					break;
+				}
+				case	FPlayerHitUIParameters::HIT_STATES::STATE_MISS:
+				{
+					UE_LOG(LogTemp, Warning, TEXT("Generated miss."));
+					break;
+				}
+				case	FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES:
+				default:
+				{
+					UE_LOG(LogTemp, Warning, TEXT(" Total states."));
+					break;
+				}
+				}
+			}
+			
+			break;
+		}
+
+	}
 }
 
 void MyUIManager::PrintIndicatorList()
