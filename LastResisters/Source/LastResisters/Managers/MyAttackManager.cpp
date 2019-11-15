@@ -66,10 +66,10 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 		// Update the countdown
 		myListOfAttacks[i].info_CountdownTimer = myListOfAttacks[i].info_CountdownTimer - _dt; // -= doesnt work
 
-		if (myListOfAttacks[i].info_CountdownTimer <= 0.0f)
+		if (myListOfAttacks[i].info_CountdownTimer <= -myListOfAttacks[i].info_BlockTimeWindow / 2)
 		{ // If the attack was not blocked
 			// Delete the attack from the UI
-			UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i].info_EnemyID);
+			UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i], false);
 
 			// Remove the attack from the list
 			myListOfAttacks.RemoveAt(i);
@@ -83,7 +83,7 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 			// Damage the player
 			// TODO
 		}
-		else if (myListOfAttacks[i].info_CountdownTimer <= myListOfAttacks[i].info_BlockTimeWindow)
+		else if (myListOfAttacks[i].info_CountdownTimer <= myListOfAttacks[i].info_BlockTimeWindow / 2)
 		{ // If attack can be blocked
 			if (UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->CheckIfBlocked(myListOfAttacks[i].info_Position, myListOfAttacks[i].info_Rotation))
 			{ // If attack has been successfully blocked
@@ -91,7 +91,7 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 				DamageTheAIArmor(myListOfAttacks[i].info_EnemyID);
 
 				// Delete the attack from the UI
-				UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i].info_EnemyID);
+				UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i], true);
 
 				// Remove the attack from the list
 				myListOfAttacks.RemoveAt(i);
@@ -121,6 +121,7 @@ void MyAttackManager::DamageTheAIArmor(FString _ID)
 				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] ActualArmor : (%f)")
 					, i
 					, ai1Con_->GetArmor().GetFloat());
+				return;
 			}
 		}
 	}
@@ -136,6 +137,7 @@ void MyAttackManager::DamageTheAIArmor(FString _ID)
 				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] ActualArmor : (%f)")
 					, i
 					, ai2Con_->GetArmor().GetFloat());
+				return;
 			}
 		}
 	}
@@ -155,6 +157,24 @@ bool MyAttackManager::PrintOutListOfAttacks()
 	}
 	return false;
 }
+
+bool MyAttackManager::PrintOutListOfAI1()
+{
+	for (int i = 0; i < myListOfAI1.Num(); i++)
+	{
+		AAI1_AIController* ai1Con_ = Cast<AAI1_AIController>(myListOfAI1[i]);
+
+		if (ai1Con_)
+		{
+
+			UE_LOG(LogTemp, Warning, TEXT("I[Index : %d] HP : (%f)")
+				, i
+				, ai1Con_->GetHP().GetFloat());
+		}
+	}
+	return false;
+}
+
 
 bool MyAttackManager::PrintOutListOfAI2()
 {
