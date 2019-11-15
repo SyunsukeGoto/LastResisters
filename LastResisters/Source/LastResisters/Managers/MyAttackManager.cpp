@@ -7,6 +7,7 @@
 #include "UI/PlayerUI/PlayerHitUI/PlayerHitUI.h"
 #include "AIController.h"
 #include "AI/AI1/AI1_AIController.h"
+#include "AI/AI2/AI2_AIController.h"
 #include "MyUIManager.h"
 
 MyAttackManager::MyAttackManager()
@@ -41,6 +42,17 @@ bool MyAttackManager::AddToListOfAI1(AAIController* _aiCon)
 	return false;
 }
 
+bool MyAttackManager::AddToListOfAI2(AAIController* _aiCon)
+{
+	if (_aiCon)
+	{
+		myListOfAI2.Add(_aiCon);
+
+		return true;
+	}
+	return false;
+}
+
 void MyAttackManager::Update(float deltaTime)
 {
 	UpdateAllAttacks(deltaTime);
@@ -54,10 +66,10 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 		// Update the countdown
 		myListOfAttacks[i].info_CountdownTimer = myListOfAttacks[i].info_CountdownTimer - _dt; // -= doesnt work
 
-		if (myListOfAttacks[i].info_CountdownTimer <= -myListOfAttacks[i].info_BlockTimeWindow / 2)
+		if (myListOfAttacks[i].info_CountdownTimer <= 0.0f)
 		{ // If the attack was not blocked
 			// Delete the attack from the UI
-			UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i], false);
+			UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i].info_EnemyID);
 
 			// Remove the attack from the list
 			myListOfAttacks.RemoveAt(i);
@@ -71,7 +83,7 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 			// Damage the player
 			// TODO
 		}
-		else if (myListOfAttacks[i].info_CountdownTimer <= myListOfAttacks[i].info_BlockTimeWindow/2 )
+		else if (myListOfAttacks[i].info_CountdownTimer <= myListOfAttacks[i].info_BlockTimeWindow)
 		{ // If attack can be blocked
 			if (UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->CheckIfBlocked(myListOfAttacks[i].info_Position, myListOfAttacks[i].info_Rotation))
 			{ // If attack has been successfully blocked
@@ -79,7 +91,7 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 				DamageTheAIArmor(myListOfAttacks[i].info_EnemyID);
 
 				// Delete the attack from the UI
-				UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i], true);
+				UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i].info_EnemyID);
 
 				// Remove the attack from the list
 				myListOfAttacks.RemoveAt(i);
@@ -112,6 +124,21 @@ void MyAttackManager::DamageTheAIArmor(FString _ID)
 			}
 		}
 	}
+	for (int i = 0; i < myListOfAI2.Num(); i++)
+	{
+		AAI2_AIController* ai2Con_ = Cast<AAI2_AIController>(myListOfAI2[i]);
+
+		if (ai2Con_)
+		{
+			if (ai2Con_->GetPawn()->GetName() == _ID)
+			{
+				ai2Con_->SetArmor(ai2Con_->GetArmor() - 1);
+				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] ActualArmor : (%f)")
+					, i
+					, ai2Con_->GetArmor().GetFloat());
+			}
+		}
+	}
 }
 
 bool MyAttackManager::PrintOutListOfAttacks()
@@ -129,18 +156,18 @@ bool MyAttackManager::PrintOutListOfAttacks()
 	return false;
 }
 
-bool MyAttackManager::PrintOutListOfAI1()
+bool MyAttackManager::PrintOutListOfAI2()
 {
-	for (int i = 0; i < myListOfAI1.Num(); i++)
+	for (int i = 0; i < myListOfAI2.Num(); i++)
 	{
-		AAI1_AIController* ai1Con_ = Cast<AAI1_AIController>(myListOfAI1[i]);
+		AAI2_AIController* ai2Con_ = Cast<AAI2_AIController>(myListOfAI2[i]);
 
-		if (ai1Con_)
+		if (ai2Con_)
 		{
 
 			UE_LOG(LogTemp, Warning, TEXT("I[Index : %d] HP : (%f)")
 				, i
-				, ai1Con_->GetHP().GetFloat());
+				, ai2Con_->GetHP().GetFloat());
 		}
 	}
 	return false;

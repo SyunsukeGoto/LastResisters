@@ -21,7 +21,7 @@ public:
 
 		Attack_Info()
 			: info_CountdownTimer(1)
-			, info_BlockTimeWindow(0.2f)
+			, info_BlockTimeWindow(1)
 			, info_Rotation(0)
 			, info_Position(FVector(0, 0, 0))
 			, info_EnemyID(FString("monkaS"))
@@ -29,6 +29,7 @@ public:
 	};
 
 	TArray<AAIController*> myListOfAI1;
+	TArray<AAIController*> myListOfAI2;
 	TArray<Attack_Info> myListOfAttacks;
 
 	MyAttackManager();
@@ -36,8 +37,10 @@ public:
 
 	bool AddToListOfAttacks(Attack_Info _info);
 	bool AddToListOfAI1(AAIController* _aiCon);
+	bool AddToListOfAI2(AAIController* _aiCon);
 	bool PrintOutListOfAttacks();
 	bool PrintOutListOfAI1();
+	bool PrintOutListOfAI2();
 
 	void Update(float deltaTime);
 	void UpdateAllAttacks(float _dt);
