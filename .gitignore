@@ -76,11 +76,11 @@ LastResisters/Intermediate/Android/APK/gradle/app/build/intermediates/javac/debu
 LastResisters/Intermediate/Android/APK/gradle/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/vending/expansion/downloader/impl/DownloaderService$InnerBroadcastReceiver.class
 
 # Exclude specific files
-.vs/
-Binaries/
-Build/
-Intermediate/
-Saved/
+*.vs/
+*Binaries/
+*Build/
+*Intermediate/
+*Saved/
 
 
 
