@@ -60,9 +60,6 @@ void AAI1_Character::Tick(float DeltaTime)
 				AIController->GetBlackboardComp()->SetValueAsBool("canSeePlayer", false);
 			}
 		}
-		else
-		{
-		}
 	}
 }
 

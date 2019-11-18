@@ -17,7 +17,23 @@ MyPlayerManager::~MyPlayerManager()
 
 bool MyPlayerManager::CheckIfBlocked(FVector _attPos, FFloat16 _attRot)
 {
-	return true;
+	FFloat16 shieldRadius_ = 1000;
+	FFloat16 shieldRadiuhjhhhh = _attPos.DistSquared(_attPos, m_leftPos.GetLocation());
+
+	UE_LOG(LogTemp, Warning, TEXT("shieldRadiuhjhhhh: %s"), *FString::FromInt(shieldRadiuhjhhhh));
+	UE_LOG(LogTemp, Warning, TEXT("PlayerX: %s"), *FString::FromInt(m_leftPos.GetLocation().X));
+	UE_LOG(LogTemp, Warning, TEXT("PlayerY: %s"), *FString::FromInt(m_leftPos.GetLocation().Y));
+	UE_LOG(LogTemp, Warning, TEXT("PlayerZ: %s"), *FString::FromInt(m_leftPos.GetLocation().Z));
+	UE_LOG(LogTemp, Warning, TEXT("PlayerRot: %s"), *FString::FromInt(m_rightRot.Roll));
+	return true;	
+	return(_attPos.DistSquared(_attPos, m_leftPos.GetLocation()) <= shieldRadius_);
+
+	UE_LOG(LogTemp, Warning, TEXT("AttPosX: %s"), *FString::FromInt(_attPos.X));
+	UE_LOG(LogTemp, Warning, TEXT("AttPosY: %s"), *FString::FromInt(_attPos.Y));
+	UE_LOG(LogTemp, Warning, TEXT("AttPosZ: %s"), *FString::FromInt(_attPos.Z));
+	UE_LOG(LogTemp, Warning, TEXT("AttRot: %s"), *FString::FromInt(_attRot));
+
+	
 }
 
 void MyPlayerManager::Update(float deltaTime)

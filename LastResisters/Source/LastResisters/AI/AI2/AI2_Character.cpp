@@ -6,6 +6,8 @@
 #include "BehaviorTree/BehaviorTree.h"
 #include "Perception/PawnSensingComponent.h"
 #include "BehaviorTree/BlackboardComponent.h"
+#include "Misc/OutputDeviceNull.h"
+
 
 // Sets default values
 AAI2_Character::AAI2_Character()
@@ -24,7 +26,6 @@ AAI2_Character::AAI2_Character()
 void AAI2_Character::BeginPlay()
 {
 	Super::BeginPlay();
-
 }
 
 void AAI2_Character::OnSeePlayer(APawn * _pawn)

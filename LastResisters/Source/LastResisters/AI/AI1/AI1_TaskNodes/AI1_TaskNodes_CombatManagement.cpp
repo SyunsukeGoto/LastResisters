@@ -5,7 +5,6 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "AI/AI1/AI1_AIController.h"
 #include "AIController.h"
-#include "TimerManager.h"
 
 EBTNodeResult::Type UAI1_TaskNodes_CombatManagement::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
 {

@@ -5,6 +5,7 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "AI/AI1/AI1_AIController.h"
 #include "AIController.h"
+#include "Misc/OutputDeviceNull.h"
 
 EBTNodeResult::Type UAI1_TaskNodes_GoToReadyStance::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
 {
@@ -26,10 +27,30 @@ EBTNodeResult::Type UAI1_TaskNodes_GoToReadyStance::ExecuteTask(UBehaviorTreeCom
 	else if (aiCon_->GetArmor().GetFloat() <= 0)
 	{ // Go to down state
 		ChangeStance(7);
+		TArray<AActor *> children_;
+		aiCon_->GetPawn()->GetAttachedActors(children_);
+		for (int i = 0; i < children_.Num(); i++)
+		{
+			if (children_[i]->GetName().Contains("BP_EnemyShield"))
+			{
+				FOutputDeviceNull ar_;
+				children_[i]->CallFunctionByNameWithArguments(TEXT("EnemyShieldBreak"), ar_, NULL, true);
+			}
+		}
 	}
 	else if (m_bbComp->GetValueAsFloat("currArmor") > aiCon_->GetArmor().GetFloat())
 	{ // Go to knockback
 		ChangeStance(6);
+		TArray<AActor *> children_;
+		aiCon_->GetPawn()->GetAttachedActors(children_);
+		for (int i = 0; i < children_.Num(); i++)
+		{
+			if (children_[i]->GetName().Contains("BP_EnemyShield"))
+			{
+				FOutputDeviceNull ar_;
+				children_[i]->CallFunctionByNameWithArguments(TEXT("EnemyShieldHit"), ar_, NULL, true);
+			}
+		}
 	}
 	else
 	{

@@ -17,6 +17,14 @@ EBTNodeResult::Type UAI1_TaskNodes_GoToOffenseStance::ExecuteTask(UBehaviorTreeC
 	// Get all necessary values for state management
 	m_bbComp = aiCon_->GetBlackboardComp();
 
+	if (aiCon_->GetHP() <= 0)
+	{
+		// Dead Stance
+		ChangeStance(10);
+		return EBTNodeResult::Succeeded;
+	}
+
+
 //	int32 randAtk_ = FMath::RandRange(1, 4);
 	int32 randAtk_ = 1;
 	ChangeStance(randAtk_);
