@@ -961,31 +961,3 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.18-01.15.21:774][884]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
 [2019.11.18-01.15.21:774][884]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
 [2019.11.18-01.15.21:775][884]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2019.11.18-01.15.25:552][884]LogWindows: Error: === Critical error: ===
-[2019.11.18-01.15.25:552][884]LogWindows: Error: 
-[2019.11.18-01.15.25:552][884]LogWindows: Error: Fatal error!
-[2019.11.18-01.15.25:552][884]LogWindows: Error: 
-[2019.11.18-01.15.25:552][884]LogWindows: Error: Unhandled Exception: 0xc06d007e
-[2019.11.18-01.15.25:552][884]LogWindows: Error: 
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbee6ba388 KERNELBASE.dll!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbcdb33b1a UE4Editor-OculusAvatar.dll!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbcdb2fd16 UE4Editor-OculusAvatar.dll!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbcdb18dc3 UE4Editor-OculusAvatar.dll!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbb47bb7c3 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbb4796aec UE4Editor-CoreUObject.dll!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbb4769bc1 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbb47f6c87 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbb4645417 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ff7cff547eb UE4Editor.exe!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ff7cff54205 UE4Editor.exe!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ff7cff59bfc UE4Editor.exe!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ff7cff5a9a2 UE4Editor.exe!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ff7cff5a9fa UE4Editor.exe!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ff7cff6b92c UE4Editor.exe!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ff7cff6e60e UE4Editor.exe!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbee914034 KERNEL32.DLL!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: [Callstack] 0x00007ffbf14e3691 ntdll.dll!UnknownFunction []
-[2019.11.18-01.15.25:552][884]LogWindows: Error: 
-[2019.11.18-01.15.25:636][884]LogExit: Executing StaticShutdownAfterError
-[2019.11.18-01.15.25:685][884]LogWindows: FPlatformMisc::RequestExit(1)
-[2019.11.18-01.15.25:769][884]Log file closed, 11/18/19 10:15:25
