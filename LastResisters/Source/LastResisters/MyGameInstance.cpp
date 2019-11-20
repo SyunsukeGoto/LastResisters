@@ -76,9 +76,14 @@ MyAttackManager * UMyGameInstance::GetAttackManagerInstance()
 	return nullptr;
 }
 
-void UMyGameInstance::StorePlayerManagerValues(FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot)
+void UMyGameInstance::StorePlayerManagerValues(FVector _forwardVector, FVector _upVector, FVector _rightVector, FVector _playerPos,FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot)
 {
-	m_playerManager->StoreValues(_leftPos, _rightPos, _leftRot, _rightRot);
+	m_playerManager->StoreValues(_forwardVector, _upVector, _rightVector, _playerPos, _leftPos, _rightPos, _leftRot, _rightRot);
+}
+
+void UMyGameInstance::StoreBallPosition(FVector ballPos)
+{
+	m_playerManager->StoreBallPos(ballPos);
 }
 
 void UMyGameInstance::Update(float inDeltaTime)

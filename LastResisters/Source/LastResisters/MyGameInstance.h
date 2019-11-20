@@ -30,7 +30,17 @@ public:
 	MyAttackManager* GetAttackManagerInstance();
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
-	void StorePlayerManagerValues(FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot);
+	void StorePlayerManagerValues(FVector _forwardVector
+		, FVector _upVector
+		, FVector _rightVector
+		, FVector _playerPos
+		, FTransform _leftPos
+		, FTransform _rightPos
+		, FRotator _leftRot
+		, FRotator _rightRot);
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void StoreBallPosition(FVector ballPos);
 
 	void Update(float inDeltaTime);
 };

@@ -4,6 +4,8 @@
 #include "PlayerHitUI.h"
 #include "Components/Image.h"
 #include "Materials/MaterialInstanceDynamic.h"
+#include "../../../MyGameInstance.h"
+#include "../../../Managers/MyPlayerManager.h"
 
 UPlayerHitUI::UPlayerHitUI(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
@@ -86,11 +88,37 @@ void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 		hitArray[i].UpdateState();
 		hitArray[i].UpdateBlockPercentage();
 		
+		//FVector hit_ = hitArray[i].playerHitParameters.position - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos;
+
 		//Set rotations based on the type it is. I can improve this laster on.
 		hitArray[i].LinkedImage->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
 		hitArray[i].LinkedImageTwo->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
 		hitArray[i].LinkedBackground->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
 
+		//enemy position is hitArray variable.
+		FVector playerUp = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_upVector;
+		FVector playerRight = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_rightVector;
+		FVector ballPos = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->ballPos;
+
+		FVector resultX = ballPos.ProjectOnTo(playerRight);
+		FVector resultY = ballPos.ProjectOnTo(playerUp);
+
+		FVector2D viewportSize = FVector2D(1920, 1080);
+		FVector2D halfViewportSize = viewportSize * 0.25f;
+
+		FVector finalResult = resultX + resultY;
+		//FVector finalResult = FVector(-3880.0,-40.000000, 260.000000);
+		//finalResult = finalResult - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos;
+
+		//UE_LOG(LogTemp, Warning, TEXT("Final Result Vector:(%f,%f,%f)"),
+		//	finalResult.X,
+		//	finalResult.Y,
+		//	finalResult.Z);
+
+		hitArray[i].LinkedImage->SetRenderTranslation(FVector2D(halfViewportSize.X + finalResult.Y, halfViewportSize.Y -finalResult.Z));
+		hitArray[i].LinkedImageTwo->SetRenderTranslation(FVector2D(halfViewportSize.X + finalResult.Y, halfViewportSize.Y -finalResult.Z));
+		hitArray[i].LinkedBackground->SetRenderTranslation(FVector2D(halfViewportSize.X + finalResult.Y, halfViewportSize.Y -finalResult.Z));
+				
 		//Basic calculation on rate.
 		if (hitArray[i].playerHitParameters.calculateRate)
 		{

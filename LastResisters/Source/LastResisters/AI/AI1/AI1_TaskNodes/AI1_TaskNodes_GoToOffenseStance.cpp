@@ -32,7 +32,12 @@ EBTNodeResult::Type UAI1_TaskNodes_GoToOffenseStance::ExecuteTask(UBehaviorTreeC
 	// Send attack info to attack manager
 	MyAttackManager::Attack_Info info_;
 	info_.info_EnemyID = aiCon_->GetPawn()->GetName();
-	info_.info_Position = aiCon_->GetPawn()->GetActorLocation();
+	info_.info_Position = aiCon_->GetPawn()->GetActorLocation() - infoPos1;
+
+	UE_LOG(LogTemp, Warning, TEXT("New Attack pos: [%f, %f, %f]")
+		, info_.info_Position.X
+		, info_.info_Position.Y
+		, info_.info_Position.Z);
 
 	switch (randAtk_)
 	{

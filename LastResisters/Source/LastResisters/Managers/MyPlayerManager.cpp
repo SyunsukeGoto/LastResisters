@@ -17,23 +17,12 @@ MyPlayerManager::~MyPlayerManager()
 
 bool MyPlayerManager::CheckIfBlocked(FVector _attPos, FFloat16 _attRot)
 {
-	FFloat16 shieldRadius_ = 1000;
+	FFloat16 shieldRadius_ = 2500;
 	FFloat16 shieldRadiuhjhhhh = _attPos.DistSquared(_attPos, m_leftPos.GetLocation());
 
-	UE_LOG(LogTemp, Warning, TEXT("shieldRadiuhjhhhh: %s"), *FString::FromInt(shieldRadiuhjhhhh));
-	UE_LOG(LogTemp, Warning, TEXT("PlayerX: %s"), *FString::FromInt(m_leftPos.GetLocation().X));
-	UE_LOG(LogTemp, Warning, TEXT("PlayerY: %s"), *FString::FromInt(m_leftPos.GetLocation().Y));
-	UE_LOG(LogTemp, Warning, TEXT("PlayerZ: %s"), *FString::FromInt(m_leftPos.GetLocation().Z));
-	UE_LOG(LogTemp, Warning, TEXT("PlayerRot: %s"), *FString::FromInt(m_rightRot.Roll));
-	return true;	
+	UE_LOG(LogTemp, Warning, TEXT("distance: %s"), *FString::FromInt(shieldRadiuhjhhhh));
+	//return true;	
 	return(_attPos.DistSquared(_attPos, m_leftPos.GetLocation()) <= shieldRadius_);
-
-	UE_LOG(LogTemp, Warning, TEXT("AttPosX: %s"), *FString::FromInt(_attPos.X));
-	UE_LOG(LogTemp, Warning, TEXT("AttPosY: %s"), *FString::FromInt(_attPos.Y));
-	UE_LOG(LogTemp, Warning, TEXT("AttPosZ: %s"), *FString::FromInt(_attPos.Z));
-	UE_LOG(LogTemp, Warning, TEXT("AttRot: %s"), *FString::FromInt(_attRot));
-
-	
 }
 
 void MyPlayerManager::Update(float deltaTime)
@@ -44,10 +33,19 @@ void MyPlayerManager::Update(float deltaTime)
 	//	, m_leftPos.GetLocation().Z);
 }
 
-void MyPlayerManager::StoreValues(FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot)
+void MyPlayerManager::StoreValues(FVector _forwardVector, FVector _upVector, FVector _rightVector, FVector _playerPos, FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot)
 {
+	m_forwardVector = _forwardVector;
+	m_upVector = _upVector;
+	m_rightVector = _rightVector;
+	m_playerPos = _playerPos;
 	m_leftPos = _leftPos;
 	m_rightPos = _rightPos;
 	m_leftRot = _leftRot;
 	m_rightRot = _rightRot;
+}
+
+void MyPlayerManager::StoreBallPos(FVector ballPos)
+{
+	this->ballPos = ballPos;
 }

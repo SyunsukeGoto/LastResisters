@@ -29,12 +29,16 @@ class LASTRESISTERS_API UAI1_TaskNodes_GoToOffenseStance : public UBTTaskNode
 	//FFloat16 infoDuration4 = 1.3f;
 	//FFloat16 infoRotation4 = 10.0f;
 
+	FVector infoPos1 = { 55.0f,98.0f,18.0f };
 	FFloat16 infoDuration1 = 2.0f;
 	FFloat16 infoRotation1 = 120.0f;
+	FVector infoPos2 = { 55.0f,98.0f,18.0f };
 	FFloat16 infoDuration2 = 2.0f;
 	FFloat16 infoRotation2 = 120.0f;
+	FVector infoPos3 = { 55.0f,98.0f,18.0f };
 	FFloat16 infoDuration3 = 2.0f;
 	FFloat16 infoRotation3 = 120.0f;
+	FVector infoPos4 = { 55.0f,98.0f,18.0f };
 	FFloat16 infoDuration4 = 2.0f;
 	FFloat16 infoRotation4 = 120.0f;
 };
