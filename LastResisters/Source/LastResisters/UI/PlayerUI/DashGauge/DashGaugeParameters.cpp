@@ -11,6 +11,7 @@ FDashGaugeParameters::FDashGaugeParameters()
 	, panSpeeds(0.f, 0.f)
 	, textureScale(1.0f)
 	, textureTimeScale(1.0f)
+	, useTexture(true)
 {
 
 }

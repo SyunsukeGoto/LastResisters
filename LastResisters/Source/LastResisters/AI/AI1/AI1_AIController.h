@@ -23,12 +23,13 @@ class LASTRESISTERS_API AAI1_AIController : public AAIController
 
 	TArray<AActor*> m_patrolPoints;
 
-	const FFloat16 m_combatRange = 150.0f;
+	const FFloat16 m_combatRange = 120.0f;
 	FFloat16 m_colliderRadius;
 	FFloat16 m_colliderHalfHeight;
 	FFloat16 m_colliderLengthCheck; // Used for collision checking
-	FFloat16 m_HP = 1;
-	FFloat16 m_armor = 3;
+	FFloat16 m_HP = 100;
+	FFloat16 m_MaxHP = 100;
+	FFloat16 m_armor = 100;
 	FFloat16 m_damage = 1;
 
 	AActor* m_playerRef;
@@ -51,6 +52,11 @@ public:
 	FORCEINLINE void SetDamage(FFloat16 _damage) { m_damage = _damage; }
 
 	FORCEINLINE AActor* GetPlayerRef() { return m_playerRef; }
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void DamageThisAI(float _incomingDamage);
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		float GETHP();
 
 	void SetSeenPlayer(APawn* _pawn);
 	void SetTheFocusOnPlayer();

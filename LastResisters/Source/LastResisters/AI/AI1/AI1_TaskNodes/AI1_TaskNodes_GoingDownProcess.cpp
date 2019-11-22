@@ -24,12 +24,12 @@ EBTNodeResult::Type UAI1_TaskNodes_GoingDownProcess::ExecuteTask(UBehaviorTreeCo
 	{
 	case 7:
 	{ // Going down state
-		// Activate the explosion effect
-		UActorComponent * compRef_ = aiCon_->GetPawn()->GetComponentByClass(UParticleSystemComponent::StaticClass());
-		if (compRef_)
-		{
-			compRef_->Activate();
-		}
+		//// Activate the explosion effect
+		//UActorComponent * compRef_ = aiCon_->GetPawn()->GetComponentByClass(UParticleSystemComponent::StaticClass());
+		//if (compRef_)
+		//{
+		//	compRef_->Activate();
+		//}
 		ChangeStance(8);
 	} break;
 

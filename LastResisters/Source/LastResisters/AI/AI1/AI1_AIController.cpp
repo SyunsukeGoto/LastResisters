@@ -71,6 +71,23 @@ void AAI1_AIController::OnPossess(APawn * _pawn)
 	}
 }
 
+void AAI1_AIController::DamageThisAI(float _incomingDamage)
+{
+	if (m_blackboardComp->GetValueAsEnum("currStance") >= 7)
+	{
+		m_HP = m_HP - _incomingDamage;
+		if (m_HP <= 0)
+		{
+			GetPawn()->Destroy();
+		}
+	}
+}
+
+float AAI1_AIController::GETHP()
+{
+	return (float)m_HP;
+}
+
 void AAI1_AIController::SetSeenPlayer(APawn * _pawn)
 {
 	if (m_blackboardComp)
@@ -78,19 +95,9 @@ void AAI1_AIController::SetSeenPlayer(APawn * _pawn)
 		if (_pawn->IsPlayerControlled())
 		{ // If can see player
 			// Set visibility and target location
-			if (!m_blackboardComp->GetValueAsVector("targetLocation").Equals(_pawn->GetActorLocation()))
-			{
-				UE_LOG(LogTemp, Warning, TEXT("New Pawn seen: %s , Robot Pos: [%f, %f, %f]")
-					, *_pawn->GetName()
-					, _pawn->GetActorLocation().X
-					, _pawn->GetActorLocation().Y
-					, _pawn->GetActorLocation().Z);
-			}
 			m_blackboardComp->SetValueAsVector("targetLocation", _pawn->GetActorLocation());
 			m_blackboardComp->SetValueAsBool("canSeePlayer", true);
 			m_playerRef = _pawn;
-
-			
 		}
 	}
 }
@@ -108,6 +115,8 @@ void AAI1_AIController::SetTheFocusOnPlayer()
 			SetFocus(m_playerRef);
 		}
 	}
+
+	
 }
 
 void AAI1_AIController::StopFocusOnPlayer()

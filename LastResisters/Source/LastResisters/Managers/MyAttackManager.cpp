@@ -22,8 +22,8 @@ bool MyAttackManager::AddToListOfAttacks(Attack_Info _info)
 {
 	if (!_info.info_EnemyID.IsEmpty())
 	{
-		// Init the attack to the UI
-		UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleInit(_info);
+		_info.attackIndex = attackIndex;
+		attackIndex += 1;
 		myListOfAttacks.Add(_info);
 
 		return true;
@@ -66,22 +66,31 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 		// Update the countdown
 		myListOfAttacks[i].info_CountdownTimer = myListOfAttacks[i].info_CountdownTimer - _dt; // -= doesnt work
 
+		if (myListOfAttacks[i].info_CountdownTimer <= m_minReactionTime && !myListOfAttacks[i].addedToUI)
+		{
+			// Init the attack to the UI
+			UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleInit(myListOfAttacks[i]);
+			myListOfAttacks[i].addedToUI = true;
+		}
+
 		if (myListOfAttacks[i].info_CountdownTimer <= -myListOfAttacks[i].info_BlockTimeWindow / 2)
 		{ // If the attack was not blocked
+			// Damage the player
+			UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->DamageThePlayer(myListOfAttacks[i].info_damage);
+
 			// Delete the attack from the UI
 			UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i], false);
 
 			// Remove the attack from the list
 			myListOfAttacks.RemoveAt(i);
 			myListOfAttacks.Shrink();
+			
 
 			if (sizeOfList > 0)
 			{ // If there are more things to check through in the list of attacks
 				--i;
 				--sizeOfList;
 			}
-			// Damage the player
-			// TODO
 		}
 		else if (myListOfAttacks[i].info_CountdownTimer <= myListOfAttacks[i].info_BlockTimeWindow / 2)
 		{ // If attack can be blocked

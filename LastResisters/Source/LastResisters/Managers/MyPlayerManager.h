@@ -17,18 +17,36 @@ public:
 
 	void Update(float deltaTime);
 
-	void StoreValues(FVector _forwardVector, FVector _upVector, FVector _rightVector, FVector m_playerPos, FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot);
+	void StoreValues(FVector m_playerPos
+		, FTransform _leftPos
+		, FTransform _rightPos
+		, bool isShielding);
 
 	FVector m_playerPos;
-	FVector m_forwardVector;
-	FVector m_upVector;
-	FVector m_rightVector;
 	FTransform m_leftPos;
 	FTransform m_rightPos;
-	FRotator m_leftRot;
-	FRotator m_rightRot;
+	FVector2D viewportSize;
+	//The bool that is true when the shield is out.
+	bool isShielding;
 
-	//Ball pos
-	void StoreBallPos(FVector ballPos);
-	FVector ballPos;
+	void SetViewportSize(FVector2D viewportSize);
+
+	FVector yabaiPos;
+
+	//The hp of the player.
+	float hp; //Just in case float damage?
+	//The dash gauge amount of the player.
+	float dashGaugeAmount;
+	//Skill gauge amounts
+	float mainSkillGaugeAmount;
+	//Skill gauge amounts
+	float subSkillGaugeAmount;
+
+	//Max values...?
+	float maxHP;
+	float maxDashGaugeAmount;
+	float maxMainSkillGaugeAmount;
+	float maxSubSkillGaugeAmount;
+
+	void DamageThePlayer(float _incomingDamage);
 };
