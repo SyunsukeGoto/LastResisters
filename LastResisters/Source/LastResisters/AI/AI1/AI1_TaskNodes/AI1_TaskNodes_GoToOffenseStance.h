@@ -20,21 +20,80 @@ class LASTRESISTERS_API UAI1_TaskNodes_GoToOffenseStance : public UBTTaskNode
 	
 	void ChangeStance(int _stance);
 
-	//FFloat16 infoDuration1 = 2.0f;
-	//FFloat16 infoRotation1 = 30.0f;
-	//FFloat16 infoDuration2 = 1.5f;
-	//FFloat16 infoRotation2 = 60.0f;
-	//FFloat16 infoDuration3 = 1.0f;
-	//FFloat16 infoRotation3 = 120.0f;
-	//FFloat16 infoDuration4 = 1.3f;
-	//FFloat16 infoRotation4 = 10.0f;
+	struct ComboAttackInfo
+	{
 
-	FFloat16 infoDuration1 = 2.0f;
-	FFloat16 infoRotation1 = 120.0f;
-	FFloat16 infoDuration2 = 2.0f;
-	FFloat16 infoRotation2 = 120.0f;
-	FFloat16 infoDuration3 = 2.0f;
-	FFloat16 infoRotation3 = 120.0f;
-	FFloat16 infoDuration4 = 2.0f;
-	FFloat16 infoRotation4 = 120.0f;
+
+		//Attack 1.
+		FVector infoPos0;
+		FFloat16 infoDuration0;
+		FFloat16 infoRotation0;
+		FFloat16 infoDamage0;
+
+		//Attack 2.
+		FVector infoPos1;
+		FFloat16 infoDuration1;
+		FFloat16 infoRotation1;
+		FFloat16 infoDamage1;
+
+		ComboAttackInfo(
+			FFloat16 _infoDamage0,FVector _infoPos0, FFloat16 _infoDuration0, FFloat16 _infoRotation0,
+			FFloat16 _infoDamage1, FVector _infoPos1, FFloat16 _infoDuration1, FFloat16 _infoRotation1)
+			: infoDamage0(_infoDamage0)
+			, infoDamage1(_infoDamage1)
+			, infoPos0(_infoPos0)
+			, infoDuration0(_infoDuration0)
+			, infoRotation0(_infoRotation0)
+			, infoPos1(_infoPos1)
+			, infoDuration1(_infoDuration1)
+			, infoRotation1(_infoRotation1)
+		{
+		}
+	};
+	
+	//First attack combo
+	ComboAttackInfo comboAttackOne =
+		ComboAttackInfo(
+			FFloat16(20.f)					//damage info0
+			, FVector(150.f, 45.f, -45.0f)  //position info 0
+			, FFloat16(1.073f)			    //duration info 0
+			, FFloat16(10.0f)				//rotation info 0
+			, FFloat16(25.0f)				//damage info1
+			, FVector(150.f, 35.f, -50.0f)  //position info1
+			, FFloat16(1.678f)				//duration info1
+			, FFloat16(90.f));				//rotation info1
+
+	ComboAttackInfo comboAttackTwo =
+		ComboAttackInfo(
+			FFloat16(20.f)					//damage info0
+			, FVector(150.f, 0.f, 0.f)		//position info 0
+			, FFloat16(0.666f)				//duration info 0
+			, FFloat16(70.)					//rotation info 0
+			, FFloat16(25.0)				//damage info1
+			, FVector(150.f, 0.f, 0.f)		//position info1
+			, FFloat16(1.176f)				//duration info1
+			, FFloat16(75.f));				//rotation info1
+
+	ComboAttackInfo comboAttackThree =
+		ComboAttackInfo(
+			FFloat16(20.f)					//damage info0
+			, FVector(150.f, 45.f, 35.0f)	//position info 0
+			, FFloat16(0.737f)				//duration info 0
+			, FFloat16(-15.0f)				//rotation info 0
+			, FFloat16(25.0f)				//damage info1
+			, FVector(150.f, 35.f, 0)		//position info1
+			, FFloat16(1.8f)				//duration info1
+			, FFloat16(50.f));				//rotation info1
+
+	ComboAttackInfo comboAttackFour =
+		ComboAttackInfo(
+			FFloat16(20.f)					//damage info0
+			, FVector(150.f, 32.5f, 0.f)	//position info 0
+			, FFloat16(0.85f)				//duration info 0
+			, FFloat16(80.f)				//rotation info 0
+			, FFloat16(25.0f)				//damage info1
+			, FVector(150.f, 50.f, 10.f)	//position info1
+			, FFloat16(1.90f)				//duration info1
+			, FFloat16(65.f));				//rotation info1
+
 };

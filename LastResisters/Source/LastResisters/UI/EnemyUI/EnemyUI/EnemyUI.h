@@ -7,6 +7,9 @@
 #include "../ArmorGauge/EnemyArmorGauge.h"
 #include "../HealthGauge/EnemyHealthGauge.h"
 #include "../CrackEdges/CrackedEdge.h"
+#include "../../../AI/AI1/AI1_AIController.h"
+#include "../../../AI/AI2/AI2_AIController.h"
+#include  "AIController.h"
 #include "EnemyUI.generated.h"
 
 /**
@@ -56,6 +59,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Info")
 		float maxHealth = 100;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Info")
+		float minArmor = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Info")
+		float maxArmor = 100;
+
 	//Array of the cracked edges to check if it works
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Crack Deviations")
 		TArray<FCrackedEdge> crackDeviations;
@@ -64,8 +72,8 @@ public:
 
 #pragma region HealthGaugeParameters
 	//Amount of health now
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health Gauge Parameters")
-		float healthAmount = 50;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health Gauge Parameters")
+	//	float healthAmount = 50;
 	//Time it takes for the delayed gauge to catch up to the instant gauge
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health Gauge Parameters")
 		float healthDownTime = 0.5f;
@@ -87,8 +95,8 @@ public:
 
 #pragma region ArmorGaugeParameters
 	//Amount of health now
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Armor Gauge Parameters")
-		float armorAmount = 50;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Armor Gauge Parameters")
+	//	float armorAmount = 50;
 	//Time it takes for the delayed gauge to catch up to the instant gauge
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Armor Gauge Parameters")
 		float armorDownTime = 0.5f;
@@ -122,5 +130,18 @@ public:
 	void GetCrackEdges();
 
 #pragma endregion
+
+	//Testing region.
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+	void SetAIControllerUI(AAIController* targetAiController);
+
+	AAIController * aiController;
+	AAI1_AIController* aiCon1_;
+	AAI2_AIController* aiCon2_;
+
+	bool isAiOne = false;
+	bool isAiTwo = false;
+	
+	
 
 };

@@ -30,6 +30,8 @@ struct FPlayerHitUIParameters
 	FFloat16 rotation;
 	//Enemy ID in terms of it's string
 	FString enemyID;
+	//Enemy Attack string
+	int attackIndex;
 
 	//The boolean that changes wheneve rhte value change so the rate is only calculated once
 	bool calculateRate;

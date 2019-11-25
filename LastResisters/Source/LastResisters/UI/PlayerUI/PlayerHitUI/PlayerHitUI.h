@@ -56,6 +56,14 @@ public:
 		FColor DesiredHitColor;
 
 	//Generate some things so we can spawn them or something
+	UPROPERTY(EditAnywhere)
+		class UTexture2D * GuardSuccessImage = nullptr;
+
+	//Generate some things so we can spawn them or something
+	UPROPERTY(EditAnywhere)
+		class UTexture2D * GuardFailImage = nullptr;
+
+	//Generate some things so we can spawn them or something
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 		class UImage * HitImageOne = nullptr;
 	//Generate some things so we can spawn them or something
@@ -102,12 +110,32 @@ public:
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 		class UImage * BackgroundFive = nullptr;
 
+	//Generate some things so we can spawn them or something
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * ResultImageOne = nullptr;
+	//Generate some things so we can spawn them or something
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * ResultImageTwo = nullptr;
+	//Generate some things so we can spawn them or something
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * ResultImageThree = nullptr;
+	//Generate some things so we can spawn them or something
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * ResultImageFour = nullptr;
+	//Generate some things so we can spawn them or something
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * ResultImageFive = nullptr;
+
+
+
 	//Hit indicator array copied from there to make it easier so i dont have to keep calling GetInstance
 	TArray<FPlayerHitIndicator> hitArray;
 	//Image array for the hit indicators
 	TArray<UImage* > imageArray;
 	//Image array for the background images
 	TArray<UImage*> spriteArray;
+	//Image stuff...
+	TArray<UImage*> resultArray;
 
 
 };

@@ -16,16 +16,24 @@ void FDashGauge::ApplyToImage(UImage * imageToApply)
 }
 void FDashGauge::ApplyToMaterial()
 {
-	MaterialInstance->SetTextureParameterValue("First Texture", Texture);
+	MaterialInstance->SetScalarParameterValue("Use Texture", gaugeParameters.useTexture);
 	MaterialInstance->SetScalarParameterValue("AlphaCutOff", gaugeParameters.percent);
 	MaterialInstance->SetScalarParameterValue("Brightness", gaugeParameters.brightness);
 	MaterialInstance->SetScalarParameterValue("DesiredRadius", gaugeParameters.desiredRadius);
 	MaterialInstance->SetScalarParameterValue("InitialRadius", gaugeParameters.initialRadius);
-	MaterialInstance->SetScalarParameterValue("PanSpeedX", gaugeParameters.panSpeeds.X);
-	MaterialInstance->SetScalarParameterValue("PanSpeedY", gaugeParameters.panSpeeds.Y);
-	MaterialInstance->SetScalarParameterValue("Texture Scale", gaugeParameters.textureScale);
-	MaterialInstance->SetScalarParameterValue("Texture Time Scale", gaugeParameters.textureTimeScale);
 
+	if (gaugeParameters.useTexture)
+	{
+		MaterialInstance->SetScalarParameterValue("PanSpeedX", gaugeParameters.panSpeeds.X);
+		MaterialInstance->SetScalarParameterValue("PanSpeedY", gaugeParameters.panSpeeds.Y);
+		MaterialInstance->SetScalarParameterValue("Texture Scale", gaugeParameters.textureScale);
+		MaterialInstance->SetScalarParameterValue("Texture Time Scale", gaugeParameters.textureTimeScale);
+		MaterialInstance->SetTextureParameterValue("First Texture", Texture);
+	}
+	else
+	{
+		MaterialInstance->SetVectorParameterValue("Color", gaugeParameters.color);
+	}
 }
 void FDashGauge::UpdatePercent()
 {

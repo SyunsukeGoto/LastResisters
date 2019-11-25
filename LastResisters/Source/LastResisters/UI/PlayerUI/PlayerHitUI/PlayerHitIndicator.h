@@ -23,6 +23,8 @@ struct FPlayerHitIndicator
 	class UImage * LinkedImageTwo;
 	//Background Images. These are pointers to the actual ones.
 	class UImage * LinkedBackground;
+	//Linked image One
+	class UImage * ResultImage;
 	//Texture we'll set as a parameter to our dynamic material instance
 	class UTexture * MainTexture = nullptr;
 	//Desired Texture we'll set as a parameter to our dynamic material instance
@@ -59,5 +61,10 @@ struct FPlayerHitIndicator
 	void AssignParametersFromInfo(MyAttackManager::Attack_Info infoReceived);
 	void PrintDetails();
 	void UpdateFillAmount(float inDeltaTime);
+
+	//Some other timers
+	float stayOnScreenTime;
+	float stayOnScreenTimer;
+
 
 };

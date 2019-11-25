@@ -20,6 +20,7 @@ void FWeaponSkillGauge::ApplyToMaterial()
 	MaterialInstance->SetScalarParameterValue("Use Texture", weaponSkillParameters.useTexture);
 	MaterialInstance->SetScalarParameterValue("Percentage", weaponSkillParameters.percent);
 	MaterialInstance->SetVectorParameterValue("Color", Color);
+	MaterialInstance->SetTextureParameterValue("Opacity Mask", OpacityMask);
 
 	if(weaponSkillParameters.useTexture)
 		MaterialInstance->SetTextureParameterValue("Texture", Texture);

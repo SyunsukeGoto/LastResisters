@@ -42,7 +42,28 @@ void UEnemyUI::NativeConstruct()
 	healthDelayTimer = healthDelay;
 	armorDelayTimer = armorDelay;
 
-	UE_LOG(LogTemp, Warning, TEXT("Size: %d"), crackDeviations.Num());
+	//Do casting of the controller to find out its type.
+	aiCon1_ = Cast<AAI1_AIController>(aiController);
+	aiCon2_ = Cast<AAI2_AIController>(aiController);
+
+	isAiOne = aiCon1_ != nullptr;
+	isAiTwo = aiCon2_ != nullptr;
+
+	if (isAiOne)
+		maxHealth = aiCon1_->GetMaxHP();
+	else if (isAiTwo)
+		maxHealth = aiCon2_->GetMaxHP();
+	else
+		maxHealth = 0;
+
+
+	if (isAiOne)
+		maxArmor = aiCon1_->GetMaxArmor();
+	else if (isAiTwo)
+		maxArmor = aiCon2_->GetMaxArmor();
+	else
+		maxArmor = 0;
+
 }
 
 void UEnemyUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
@@ -86,8 +107,6 @@ void UEnemyUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 			UpdateArmorGauge(InDeltaTime);
 	}
 #pragma endregion
-
-	healthAmount -= 0.15f;
 
 	GetCrackEdges();
 
@@ -175,19 +194,46 @@ void UEnemyUI::UpdateArmorGauge(float inDeltaTime)
 
 void UEnemyUI::NormalizeHealthValue()
 {
+	float healthAmount;
+	
+	if (isAiOne)
+		healthAmount = aiCon1_->GetHP();
+	else if (isAiTwo)
+		healthAmount = aiCon2_->GetHP();
+	else
+		healthAmount =  -1;
+	
+
 	f_desiredHealth = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)healthAmount, minHealth, maxHealth), 0.04f, 0.97f);
 }
 
 void UEnemyUI::NormalizeArmorValue()
 {
-	f_desiredArmor = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)armorAmount, minHealth, maxHealth), 0.04f, 0.97f);
+	float armorAmount;
+
+	if (isAiOne)
+		armorAmount = aiCon1_->GetArmor();
+	else if (isAiTwo)
+		armorAmount = aiCon2_->GetArmor();
+	else
+		armorAmount = -1;
+
+	f_desiredArmor = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)armorAmount, minArmor, maxArmor), 0.04f, 0.97f);
 }
 
 void UEnemyUI::GetCrackEdges()
 {
+	float healthAmount;
+
+	if (isAiOne)
+		healthAmount = aiCon1_->GetHP();
+	else if (isAiTwo)
+		healthAmount = aiCon2_->GetHP();
+	else
+		healthAmount = -1;
+
 	for (auto deviations : crackDeviations)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Deviation Amount: %f, Health Amount: %f"), deviations.amount, healthAmount);
 		if (healthAmount > deviations.amount)
 			continue;
 
@@ -195,9 +241,12 @@ void UEnemyUI::GetCrackEdges()
 		currentEdge.ImageForDisplay = deviations.ImageForDisplay;
 		CrackedImage->SetBrushFromTexture(currentEdge.ImageForDisplay);
 
-		UE_LOG(LogTemp, Warning, TEXT("Current Edge amount %f"), currentEdge.amount);
-
 		break;
 	}
 
+}
+
+void UEnemyUI::SetAIControllerUI(AAIController * targetAiController)
+{
+	this->aiController = targetAiController;
 }
