@@ -6,6 +6,8 @@
 #include "Components/Image.h"
 #include "Components/TextBlock.h"
 #include "../../SpriteAnimation/SpriteAnimation.h"
+#include "../../../Managers/MyPlayerManager.h"
+#include "../../../MyGameInstance.h"
 
 UPlayerUI::UPlayerUI(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
@@ -38,12 +40,17 @@ void UPlayerUI::NativeConstruct()
 	//Create the main weapon's gauge materialInstance and apply it to the actual image
 	mainWeaponGauge.MaterialInstance = UMaterialInstanceDynamic::Create(mainWeaponGauge.Material, this);
 	mainWeaponGauge.ApplyToMaterial();
-	mainWeaponGauge.ApplyToImage(MainGauge);
+	mainWeaponGauge.ApplyToImage(WeaponGauge);
 
 	//Create the sub weapon's gauge materialInstance and apply it to the actual image
 	subWeaponGauge.MaterialInstance = UMaterialInstanceDynamic::Create(subWeaponGauge.Material, this);
 	subWeaponGauge.ApplyToMaterial();
-	subWeaponGauge.ApplyToImage(SubGauge);
+	subWeaponGauge.ApplyToImage(ShieldGauge);
+
+	//Create the animated bar's gauge materialInstance and apply it to the actual image
+	animatedBar.MaterialInstance = UMaterialInstanceDynamic::Create(animatedBar.Material, this);
+	animatedBar.ApplyToMaterial();
+	animatedBar.ApplyToImage(UIAnimatedBar);
 
 	//Set the delayTimer to be the value of delay at the start.
 	delayTimer = delay;
@@ -52,10 +59,47 @@ void UPlayerUI::NativeConstruct()
 	initialSpeed = f_circularHealth.circularHealthParameters.backWaveSpeed;
 	currentSpeed = f_circularHealth.circularHealthParameters.backWaveSpeed;
 
-	MainFlameEffect->SetVisibility(ESlateVisibility::Hidden);
-	MainChargeEffect->SetVisibility(ESlateVisibility::Hidden);
-	SubFlameEffect->SetVisibility(ESlateVisibility::Hidden);
-	SubChargeEffect->SetVisibility(ESlateVisibility::Hidden);
+	WeaponFlameEffect->SetVisibility(ESlateVisibility::Hidden);
+	WeaponChargeEffect->SetVisibility(ESlateVisibility::Hidden);
+	ShieldFlameEffect->SetVisibility(ESlateVisibility::Hidden);
+	ShieldChargeEffect->SetVisibility(ESlateVisibility::Hidden); 
+
+
+	//Setup UI animations.
+	currentPercentage = animatedBar.gaugeParameters.percent;
+	desiredPercentage = currentPercentage;
+
+	barImageArray.Add(UIAnimatedVerticalBarOne);
+	barImageArray.Add(UIAnimatedVerticalBarTwo);
+	barImageArray.Add(UIAnimatedVerticalBarThree);
+	barImageArray.Add(UIAnimatedHorizontalBarOne);
+	barImageArray.Add(UIAnimatedHorizontalBarTwo);
+	barImageArray.Add(UIAnimatedHorizontalBarThree);
+
+	//Initialise the vertical horizontal bars. with the size of the bar image
+	animatedBarArray.Init(FAnimatedBar(), barImageArray.Num());
+	for (int i = 0; i < animatedBarArray.Num(); i++)
+	{
+		if (i < 3)
+		{
+			animatedBarArray[i] = verticalBar;
+		}
+		else
+		{
+			animatedBarArray[i] = horizontalBar;
+		}
+		//Create the animated bar's gauge materialInstance and apply it to the actual image
+		animatedBarArray[i].MaterialInstance = UMaterialInstanceDynamic::Create(animatedBarArray[i].Material, this);
+		animatedBarArray[i].ApplyToMaterial();
+		animatedBarArray[i].ApplyToImage(barImageArray[i]);
+
+		//Initialize all
+		animatedBarArray[i].currentPercentage = animatedBarArray[i].barParameters.percent;
+		animatedBarArray[i].desiredPercentage = animatedBarArray[i].currentPercentage;
+	}
+
+	//Set current to player hp
+	currentHealth = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp;
 }
 
 void UPlayerUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
@@ -94,11 +138,10 @@ void UPlayerUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 	UpdateHealthbar(InDeltaTime);
 
 	//To test the hit interaction
-	timer += InDeltaTime;
-	if (timer > 5)
+	if (currentHealth != UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp)
 	{
 		DoHit();
-		timer = 0;
+		currentHealth = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp;
 	}
 
 	//Function that changes wave speed of the healthbar
@@ -109,7 +152,7 @@ void UPlayerUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 
 	//Update the health amount text
 	if (HealthText)
-		HealthText->SetText(FText::FromString(FString::FromInt(m_actualHealth)));
+		HealthText->SetText(FText::FromString(FString::FromInt(UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp)));
 
 #pragma endregion
 
@@ -159,9 +202,6 @@ void UPlayerUI::UpdateDashGauge(float inDeltaTime)
 
 		instantGauge.UpdatePercent();
 		delayedGauge.UpdatePercent();
-		//Just for testing
-		//UE_LOG(LogTemp, Warning, TEXT("Instant Percent: %f, Delayed Percent: %f"), instantGauge.gaugeParameters.percent, delayedGauge.gaugeParameters.percent);
-		//UE_LOG(LogTemp, Warning, TEXT("Current: %f, Desired: %f, Rate: %f, Delay: %f"), f_currentSkill, f_desiredSkill, rate, delayTimer);
 	}
 	else
 	{
@@ -179,6 +219,10 @@ void UPlayerUI::UpdateDashGauge(float inDeltaTime)
 			//f_desiredDash -= FMath::FRandRange(0.15, 0.2);
 		}
 	}
+
+	//Updating UI Bar.
+	UpdateUIAnimatedBar(inDeltaTime);
+	UpdateVertHorizUIAnimatedBars(inDeltaTime);
 }
 
 void UPlayerUI::UpdateHealthbar(float inDeltaTime)
@@ -194,29 +238,22 @@ void UPlayerUI::UpdateHealthbar(float inDeltaTime)
 	}
 	else
 	{
-		//Test the interaction
-		//UE_LOG(LogTemp, Warning, TEXT("Health: %d, FillPercentage: %f, Desired: %f, Current: %f"), 
-		//	m_actualHealth, 
-		//	healthBar.healthbarParameters.fillPercentage,
-		//	f_desiredHealth, 
-		//	f_currentHealth);
-		//m_actualHealth = FMath::FRandRange(0, 100.f);
 	}
 }
 
 void UPlayerUI::UpdateMainWeaponSkillGauge(float inDeltaTime)
 {
-	if (mainWeaponSkillGauge < 100)
+	if (UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->mainSkillGaugeAmount < 100)
 	{
-		//UE_LOG(LogTemp, Warning, TEXT("Main Skill: %d, Main Skill Float: %f"), mainWeaponSkillGauge, f_mainWeaponSkillGauge)
-			mainWeaponSkillGauge += 1;
 	}
-	else if (mainWeaponSkillGauge >= 100)
+	else if (UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->mainSkillGaugeAmount >= 100)
 	{
-		USpriteAnimation * mainChargeEffect = Cast<USpriteAnimation>(MainChargeEffect);
-		USpriteAnimation * mainFlameEffect = Cast<USpriteAnimation>(MainFlameEffect);
-		mainChargeEffect->PlayAnimation();
-		mainFlameEffect->PlayAnimation();
+		USpriteAnimation * mainChargeEffect = Cast<USpriteAnimation>(WeaponChargeEffect);
+		USpriteAnimation * mainFlameEffect = Cast<USpriteAnimation>(WeaponFlameEffect);
+		if(mainChargeEffect != nullptr)
+			mainChargeEffect->PlayAnimation();
+		if(mainFlameEffect != nullptr)
+			mainFlameEffect->PlayAnimation();
 	}
 
 	//Set the parameters 
@@ -226,19 +263,20 @@ void UPlayerUI::UpdateMainWeaponSkillGauge(float inDeltaTime)
 
 void UPlayerUI::UpdateSubWeaponSkillGauge(float inDeltaTime)
 {
-	if (subWeaponSkillGauge < 100)
-	{
-		//UE_LOG(LogTemp, Warning, TEXT("Sub Skill: %d, Sub Skill Float: %f"), subWeaponSkillGauge, f_subWeaponSkillGauge)
-			subWeaponSkillGauge += 2;
-	}
-	else if (subWeaponSkillGauge >= 100)
-	{
-		USpriteAnimation * subChargeEffect = Cast<USpriteAnimation>(SubChargeEffect);
-		USpriteAnimation * subFlameEffect = Cast<USpriteAnimation>(SubFlameEffect);
-		subChargeEffect->PlayAnimation();
-		subFlameEffect->PlayAnimation();
-	}
 
+	if (UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->subSkillGaugeAmount < 100)
+	{
+
+	}
+	else if (UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->subSkillGaugeAmount >= 100)
+	{
+		USpriteAnimation * subChargeEffect = Cast<USpriteAnimation>(ShieldChargeEffect);
+		USpriteAnimation * subFlameEffect = Cast<USpriteAnimation>(ShieldFlameEffect);
+		if(subChargeEffect != nullptr)
+			subChargeEffect->PlayAnimation();
+		if(subFlameEffect != nullptr)
+			subFlameEffect->PlayAnimation();
+	}
 	//Set the parameters 
 	subWeaponGauge.weaponSkillParameters.percent = f_subWeaponSkillGauge;
 	subWeaponGauge.UpdatePercent();
@@ -257,18 +295,18 @@ float UPlayerUI::NormalizeValueCustomRange(float in, float minRange, float maxRa
 
 void UPlayerUI::NormalizeHealthValue()
 {
-	f_desiredHealth = NormalizeValueCustomRange(NormalizeValue((float)m_actualHealth, 0.f, 100.f), 0.04f, 0.97f);
+	f_desiredHealth = NormalizeValueCustomRange(NormalizeValue(UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp, 0.f, 100.f), 0.04f, 0.97f);
 }
 
 void UPlayerUI::NormalizeDashGauge()
 {
-	f_desiredDash = NormalizeValueCustomRange(NormalizeValue((float)dashAmount, 0.f, 100.f), 0.058f, 0.942f);
+	f_desiredDash = NormalizeValueCustomRange(NormalizeValue(UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->dashGaugeAmount, 0.f, 100.f), 0.044f, 0.96f);
 }
 
 void UPlayerUI::NormalizeWeaponGauges()
 {
-	f_mainWeaponSkillGauge = NormalizeValueCustomRange(NormalizeValue((float)mainWeaponSkillGauge, 0.f, 100.f), 0.058f, 0.942f);
-	f_subWeaponSkillGauge = NormalizeValueCustomRange(NormalizeValue((float)subWeaponSkillGauge, 0.f, 100.f), 0.058f, 0.942f);
+	f_mainWeaponSkillGauge = NormalizeValueCustomRange(NormalizeValue(UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->mainSkillGaugeAmount, 0.f, 100.f), 0.058f, 0.834f);
+	f_subWeaponSkillGauge = NormalizeValueCustomRange(NormalizeValue(UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->subSkillGaugeAmount, 0.f, 100.f), 0.058f, 0.942f);
 }
 
 void UPlayerUI::Hit(float inDeltaTime)
@@ -284,14 +322,11 @@ void UPlayerUI::Hit(float inDeltaTime)
 				desiredSpeed,
 				healthLerpSpeed * inDeltaTime);
 
-			//UE_LOG(LogTemp, Warning, TEXT("Lerping to desiredSpeed, Current: %f, Desired: %f , Lerp Time: %f"), currentSpeed, desiredSpeed, healthLerpSpeed * inDeltaTime);
-
 			//If its successful then...
 			if (FMath::Abs(desiredSpeed - currentSpeed) <= healthEpsilon)
 			{
 				currentSpeed = desiredSpeed;
 				direction = true;
-				//UE_LOG(LogTemp, Warning, TEXT("Lerp complete, changing directions."));
 			}
 		}
 	}
@@ -300,7 +335,7 @@ void UPlayerUI::Hit(float inDeltaTime)
 		//Dont do a calculation if the current speed is already equals to the initial.
 		if (currentSpeed == initialSpeed)
 		{
-			//UE_LOG(LogTemp, Warning, TEXT("They are equal."));
+
 			return;
 		}
 
@@ -330,6 +365,98 @@ void UPlayerUI::Hit(float inDeltaTime)
 
 	//Update the back wave speed using our current variable
 	f_circularHealth.circularHealthParameters.backWaveSpeed = currentSpeed;
+}
+
+void UPlayerUI::UpdateUIAnimatedBar(float inDeltaTime)
+{
+	//If the two results are the same, then we set the variables.
+	if (currentPercentage == desiredPercentage)
+	{
+		//The same.
+		//Random the things.
+		desiredPercentage = FMath::RandRange(minMaxRange.X, minMaxRange.Y);
+		//Calculate rate.
+		percentageRate = (desiredPercentage - currentPercentage) / timeToGoToDesired;	
+
+		//We have reached the destination
+		animatedReached = true;
+		//Set the timer to the delay.
+		animatedBarTimer = timerDelay;
+	
+	}
+	if (animatedReached)
+	{
+		if (animatedBarTimer > 0)
+			animatedBarTimer -= inDeltaTime;
+		else
+			animatedReached = false;
+	}
+	else
+	{
+		//Current percentage
+		currentPercentage += percentageRate * inDeltaTime;
+		if (percentageRate > 0)
+		{
+			if (currentPercentage >= desiredPercentage)
+				currentPercentage = desiredPercentage;
+		}
+		else
+		{
+			if (currentPercentage <= desiredPercentage)
+				currentPercentage = desiredPercentage;
+		}
+
+		animatedBar.gaugeParameters.percent = currentPercentage;
+		animatedBar.UpdatePercent();
+	}
+}
+
+void UPlayerUI::UpdateVertHorizUIAnimatedBars(float inDeltaTime)
+{
+
+	for (int i = 0; i < animatedBarArray.Num(); i++)
+	{
+		//If the two results are the same, then we set the variables.
+		if (animatedBarArray[i].currentPercentage == animatedBarArray[i].desiredPercentage)
+		{
+			//The same.
+			//Random the things.
+			animatedBarArray[i].desiredPercentage = FMath::RandRange(barMinMaxRange.X, barMinMaxRange.Y);
+			//Calculate rate.
+			animatedBarArray[i].percentageRate = (animatedBarArray[i].desiredPercentage - animatedBarArray[i].currentPercentage) / timeToGoDesiredBar;
+
+			//We have reached the destination
+			animatedBarArray[i].animatedReached = true;
+			//Set the timer to the delay.
+			animatedBarArray[i].animatedBarTimer = barTimerDelay;
+
+		}
+		if (animatedBarArray[i].animatedReached)
+		{
+			if (animatedBarArray[i].animatedBarTimer > 0)
+				animatedBarArray[i].animatedBarTimer -= inDeltaTime;
+			else
+				animatedBarArray[i].animatedReached = false;
+		}
+		else
+		{
+			//Current percentage
+			animatedBarArray[i].currentPercentage += animatedBarArray[i].percentageRate * inDeltaTime;
+			if (animatedBarArray[i].percentageRate > 0)
+			{
+				if (animatedBarArray[i].currentPercentage >= animatedBarArray[i].desiredPercentage)
+					animatedBarArray[i].currentPercentage = animatedBarArray[i].desiredPercentage;
+			}
+			else
+			{
+				if (animatedBarArray[i].currentPercentage <= animatedBarArray[i].desiredPercentage)
+					animatedBarArray[i].currentPercentage = animatedBarArray[i].desiredPercentage;
+			}
+
+			animatedBarArray[i].barParameters.percent = animatedBarArray[i].currentPercentage;
+			animatedBarArray[i].UpdatePercent();
+		}
+	}
 }
 
 

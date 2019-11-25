@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "MyAttackManager.h"
+#include "Components/Image.h"
 #include "../UI/PlayerUI/PlayerHitUI/PlayerHitIndicator.h"
 
 /**
@@ -37,5 +38,17 @@ public:
 
 	//Prints every single indicator
 	void PrintIndicatorList();
+
+	//Array of all positions;
+	TArray<FVector> positionArray;
+	TArray<FVector2D> screenPositionArray;
+
+	//Array of image 
+	TArray<UImage*> imageArray;
+	TArray<UImage*> spriteArray;
+	TArray<UImage*> resultArray;
+
+	UTexture2D * successImage = nullptr;
+	UTexture2D * failImage = nullptr;
 
 };

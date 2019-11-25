@@ -39,7 +39,13 @@ struct FDashGaugeParameters
 	//This is the deltaTime of the entire texture moving.
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 		float textureTimeScale;
+	//Are we using a texture?
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
+		bool useTexture;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
+		FColor color;
 	FDashGaugeParameters();
+
 
 
 };

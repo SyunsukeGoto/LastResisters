@@ -76,9 +76,29 @@ MyAttackManager * UMyGameInstance::GetAttackManagerInstance()
 	return nullptr;
 }
 
-void UMyGameInstance::StorePlayerManagerValues(FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot)
+void UMyGameInstance::StorePlayerManagerValues(FVector _playerPos,FTransform _leftPos, FTransform _rightPos, bool _isShielding)
 {
-	m_playerManager->StoreValues(_leftPos, _rightPos, _leftRot, _rightRot);
+	m_playerManager->StoreValues(_playerPos, _leftPos, _rightPos, _isShielding);
+}
+
+void UMyGameInstance::SetViewportSize(FVector2D viewportSize)
+{
+	m_playerManager->SetViewportSize(viewportSize);
+}
+
+TArray<FVector> UMyGameInstance::GetPositionsArray()
+{
+	return m_UIManager->positionArray;
+}
+
+FVector UMyGameInstance::GetYabaiPosition()
+{
+	return m_playerManager->yabaiPos;
+}
+
+void UMyGameInstance::StoreScreenPositions(TArray<FVector2D> screenPositions)
+{
+	m_UIManager->screenPositionArray = screenPositions;
 }
 
 void UMyGameInstance::Update(float inDeltaTime)

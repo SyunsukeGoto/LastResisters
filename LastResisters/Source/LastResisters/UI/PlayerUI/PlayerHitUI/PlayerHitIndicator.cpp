@@ -8,6 +8,8 @@
 
 FPlayerHitIndicator::FPlayerHitIndicator()
 	: isDefault(false)
+	, stayOnScreenTimer(0)
+	, stayOnScreenTime(0.35f)
 {
 }
 
@@ -102,8 +104,11 @@ void FPlayerHitIndicator::AssignParametersFromInfo(MyAttackManager::Attack_Info 
 	playerHitParameters.position = infoReceived.info_Position;
 	playerHitParameters.rotation = infoReceived.info_Rotation;
 	playerHitParameters.duration = infoReceived.info_CountdownTimer;
+	playerHitParameters.attackIndex = infoReceived.attackIndex;
 	playerHitParameters.calculateRate = true;
-
+	playerHitParameters.blockPercentage = 0;
+	stayOnScreenTimer = 0;
+	stayOnScreenTime = 0.35f;
 }
 
 
@@ -123,7 +128,6 @@ void FPlayerHitIndicator::UpdateFillAmount(float inDeltaTime)
 	if (playerHitParameters.calculateRate)
 	{
 		playerHitParameters.rate = (playerHitParameters.desiredFill - playerHitParameters.currentFill) / playerHitParameters.duration;
-		playerHitParameters.calculateRate = false;
 
 		if (LinkedImage != nullptr)
 			LinkedImage->SetVisibility(ESlateVisibility::Visible);
@@ -131,6 +135,10 @@ void FPlayerHitIndicator::UpdateFillAmount(float inDeltaTime)
 			LinkedBackground->SetVisibility(ESlateVisibility::Visible);
 		if (LinkedImageTwo != nullptr)
 			LinkedImageTwo->SetVisibility(ESlateVisibility::Visible);
+		if (ResultImage != nullptr)
+			ResultImage->SetVisibility(ESlateVisibility::Hidden);
+
+		playerHitParameters.calculateRate = false;
 		//UE_LOG(LogTemp, Warning, TEXT("Calculated rate : %f"), playerHitParameters.rate);
 	}
 	//Else we keep minusing and only if they;re not already the same
@@ -156,60 +164,30 @@ void FPlayerHitIndicator::UpdateFillAmount(float inDeltaTime)
 	}
 	else
 	{
-		//Function ended...
-		//Set the brush to cant see but sure.
-		//Can add effects to it also.
-
-		//playerHitParameters.awaitingResponse = true;
-
-		//if (playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES)
-		//{
-		//	playerHitParameters.hitState = (FPlayerHitUIParameters::HIT_STATES)FMath::RandRange(0, 1);
-	
-		//	switch (playerHitParameters.hitState)
-		//	{
-		//	case	FPlayerHitUIParameters::HIT_STATES::STATE_HIT:
-		//	{
-		//		UE_LOG(LogTemp, Warning, TEXT("Generated hit."));
-		//		//LinkedBackground->Brush.TintColor = FSlateColor(DesiredHitColor);
-		//		break;
-		//	}
-		//	case	FPlayerHitUIParameters::HIT_STATES::STATE_BLOCK:
-		//	{
-		//		UE_LOG(LogTemp, Warning, TEXT("Generated block."));
-		//		//LinkedBackground->Brush.TintColor = FSlateColor(DesiredBlockColor);
-		//		break;
-		//	}
-		//	case	FPlayerHitUIParameters::HIT_STATES::STATE_MISS:
-		//	{
-		//		UE_LOG(LogTemp, Warning, TEXT("Generated miss."));
-		//		break;
-		//	}
-		//	case	FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES:
-		//	default:
-		//	{
-		//		UE_LOG(LogTemp, Warning, TEXT(" Total states."));
-		//		break;
-		//	}
-		//	}
-		//}
-		if (playerHitParameters.blockPercentage < 1)
+		if (stayOnScreenTimer < stayOnScreenTime)
 		{
-			playerHitParameters.blockPercentage += 0.15f;
+			stayOnScreenTimer += inDeltaTime;
+			if (ResultImage != nullptr)
+				ResultImage->SetVisibility(ESlateVisibility::Visible);
 		}
 		else
 		{
-			playerHitParameters.blockPercentage = 1.0f;
-			//also set duration to 0? or something, temporary codes
-			playerHitParameters.duration = 0;
+			playerHitParameters.blockPercentage = 0.0f;
+			UpdateBlockPercentage();
+
 			if (LinkedImage != nullptr)
 				LinkedImage->SetVisibility(ESlateVisibility::Hidden);
 			if (LinkedBackground != nullptr)
 				LinkedBackground->SetVisibility(ESlateVisibility::Hidden);
 			if (LinkedImageTwo != nullptr)
 				LinkedImageTwo->SetVisibility(ESlateVisibility::Hidden);
+			if (ResultImage != nullptr)
+				ResultImage->SetVisibility(ESlateVisibility::Hidden);
+
+			//also set duration to 0? or something, temporary codes
+			playerHitParameters.duration = 0.f;
 		}
-		UpdateBlockPercentage();
+
 	}
 }
 

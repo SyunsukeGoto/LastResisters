@@ -30,7 +30,25 @@ public:
 	MyAttackManager* GetAttackManagerInstance();
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
-	void StorePlayerManagerValues(FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot);
+	void StorePlayerManagerValues(
+		FVector _playerPos
+		, FTransform _leftPos
+		, FTransform _rightPos
+		, bool isShielding);
+
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void SetViewportSize(FVector2D viewportSize);
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		TArray<FVector> GetPositionsArray();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		FVector GetYabaiPosition();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void StoreScreenPositions(TArray<FVector2D> screenPositions);
 
 	void Update(float inDeltaTime);
+
 };
