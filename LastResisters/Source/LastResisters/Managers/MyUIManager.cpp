@@ -171,18 +171,16 @@ void MyUIManager::HandleDelete(MyAttackManager::Attack_Info infoToReceive, bool 
 		//Compare stuff
 		if (playerHitIndicators[i].playerHitParameters.attackIndex ==infoToReceive.attackIndex)
 		{
-
 			//If everything is roughly the same, then we can add.
-			if (/*playerHitIndicators[i].playerHitParameters.awaitingResponse
-				&&*/ playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES)
+			if (playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES)
 			{
-				playerHitIndicators[i].playerHitParameters.hitState = (FPlayerHitUIParameters::HIT_STATES)blocked;
-				if (playerHitIndicators[i].playerHitParameters.desiredFill != playerHitIndicators[i].playerHitParameters.currentFill)
+				if (playerHitIndicators[i].playerHitParameters.currentFill != playerHitIndicators[i].playerHitParameters.desiredFill)
 				{
 					playerHitIndicators[i].playerHitParameters.currentFill = playerHitIndicators[i].playerHitParameters.desiredFill;
-					playerHitIndicators[i].UpdatePercent();
+					//playerHitIndicators[i].UpdatePercent();
 					
 				}
+				playerHitIndicators[i].playerHitParameters.hitState = (FPlayerHitUIParameters::HIT_STATES)blocked;
 				//We change its values.
 				if (playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::STATE_HIT)
 				{

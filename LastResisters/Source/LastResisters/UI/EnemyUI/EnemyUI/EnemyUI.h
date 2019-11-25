@@ -59,6 +59,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Info")
 		float maxHealth = 100;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Info")
+		float minArmor = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Info")
+		float maxArmor = 100;
+
 	//Array of the cracked edges to check if it works
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Crack Deviations")
 		TArray<FCrackedEdge> crackDeviations;

@@ -60,6 +60,7 @@ void MyAttackManager::Update(float deltaTime)
 
 void MyAttackManager::UpdateAllAttacks(float _dt)
 {
+	TArray<int> removalList;
 	int sizeOfList = myListOfAttacks.Num();
 	for (int i = 0; i < sizeOfList; i++)
 	{
@@ -82,8 +83,10 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 			UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i], false);
 
 			// Remove the attack from the list
-			myListOfAttacks.RemoveAt(i);
+	/*		myListOfAttacks.RemoveAt(i);
 			myListOfAttacks.Shrink();
+*/
+			removalList.Add(i);
 			
 
 			if (sizeOfList > 0)
@@ -103,8 +106,11 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 				UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i], true);
 
 				// Remove the attack from the list
-				myListOfAttacks.RemoveAt(i);
-				myListOfAttacks.Shrink();
+	/*			myListOfAttacks.RemoveAt(i);
+				myListOfAttacks.Shrink();*/
+
+				removalList.Add(i);
+
 
 				if (sizeOfList > 0)
 				{ // If there are more things to check through in the list of attacks
@@ -113,6 +119,12 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 				}
 			}
 		}
+	}
+
+	for (int i = 0; i < removalList.Num(); ++i)
+	{
+		myListOfAttacks.RemoveAt(removalList[i]);
+		myListOfAttacks.Shrink();
 	}
 }
 
@@ -126,7 +138,7 @@ void MyAttackManager::DamageTheAIArmor(FString _ID)
 		{
 			if (ai1Con_->GetPawn()->GetName() == _ID)
 			{
-				ai1Con_->SetArmor(ai1Con_->GetArmor() - 1);
+				ai1Con_->SetArmor(ai1Con_->GetArmor() - armorDecrease);
 				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] ActualArmor : (%f)")
 					, i
 					, ai1Con_->GetArmor().GetFloat());
@@ -142,7 +154,7 @@ void MyAttackManager::DamageTheAIArmor(FString _ID)
 		{
 			if (ai2Con_->GetPawn()->GetName() == _ID)
 			{
-				ai2Con_->SetArmor(ai2Con_->GetArmor() - 1);
+				ai2Con_->SetArmor(ai2Con_->GetArmor() - armorDecrease);
 				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] ActualArmor : (%f)")
 					, i
 					, ai2Con_->GetArmor().GetFloat());

@@ -30,6 +30,7 @@ class LASTRESISTERS_API AAI1_AIController : public AAIController
 	FFloat16 m_HP = 100;
 	FFloat16 m_MaxHP = 100;
 	FFloat16 m_armor = 100;
+	FFloat16 m_MaxArmor = 100;
 	FFloat16 m_damage = 1;
 
 	AActor* m_playerRef;
@@ -45,7 +46,9 @@ public:
 	FORCEINLINE FFloat16 GetColliderHalfHeight() { return m_colliderHalfHeight; }
 	FORCEINLINE FFloat16 GetColliderLengthCheck() { return m_colliderLengthCheck; }
 	FORCEINLINE FFloat16 GetHP() { return m_HP; }
+	FORCEINLINE FFloat16 GetMaxHP() { return m_MaxHP; }
 	FORCEINLINE FFloat16 GetArmor() { return m_armor; }
+	FORCEINLINE FFloat16 GetMaxArmor() { return m_MaxArmor; }
 	FORCEINLINE FFloat16 GetDamage() { return m_damage; }
 	FORCEINLINE void SetHP(FFloat16 _HP) { m_HP = _HP; }
 	FORCEINLINE void SetArmor(FFloat16 _armor) { m_armor = _armor; }

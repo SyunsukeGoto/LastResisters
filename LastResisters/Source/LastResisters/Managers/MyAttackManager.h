@@ -56,4 +56,7 @@ public:
 	void DamageTheAIArmor(FString _ID);
 
 	int attackIndex = 0;
+
+	//test 
+	float armorDecrease = 34;
 };

@@ -50,11 +50,19 @@ void UEnemyUI::NativeConstruct()
 	isAiTwo = aiCon2_ != nullptr;
 
 	if (isAiOne)
-		maxHealth = aiCon1_->GetHP();
+		maxHealth = aiCon1_->GetMaxHP();
 	else if (isAiTwo)
-		maxHealth = aiCon2_->GetHP();
+		maxHealth = aiCon2_->GetMaxHP();
 	else
 		maxHealth = 0;
+
+
+	if (isAiOne)
+		maxArmor = aiCon1_->GetMaxArmor();
+	else if (isAiTwo)
+		maxArmor = aiCon2_->GetMaxArmor();
+	else
+		maxArmor = 0;
 
 }
 
@@ -210,7 +218,7 @@ void UEnemyUI::NormalizeArmorValue()
 	else
 		armorAmount = -1;
 
-	f_desiredArmor = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)armorAmount, minHealth, maxHealth), 0.04f, 0.97f);
+	f_desiredArmor = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)armorAmount, minArmor, maxArmor), 0.04f, 0.97f);
 }
 
 void UEnemyUI::GetCrackEdges()

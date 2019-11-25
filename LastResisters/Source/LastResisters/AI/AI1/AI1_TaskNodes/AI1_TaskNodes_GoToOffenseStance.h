@@ -66,11 +66,11 @@ class LASTRESISTERS_API UAI1_TaskNodes_GoToOffenseStance : public UBTTaskNode
 	ComboAttackInfo comboAttackTwo =
 		ComboAttackInfo(
 			FFloat16(20.f)					//damage info0
-			, FVector(0.f, 0.f, 0.f)		//position info 0
+			, FVector(150.f, 0.f, 0.f)		//position info 0
 			, FFloat16(0.666f)				//duration info 0
 			, FFloat16(70.)					//rotation info 0
 			, FFloat16(25.0)				//damage info1
-			, FVector(0.f, 0.f, 0.f)		//position info1
+			, FVector(150.f, 0.f, 0.f)		//position info1
 			, FFloat16(1.176f)				//duration info1
 			, FFloat16(75.f));				//rotation info1
 
