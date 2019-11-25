@@ -66,8 +66,11 @@ void AAI1_AIController::OnPossess(APawn * _pawn)
 		m_behaviorComp->StartTree(*aiChar_->m_behaviorTree);
 
 		// Add to list of AI1
-		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAI1(this);
-		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->PrintOutListOfAI1();
+		
+			UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAI1(this);
+			UMyGameInstance::GetInstance()->GetAttackManagerInstance()->PrintOutListOfAI1();
+		
+		
 	}
 }
 
