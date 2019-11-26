@@ -96,6 +96,16 @@ FVector UMyGameInstance::GetYabaiPosition()
 	return m_playerManager->yabaiPos;
 }
 
+FVector UMyGameInstance::GetYabaiPositionTwo()
+{
+	return m_playerManager->yabaiPosTwo;
+}
+
+FVector UMyGameInstance::GetPlayerPos()
+{
+	return m_playerManager->m_playerPos;
+}
+
 void UMyGameInstance::StoreScreenPositions(TArray<FVector2D> screenPositions)
 {
 	m_UIManager->screenPositionArray = screenPositions;

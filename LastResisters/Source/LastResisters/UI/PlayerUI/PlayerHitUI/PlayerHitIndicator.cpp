@@ -92,8 +92,8 @@ void FPlayerHitIndicator::ApplyToMaterial()
 		MaterialInstanceTwo->SetVectorParameterValue("DesiredBlockColor", DesiredBlockColor);
 		MaterialInstanceTwo->SetScalarParameterValue("ColorState", (int)playerHitParameters.hitState);
 	}
-	//Update percentage.
-	UpdatePercent();
+	////Update percentage.
+	//UpdatePercent();
 }
 
 void FPlayerHitIndicator::AssignParametersFromInfo(MyAttackManager::Attack_Info infoReceived)

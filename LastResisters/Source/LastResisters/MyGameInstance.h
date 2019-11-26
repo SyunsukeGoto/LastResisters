@@ -47,6 +47,12 @@ public:
 		FVector GetYabaiPosition();
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		FVector GetYabaiPositionTwo();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		FVector GetPlayerPos();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		void StoreScreenPositions(TArray<FVector2D> screenPositions);
 
 	void Update(float inDeltaTime);

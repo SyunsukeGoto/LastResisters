@@ -32,6 +32,7 @@ public:
 	void SetViewportSize(FVector2D viewportSize);
 
 	FVector yabaiPos;
+	FVector yabaiPosTwo;
 
 	//The hp of the player.
 	float hp; //Just in case float damage?

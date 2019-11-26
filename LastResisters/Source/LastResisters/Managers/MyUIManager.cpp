@@ -109,15 +109,13 @@ void MyUIManager::HandleInit(MyAttackManager::Attack_Info infoToReceive)
 			playerHitIndicators[indexOfAvailable].AssignParametersFromInfo(infoToReceive);
 			//Add this position into the array.
 			positionArray.Add(playerHitIndicators[indexOfAvailable].playerHitParameters.position);
-
-			int step = playerHitIndicators.Num() - 1;
 			
 			//Assign images to the playerHitIndicator.
 			//Set the images to the specified images.
-			playerHitIndicators[step].LinkedImage = imageArray[step];
-			playerHitIndicators[step].LinkedImageTwo = imageArray[step + imageArray.Num() / 2];
-			playerHitIndicators[step].LinkedBackground = spriteArray[step];
-			playerHitIndicators[step].ResultImage = resultArray[step];
+			playerHitIndicators[indexOfAvailable].LinkedImage = imageArray[indexOfAvailable];
+			playerHitIndicators[indexOfAvailable].LinkedImageTwo = imageArray[indexOfAvailable + imageArray.Num() / 2];
+			playerHitIndicators[indexOfAvailable].LinkedBackground = spriteArray[indexOfAvailable];
+			playerHitIndicators[indexOfAvailable].ResultImage = resultArray[indexOfAvailable];
 		}
 		else
 		{
@@ -177,21 +175,40 @@ void MyUIManager::HandleDelete(MyAttackManager::Attack_Info infoToReceive, bool 
 				if (playerHitIndicators[i].playerHitParameters.currentFill != playerHitIndicators[i].playerHitParameters.desiredFill)
 				{
 					playerHitIndicators[i].playerHitParameters.currentFill = playerHitIndicators[i].playerHitParameters.desiredFill;
-					//playerHitIndicators[i].UpdatePercent();
+					playerHitIndicators[i].UpdatePercent();
 					
 				}
 				playerHitIndicators[i].playerHitParameters.hitState = (FPlayerHitUIParameters::HIT_STATES)blocked;
 				//We change its values.
-				if (playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::STATE_HIT)
+				if (playerHitIndicators[i].ResultImage != nullptr)
 				{
-					//fail guard
-					playerHitIndicators[i].ResultImage->SetBrushFromTexture(failImage);
+					if (playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::STATE_HIT)
+					{
+						//fail guard
+						if (failImage != nullptr)
+							playerHitIndicators[i].ResultImage->SetBrushFromTexture(failImage);
+					}
+					else if (playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::STATE_BLOCK)
+					{
+						//guard success
+						if (successImage != nullptr)
+							playerHitIndicators[i].ResultImage->SetBrushFromTexture(successImage);
+					}
 				}
-				else if(playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::STATE_BLOCK)
-				{
-					//guard success
-					playerHitIndicators[i].ResultImage->SetBrushFromTexture(successImage);
-				}
+
+				//Set duration to 0.
+				playerHitIndicators[i].playerHitParameters.duration = 0;
+				playerHitIndicators[i].playerHitParameters.blockPercentage = 0.0f;
+				playerHitIndicators[i].UpdateBlockPercentage();
+
+				if (playerHitIndicators[i].LinkedImage != nullptr)
+					playerHitIndicators[i].LinkedImage->SetVisibility(ESlateVisibility::Hidden);
+				if (playerHitIndicators[i].LinkedBackground != nullptr)
+					playerHitIndicators[i].LinkedBackground->SetVisibility(ESlateVisibility::Hidden);
+				if (playerHitIndicators[i].LinkedImageTwo != nullptr)
+					playerHitIndicators[i].LinkedImageTwo->SetVisibility(ESlateVisibility::Hidden);
+				if (playerHitIndicators[i].ResultImage != nullptr)
+					playerHitIndicators[i].ResultImage->SetVisibility(ESlateVisibility::Hidden);
 			
 			}
 		}

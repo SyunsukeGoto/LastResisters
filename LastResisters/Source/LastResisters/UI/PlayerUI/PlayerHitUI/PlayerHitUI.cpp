@@ -63,11 +63,12 @@ void UPlayerHitUI::NativeConstruct()
 	}
 
 	//Set it all UI Manager Instance
+	UMyGameInstance::GetInstance()->GetUIManagerInstance()->successImage = GuardSuccessImage;
+	UMyGameInstance::GetInstance()->GetUIManagerInstance()->failImage = GuardFailImage;
 	UMyGameInstance::GetInstance()->GetUIManagerInstance()->imageArray = imageArray;
 	UMyGameInstance::GetInstance()->GetUIManagerInstance()->spriteArray = spriteArray;
 	UMyGameInstance::GetInstance()->GetUIManagerInstance()->resultArray = resultArray;
-	UMyGameInstance::GetInstance()->GetUIManagerInstance()->successImage = GuardSuccessImage;
-	UMyGameInstance::GetInstance()->GetUIManagerInstance()->failImage = GuardFailImage;
+
 	
 }
 
