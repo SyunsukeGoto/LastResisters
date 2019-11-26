@@ -23,7 +23,7 @@ class LASTRESISTERS_API AAI1_AIController : public AAIController
 
 	TArray<AActor*> m_patrolPoints;
 
-	const FFloat16 m_combatRange = 120.f;
+	const FFloat16 m_combatRange = 150.f;
 	FFloat16 m_colliderRadius;
 	FFloat16 m_colliderHalfHeight;
 	FFloat16 m_colliderLengthCheck; // Used for collision checking
