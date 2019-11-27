@@ -164,7 +164,7 @@ void MyUIManager::HandleDelete(MyAttackManager::Attack_Info infoToReceive, bool 
 	//	, (float)infoToReceive.info_Rotation
 	//	, (float)infoToReceive.info_CountdownTimer);
 	//Loop through all the ones and set based on blocked.
-	for (int i = 0; i < playerHitIndicators.Num(); i++)
+	for (int i = 0; i < playerHitIndicators.Num(); ++i)
 	{
 		//Compare stuff
 		if (playerHitIndicators[i].playerHitParameters.attackIndex ==infoToReceive.attackIndex)
@@ -172,12 +172,6 @@ void MyUIManager::HandleDelete(MyAttackManager::Attack_Info infoToReceive, bool 
 			//If everything is roughly the same, then we can add.
 			if (playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES)
 			{
-				if (playerHitIndicators[i].playerHitParameters.currentFill != playerHitIndicators[i].playerHitParameters.desiredFill)
-				{
-					playerHitIndicators[i].playerHitParameters.currentFill = playerHitIndicators[i].playerHitParameters.desiredFill;
-					playerHitIndicators[i].UpdatePercent();
-					
-				}
 				playerHitIndicators[i].playerHitParameters.hitState = (FPlayerHitUIParameters::HIT_STATES)blocked;
 				//We change its values.
 				if (playerHitIndicators[i].ResultImage != nullptr)
@@ -195,21 +189,6 @@ void MyUIManager::HandleDelete(MyAttackManager::Attack_Info infoToReceive, bool 
 							playerHitIndicators[i].ResultImage->SetBrushFromTexture(successImage);
 					}
 				}
-
-				//Set duration to 0.
-				playerHitIndicators[i].playerHitParameters.duration = 0;
-				playerHitIndicators[i].playerHitParameters.blockPercentage = 0.0f;
-				playerHitIndicators[i].UpdateBlockPercentage();
-
-				if (playerHitIndicators[i].LinkedImage != nullptr)
-					playerHitIndicators[i].LinkedImage->SetVisibility(ESlateVisibility::Hidden);
-				if (playerHitIndicators[i].LinkedBackground != nullptr)
-					playerHitIndicators[i].LinkedBackground->SetVisibility(ESlateVisibility::Hidden);
-				if (playerHitIndicators[i].LinkedImageTwo != nullptr)
-					playerHitIndicators[i].LinkedImageTwo->SetVisibility(ESlateVisibility::Hidden);
-				if (playerHitIndicators[i].ResultImage != nullptr)
-					playerHitIndicators[i].ResultImage->SetVisibility(ESlateVisibility::Hidden);
-			
 			}
 		}
 

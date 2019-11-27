@@ -54,8 +54,6 @@ void FPlayerHitIndicator::UpdateBlockPercentage()
 	MaterialInstanceTwo->SetScalarParameterValue("BlockPercentage", playerHitParameters.blockPercentage);
 }
 
-
-
 void FPlayerHitIndicator::ApplyToMaterial()
 {
 	//Whether to use texture.
@@ -125,6 +123,7 @@ void FPlayerHitIndicator::PrintDetails()
 
 void FPlayerHitIndicator::UpdateFillAmount(float inDeltaTime)
 {
+
 	if (playerHitParameters.calculateRate)
 	{
 		playerHitParameters.rate = (playerHitParameters.desiredFill - playerHitParameters.currentFill) / playerHitParameters.duration;
