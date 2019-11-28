@@ -16,7 +16,6 @@ void FEnemyArmorGauge::ApplyToImage(UImage * imageToApply)
 
 void FEnemyArmorGauge::ApplyToMaterial()
 {
-	MaterialInstance->SetTextureParameterValue("Opacity Mask", OpacityMask);
 	MaterialInstance->SetTextureParameterValue("Texture", Texture);
 	MaterialInstance->SetScalarParameterValue("Brightness", armorParameters.brightness);
 	MaterialInstance->SetScalarParameterValue("Percentage", armorParameters.percentage);

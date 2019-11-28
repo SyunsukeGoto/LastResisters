@@ -18,9 +18,11 @@ struct FCrackedEdge
 	FCrackedEdge(FCrackedEdge & other);
 
 	UPROPERTY(EditDefaultsOnly)
-		//Amount before this is activated
-		float amount;
+	//Multiplier between 0 and 1.
+		float multiplier;
 	UPROPERTY(EditDefaultsOnly)
-		class UTexture2D * ImageForDisplay;
+		class UTexture2D * FirstCrack;
+	UPROPERTY(EditDefaultsOnly)
+		class UTexture2D * SecondCrack;
 
 };
