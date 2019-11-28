@@ -4,13 +4,16 @@
 #include "CrackedEdge.h"
 
 FCrackedEdge::FCrackedEdge()
-	: ImageForDisplay(nullptr)
-	, amount(0)
+	: FirstCrack(nullptr)
+	, SecondCrack(nullptr)
+	, multiplier(0)
 {
 }
 
 FCrackedEdge::FCrackedEdge(FCrackedEdge & other)
 {
-	this->amount = other.amount;
-	this->ImageForDisplay = other.ImageForDisplay;
+	this->multiplier = other.multiplier;
+	this->FirstCrack = other.FirstCrack;
+	this->SecondCrack = other.SecondCrack;
+
 }

@@ -113,9 +113,9 @@ void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 		hitArray[i].ResultImage->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
 
 
-		FVector2D canvasSize = FVector2D(1920, 1080);
+		FVector2D canvasSize = FVector2D(1000, 1000);
 		//This is the current viewport...
-		FVector2D viewportSize = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->viewportSize;
+		FVector2D viewportSize = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->cameraValues.viewportSize;
 		//Half viewport size
 		FVector2D halfViewportSize = viewportSize * 0.5f;
 		//Find the multiplication values.
@@ -144,8 +144,8 @@ void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 		UCanvasPanelSlot * linkedBackgroundSlot = Cast<UCanvasPanelSlot>(hitArray[i].LinkedBackground->Slot);
 		UCanvasPanelSlot * linkedResultSlot = Cast<UCanvasPanelSlot>(hitArray[i].ResultImage->Slot);
 
-		if(linkedImageOneSlot != nullptr)
-			linkedImageOneSlot->SetPosition(finalTranslation);
+		if (linkedImageOneSlot != nullptr)		
+			linkedImageOneSlot->SetPosition(finalTranslation);	
 		if (linkedImageTwoSlot != nullptr)
 			linkedImageTwoSlot->SetPosition(finalTranslation);
 		if (linkedBackgroundSlot != nullptr)

@@ -15,7 +15,6 @@ void FEnemyHealthGauge::ApplyToImage(UImage * imageToApply)
 
 void FEnemyHealthGauge::ApplyToMaterial()
 {
-	MaterialInstance->SetTextureParameterValue("Opacity Mask", OpacityMask);
 	MaterialInstance->SetTextureParameterValue("Texture", Texture);
 	MaterialInstance->SetScalarParameterValue("Brightness", healthParameters.brightness);
 	MaterialInstance->SetScalarParameterValue("Percentage", healthParameters.percentage);

@@ -39,6 +39,7 @@ public:
 	TArray<AAIController*> myListOfAI1;
 	TArray<AAIController*> myListOfAI2;
 	TArray<Attack_Info> myListOfAttacks;
+	TArray<int> removalList;
 
 	MyAttackManager();
 	~MyAttackManager();

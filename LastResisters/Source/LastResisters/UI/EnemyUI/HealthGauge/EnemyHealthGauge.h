@@ -23,10 +23,6 @@ struct FEnemyHealthGauge
 	//Our actual materialInstance 
 	class UMaterialInstanceDynamic * MaterialInstance = nullptr;
 
-	//Texture we'll set as a parameter to our dynamic material instance
-	UPROPERTY(EditDefaultsOnly)
-		class UTexture * OpacityMask = nullptr;
-
 	UPROPERTY(EditDefaultsOnly)
 		class UTexture * Texture = nullptr;
 
