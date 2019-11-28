@@ -13,23 +13,39 @@ public:
 	MyPlayerManager();
 	~MyPlayerManager();
 
+	struct CameraValues
+	{
+		FVector2D viewportSize;
+		FVector cameraPosition;
+		FVector camFwdVector;
+		float cameraFOV;
+		float cameraAspect;
+		float nearClipPlane = 10;
+	};
+
 	bool CheckIfBlocked(FVector _attPos, FFloat16 _attRot);
 
 	void Update(float deltaTime);
 
-	void StoreValues(FVector m_playerPos
+	void StoreValues(FVector _playerPos
+		, float _playerDamage
 		, FTransform _leftPos
 		, FTransform _rightPos
 		, bool isShielding);
 
+	CameraValues cameraValues;
+	//FVector for UI
+	FTransform hitUITransform;
+	float distanceBetweenEnemy;
+
 	FVector m_playerPos;
+	float m_playerDamage;
 	FTransform m_leftPos;
 	FTransform m_rightPos;
-	FVector2D viewportSize;
 	//The bool that is true when the shield is out.
 	bool isShielding;
 
-	void SetViewportSize(FVector2D viewportSize);
+	void SetCameraValues(FVector2D viewportSize, FVector cameraPosition, FVector camFwdVector, float camFOV, float camAspect);
 
 	FVector yabaiPos;
 	FVector yabaiPosTwo;

@@ -10,6 +10,7 @@
 #include "../../../AI/AI1/AI1_AIController.h"
 #include "../../../AI/AI2/AI2_AIController.h"
 #include  "AIController.h"
+#include "../EnemyIcon/EnemyIcon.h"
 #include "EnemyUI.generated.h"
 
 /**
@@ -40,6 +41,10 @@ public:
 		class UImage * I_ArmorGauge = nullptr;
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 		class UImage * CrackedImage = nullptr;
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * CrackedImageTwo = nullptr;
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * EnemyIcon = nullptr;
 
 	//Struct that holds the values of the delayed HP gauge
 	UPROPERTY(EditDefaultsOnly)
@@ -53,6 +58,14 @@ public:
 	//Struct that holds the values of the instant Armor gauge
 	UPROPERTY(EditDefaultsOnly)
 		FEnemyArmorGauge instantArmorGauge;
+	//Struct that holds the values of the enemy icon
+	UPROPERTY(EditDefaultsOnly)
+		FEnemyIcon _enemyIcon;
+
+	UPROPERTY(EditDefaultsOnly)
+		UTexture *  aiOneImage;
+	UPROPERTY(EditDefaultsOnly)
+		UTexture *  aiTwoImage;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Info")
 		float minHealth = 0;
@@ -63,6 +76,9 @@ public:
 		float minArmor = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Info")
 		float maxArmor = 100;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Distance Info")
+		float maxDistance = 1000;
 
 	//Array of the cracked edges to check if it works
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Crack Deviations")
@@ -129,19 +145,26 @@ public:
 	//Check which image to display
 	void GetCrackEdges();
 
+	//Normalization
+	bool GetDistanceToPlayer();
+	void RotateTowardsPlayer();
+
 #pragma endregion
 
 	//Testing region.
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 	void SetAIControllerUI(AAIController* targetAiController);
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void SetAIPosition(FVector aiPosition);
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		FRotator GetUIRotation();
 
 	AAIController * aiController;
 	AAI1_AIController* aiCon1_;
 	AAI2_AIController* aiCon2_;
+	FVector AIPosition;
+	FRotator UIRotation;
 
 	bool isAiOne = false;
 	bool isAiTwo = false;
-	
-	
-
 };
