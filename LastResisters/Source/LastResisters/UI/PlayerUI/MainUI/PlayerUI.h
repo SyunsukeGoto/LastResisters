@@ -10,6 +10,7 @@
 #include "../CircularHealth/CircularHealth.h"
 #include "../DashGauge/DashGauge.h"
 #include "../WeaponIcons/WeaponSkillGauge.h"
+#include "../AnimatedBar/AnimatedBar.h"
 #include "PlayerUI.generated.h"
 
 
@@ -46,23 +47,50 @@ public:
 		class UTextBlock * HealthText = nullptr;
 	//Image for the main weapon gauge
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * MainGauge = nullptr;
+		class UImage * WeaponGauge = nullptr;
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * SubGauge = nullptr;
+		class UImage * ShieldGauge = nullptr;
 
 	//Image for the main weapon gauge charge effect
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * MainChargeEffect = nullptr;
+		class UImage * WeaponChargeEffect = nullptr;
 	//Image for the main weapon gauge flame effect
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * MainFlameEffect = nullptr;
+		class UImage * WeaponFlameEffect = nullptr;
 
 	//Image for the main weapon gauge charge effect
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * SubChargeEffect = nullptr;
+		class UImage * ShieldChargeEffect = nullptr;
 	//Image for the main weapon gauge flame effect
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * SubFlameEffect = nullptr;
+		class UImage * ShieldFlameEffect = nullptr;
+
+	//Image for the UI animation
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * UIAnimatedBar = nullptr;
+
+	//Bar Images
+
+	//Image for the UI animation
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * UIAnimatedVerticalBarOne = nullptr;
+
+	//Image for the UI animation
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * UIAnimatedVerticalBarTwo = nullptr;
+	//Image for the UI animation
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * UIAnimatedVerticalBarThree = nullptr;
+	//Image for the UI animation
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * UIAnimatedHorizontalBarOne = nullptr;
+
+	//Image for the UI animation
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * UIAnimatedHorizontalBarTwo = nullptr;
+	//Image for the UI animation
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UImage * UIAnimatedHorizontalBarThree = nullptr;
 
 	//Struct that holds values of the delayed gauge
 	UPROPERTY(EditDefaultsOnly)
@@ -70,6 +98,9 @@ public:
 	//Struct that holds values of the instant gauge
 	UPROPERTY(EditDefaultsOnly)
 		FDashGauge instantGauge;
+	//Animated yellow bar at right
+	UPROPERTY(EditDefaultsOnly)
+		FDashGauge animatedBar;
 	//Struct that holds values of the circular health
 	UPROPERTY(EditDefaultsOnly)
 		FCircularHealth f_circularHealth;
@@ -79,12 +110,20 @@ public:
 	//Struct that holds value for the sub weapon gauge
 	UPROPERTY(EditDefaultsOnly)
 		FWeaponSkillGauge subWeaponGauge;
+	UPROPERTY(EditDefaultsOnly)
+		FAnimatedBar horizontalBar;
+	UPROPERTY(EditDefaultsOnly)
+		FAnimatedBar verticalBar;
+
+	TArray<FAnimatedBar> animatedBarArray;
+
+	TArray<UImage*> barImageArray;
 
 #pragma region DashGaugeParameters
 
 	//Amount of dash now
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dash Gauge Parameters")
-		int dashAmount = 1;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dash Gauge Parameters")
+	//	int dashAmount = 1;
 	//Time it takes for the delayed gauge to catch up to the instant gauge
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dash Gauge Parameters")
 		float timeToDeduct = 0.5f;
@@ -106,8 +145,8 @@ public:
 #pragma endregion
 
 #pragma region CircularHealthParameters
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health Bar Parameters")
-		int m_actualHealth = 30;
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health Bar Parameters")
+		int m_actualHealth = 30;*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health Bar Parameters")
 		float lerpSpeed;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health Bar Parameters")
@@ -137,23 +176,52 @@ public:
 	bool calculateHit = true;
 	bool direction = true;
 	float timer = 0;
+
 	
 	void DoHit();
 
 #pragma endregion
 
 #pragma region MainGaugeParameters
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon Gauge Parameters")
-		float mainWeaponSkillGauge = 30;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon Gauge Parameters")
+	//	float mainWeaponSkillGauge = 30;
 
 	float f_mainWeaponSkillGauge = 1;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon Gauge Parameters")
-		float  subWeaponSkillGauge = 30;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon Gauge Parameters")
+	//	float  subWeaponSkillGauge = 30;
 	
 	float f_subWeaponSkillGauge = 1;
 
 #pragma endregion
+
+#pragma region AnimatedBarParameters
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animated Bar Parameters")
+		float timeToGoToDesired;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animated Bar Parameters")
+		FVector2D minMaxRange;
+	//Time delay between each iteration.
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animated Bar Parameters")
+		float timerDelay;
+
+	//Random value.
+	float currentPercentage;
+	float desiredPercentage;
+	float percentageRate;
+	bool calculatePercentage = true;
+	float animatedBarTimer = 0;
+	bool animatedReached = true;
+
+#pragma endregion
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VertHoriz Bar Parameters")
+		float timeToGoDesiredBar;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VertHoriz Bar Parameters")
+		FVector2D barMinMaxRange;
+	//Time delay between each iteration.
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VertHoriz Bar Parameters")
+		float barTimerDelay;
 
 #pragma region Functions
 	//Update the skill gauge
@@ -182,7 +250,12 @@ public:
 	void NormalizeWeaponGauges();
 
 	void Hit(float inDeltaTime);
+
+	void UpdateUIAnimatedBar(float inDeltaTime);
+	void UpdateVertHorizUIAnimatedBars(float inDeltaTime);
 #pragma endregion
+
+	float currentHealth;
 
 protected:
 	//Protected variables here

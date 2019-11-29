@@ -27,6 +27,10 @@ struct FWeaponSkillGauge
 	UPROPERTY(EditDefaultsOnly)
 		class UTexture * Texture = nullptr;
 
+	//Texture we'll set as a parameter to our dynamic material instance
+	UPROPERTY(EditDefaultsOnly)
+		class UTexture * OpacityMask = nullptr;
+
 	//Color just in case we are not using texture.
 	UPROPERTY(EditDefaultsOnly)
 		 FColor Color;

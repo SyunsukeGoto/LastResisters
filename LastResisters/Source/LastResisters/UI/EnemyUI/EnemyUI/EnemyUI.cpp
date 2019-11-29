@@ -5,6 +5,9 @@
 #include "../../SpriteAnimation/SpriteAnimation.h"
 #include "Materials/MaterialInstanceDynamic.h"
 #include "../../Math/UIMath.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "../../../MyGameInstance.h"
+#include "../../../Managers/MyPlayerManager.h"
 #include "Components/Image.h"
 
 UEnemyUI::UEnemyUI(const FObjectInitializer& ObjectInitializer)
@@ -38,11 +41,42 @@ void UEnemyUI::NativeConstruct()
 	instantHealthGauge.ApplyToMaterial();
 	instantHealthGauge.ApplyToImage(I_HPGauge);
 
+	//Create the delayedGauge materialInstance and apply it to the actual Image
+	_enemyIcon.MaterialInstance = UMaterialInstanceDynamic::Create(_enemyIcon.Material, this);
+	_enemyIcon.ApplyToMaterial();
+	_enemyIcon.ApplyToImage(EnemyIcon);
+
 	//Set the delay.
 	healthDelayTimer = healthDelay;
 	armorDelayTimer = armorDelay;
 
-	UE_LOG(LogTemp, Warning, TEXT("Size: %d"), crackDeviations.Num());
+	//Do casting of the controller to find out its type.
+	aiCon1_ = Cast<AAI1_AIController>(aiController);
+	aiCon2_ = Cast<AAI2_AIController>(aiController);
+
+	isAiOne = aiCon1_ != nullptr;
+	isAiTwo = aiCon2_ != nullptr;
+
+	//Casting and stuff.
+	if (isAiOne)
+	{
+		maxHealth = aiCon1_->GetMaxHP();
+		maxArmor = aiCon1_->GetMaxArmor();
+		_enemyIcon.UpdateTexture(aiOneImage);
+	}
+	else if (isAiTwo)
+	{
+		maxHealth = aiCon2_->GetMaxHP();
+		maxArmor = aiCon2_->GetMaxArmor();
+		_enemyIcon.UpdateTexture(aiTwoImage);
+	}
+	else
+	{
+		//Defaults.
+		maxHealth = 0;
+		maxArmor = 0;
+	}
+	_enemyIcon.SetTexture();
 }
 
 void UEnemyUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
@@ -87,10 +121,13 @@ void UEnemyUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 	}
 #pragma endregion
 
-	healthAmount -= 0.15f;
-
 	GetCrackEdges();
-
+	//Get distnace and shwo thsi UI only if its a certain distance.
+	if (GetDistanceToPlayer())
+	{
+		//Do rotation towards player.
+		RotateTowardsPlayer();
+	}
 }
 
 void UEnemyUI::UpdateHealthGauge(float inDeltaTime)
@@ -175,29 +212,88 @@ void UEnemyUI::UpdateArmorGauge(float inDeltaTime)
 
 void UEnemyUI::NormalizeHealthValue()
 {
+	float healthAmount;
+	
+	if (isAiOne)
+		healthAmount = aiCon1_->GetHP();
+	else if (isAiTwo)
+		healthAmount = aiCon2_->GetHP();
+	else
+		healthAmount =  -1;
+	
 	f_desiredHealth = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)healthAmount, minHealth, maxHealth), 0.04f, 0.97f);
 }
 
 void UEnemyUI::NormalizeArmorValue()
 {
-	f_desiredArmor = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)armorAmount, minHealth, maxHealth), 0.04f, 0.97f);
+	float armorAmount;
+
+	if (isAiOne)
+		armorAmount = aiCon1_->GetArmor();
+	else if (isAiTwo)
+		armorAmount = aiCon2_->GetArmor();
+	else
+		armorAmount = -1;
+
+	f_desiredArmor = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)armorAmount, minArmor, maxArmor), 0.04f, 0.97f);
 }
 
 void UEnemyUI::GetCrackEdges()
 {
+	float healthAmount;
+
+	if (isAiOne)
+		healthAmount = aiCon1_->GetHP();
+	else if (isAiTwo)
+		healthAmount = aiCon2_->GetHP();
+	else
+		healthAmount = -1;
+
 	for (auto deviations : crackDeviations)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Deviation Amount: %f, Health Amount: %f"), deviations.amount, healthAmount);
-		if (healthAmount > deviations.amount)
+		if (healthAmount >  100 * deviations.multiplier)
 			continue;
 
-		currentEdge.amount = deviations.amount;
-		currentEdge.ImageForDisplay = deviations.ImageForDisplay;
-		CrackedImage->SetBrushFromTexture(currentEdge.ImageForDisplay);
-
-		UE_LOG(LogTemp, Warning, TEXT("Current Edge amount %f"), currentEdge.amount);
-
-		break;
+		currentEdge.multiplier = deviations.multiplier;
+		currentEdge.FirstCrack = deviations.FirstCrack;
+		currentEdge.SecondCrack = deviations.SecondCrack;
+		CrackedImage->SetBrushFromTexture(currentEdge.FirstCrack);
+		CrackedImageTwo->SetBrushFromTexture(currentEdge.SecondCrack);
 	}
 
+}
+
+bool UEnemyUI::GetDistanceToPlayer()
+{
+	FVector playerPos = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos;
+
+	if (FVector::DistSquared(playerPos, AIPosition) > maxDistance)
+	{
+		SetRenderOpacity(0.f);
+		return false;
+	}
+	SetRenderOpacity(1.0f);
+	return true;
+}
+
+void UEnemyUI::RotateTowardsPlayer()
+{
+	FVector playerPos = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos;
+	FRotator rotationTowardsPlayer = UKismetMathLibrary::FindLookAtRotation(playerPos,AIPosition );
+	UIRotation = FRotator(0, rotationTowardsPlayer.Yaw + 180.f, 0);
+}
+
+void UEnemyUI::SetAIControllerUI(AAIController * targetAiController)
+{
+	this->aiController = targetAiController;
+}
+
+void UEnemyUI::SetAIPosition(FVector aiPosition)
+{
+	AIPosition = aiPosition;
+}
+
+FRotator UEnemyUI::GetUIRotation()
+{
+	return UIRotation;
 }

@@ -12,6 +12,8 @@ public:
 
 	//Normalizes a value that is already normalized between 0 and 1 to your desired range.
 	static float NormalizeValueCustomRange(float in, float minRange, float maxRange);
+
+	static float Deg2Rad();
 };
 
 #endif

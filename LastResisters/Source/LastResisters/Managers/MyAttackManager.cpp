@@ -22,8 +22,8 @@ bool MyAttackManager::AddToListOfAttacks(Attack_Info _info)
 {
 	if (!_info.info_EnemyID.IsEmpty())
 	{
-		// Init the attack to the UI
-		UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleInit(_info);
+		_info.attackIndex = attackIndex;
+		attackIndex += 1;
 		myListOfAttacks.Add(_info);
 
 		return true;
@@ -60,28 +60,40 @@ void MyAttackManager::Update(float deltaTime)
 
 void MyAttackManager::UpdateAllAttacks(float _dt)
 {
+	TArray<int> removalList;
 	int sizeOfList = myListOfAttacks.Num();
 	for (int i = 0; i < sizeOfList; i++)
 	{
 		// Update the countdown
 		myListOfAttacks[i].info_CountdownTimer = myListOfAttacks[i].info_CountdownTimer - _dt; // -= doesnt work
 
+		if (myListOfAttacks[i].info_CountdownTimer <= m_minReactionTime && !myListOfAttacks[i].addedToUI)
+		{
+			// Init the attack to the UI
+			UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleInit(myListOfAttacks[i]);
+			myListOfAttacks[i].addedToUI = true;
+		}
+
 		if (myListOfAttacks[i].info_CountdownTimer <= -myListOfAttacks[i].info_BlockTimeWindow / 2)
 		{ // If the attack was not blocked
+			// Damage the player
+			UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->DamageThePlayer(myListOfAttacks[i].info_damage);
+
 			// Delete the attack from the UI
 			UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i], false);
 
 			// Remove the attack from the list
-			myListOfAttacks.RemoveAt(i);
+	/*		myListOfAttacks.RemoveAt(i);
 			myListOfAttacks.Shrink();
+*/
+			removalList.Add(i);
+			
 
 			if (sizeOfList > 0)
 			{ // If there are more things to check through in the list of attacks
 				--i;
 				--sizeOfList;
 			}
-			// Damage the player
-			// TODO
 		}
 		else if (myListOfAttacks[i].info_CountdownTimer <= myListOfAttacks[i].info_BlockTimeWindow / 2)
 		{ // If attack can be blocked
@@ -94,8 +106,11 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 				UMyGameInstance::GetInstance()->GetUIManagerInstance()->HandleDelete(myListOfAttacks[i], true);
 
 				// Remove the attack from the list
-				myListOfAttacks.RemoveAt(i);
-				myListOfAttacks.Shrink();
+	/*			myListOfAttacks.RemoveAt(i);
+				myListOfAttacks.Shrink();*/
+
+				removalList.Add(i);
+
 
 				if (sizeOfList > 0)
 				{ // If there are more things to check through in the list of attacks
@@ -104,6 +119,12 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 				}
 			}
 		}
+	}
+
+	for (int i = 0; i < removalList.Num(); ++i)
+	{
+		myListOfAttacks.RemoveAt(removalList[i]);
+		myListOfAttacks.Shrink();
 	}
 }
 
@@ -117,7 +138,7 @@ void MyAttackManager::DamageTheAIArmor(FString _ID)
 		{
 			if (ai1Con_->GetPawn()->GetName() == _ID)
 			{
-				ai1Con_->SetArmor(ai1Con_->GetArmor() - 1);
+				ai1Con_->SetArmor(ai1Con_->GetArmor() - armorDecrease);
 				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] ActualArmor : (%f)")
 					, i
 					, ai1Con_->GetArmor().GetFloat());
@@ -133,7 +154,7 @@ void MyAttackManager::DamageTheAIArmor(FString _ID)
 		{
 			if (ai2Con_->GetPawn()->GetName() == _ID)
 			{
-				ai2Con_->SetArmor(ai2Con_->GetArmor() - 1);
+				ai2Con_->SetArmor(ai2Con_->GetArmor() - armorDecrease);
 				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] ActualArmor : (%f)")
 					, i
 					, ai2Con_->GetArmor().GetFloat());

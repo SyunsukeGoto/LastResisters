@@ -76,9 +76,54 @@ MyAttackManager * UMyGameInstance::GetAttackManagerInstance()
 	return nullptr;
 }
 
-void UMyGameInstance::StorePlayerManagerValues(FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot)
+void UMyGameInstance::StorePlayerManagerValues(FVector _playerPos, float _playerDamage, FTransform _leftPos, FTransform _rightPos, bool _isShielding)
 {
-	m_playerManager->StoreValues(_leftPos, _rightPos, _leftRot, _rightRot);
+	m_playerManager->StoreValues(_playerPos, _playerDamage, _leftPos, _rightPos, _isShielding);
+}
+
+void UMyGameInstance::SetCameraValues(FVector2D viewportSize, FVector cameraPosition, FVector camFwdVector, float camFOV, float camAspect)
+{
+	m_playerManager->SetCameraValues(viewportSize, cameraPosition, camFwdVector,  camFOV,  camAspect);
+}
+
+TArray<FVector> UMyGameInstance::GetPositionsArray()
+{
+	return m_UIManager->positionArray;
+}
+
+FVector UMyGameInstance::GetYabaiPosition()
+{
+	return m_playerManager->yabaiPos;
+}
+
+FVector UMyGameInstance::GetYabaiPositionTwo()
+{
+	return m_playerManager->yabaiPosTwo;
+}
+
+FVector UMyGameInstance::GetPlayerPos()
+{
+	return m_playerManager->m_playerPos;
+}
+
+void UMyGameInstance::StoreScreenPositions(TArray<FVector2D> screenPositions)
+{
+	m_UIManager->screenPositionArray = screenPositions;
+}
+
+float UMyGameInstance::GetPlayerDamage()
+{
+	return m_playerManager->m_playerDamage;
+}
+
+FTransform UMyGameInstance::GetHitUITransform()
+{
+	return m_playerManager->hitUITransform;
+}
+
+float UMyGameInstance::GetDistanceBetweenEnemy()
+{
+	return m_playerManager->distanceBetweenEnemy;
 }
 
 void UMyGameInstance::Update(float inDeltaTime)

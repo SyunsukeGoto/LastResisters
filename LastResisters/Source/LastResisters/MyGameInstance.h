@@ -30,7 +30,41 @@ public:
 	MyAttackManager* GetAttackManagerInstance();
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
-	void StorePlayerManagerValues(FTransform _leftPos, FTransform _rightPos, FRotator _leftRot, FRotator _rightRot);
+	void StorePlayerManagerValues(
+		FVector _playerPos
+		, float _playerDamage
+		, FTransform _leftPos
+		, FTransform _rightPos
+		, bool isShielding);
+
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void SetCameraValues(FVector2D viewportSize, FVector cameraPosition, FVector camFwdVector,  float camFOV, float camAspect);
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		TArray<FVector> GetPositionsArray();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		FVector GetYabaiPosition();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		FVector GetYabaiPositionTwo();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		FVector GetPlayerPos();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void StoreScreenPositions(TArray<FVector2D> screenPositions);
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		float GetPlayerDamage();
+		
+    UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+	    FTransform GetHitUITransform();
+
+    UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+	    float GetDistanceBetweenEnemy();
 
 	void Update(float inDeltaTime);
+
 };

@@ -4,6 +4,10 @@
 #include "PlayerHitUI.h"
 #include "Components/Image.h"
 #include "Materials/MaterialInstanceDynamic.h"
+#include "../../../MyGameInstance.h"
+#include "../../../Managers/MyPlayerManager.h"
+#include "../../../Managers/MyUIManager.h"
+#include "Components/CanvasPanelSlot.h"
 
 UPlayerHitUI::UPlayerHitUI(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
@@ -36,6 +40,12 @@ void UPlayerHitUI::NativeConstruct()
 	spriteArray.Add(BackgroundFour);
 	spriteArray.Add(BackgroundFive);
 
+	resultArray.Add(ResultImageOne);
+	resultArray.Add(ResultImageTwo);
+	resultArray.Add(ResultImageThree);
+	resultArray.Add(ResultImageFour);
+	resultArray.Add(ResultImageFive);
+
 	for (int i = 0; i < imageArray.Num(); i++)
 	{
 		//Set all to hidden first...
@@ -46,6 +56,20 @@ void UPlayerHitUI::NativeConstruct()
 		//Set all to hidden first...
 		spriteArray[i]->SetVisibility(ESlateVisibility::Hidden);
 	}
+	for (int i = 0; i < resultArray.Num(); i++)
+	{
+		//Set all to hidden first...
+		resultArray[i]->SetVisibility(ESlateVisibility::Hidden);
+	}
+
+	//Set it all UI Manager Instance
+	UMyGameInstance::GetInstance()->GetUIManagerInstance()->successImage = GuardSuccessImage;
+	UMyGameInstance::GetInstance()->GetUIManagerInstance()->failImage = GuardFailImage;
+	UMyGameInstance::GetInstance()->GetUIManagerInstance()->imageArray = imageArray;
+	UMyGameInstance::GetInstance()->GetUIManagerInstance()->spriteArray = spriteArray;
+	UMyGameInstance::GetInstance()->GetUIManagerInstance()->resultArray = resultArray;
+
+	
 }
 
 void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
@@ -59,15 +83,11 @@ void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 	//Loop through all the elements.
 	for (int i = 0; i < hitArray.Num(); i++)
 	{
-		//Set the images to the specified images.
-		hitArray[i].LinkedImage = imageArray[i];
-		hitArray[i].LinkedImageTwo = imageArray[i + imageArray.Num() / 2];
-		hitArray[i].LinkedBackground = spriteArray[i];
-
 
 		//Check for material now and create if it's not already there.
 		if (hitArray[i].MaterialInstance == nullptr)
-		{
+		{		
+			UE_LOG(LogTemp, Warning, TEXT("Generated material instance."));
 			//Create the first one
 			hitArray[i].MaterialInstance = UMaterialInstanceDynamic::Create(MainMaterial, this);
 			hitArray[i].MaterialInstanceTwo = UMaterialInstanceDynamic::Create(SubMaterial, this);
@@ -90,6 +110,48 @@ void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 		hitArray[i].LinkedImage->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
 		hitArray[i].LinkedImageTwo->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
 		hitArray[i].LinkedBackground->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
+		hitArray[i].ResultImage->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
+
+
+		FVector2D canvasSize = FVector2D(1000, 1000);
+		//This is the current viewport...
+		FVector2D viewportSize = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->cameraValues.viewportSize;
+		//Half viewport size
+		FVector2D halfViewportSize = viewportSize * 0.5f;
+		//Find the multiplication values.
+		FVector2D viewToCanvasRatio = FVector2D(canvasSize.X / viewportSize.X , canvasSize.Y/ viewportSize.Y);
+
+		int screenPositionArrayNum = UMyGameInstance::GetInstance()->GetUIManagerInstance()->screenPositionArray.Num();
+		int hitArrayNum = hitArray.Num();
+
+		FVector2D screenPos = FVector2D(-9999, 9999);
+		if (screenPositionArrayNum == hitArrayNum)
+		{
+			 screenPos = UMyGameInstance::GetInstance()->GetUIManagerInstance()->screenPositionArray[i];
+		}
+
+
+		FVector2D finalTranslation = FVector2D(
+			((screenPos.X - halfViewportSize.X) *viewToCanvasRatio.X)
+			,((screenPos.Y - halfViewportSize.Y) *viewToCanvasRatio.Y));
+
+		//UE_LOG(LogTemp, Warning, TEXT("Final Vector:(%f,%f,%f)"),
+		//	finalTranslation.X,
+		//	finalTranslation.Y);
+
+		UCanvasPanelSlot * linkedImageOneSlot = Cast<UCanvasPanelSlot>(hitArray[i].LinkedImage->Slot);
+		UCanvasPanelSlot * linkedImageTwoSlot = Cast<UCanvasPanelSlot>(hitArray[i].LinkedImageTwo->Slot);
+		UCanvasPanelSlot * linkedBackgroundSlot = Cast<UCanvasPanelSlot>(hitArray[i].LinkedBackground->Slot);
+		UCanvasPanelSlot * linkedResultSlot = Cast<UCanvasPanelSlot>(hitArray[i].ResultImage->Slot);
+
+		if (linkedImageOneSlot != nullptr)		
+			linkedImageOneSlot->SetPosition(finalTranslation);	
+		if (linkedImageTwoSlot != nullptr)
+			linkedImageTwoSlot->SetPosition(finalTranslation);
+		if (linkedBackgroundSlot != nullptr)
+			linkedBackgroundSlot->SetPosition(finalTranslation);
+		if (linkedResultSlot != nullptr)
+			linkedResultSlot->SetPosition(finalTranslation);
 
 		//Basic calculation on rate.
 		if (hitArray[i].playerHitParameters.calculateRate)
