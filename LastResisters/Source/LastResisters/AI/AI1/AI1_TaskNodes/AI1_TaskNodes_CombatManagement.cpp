@@ -5,7 +5,6 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "AI/AI1/AI1_AIController.h"
 #include "AIController.h"
-#include "TimerManager.h"
 
 EBTNodeResult::Type UAI1_TaskNodes_CombatManagement::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
 {
@@ -21,21 +20,27 @@ EBTNodeResult::Type UAI1_TaskNodes_CombatManagement::ExecuteTask(UBehaviorTreeCo
 	{
 	case 0:
 	{ // Ready stance
-		
+		aiCon_->SetTheFocusOnPlayer();
 	} break;
 
 	case 1:
 	{ // Attack1 stance
+		aiCon_->StopFocusOnPlayer();
 	} break;
 
 	case 2:
 	{ // Attack2 stance
-		
+		aiCon_->StopFocusOnPlayer();
 	} break;
 
 	case 3:
 	{ // Attack3 stance
-		
+		aiCon_->StopFocusOnPlayer();
+	} break;
+
+	case 4:
+	{ // Attack4 stance
+		aiCon_->StopFocusOnPlayer();
 	} break;
 
 	default:

@@ -19,10 +19,5 @@ class LASTRESISTERS_API UAI1_TaskNodes_CombatManagement : public UBTTaskNode
 	UBlackboardComponent* m_bbComp;
 	uint8 m_currStance;
 
-	//bool m_isReady = false;
-	//float m_prevWorldTime = 0.0f;
-	//float m_readyTimer = 0.0f;
-	//const float m_readyTime = 2.0f;
-
 	void ChangeStance(int _stance);
 };
