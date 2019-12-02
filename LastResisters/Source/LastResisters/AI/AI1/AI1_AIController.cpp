@@ -10,7 +10,9 @@
 #include "AI1_PatrolTargetPoint.h"
 #include "Components/CapsuleComponent.h"
 #include "Managers/MyAttackManager.h"
+#include "Managers/MyPlayerManager.h"
 #include "MyGameInstance.h"
+
 
 AAI1_AIController::AAI1_AIController()
 {
@@ -99,7 +101,7 @@ void AAI1_AIController::SetSeenPlayer(APawn * _pawn)
 		if (_pawn->IsPlayerControlled())
 		{ // If can see player
 			// Set visibility and target location
-			m_blackboardComp->SetValueAsVector("targetLocation", _pawn->GetActorLocation());
+			m_blackboardComp->SetValueAsVector("targetLocation", UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos);
 			m_blackboardComp->SetValueAsBool("canSeePlayer", true);
 			m_playerRef = _pawn;
 		}
@@ -119,8 +121,6 @@ void AAI1_AIController::SetTheFocusOnPlayer()
 			SetFocus(m_playerRef);
 		}
 	}
-
-	
 }
 
 void AAI1_AIController::StopFocusOnPlayer()

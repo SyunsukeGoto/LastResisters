@@ -6,6 +6,8 @@
 #include "BehaviorTree/BehaviorTree.h"
 #include "Perception/PawnSensingComponent.h"
 #include "BehaviorTree/BlackboardComponent.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "Math/Quat.h"
 
 // Sets default values
 AAI1_Character::AAI1_Character()
@@ -13,9 +15,9 @@ AAI1_Character::AAI1_Character()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-
 	//Initializing the pawn sensing component
 	m_pawnSensingComp = CreateDefaultSubobject<UPawnSensingComponent>(TEXT("PawnSensingComp"));
+
 	//Set the peripheral vision angle to 90 degree
 	m_pawnSensingComp->SetPeripheralVisionAngle(90.0f);		
 }
@@ -43,24 +45,31 @@ void AAI1_Character::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	AAI1_AIController* AIController = Cast<AAI1_AIController>(GetController());
+
+	if (AIController)
+	{
+		SetActorRotation(FQuat::Slerp(
+			GetActorRotation().Quaternion(), UKismetMathLibrary::FindLookAtRotation(GetActorLocation(),
+			AIController->GetBlackboardComp()->GetValueAsVector("targetLocation")).Quaternion(), 2 * DeltaTime));
+	}
+
 	//Register the function that is going to fire when the character sees a Pawn
 	if (m_pawnSensingComp)
 	{
 		m_pawnSensingComp->OnSeePawn.AddDynamic(this, &AAI1_Character::OnSeePlayer);
 	}
-
 	if (m_thePlayerPawn)
 	{
 		if (!m_pawnSensingComp->CouldSeePawn(m_thePlayerPawn) || !m_pawnSensingComp->HasLineOfSightTo(m_thePlayerPawn))
 		{
-			
-			AAI1_AIController* AIController = Cast<AAI1_AIController>(GetController());
 			if (AIController)
 			{
 				AIController->GetBlackboardComp()->SetValueAsBool("canSeePlayer", false);
 			}
 		}
 	}
+
 }
 
 // Called to bind functionality to input
