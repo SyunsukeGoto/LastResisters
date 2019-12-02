@@ -41,6 +41,7 @@ EBTNodeResult::Type UAI1_TaskNodes_GoingDownProcess::ExecuteTask(UBehaviorTreeCo
 	case 9:
 	{ // Rising From Down state
 		ChangeStance(0);
+		aiCon_->SetArmor(aiCon_->GetMaxArmor());
 	} break;
 
 	default:

@@ -18,7 +18,6 @@ FPlayerHitUIParameters::FPlayerHitUIParameters()
 	, textureBrightness(1.0f)
 	, blockPercentage(0.f)
 	, hitState(HIT_STATES::TOTAL_STATES)
-	, awaitingResponse(false)
 	, attackIndex(-2)
 {
 }
@@ -39,6 +38,5 @@ void FPlayerHitUIParameters::ResetDefault()
 	textureBrightness = (1.0f);
 	blockPercentage = 0.f;
 	hitState = HIT_STATES::TOTAL_STATES;
-	awaitingResponse = false;
 	attackIndex = -2;
 }

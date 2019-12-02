@@ -167,4 +167,8 @@ public:
 
 	bool isAiOne = false;
 	bool isAiTwo = false;
+
+	float currentHealth;
+	float currentArmor;
+
 };

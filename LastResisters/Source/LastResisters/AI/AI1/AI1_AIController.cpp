@@ -81,6 +81,7 @@ void AAI1_AIController::DamageThisAI(float _incomingDamage)
 		m_HP = m_HP - _incomingDamage;
 		if (m_HP <= 0)
 		{
+			UMyGameInstance::GetInstance()->GetAttackManagerInstance()->RemoveFromListOfAI1(this);
 			GetPawn()->Destroy();
 		}
 	}

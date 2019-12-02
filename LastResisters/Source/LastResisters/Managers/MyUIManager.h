@@ -51,4 +51,21 @@ public:
 	UTexture2D * successImage = nullptr;
 	UTexture2D * failImage = nullptr;
 
+	//Values set.
+	FVector2D desiredScale;
+	float scaleTime;
+	float delay;
+
+	//Values two
+	FVector2D desiredDownScale;
+	float downScaleTime;
+	float downScaleDelay;
+
+	void StoreValues(FVector2D desiredScale, float scaleTime, float delay);
+	void StoreDownScaleValues(FVector2D desiredDownScale, float downScaleTime, float downScaleDelay);
+
+private:
+	int failZOrder = 11;
+	int defaultZOrder = -1;
+
 };

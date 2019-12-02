@@ -66,4 +66,7 @@ public:
 	float maxSubSkillGaugeAmount;
 
 	void DamageThePlayer(float _incomingDamage);
+
+	//Guarded
+	bool recentlyGuarded = false;
 };

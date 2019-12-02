@@ -126,6 +126,17 @@ float UMyGameInstance::GetDistanceBetweenEnemy()
 	return m_playerManager->distanceBetweenEnemy;
 }
 
+bool UMyGameInstance::GetIfGuard()
+{
+	return m_playerManager->recentlyGuarded;
+}
+
+void UMyGameInstance::GuardEffectSpawned()
+{
+	m_playerManager->recentlyGuarded = false;
+}
+
+
 void UMyGameInstance::Update(float inDeltaTime)
 {
 	m_UIManager->Update(inDeltaTime);

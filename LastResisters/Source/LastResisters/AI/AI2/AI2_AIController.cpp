@@ -34,7 +34,7 @@ void AAI2_AIController::OnPossess(APawn * _pawn)
 		{
 			m_blackboardComp->InitializeBlackboard(*(aiChar_->m_behaviorTree->BlackboardAsset));
 		}
-		
+
 		// Populate array with patrol target points
 		//UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), AAI2_PatrolTargetPoint::StaticClass(), a, m_patrolPoints);
 		UGameplayStatics::GetAllActorsOfClass(GetWorld(), AAI2_PatrolTargetPoint::StaticClass(), m_patrolPoints);
@@ -66,9 +66,30 @@ void AAI2_AIController::OnPossess(APawn * _pawn)
 		m_behaviorComp->StartTree(*aiChar_->m_behaviorTree);
 
 		// Add to list of AI2
+
 		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAI2(this);
 		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->PrintOutListOfAI2();
+
+
 	}
+}
+
+void AAI2_AIController::DamageThisAI(float _incomingDamage)
+{
+	if (m_blackboardComp->GetValueAsEnum("currStance") >= 7)
+	{
+		m_HP = m_HP - _incomingDamage;
+		if (m_HP <= 0)
+		{
+			UMyGameInstance::GetInstance()->GetAttackManagerInstance()->RemoveFromListOfAI2(this);
+			GetPawn()->Destroy();
+		}
+	}
+}
+
+float AAI2_AIController::GETHP()
+{
+	return (float)m_HP;
 }
 
 void AAI2_AIController::SetSeenPlayer(APawn * _pawn)
@@ -78,19 +99,9 @@ void AAI2_AIController::SetSeenPlayer(APawn * _pawn)
 		if (_pawn->IsPlayerControlled())
 		{ // If can see player
 			// Set visibility and target location
-			if (!m_blackboardComp->GetValueAsVector("targetLocation").Equals(_pawn->GetActorLocation()))
-			{
-				UE_LOG(LogTemp, Warning, TEXT("New Pawn seen: %s , Robot Pos: [%f, %f, %f]")
-					, *_pawn->GetName()
-					, _pawn->GetActorLocation().X
-					, _pawn->GetActorLocation().Y
-					, _pawn->GetActorLocation().Z);
-			}
 			m_blackboardComp->SetValueAsVector("targetLocation", _pawn->GetActorLocation());
 			m_blackboardComp->SetValueAsBool("canSeePlayer", true);
 			m_playerRef = _pawn;
-
-			
 		}
 	}
 }
@@ -108,6 +119,8 @@ void AAI2_AIController::SetTheFocusOnPlayer()
 			SetFocus(m_playerRef);
 		}
 	}
+
+
 }
 
 void AAI2_AIController::StopFocusOnPlayer()

@@ -77,6 +77,8 @@ void UEnemyUI::NativeConstruct()
 		maxArmor = 0;
 	}
 	_enemyIcon.SetTexture();
+	currentHealth = maxHealth;
+	currentArmor = maxArmor;
 }
 
 void UEnemyUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
@@ -128,6 +130,50 @@ void UEnemyUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 		//Do rotation towards player.
 		RotateTowardsPlayer();
 	}
+
+	//Health update.
+	if (isAiOne)
+	{
+		if (currentHealth != aiCon1_->GetHP())
+		{
+			currentHealth = aiCon1_->GetHP();
+			calculateDifferenceHealth = true;
+		}
+	}
+	else if (isAiTwo)
+	{
+		if (currentHealth != aiCon2_->GetHP())
+		{
+			currentHealth = aiCon1_->GetHP();
+			calculateDifferenceHealth = true;
+		}
+	}
+	else
+	{
+		//Else statement,
+	}
+	
+	//Armor update.
+	if (isAiOne)
+	{
+		if (currentArmor != aiCon1_->GetArmor())
+		{
+			currentArmor = aiCon1_->GetArmor();
+			calculateDifferenceArmor = true;
+		}
+	}
+	else if (isAiTwo)
+	{
+		if (currentArmor != aiCon2_->GetArmor())
+		{
+			currentArmor = aiCon1_->GetArmor();
+			calculateDifferenceArmor = true;
+		}
+	}
+	else
+	{
+		//Else statement,
+	}
 }
 
 void UEnemyUI::UpdateHealthGauge(float inDeltaTime)
@@ -174,6 +220,7 @@ void UEnemyUI::UpdateArmorGauge(float inDeltaTime)
 {
 	if (calculateDifferenceArmor)
 	{
+		UE_LOG(LogTemp, Warning, TEXT("Armor Rate"));
 		armorRate = (f_desiredArmor - f_currentArmor) / armorDownTime;
 		calculateDifferenceArmor = false;
 	}
@@ -221,7 +268,7 @@ void UEnemyUI::NormalizeHealthValue()
 	else
 		healthAmount =  -1;
 	
-	f_desiredHealth = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)healthAmount, minHealth, maxHealth), 0.04f, 0.97f);
+	f_desiredHealth = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)healthAmount, minHealth, maxHealth), 0.f, 1.0f);
 }
 
 void UEnemyUI::NormalizeArmorValue()
@@ -235,7 +282,7 @@ void UEnemyUI::NormalizeArmorValue()
 	else
 		armorAmount = -1;
 
-	f_desiredArmor = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)armorAmount, minArmor, maxArmor), 0.04f, 0.97f);
+	f_desiredArmor = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)armorAmount, minArmor, maxArmor), 0.f, 1.0f);
 }
 
 void UEnemyUI::GetCrackEdges()

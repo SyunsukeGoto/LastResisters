@@ -28,18 +28,22 @@ bool MyPlayerManager::CheckIfBlocked(FVector _attPos, FFloat16 _attRot)
 {
 	if (!isShielding)
 		return false;
+	
 
-	FFloat16 shieldRadius_ = 5000;
+	FFloat16 shieldRadius_ = 4000;
 	FFloat16 shieldDistance = FVector::DistSquared(_attPos, m_leftPos.GetLocation());
 
-	UE_LOG(LogTemp, Warning, TEXT("Hand Pos : (%f,%f,%f), Att Pos : (%f,%f,%f), Distance: %s")
-		, m_leftPos.GetLocation().X
-		, m_leftPos.GetLocation().Y
-		, m_leftPos.GetLocation().Z
-		, _attPos.X
-		, _attPos.Y
-		, _attPos.Z
-		, *FString::FromInt(shieldDistance));
+	//UE_LOG(LogTemp, Warning, TEXT("Hand Pos : (%f,%f,%f), Att Pos : (%f,%f,%f), Distance: %s")
+	//	, m_leftPos.GetLocation().X
+	//	, m_leftPos.GetLocation().Y
+	//	, m_leftPos.GetLocation().Z
+	//	, _attPos.X
+	//	, _attPos.Y
+	//	, _attPos.Z
+	//	, *FString::FromInt(shieldDistance));
+
+	if (shieldDistance <= shieldRadius_)
+		recentlyGuarded = true;
 
 	//return true;	
 	return(shieldDistance <= shieldRadius_);

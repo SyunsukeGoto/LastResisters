@@ -65,6 +65,14 @@ public:
     UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 	    float GetDistanceBetweenEnemy();
 
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		bool GetIfGuard();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void GuardEffectSpawned();
+
 	void Update(float inDeltaTime);
+
+	
 
 };

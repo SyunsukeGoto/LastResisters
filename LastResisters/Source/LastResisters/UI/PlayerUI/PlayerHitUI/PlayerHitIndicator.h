@@ -17,8 +17,8 @@ struct FPlayerHitIndicator
 {
 	GENERATED_BODY()
 
-		//Linked image One
-		class UImage * LinkedImage;
+	//Linked image One
+	class UImage * LinkedImage;
 	//Linked Image Two - the other one
 	class UImage * LinkedImageTwo;
 	//Background Images. These are pointers to the actual ones.
@@ -49,9 +49,6 @@ struct FPlayerHitIndicator
 	FPlayerHitIndicator();
 	FPlayerHitIndicator(bool isDefault);
 
-	//No pointer work around
-	bool isDefault;
-
 	//Functions for dealing with info.
 	void ApplyToImage(UMaterialInstanceDynamic * dynamicInstance, UImage * imageToApply);
 	void UpdatePercent();
@@ -62,9 +59,90 @@ struct FPlayerHitIndicator
 	void PrintDetails();
 	void UpdateFillAmount(float inDeltaTime);
 
+#pragma region Scale Struct
+	//Struct for values
+	struct ScaleValue
+	{
+		//Do we calculate rate.
+		bool calculateRate = true;
+		//Rate at which scale increases.
+		float rate = 0;
+		//The delay timer that counts towards the delay
+		float delayTimer = 0;
+		//The delay
+		float delay = 0;
+		//Desired scale
+		float desiredScale;
+		//Current scale
+		float currentScale;
+		//Duration
+		float duration;
+
+		ScaleValue()
+			: calculateRate(true)
+			, rate(0)
+			, delayTimer(0)
+			, delay(0)
+			,desiredScale(1)
+			,currentScale(1)
+			,duration(0)
+		{
+		}		
+
+		void StoreValues(float desiredScale, float duration, float delay)
+		{
+			this->desiredScale = desiredScale;
+			this->duration = duration;
+			this->delay = delay;
+		}
+
+		void Reset()
+		{
+			calculateRate = true;
+			rate = 0;
+			delayTimer = 0;
+			delay = 0;
+			desiredScale = 1;
+			currentScale = 0;
+			duration = 0;
+		}
+	};
+
+#pragma endregion
+
+	ScaleValue scaleX;
+	ScaleValue scaleY;
+
+	//Scale stuff
+	void UpdateScaleXY(float inDeltaTime);
+	void UpdateScaleAmountX(float inDeltaTime);
+	void UpdateScaleAmountY(float inDeltaTime);
+
+	//Hit Results
+	enum HitResults
+	{
+		HIT,
+		BLOCK,
+		TOTAL
+	};
+
+	HitResults hitResults;
+
+	void UpdateResults(float inDeltaTime);
+
+	//Linking variables.
+	int indexInArray;
+	int indexInArrayTwo;
+	float currentOpacity;
+
+
+private:
+	//No pointer work around
+	bool isDefault;
 	//Some other timers
 	float stayOnScreenTime;
 	float stayOnScreenTimer;
+
 
 
 };

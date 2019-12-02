@@ -22,6 +22,7 @@ struct FPlayerHitUIParameters
 		TOTAL_STATES
 	};
 
+
 		//The duration of the attack
 	FFloat16 duration;
 	//Where to place this on the canvas.
@@ -47,15 +48,13 @@ struct FPlayerHitUIParameters
 	//Desired fill from range 0 to 1
 	float desiredFill;
 
-	//Time for rate of colorLerps
-	bool calculateRateColorLerp;
-	float colorRate;
-	float colorDelayTimer;
-	float colorDelay;
+	////Time for rate of colorLerps
+	//bool calculateRateColorLerp;
+	//float colorRate;
+	//float colorDelayTimer;
+	//float colorDelay;
 
-	bool awaitingResponse;
-
-	
+	//bool awaitingResponse;
 	//Shader stuff.
 
 	//Do we use a texture for this parameter?

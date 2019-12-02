@@ -68,8 +68,8 @@ void UPlayerHitUI::NativeConstruct()
 	UMyGameInstance::GetInstance()->GetUIManagerInstance()->imageArray = imageArray;
 	UMyGameInstance::GetInstance()->GetUIManagerInstance()->spriteArray = spriteArray;
 	UMyGameInstance::GetInstance()->GetUIManagerInstance()->resultArray = resultArray;
-
-	
+	UMyGameInstance::GetInstance()->GetUIManagerInstance()->StoreValues(desiredScale, scaleTime, delay);
+	UMyGameInstance::GetInstance()->GetUIManagerInstance()->StoreDownScaleValues(desiredDownScale, downScaleTime, downScaleDelay);
 }
 
 void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
@@ -83,10 +83,9 @@ void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 	//Loop through all the elements.
 	for (int i = 0; i < hitArray.Num(); i++)
 	{
-
 		//Check for material now and create if it's not already there.
 		if (hitArray[i].MaterialInstance == nullptr)
-		{		
+		{
 			UE_LOG(LogTemp, Warning, TEXT("Generated material instance."));
 			//Create the first one
 			hitArray[i].MaterialInstance = UMaterialInstanceDynamic::Create(MainMaterial, this);
@@ -99,19 +98,15 @@ void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 			hitArray[i].DesiredHitColor = DesiredHitColor;
 
 			hitArray[i].ApplyToMaterial();
-			hitArray[i].ApplyToImage(hitArray[i].MaterialInstance,hitArray[i].LinkedImage);
-			hitArray[i].ApplyToImage(hitArray[i].MaterialInstanceTwo,hitArray[i].LinkedImageTwo);
+			hitArray[i].ApplyToImage(hitArray[i].MaterialInstance, hitArray[i].LinkedImage);
+			hitArray[i].ApplyToImage(hitArray[i].MaterialInstanceTwo, hitArray[i].LinkedImageTwo);
+			hitArray[i].ResultImage->SetRenderOpacity(hitArray[i].currentOpacity);
 		}
 
 		hitArray[i].UpdateState();
 		hitArray[i].UpdateBlockPercentage();
-		
-		//Set rotations based on the type it is. I can improve this laster on.
-		hitArray[i].LinkedImage->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
-		hitArray[i].LinkedImageTwo->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
-		hitArray[i].LinkedBackground->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
-		hitArray[i].ResultImage->SetRenderTransformAngle(hitArray[i].playerHitParameters.rotation);
-
+		//Updates scale.
+		hitArray[i].UpdateScaleXY(InDeltaTime);
 
 		FVector2D canvasSize = FVector2D(1000, 1000);
 		//This is the current viewport...
@@ -119,7 +114,7 @@ void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 		//Half viewport size
 		FVector2D halfViewportSize = viewportSize * 0.5f;
 		//Find the multiplication values.
-		FVector2D viewToCanvasRatio = FVector2D(canvasSize.X / viewportSize.X , canvasSize.Y/ viewportSize.Y);
+		FVector2D viewToCanvasRatio = FVector2D(canvasSize.X / viewportSize.X, canvasSize.Y / viewportSize.Y);
 
 		int screenPositionArrayNum = UMyGameInstance::GetInstance()->GetUIManagerInstance()->screenPositionArray.Num();
 		int hitArrayNum = hitArray.Num();
@@ -127,31 +122,39 @@ void UPlayerHitUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 		FVector2D screenPos = FVector2D(-9999, 9999);
 		if (screenPositionArrayNum == hitArrayNum)
 		{
-			 screenPos = UMyGameInstance::GetInstance()->GetUIManagerInstance()->screenPositionArray[i];
+			screenPos = UMyGameInstance::GetInstance()->GetUIManagerInstance()->screenPositionArray[i];
 		}
-
-
 		FVector2D finalTranslation = FVector2D(
 			((screenPos.X - halfViewportSize.X) *viewToCanvasRatio.X)
-			,((screenPos.Y - halfViewportSize.Y) *viewToCanvasRatio.Y));
-
-		//UE_LOG(LogTemp, Warning, TEXT("Final Vector:(%f,%f,%f)"),
-		//	finalTranslation.X,
-		//	finalTranslation.Y);
+			, ((screenPos.Y - halfViewportSize.Y) *viewToCanvasRatio.Y));
 
 		UCanvasPanelSlot * linkedImageOneSlot = Cast<UCanvasPanelSlot>(hitArray[i].LinkedImage->Slot);
 		UCanvasPanelSlot * linkedImageTwoSlot = Cast<UCanvasPanelSlot>(hitArray[i].LinkedImageTwo->Slot);
 		UCanvasPanelSlot * linkedBackgroundSlot = Cast<UCanvasPanelSlot>(hitArray[i].LinkedBackground->Slot);
 		UCanvasPanelSlot * linkedResultSlot = Cast<UCanvasPanelSlot>(hitArray[i].ResultImage->Slot);
 
-		if (linkedImageOneSlot != nullptr)		
-			linkedImageOneSlot->SetPosition(finalTranslation);	
+		if (linkedImageOneSlot != nullptr)
+		{
+			linkedImageOneSlot->SetPosition(finalTranslation);
+			linkedImageOneSlot->SetSize(FVector2D(hitArray[i].scaleX.currentScale, hitArray[i].scaleY.currentScale));
+		}
 		if (linkedImageTwoSlot != nullptr)
+		{
 			linkedImageTwoSlot->SetPosition(finalTranslation);
+			linkedImageTwoSlot->SetSize(FVector2D(hitArray[i].scaleX.currentScale, hitArray[i].scaleY.currentScale));
+		}
 		if (linkedBackgroundSlot != nullptr)
+		{
 			linkedBackgroundSlot->SetPosition(finalTranslation);
+			linkedBackgroundSlot->SetSize(FVector2D(hitArray[i].scaleX.currentScale, hitArray[i].scaleY.currentScale));
+		}
+
 		if (linkedResultSlot != nullptr)
+		{
 			linkedResultSlot->SetPosition(finalTranslation);
+			linkedResultSlot->SetSize(FVector2D(hitArray[i].scaleX.currentScale + bigOffset.X, hitArray[i].scaleY.currentScale + bigOffset.Y));
+
+		}
 
 		//Basic calculation on rate.
 		if (hitArray[i].playerHitParameters.calculateRate)
