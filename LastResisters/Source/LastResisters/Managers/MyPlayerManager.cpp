@@ -51,24 +51,8 @@ bool MyPlayerManager::CheckIfBlocked(FVector _attPos, FFloat16 _attRot)
 
 void MyPlayerManager::Update(float deltaTime)
 {
-	//Calculate UI Position.
-	float position = (distanceBetweenEnemy + 0.01f);
-	if (position < cameraValues.nearClipPlane + 0.01f)
-		position = cameraValues.nearClipPlane + 0.01f;
-
-	FVector finalPosition = cameraValues.cameraPosition + cameraValues.camFwdVector * position;
-	//Translation.
-	hitUITransform.SetTranslation(finalPosition);
-
-	float h = tan(cameraValues.cameraFOV * UIMath::Deg2Rad() * 0.5f) * position * 2.f;
-	h /= 100.f;
-	FVector finalScale(h*cameraValues.cameraAspect, h, 1.f);
-	hitUITransform.SetScale3D(finalScale);
-
-	FRotator rotationTowardsPlayer = UKismetMathLibrary::FindLookAtRotation(finalPosition, cameraValues.cameraPosition);
-
-	FRotator finalRotation = FRotator(0, rotationTowardsPlayer.Yaw - 90.f, 90);
-	hitUITransform.SetRotation(FQuat(finalRotation));
+	HitUICalculations();
+	DangerUICalculations();
 }
 
 void MyPlayerManager::StoreValues(FVector _playerPos, float _playerDamage, FTransform _leftPos, FTransform _rightPos, bool _isShielding)
@@ -97,4 +81,49 @@ void MyPlayerManager::DamageThePlayer(float _incomingDamage)
 	{
 		hp = 0;
 	}
+}
+
+void MyPlayerManager::HitUICalculations()
+{
+	//Calculate UI Position.
+	float position = (distanceBetweenEnemy + 0.01f);
+	if (position < cameraValues.nearClipPlane + 0.01f)
+		position = cameraValues.nearClipPlane + 0.01f;
+
+	FVector finalPosition = cameraValues.cameraPosition + cameraValues.camFwdVector * position;
+	//Translation.
+	hitUITransform.SetTranslation(finalPosition);
+
+	float h = tan(cameraValues.cameraFOV * UIMath::Deg2Rad() * 0.5f) * position * 2.f;
+	h /= 100.f;
+	FVector finalScale(h*cameraValues.cameraAspect, h, 1.f);
+	hitUITransform.SetScale3D(finalScale);
+
+	FRotator rotationTowardsPlayer = UKismetMathLibrary::FindLookAtRotation(finalPosition, cameraValues.cameraPosition);
+
+	FRotator finalRotation = FRotator(0, rotationTowardsPlayer.Yaw - 90.f, 90);
+	hitUITransform.SetRotation(FQuat(finalRotation));
+
+}
+
+void MyPlayerManager::DangerUICalculations()
+{
+	//Calculate UI Position.
+	float position = (distanceBetweenDangerUI + 0.01f);
+	if (position < cameraValues.nearClipPlane + 0.01f)
+		position = cameraValues.nearClipPlane + 0.01f;
+
+	FVector finalPosition = cameraValues.cameraPosition + cameraValues.camFwdVector * position;
+	//Translation.
+	dangerUITransform.SetTranslation(finalPosition);
+
+	float h = tan(cameraValues.cameraFOV * UIMath::Deg2Rad() * 0.5f) * position * 2.f;
+	h /= 100.f;
+	FVector finalScale(h*cameraValues.cameraAspect, h, 1.f);
+	dangerUITransform.SetScale3D(finalScale);
+
+	FRotator rotationTowardsPlayer = UKismetMathLibrary::FindLookAtRotation(finalPosition, cameraValues.cameraPosition);
+
+	FRotator finalRotation = FRotator(0, rotationTowardsPlayer.Yaw - 90.f, 90);
+	dangerUITransform.SetRotation(FQuat(finalRotation));
 }

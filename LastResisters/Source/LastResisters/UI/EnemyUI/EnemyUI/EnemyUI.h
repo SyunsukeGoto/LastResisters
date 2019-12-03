@@ -170,5 +170,4 @@ public:
 
 	float currentHealth;
 	float currentArmor;
-
 };

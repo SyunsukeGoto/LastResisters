@@ -72,7 +72,7 @@ class LASTRESISTERS_API UAI1_TaskNodes_GoToOffenseStance : public UBTTaskNode
 			, FFloat16(25.0)				//damage info1
 			, FVector(150.f, 0.f, 0.f)		//position info1
 			, FFloat16(1.176f)				//duration info1
-			, FFloat16(75.f));				//rotation info1
+			, FFloat16(255.f));				//rotation info1
 
 	ComboAttackInfo comboAttackThree =
 		ComboAttackInfo(
@@ -83,7 +83,7 @@ class LASTRESISTERS_API UAI1_TaskNodes_GoToOffenseStance : public UBTTaskNode
 			, FFloat16(25.0f)				//damage info1
 			, FVector(150.f, 35.f, 0.f)		//position info1
 			, FFloat16(1.8f)				//duration info1
-			, FFloat16(50.f));				//rotation info1
+			, FFloat16(230.f));				//rotation info1
 
 	ComboAttackInfo comboAttackFour =
 		ComboAttackInfo(
@@ -94,7 +94,7 @@ class LASTRESISTERS_API UAI1_TaskNodes_GoToOffenseStance : public UBTTaskNode
 			, FFloat16(25.0f)				//damage info1
 			, FVector(150.f, 45.f, 10.f)	//position info1
 			, FFloat16(1.90f)				//duration info1
-			, FFloat16(65.f));				//rotation info1
+			, FFloat16(245.f));				//rotation info1
 
 	float multiplicationValue = 0.75f;
 

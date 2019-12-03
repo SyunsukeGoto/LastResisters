@@ -53,7 +53,6 @@ bool MyAttackManager::AddToListOfAI2(AAIController* _aiCon)
 	return false;
 }
 
-
 void MyAttackManager::Update(float deltaTime)
 {
 	UpdateAllAttacks(deltaTime);

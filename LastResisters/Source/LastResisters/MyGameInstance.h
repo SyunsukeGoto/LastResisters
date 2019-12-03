@@ -73,6 +73,14 @@ public:
 
 	void Update(float inDeltaTime);
 
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void SetDistanceBetweenDangerUI(float distance);
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		float GetDistanceBetweenDangerUI();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		FTransform GetDangerUITransform();
 	
 
 };

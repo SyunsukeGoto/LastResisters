@@ -144,3 +144,18 @@ void UMyGameInstance::Update(float inDeltaTime)
 	m_attackManager->Update(inDeltaTime);
 }
 
+void UMyGameInstance::SetDistanceBetweenDangerUI(float distance)
+{
+	m_playerManager->distanceBetweenDangerUI = distance;
+}
+
+float UMyGameInstance::GetDistanceBetweenDangerUI()
+{
+	return m_playerManager->distanceBetweenDangerUI;
+}
+
+FTransform UMyGameInstance::GetDangerUITransform()
+{
+	return m_playerManager->dangerUITransform;
+}
+

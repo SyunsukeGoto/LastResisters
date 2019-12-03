@@ -1,7 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Components/CanvasPanelSlot.h"
 #include "MyUIManager.h"
+#include "Components/CanvasPanelSlot.h"
+#include "../MyGameInstance.h"
+#include "MyPlayerManager.h"
 
 MyUIManager::MyUIManager()
 {
@@ -241,6 +243,8 @@ void MyUIManager::HandleDelete(MyAttackManager::Attack_Info infoToReceive, bool 
 						playerHitIndicators[i].LinkedImageTwo->SetVisibility(ESlateVisibility::Hidden);
 						//Set the result image to be visible
 						playerHitIndicators[i].ResultImage->SetVisibility(ESlateVisibility::Visible);
+
+						UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->failGuardRotation = infoToReceive.info_Rotation;
 					}
 					else if (playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::STATE_BLOCK)
 					{

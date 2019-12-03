@@ -49,9 +49,11 @@ void AAI1_Character::Tick(float DeltaTime)
 
 	if (AIController)
 	{
-		SetActorRotation(FQuat::Slerp(
-			GetActorRotation().Quaternion(), UKismetMathLibrary::FindLookAtRotation(GetActorLocation(),
-			AIController->GetBlackboardComp()->GetValueAsVector("targetLocation")).Quaternion(), 2 * DeltaTime));
+		FQuat temp_ = FQuat::Slerp(
+				GetActorRotation().Quaternion(), UKismetMathLibrary::FindLookAtRotation(GetActorLocation(),
+				AIController->GetBlackboardComp()->GetValueAsVector("targetLocation")).Quaternion(), 2 * DeltaTime);
+		
+		SetActorRotation(FQuat(0,0,temp_.Z,temp_.W));
 	}
 
 	//Register the function that is going to fire when the character sees a Pawn
