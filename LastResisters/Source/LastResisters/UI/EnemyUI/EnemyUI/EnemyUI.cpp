@@ -52,10 +52,8 @@ void UEnemyUI::NativeConstruct()
 
 	//Do casting of the controller to find out its type.
 	aiCon1_ = Cast<AAI1_AIController>(aiController);
-	aiCon2_ = Cast<AAI2_AIController>(aiController);
 
 	isAiOne = aiCon1_ != nullptr;
-	isAiTwo = aiCon2_ != nullptr;
 
 	//Casting and stuff.
 	if (isAiOne)
@@ -63,12 +61,6 @@ void UEnemyUI::NativeConstruct()
 		maxHealth = aiCon1_->GetMaxHP();
 		maxArmor = aiCon1_->GetMaxArmor();
 		_enemyIcon.UpdateTexture(aiOneImage);
-	}
-	else if (isAiTwo)
-	{
-		maxHealth = aiCon2_->GetMaxHP();
-		maxArmor = aiCon2_->GetMaxArmor();
-		_enemyIcon.UpdateTexture(aiTwoImage);
 	}
 	else
 	{
@@ -140,14 +132,6 @@ void UEnemyUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 			calculateDifferenceHealth = true;
 		}
 	}
-	else if (isAiTwo)
-	{
-		if (currentHealth != aiCon2_->GetHP())
-		{
-			currentHealth = aiCon1_->GetHP();
-			calculateDifferenceHealth = true;
-		}
-	}
 	else
 	{
 		//Else statement,
@@ -157,14 +141,6 @@ void UEnemyUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 	if (isAiOne)
 	{
 		if (currentArmor != aiCon1_->GetArmor())
-		{
-			currentArmor = aiCon1_->GetArmor();
-			calculateDifferenceArmor = true;
-		}
-	}
-	else if (isAiTwo)
-	{
-		if (currentArmor != aiCon2_->GetArmor())
 		{
 			currentArmor = aiCon1_->GetArmor();
 			calculateDifferenceArmor = true;
@@ -263,8 +239,6 @@ void UEnemyUI::NormalizeHealthValue()
 	
 	if (isAiOne)
 		healthAmount = aiCon1_->GetHP();
-	else if (isAiTwo)
-		healthAmount = aiCon2_->GetHP();
 	else
 		healthAmount =  -1;
 	
@@ -277,8 +251,6 @@ void UEnemyUI::NormalizeArmorValue()
 
 	if (isAiOne)
 		armorAmount = aiCon1_->GetArmor();
-	else if (isAiTwo)
-		armorAmount = aiCon2_->GetArmor();
 	else
 		armorAmount = -1;
 
@@ -291,8 +263,6 @@ void UEnemyUI::GetCrackEdges()
 
 	if (isAiOne)
 		healthAmount = aiCon1_->GetHP();
-	else if (isAiTwo)
-		healthAmount = aiCon2_->GetHP();
 	else
 		healthAmount = -1;
 

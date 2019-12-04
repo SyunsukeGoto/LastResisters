@@ -8,7 +8,6 @@
 #include "../HealthGauge/EnemyHealthGauge.h"
 #include "../CrackEdges/CrackedEdge.h"
 #include "../../../AI/AI1/AI1_AIController.h"
-#include "../../../AI/AI2/AI2_AIController.h"
 #include  "AIController.h"
 #include "../EnemyIcon/EnemyIcon.h"
 #include "EnemyUI.generated.h"
@@ -161,12 +160,10 @@ public:
 
 	AAIController * aiController;
 	AAI1_AIController* aiCon1_;
-	AAI2_AIController* aiCon2_;
 	FVector AIPosition;
 	FRotator UIRotation;
 
 	bool isAiOne = false;
-	bool isAiTwo = false;
 
 	float currentHealth;
 	float currentArmor;

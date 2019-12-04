@@ -7,7 +7,6 @@
 #include "UI/PlayerUI/PlayerHitUI/PlayerHitUI.h"
 #include "AIController.h"
 #include "AI/AI1/AI1_AIController.h"
-#include "AI/AI2/AI2_AIController.h"
 #include "MyUIManager.h"
 
 MyAttackManager::MyAttackManager()
@@ -36,17 +35,6 @@ bool MyAttackManager::AddToListOfAI1(AAIController* _aiCon)
 	if (_aiCon)
 	{
 		myListOfAI1.Add(_aiCon);
-
-		return true;
-	}
-	return false;
-}
-
-bool MyAttackManager::AddToListOfAI2(AAIController* _aiCon)
-{
-	if (_aiCon)
-	{
-		myListOfAI2.Add(_aiCon);
 
 		return true;
 	}
@@ -145,22 +133,6 @@ void MyAttackManager::DamageTheAIArmor(FString _ID)
 			}
 		}
 	}
-	for (int i = 0; i < myListOfAI2.Num(); i++)
-	{
-		AAI2_AIController* ai2Con_ = Cast<AAI2_AIController>(myListOfAI2[i]);
-
-		if (ai2Con_)
-		{
-			if (ai2Con_->GetPawn()->GetName() == _ID)
-			{
-				ai2Con_->SetArmor(ai2Con_->GetArmor() - armorDecrease);
-				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] ActualArmor : (%f)")
-					, i
-					, ai2Con_->GetArmor().GetFloat());
-				return;
-			}
-		}
-	}
 }
 
 bool MyAttackManager::RemoveFromListOfAI1(AAIController * _aiCon)
@@ -169,18 +141,6 @@ bool MyAttackManager::RemoveFromListOfAI1(AAIController * _aiCon)
 	{
 		myListOfAI1.Remove(_aiCon);
 		myListOfAI1.Shrink();
-
-		return true;
-	}
-	return false;
-}
-
-bool MyAttackManager::RemoveFromListOfAI2(AAIController * _aiCon)
-{
-	if (_aiCon)
-	{
-		myListOfAI2.Remove(_aiCon);
-		myListOfAI2.Shrink();
 
 		return true;
 	}
@@ -214,24 +174,6 @@ bool MyAttackManager::PrintOutListOfAI1()
 			UE_LOG(LogTemp, Warning, TEXT("I[Index : %d] HP : (%f)")
 				, i
 				, ai1Con_->GetHP().GetFloat());
-		}
-	}
-	return false;
-}
-
-
-bool MyAttackManager::PrintOutListOfAI2()
-{
-	for (int i = 0; i < myListOfAI2.Num(); i++)
-	{
-		AAI2_AIController* ai2Con_ = Cast<AAI2_AIController>(myListOfAI2[i]);
-
-		if (ai2Con_)
-		{
-
-			UE_LOG(LogTemp, Warning, TEXT("I[Index : %d] HP : (%f)")
-				, i
-				, ai2Con_->GetHP().GetFloat());
 		}
 	}
 	return false;
