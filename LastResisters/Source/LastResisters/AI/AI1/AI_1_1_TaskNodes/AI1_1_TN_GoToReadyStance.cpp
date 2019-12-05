@@ -38,7 +38,8 @@ EBTNodeResult::Type UAI1_1_TN_GoToReadyStance::ExecuteTask(UBehaviorTreeComponen
 			}
 		}
 	}
-	else if (m_bbComp->GetValueAsFloat("currArmor") > aiCon_->GetArmor().GetFloat())
+	else if (true)
+//	else if (m_bbComp->GetValueAsFloat("currArmor") > aiCon_->GetArmor().GetFloat())
 	{ // Go to knockback
 		ChangeStance(6);
 		TArray<AActor *> children_;

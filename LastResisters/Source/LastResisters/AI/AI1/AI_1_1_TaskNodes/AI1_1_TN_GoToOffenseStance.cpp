@@ -95,6 +95,7 @@ EBTNodeResult::Type UAI1_1_TN_GoToOffenseStance::ExecuteTask(UBehaviorTreeCompon
 		output = 3;
 		highestValue = brain_.GetOutput(3);
 	}
+	
 
 	UE_LOG(LogTemp, Warning, TEXT("[Output : %d] Diff : (%f)(%f)(%f)(%f)")
 		, output
@@ -102,13 +103,14 @@ EBTNodeResult::Type UAI1_1_TN_GoToOffenseStance::ExecuteTask(UBehaviorTreeCompon
 		, aiCon_->GetPawn()->GetActorRightVector().Y
 		, aiCon_->GetPawn()->GetActorRightVector().Z
 		, FVector::DotProduct(aiCon_->GetPawn()->GetActorRightVector(), aiCon_->GetPawn()->GetActorLocation() - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_leftPos.GetLocation()));
-	ChangeStance(output + 1);
 
 	// Send attack info to attack manager
 	MyAttackManager::Attack_Info info_;
 	info_.info_EnemyID = aiCon_->GetPawn()->GetName();
 
-	switch (output)
+	ChangeStance(output + 1);
+
+	switch (output + 1)
 	{
 	case 1:
 	{
@@ -120,15 +122,14 @@ EBTNodeResult::Type UAI1_1_TN_GoToOffenseStance::ExecuteTask(UBehaviorTreeCompon
 		comboAttackOne.infoPos0.X = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * multiplicationValue;
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->distanceBetweenEnemy = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * (1 - multiplicationValue);
 
-		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
-		//	+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackOne.infoPos0.X
-		//	, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackOne.infoPos0.Z
-		//	, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackOne.infoPos0.Y);
 
-		info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackOne.infoPos0;
-
+		info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
+			+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackOne.infoPos0.X
+				, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackOne.infoPos0.Z
+				, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackOne.infoPos0.Y);
 
 		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAttacks(info_);
+
 
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->yabaiPos = info_.info_Position;
 
@@ -140,14 +141,14 @@ EBTNodeResult::Type UAI1_1_TN_GoToOffenseStance::ExecuteTask(UBehaviorTreeCompon
 		comboAttackOne.infoPos1.X = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * multiplicationValue;
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->distanceBetweenEnemy = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * (1 - multiplicationValue);
 
-		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation() 
-		//	+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackOne.infoPos1.X
-		//	, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackOne.infoPos1.Z
-		//	, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackOne.infoPos1.Y);
 
-		info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackOne.infoPos1;
+		info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
+			+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackOne.infoPos1.X
+				, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackOne.infoPos1.Z
+				, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackOne.infoPos1.Y);
 
 		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAttacks(info_);
+
 
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->yabaiPosTwo = info_.info_Position;
 	}
@@ -156,20 +157,22 @@ EBTNodeResult::Type UAI1_1_TN_GoToOffenseStance::ExecuteTask(UBehaviorTreeCompon
 	{
 		info_.info_damage = comboAttackTwo.infoDamage0;
 		info_.info_Rotation = comboAttackTwo.infoRotation0;
-		info_.info_CountdownTimer = comboAttackTwo.infoDuration0;
+		info_.info_CountdownTimer = comboAttackFour.infoDuration0;
 
 		//Set position of comboAttack
 		comboAttackTwo.infoPos0.X = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * multiplicationValue;
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->distanceBetweenEnemy = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * (1 - multiplicationValue);
 
-		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
-		//	+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackTwo.infoPos0.X
-		//		, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackTwo.infoPos0.Z
-		//		, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackTwo.infoPos0.Y);
 
-		info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackTwo.infoPos0;
+		info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
+			+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackTwo.infoPos0.X
+				, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackTwo.infoPos0.Z
+				, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackTwo.infoPos0.Y);
+
+		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackFour.infoPos0;
 
 		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAttacks(info_);
+
 
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->yabaiPos = info_.info_Position;
 
@@ -181,14 +184,16 @@ EBTNodeResult::Type UAI1_1_TN_GoToOffenseStance::ExecuteTask(UBehaviorTreeCompon
 		comboAttackTwo.infoPos1.X = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * multiplicationValue;
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->distanceBetweenEnemy = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * (1 - multiplicationValue);
 
-		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
-		//	+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackTwo.infoPos1.X
-		//		, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackTwo.infoPos1.Z
-		//		, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackTwo.infoPos1.Y);
 
-		info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackTwo.infoPos1;
+		info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
+			+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackTwo.infoPos1.X
+				, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackTwo.infoPos1.Z
+				, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackTwo.infoPos1.Y);
+
+		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackFour.infoPos1;
 
 		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAttacks(info_);
+
 
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->yabaiPosTwo = info_.info_Position;
 	}
@@ -203,34 +208,37 @@ EBTNodeResult::Type UAI1_1_TN_GoToOffenseStance::ExecuteTask(UBehaviorTreeCompon
 		comboAttackThree.infoPos0.X = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * multiplicationValue;
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->distanceBetweenEnemy = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * (1 - multiplicationValue);
 
-		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
-		//	+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackThree.infoPos0.X
-		//		, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackThree.infoPos0.Z
-		//		, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackThree.infoPos0.Y);
-		info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackThree.infoPos0;
+
+		info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
+			+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackThree.infoPos0.X
+				, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackThree.infoPos0.Z
+				, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackThree.infoPos0.Y);
+
+		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackFour.infoPos0;
 
 		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAttacks(info_);
 
 
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->yabaiPos = info_.info_Position;
 
-
 		info_.info_damage = comboAttackThree.infoDamage1;
 		info_.info_Rotation = comboAttackThree.infoRotation1;
 		info_.info_CountdownTimer = comboAttackThree.infoDuration1;
 
 		//Set position of comboAttack
-		comboAttackThree.infoPos1.X = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * multiplicationValue;
+		comboAttackFour.infoPos1.X = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * multiplicationValue;
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->distanceBetweenEnemy = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * (1 - multiplicationValue);
 
-		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
-		//	+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackThree.infoPos1.X
-		//		, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackThree.infoPos1.Z
-		//		, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackThree.infoPos1.Y);
 
-		info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackThree.infoPos1;
+		info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
+			+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackThree.infoPos1.X
+				, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackThree.infoPos1.Z
+				, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackThree.infoPos1.Y);
+
+		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackFour.infoPos1;
 
 		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAttacks(info_);
+
 
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->yabaiPosTwo = info_.info_Position;
 	}
@@ -246,12 +254,12 @@ EBTNodeResult::Type UAI1_1_TN_GoToOffenseStance::ExecuteTask(UBehaviorTreeCompon
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->distanceBetweenEnemy = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * (1 - multiplicationValue);
 
 
-		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
-		//	+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackFour.infoPos0.X
-		//		, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackFour.infoPos0.Z
-		//		, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackFour.infoPos0.Y);
+		info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
+			+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackFour.infoPos0.X
+				, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackFour.infoPos0.Z
+				, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackFour.infoPos0.Y);
 
-		info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackFour.infoPos0;
+		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackFour.infoPos0;
 
 		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAttacks(info_);
 
@@ -267,12 +275,12 @@ EBTNodeResult::Type UAI1_1_TN_GoToOffenseStance::ExecuteTask(UBehaviorTreeCompon
 		UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->distanceBetweenEnemy = FMath::Abs(aiCon_->GetPawn()->GetActorLocation().X - UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->m_playerPos.X) * (1 - multiplicationValue);
 
 
-		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
-		//	+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackFour.infoPos1.X
-		//		, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackFour.infoPos1.Z
-		//		, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackFour.infoPos1.Y);
+		info_.info_Position = aiCon_->GetPawn()->GetActorLocation()
+			+ FVector(aiCon_->GetPawn()->GetActorRightVector().Y * comboAttackFour.infoPos1.X
+				, aiCon_->GetPawn()->GetActorForwardVector().X * comboAttackFour.infoPos1.Z
+				, aiCon_->GetPawn()->GetActorUpVector().Z *comboAttackFour.infoPos1.Y);
 
-		info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackFour.infoPos1;
+		//info_.info_Position = aiCon_->GetPawn()->GetActorLocation() + comboAttackFour.infoPos1;
 
 		UMyGameInstance::GetInstance()->GetAttackManagerInstance()->AddToListOfAttacks(info_);
 
