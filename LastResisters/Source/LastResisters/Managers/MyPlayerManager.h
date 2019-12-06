@@ -22,7 +22,7 @@ public:
 		float cameraAspect;
 		float nearClipPlane = 10;
 	};
-
+	
 	bool CheckIfBlocked(FVector _attPos, FFloat16 _attRot);
 
 	void Update(float deltaTime);
@@ -79,4 +79,8 @@ public:
 
 	//Store the rotation if the player had missed attack.
 	FFloat16 failGuardRotation;
+
+
+	// Item
+	float healPont;
 };

@@ -10,10 +10,11 @@ MyPlayerManager::MyPlayerManager()
 	, maxDashGaugeAmount(100)
 	, maxMainSkillGaugeAmount(100)
 	, maxSubSkillGaugeAmount(100)
-	, hp(100)
+	, hp(1000)
 	, dashGaugeAmount(100)
 	, mainSkillGaugeAmount(100)
 	, subSkillGaugeAmount(100)
+	, healPont(50)
 {
 	m_playerDamage = 5.0f;
 	m_leftPos = FTransform(FVector(1, 1, 1));
