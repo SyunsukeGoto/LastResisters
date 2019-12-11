@@ -126,8 +126,6 @@ public:
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 		class UImage * ResultImageFive = nullptr;
 
-
-
 	//Hit indicator array copied from there to make it easier so i dont have to keep calling GetInstance
 	TArray<FPlayerHitIndicator> hitArray;
 	//Image array for the hit indicators
@@ -136,6 +134,30 @@ public:
 	TArray<UImage*> spriteArray;
 	//Image stuff...
 	TArray<UImage*> resultArray;
+
+	//Vector UPROPERTY
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Scale Properties")
+		FVector2D desiredScale;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Scale Properties")
+		float scaleTime;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Scale Properties")
+		float delay;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Scale Properties")
+		FVector2D bigOffset;
+
+	//Vector UPROPERTY
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Down Scale Properties")
+		FVector2D desiredDownScale;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Down Scale Properties")
+		float downScaleTime;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Down Scale Properties")
+		float downScaleDelay;
+
+	//Vector UPROPERTY
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Down Scale Properties")
+		float backgroundDownTime;
+
+	float backgroundDownTimer = 0;
 
 
 };

@@ -34,9 +34,13 @@ public:
 		, bool isShielding);
 
 	CameraValues cameraValues;
+
 	//FVector for UI
 	FTransform hitUITransform;
+	FTransform dangerUITransform;
+
 	float distanceBetweenEnemy;
+	float distanceBetweenDangerUI;
 
 	FVector m_playerPos;
 	float m_playerDamage;
@@ -66,4 +70,13 @@ public:
 	float maxSubSkillGaugeAmount;
 
 	void DamageThePlayer(float _incomingDamage);
+
+	//Guarded
+	bool recentlyGuarded = false;
+
+	void HitUICalculations();
+	void DangerUICalculations();
+
+	//Store the rotation if the player had missed attack.
+	FFloat16 failGuardRotation;
 };

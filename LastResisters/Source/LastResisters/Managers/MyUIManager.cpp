@@ -1,7 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "MyUIManager.h"
+#include "Components/CanvasPanelSlot.h"
+#include "../MyGameInstance.h"
+#include "MyPlayerManager.h"
 
 MyUIManager::MyUIManager()
 {
@@ -64,7 +66,7 @@ void MyUIManager::TakeInfoFromRequestQueue()
 
 void MyUIManager::HandleInit(MyAttackManager::Attack_Info infoToReceive)
 {
-	UE_LOG(LogTemp, Warning, TEXT("-----Player UI HandleInit Invoked-----"));
+	//UE_LOG(LogTemp, Warning, TEXT("-----Player UI HandleInit Invoked-----"));
 	//UE_LOG(LogTemp, Warning, TEXT("Received MyCharacter's Name is %s , Robot Position : (%f, %f, %f), Rotation : (%f), Duration : (%f)")
 	//	, *infoToReceive.info_EnemyID
 	//	, infoToReceive.info_Position.X
@@ -85,15 +87,14 @@ void MyUIManager::HandleInit(MyAttackManager::Attack_Info infoToReceive)
 		playerHitIndicators[0].LinkedImageTwo = imageArray[0 + imageArray.Num() / 2];
 		playerHitIndicators[0].LinkedBackground = spriteArray[0];
 		playerHitIndicators[0].ResultImage = resultArray[0];
-		UE_LOG(LogTemp, Warning, TEXT("Added first entry to hit indicators. It now has size : %d"), playerHitIndicators.Num());
+
+		playerHitIndicators[0].scaleX.StoreValues(desiredScale.X, scaleTime, delay);
+		playerHitIndicators[0].scaleY.StoreValues(desiredScale.Y, scaleTime, delay);
+		//UE_LOG(LogTemp, Warning, TEXT("Added first entry to hit indicators. It now has size : %d"), playerHitIndicators.Num());
 	}
 
-	//UE_LOG(LogTemp, Warning, TEXT("---BEFORE---"));
 	//Find the next available image
 	int indexOfAvailable = FindNextAvailableImage();
-	//UE_LOG(LogTemp, Warning, TEXT("Index chosen: %d"),indexOfAvailable);
-
-	//playerHitIndicators[indexOfAvailable].PrintDetails();
 
 	//If we cant find a image then we add to additional requests.
 	if (indexOfAvailable == -1)
@@ -116,6 +117,21 @@ void MyUIManager::HandleInit(MyAttackManager::Attack_Info infoToReceive)
 			playerHitIndicators[indexOfAvailable].LinkedImageTwo = imageArray[indexOfAvailable + imageArray.Num() / 2];
 			playerHitIndicators[indexOfAvailable].LinkedBackground = spriteArray[indexOfAvailable];
 			playerHitIndicators[indexOfAvailable].ResultImage = resultArray[indexOfAvailable];
+
+			//Set Scaling Options.
+			playerHitIndicators[indexOfAvailable].scaleX.StoreValues(desiredScale.X, scaleTime, delay);
+			playerHitIndicators[indexOfAvailable].scaleY.StoreValues(desiredScale.Y, scaleTime, delay);
+
+			//Set rotations based on the type it is. I can improve this laster on.
+			playerHitIndicators[indexOfAvailable].LinkedImage->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+			playerHitIndicators[indexOfAvailable].LinkedImageTwo->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+			playerHitIndicators[indexOfAvailable].LinkedBackground->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+			playerHitIndicators[indexOfAvailable].ResultImage->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+
+			//Set indexes
+			playerHitIndicators[indexOfAvailable].indexInArray = indexOfAvailable;
+			playerHitIndicators[indexOfAvailable].indexInArrayTwo = indexOfAvailable + imageArray.Num() / 2;
+
 		}
 		else
 		{
@@ -136,6 +152,20 @@ void MyUIManager::HandleInit(MyAttackManager::Attack_Info infoToReceive)
 			additionalRequests.RemoveAt(0);
 			//And then we re-organize the array.
 			additionalRequests.Shrink();
+
+			//Set Scaling Options.
+			playerHitIndicators[indexOfAvailable].scaleX.StoreValues(desiredScale.X, scaleTime, delay);
+			playerHitIndicators[indexOfAvailable].scaleY.StoreValues(desiredScale.Y, scaleTime, delay);
+
+			//Set rotations based on the type it is. I can improve this laster on.
+			playerHitIndicators[indexOfAvailable].LinkedImage->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+			playerHitIndicators[indexOfAvailable].LinkedImageTwo->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+			playerHitIndicators[indexOfAvailable].LinkedBackground->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+			playerHitIndicators[indexOfAvailable].ResultImage->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+
+			//Set indexes
+			playerHitIndicators[indexOfAvailable].indexInArray = indexOfAvailable;
+			playerHitIndicators[indexOfAvailable].indexInArrayTwo = indexOfAvailable + imageArray.Num() / 2;
 		}
 		else
 		{
@@ -148,6 +178,20 @@ void MyUIManager::HandleInit(MyAttackManager::Attack_Info infoToReceive)
 		playerHitIndicators[indexOfAvailable].LinkedImageTwo = imageArray[indexOfAvailable + imageArray.Num() / 2];
 		playerHitIndicators[indexOfAvailable].LinkedBackground = spriteArray[indexOfAvailable];
 		playerHitIndicators[indexOfAvailable].ResultImage = resultArray[indexOfAvailable];
+
+		//Set Scaling Options.
+		playerHitIndicators[indexOfAvailable].scaleX.StoreValues(desiredScale.X, scaleTime, delay);
+		playerHitIndicators[indexOfAvailable].scaleY.StoreValues(desiredScale.Y, scaleTime, delay);
+
+		//Set rotations based on the type it is. I can improve this laster on.
+		playerHitIndicators[indexOfAvailable].LinkedImage->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+		playerHitIndicators[indexOfAvailable].LinkedImageTwo->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+		playerHitIndicators[indexOfAvailable].LinkedBackground->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+		playerHitIndicators[indexOfAvailable].ResultImage->SetRenderTransformAngle(playerHitIndicators[indexOfAvailable].playerHitParameters.rotation);
+
+		//Set indexes
+		playerHitIndicators[indexOfAvailable].indexInArray = indexOfAvailable;
+		playerHitIndicators[indexOfAvailable].indexInArrayTwo = indexOfAvailable + imageArray.Num() / 2;
 	}
 	//PrintIndicatorList();
 }
@@ -155,14 +199,15 @@ void MyUIManager::HandleInit(MyAttackManager::Attack_Info infoToReceive)
 
 void MyUIManager::HandleDelete(MyAttackManager::Attack_Info infoToReceive, bool blocked)
 {
-	UE_LOG(LogTemp, Warning, TEXT("-----Player UI HandleDeleteInvoked-----"));
-	//UE_LOG(LogTemp, Warning, TEXT("Received MyCharacter's Name is %s , Robot Position : (%f, %f, %f), Rotation : (%f), Duration : (%f)")
+	//UE_LOG(LogTemp, Warning, TEXT("-----Player UI HandleDeleteInvoked-----"));
+	//UE_LOG(LogTemp, Warning, TEXT("Received MyCharacter's Name is %s , Robot Position : (%f, %f, %f), Rotation : (%f), Duration : (%f), Index: %d")
 	//	, *infoToReceive.info_EnemyID
 	//	, infoToReceive.info_Position.X
 	//	, infoToReceive.info_Position.Y
 	//	, infoToReceive.info_Position.Z
 	//	, (float)infoToReceive.info_Rotation
-	//	, (float)infoToReceive.info_CountdownTimer);
+	//	, (float)infoToReceive.info_CountdownTimer
+	//	, infoToReceive.attackIndex);
 	//Loop through all the ones and set based on blocked.
 	for (int i = 0; i < playerHitIndicators.Num(); ++i)
 	{
@@ -173,20 +218,55 @@ void MyUIManager::HandleDelete(MyAttackManager::Attack_Info infoToReceive, bool 
 			if (playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::TOTAL_STATES)
 			{
 				playerHitIndicators[i].playerHitParameters.hitState = (FPlayerHitUIParameters::HIT_STATES)blocked;
+				
+				//Set the effect.
+				playerHitIndicators[i].hitResults = (FPlayerHitIndicator::HitResults)blocked;
+
+				//Set fill so update runs.
+				playerHitIndicators[i].playerHitParameters.currentFill = playerHitIndicators[i].playerHitParameters.desiredFill;
+
 				//We change its values.
 				if (playerHitIndicators[i].ResultImage != nullptr)
 				{
+					UCanvasPanelSlot * resultSlot = Cast<UCanvasPanelSlot>(playerHitIndicators[i].ResultImage->Slot);
 					if (playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::STATE_HIT)
 					{
+						//UE_LOG(LogTemp, Warning, TEXT("Hit by attack."));
+						resultSlot->SetZOrder(failZOrder);
 						//fail guard
 						if (failImage != nullptr)
 							playerHitIndicators[i].ResultImage->SetBrushFromTexture(failImage);
+
+						//If we got hit, we disable everything and only show the result image.
+						playerHitIndicators[i].LinkedBackground->SetVisibility(ESlateVisibility::Hidden);
+						playerHitIndicators[i].LinkedImage->SetVisibility(ESlateVisibility::Hidden);
+						playerHitIndicators[i].LinkedImageTwo->SetVisibility(ESlateVisibility::Hidden);
+						//Set the result image to be visible
+						playerHitIndicators[i].ResultImage->SetVisibility(ESlateVisibility::Visible);
+
+						UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->failGuardRotation = infoToReceive.info_Rotation;
 					}
 					else if (playerHitIndicators[i].playerHitParameters.hitState == FPlayerHitUIParameters::HIT_STATES::STATE_BLOCK)
 					{
+						//UE_LOG(LogTemp, Warning, TEXT("Blocked attack."));
+						resultSlot->SetZOrder(defaultZOrder);
 						//guard success
 						if (successImage != nullptr)
 							playerHitIndicators[i].ResultImage->SetBrushFromTexture(successImage);
+
+						//If we got hit, we disable everything and only show the result image.
+						playerHitIndicators[i].LinkedBackground->SetVisibility(ESlateVisibility::Visible);
+						playerHitIndicators[i].LinkedImage->SetVisibility(ESlateVisibility::Visible);
+						playerHitIndicators[i].LinkedImageTwo->SetVisibility(ESlateVisibility::Visible);
+						//Set the result image to be visible
+						playerHitIndicators[i].ResultImage->SetVisibility(ESlateVisibility::Visible);
+
+						playerHitIndicators[i].scaleX.calculateRate = true;
+						playerHitIndicators[i].scaleX.StoreValues(desiredDownScale.X, downScaleTime, downScaleDelay);
+						//playerHitIndicators[i].scaleY.calculateRate = true;
+						//playerHitIndicators[i].scaleY.StoreValues(desiredDownScale.Y, downScaleTime, downScaleDelay);
+
+
 					}
 				}
 			}
@@ -203,4 +283,18 @@ void MyUIManager::PrintIndicatorList()
 	//		UE_LOG(LogTemp, Warning, TEXT("----Index: %d----"), i);
 	//		playerHitIndicators[i].PrintDetails();
 	//	}
+}
+
+void MyUIManager::StoreValues(FVector2D desiredScale, float scaleTime, float delay)
+{
+	this->desiredScale = desiredScale;
+	this->scaleTime = scaleTime;
+	this->delay = delay;
+}
+
+void MyUIManager::StoreDownScaleValues(FVector2D desiredDownScale, float downScaleTime, float downScaleDelay)
+{
+	this->desiredDownScale = desiredDownScale;
+	this->downScaleTime = downScaleTime;
+	this->downScaleDelay = downScaleDelay;
 }

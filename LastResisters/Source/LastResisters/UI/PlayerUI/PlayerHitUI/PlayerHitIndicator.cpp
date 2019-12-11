@@ -10,6 +10,7 @@ FPlayerHitIndicator::FPlayerHitIndicator()
 	: isDefault(false)
 	, stayOnScreenTimer(0)
 	, stayOnScreenTime(0.35f)
+	, currentOpacity(1)
 {
 }
 
@@ -109,6 +110,9 @@ void FPlayerHitIndicator::AssignParametersFromInfo(MyAttackManager::Attack_Info 
 	playerHitParameters.blockPercentage = 0;
 	stayOnScreenTimer = 0;
 	stayOnScreenTime = 0.35f;
+	scaleX.Reset();
+	scaleY.Reset();
+	currentOpacity = 1;
 }
 
 
@@ -164,31 +168,139 @@ void FPlayerHitIndicator::UpdateFillAmount(float inDeltaTime)
 	}
 	else
 	{
-		if (stayOnScreenTimer < stayOnScreenTime)
+		UpdateResults(inDeltaTime);
+	}
+}
+
+void FPlayerHitIndicator::UpdateScaleXY(float inDeltaTime)
+{
+	if (scaleX.calculateRate)
+	{
+		scaleX.delayTimer = scaleX.delay;
+		UpdateScaleAmountX(inDeltaTime);
+	}
+	else
+	{
+		if (scaleX.delayTimer > 0)
+			scaleX.delayTimer -= inDeltaTime;
+		else
+			UpdateScaleAmountX(inDeltaTime);
+	}
+
+	if (scaleY.calculateRate)
+	{
+		scaleY.delayTimer = scaleY.delay;
+		UpdateScaleAmountY(inDeltaTime);
+	}
+	else
+	{
+		if (scaleY.delayTimer > 0)
+			scaleY.delayTimer -= inDeltaTime;
+		else
+			UpdateScaleAmountY(inDeltaTime);
+	}
+}
+
+void FPlayerHitIndicator::UpdateScaleAmountX(float inDeltaTime)
+{
+	if (scaleX.calculateRate)
+	{
+		scaleX.rate = (scaleX.desiredScale - scaleX.currentScale) / scaleX.duration;
+		scaleX.calculateRate = false;
+	}
+
+	if (scaleX.desiredScale != scaleX.currentScale)
+	{
+		scaleX.currentScale += scaleX.rate * inDeltaTime;
+		playerHitParameters.currentFill += (playerHitParameters.rate)* inDeltaTime;
+
+		if (scaleX.rate > 0)
 		{
-			stayOnScreenTimer += inDeltaTime;
-			if (ResultImage != nullptr)
-				ResultImage->SetVisibility(ESlateVisibility::Visible);
+			if (scaleX.currentScale >= scaleX.desiredScale)
+				scaleX.currentScale = scaleX.desiredScale;
 		}
 		else
 		{
-			playerHitParameters.blockPercentage = 0.0f;
-			UpdateBlockPercentage();
+			if (scaleX.currentScale <= scaleX.desiredScale)
+				scaleX.currentScale = scaleX.desiredScale;
+		}
+	}
+	else
+	{
+		//Reached...
+	}
 
-			if (LinkedImage != nullptr)
-				LinkedImage->SetVisibility(ESlateVisibility::Hidden);
-			if (LinkedBackground != nullptr)
-				LinkedBackground->SetVisibility(ESlateVisibility::Hidden);
-			if (LinkedImageTwo != nullptr)
-				LinkedImageTwo->SetVisibility(ESlateVisibility::Hidden);
-			if (ResultImage != nullptr)
+}
+
+void FPlayerHitIndicator::UpdateScaleAmountY(float inDeltaTime)
+{
+	if (scaleY.calculateRate)
+	{
+		scaleY.rate = (scaleY.desiredScale - scaleY.currentScale) / scaleY.duration;
+		scaleY.calculateRate = false;
+	}
+
+	if (scaleY.desiredScale != scaleY.currentScale)
+	{
+		scaleY.currentScale += scaleY.rate * inDeltaTime;
+		playerHitParameters.currentFill += (playerHitParameters.rate)* inDeltaTime;
+
+		if (scaleY.rate > 0)
+		{
+			if (scaleY.currentScale >= scaleY.desiredScale)
+				scaleY.currentScale = scaleY.desiredScale;
+		}
+		else
+		{
+			if (scaleY.currentScale <= scaleY.desiredScale)
+				scaleY.currentScale = scaleY.desiredScale;
+		}
+	}
+	else
+	{
+		//Reached...
+	}
+}
+
+void FPlayerHitIndicator::UpdateResults(float inDeltaTime)
+{
+	//UE_LOG(LogTemp, Warning, TEXT("Updating Results :%f"), currentOpacity)
+	switch (hitResults)
+	{
+		case HIT:
+		{
+			currentOpacity -= 0.06f;		
+			if (currentOpacity <= 0)	
+			{
+				playerHitParameters.duration = 0;
 				ResultImage->SetVisibility(ESlateVisibility::Hidden);
-
-			//also set duration to 0? or something, temporary codes
-			playerHitParameters.duration = 0.f;
+				currentOpacity = 1.0f;
+			
+			}
+			ResultImage->SetOpacity(currentOpacity);
+			break;
+		}
+		case BLOCK:
+		{
+			currentOpacity -= 0.06f;
+			if (currentOpacity <= 0)
+			{
+				playerHitParameters.duration = 0;
+				ResultImage->SetVisibility(ESlateVisibility::Hidden);
+				currentOpacity = 1.0f;
+			
+			}
+			ResultImage->SetOpacity(currentOpacity);
+			break;
+		}
+		case TOTAL:
+		default:
+		{
+			break;
 		}
 
 	}
+
 }
 
 
