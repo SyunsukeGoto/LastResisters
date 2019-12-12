@@ -1,7 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include <tgmath.h>
+//#include <tgmath.h>
 #include <time.h>
 
 struct NeuralNetworkValues
