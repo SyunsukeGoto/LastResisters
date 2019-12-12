@@ -82,5 +82,6 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		FTransform GetDangerUITransform();
 	
-
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void DamageToPlayer(float damage);
 };

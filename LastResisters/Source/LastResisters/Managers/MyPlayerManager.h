@@ -3,10 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
 /**
- *
- */
+ **/
 class LASTRESISTERS_API MyPlayerManager
 {
 public:

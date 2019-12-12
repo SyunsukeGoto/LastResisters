@@ -159,3 +159,8 @@ FTransform UMyGameInstance::GetDangerUITransform()
 	return m_playerManager->dangerUITransform;
 }
 
+
+void UMyGameInstance::DamageToPlayer(float damage)
+{
+	m_playerManager->DamageThePlayer(damage);
+}
