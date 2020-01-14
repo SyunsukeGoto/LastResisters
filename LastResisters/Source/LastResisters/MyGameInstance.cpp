@@ -164,3 +164,8 @@ void UMyGameInstance::DamageToPlayer(float damage)
 {
 	m_playerManager->DamageThePlayer(damage);
 }
+
+float UMyGameInstance::GetPlayerHp()
+{
+	return m_playerManager->GetHP();
+}

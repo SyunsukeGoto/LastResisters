@@ -69,6 +69,8 @@ public:
 
 	void DamageThePlayer(float _incomingDamage);
 
+	float GetHP();
+
 	//Guarded
 	bool recentlyGuarded = false;
 
