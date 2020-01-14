@@ -83,6 +83,11 @@ void MyPlayerManager::DamageThePlayer(float _incomingDamage)
 	}
 }
 
+float MyPlayerManager::GetHP()
+{
+	return hp;
+}
+
 void MyPlayerManager::HitUICalculations()
 {
 	//Calculate UI Position.

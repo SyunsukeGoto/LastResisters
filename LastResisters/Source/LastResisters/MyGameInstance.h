@@ -84,4 +84,7 @@ public:
 	
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		void DamageToPlayer(float damage);
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		float GetPlayerHp();
 };
