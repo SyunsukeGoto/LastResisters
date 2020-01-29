@@ -7,9 +7,12 @@
 #include "Managers/MyUIManager.h"
 #include "Managers/MyPlayerManager.h"
 #include "Managers/MyAttackManager.h"
-
+#include"MoviePlayer/Public/MoviePlayer.h"
 void UMyGameInstance::Init()
 {
+	Super::Init();
+	FCoreUObjectDelegates::PreLoadMap.AddUObject(this, &UMyGameInstance::BeginLoadingScreen);
+	FCoreUObjectDelegates::PostLoadMapWithWorld.AddUObject(this, &UMyGameInstance::EndLoadingScreen);
 	m_UIManager = new MyUIManager();
 	m_playerManager = new MyPlayerManager();
 	m_attackManager = new MyAttackManager();
@@ -168,4 +171,22 @@ void UMyGameInstance::DamageToPlayer(float damage)
 float UMyGameInstance::GetPlayerHp()
 {
 	return m_playerManager->GetHP();
+}
+
+void UMyGameInstance::BeginLoadingScreen(const FString& InMapName)
+{
+	if (!IsRunningDedicatedServer())
+	{
+		
+		FLoadingScreenAttributes LoadingScreen;
+		LoadingScreen.bAutoCompleteWhenLoadingCompletes = false;
+		LoadingScreen.WidgetLoadingScreen = FLoadingScreenAttributes::NewTestLoadingScreenWidget();
+
+		GetMoviePlayer()->SetupLoadingScreen(LoadingScreen);
+	}
+}
+
+void UMyGameInstance::EndLoadingScreen(UWorld* InLoadedWorld)
+{
+
 }
