@@ -87,4 +87,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		float GetPlayerHp();
+	UFUNCTION(BlueprintCallable)
+		virtual void BeginLoadingScreen(const FString& MapName);
+	UFUNCTION(BlueprintCallable)
+		virtual void EndLoadingScreen(UWorld* INLoadedWorld);
+
 };
