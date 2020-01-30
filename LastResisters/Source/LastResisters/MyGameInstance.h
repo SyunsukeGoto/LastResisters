@@ -6,6 +6,7 @@
 #include "Engine/GameInstance.h"
 #include "MyGameInstance.generated.h"
 
+
 /**
  *
  */
@@ -67,7 +68,23 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		bool GetIfGuard();
-
+	static const int MAX_STAGE = 5;
+	//敵を倒した数
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+		int defeatedEnemiesp;
+	//プレイタイム(カンマ秒)
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+		TArray<int32> playtimePointSecond;
+	//プレイタイム(秒)
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+		TArray<int32> playtimeSecond;
+	//プレイタイム(分)
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+		TArray<int32> playtimeMinute;
+	//秒数カウント最大数
+	const int MAX_SECOND_COUNT = 60;
+	//秒数カウント
+	int secondCount;
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		void GuardEffectSpawned();
 
@@ -87,9 +104,19 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		float GetPlayerHp();
-	UFUNCTION(BlueprintCallable)
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void UseDash(float g);
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		float GetDash();
+
+	/*UFUNCTION(BlueprintCallable)
 		virtual void BeginLoadingScreen(const FString& MapName);
 	UFUNCTION(BlueprintCallable)
-		virtual void EndLoadingScreen(UWorld* INLoadedWorld);
+		virtual void EndLoadingScreen(UWorld* INLoadedWorld);*/
+
+	//UPROPERTY(BlueprintReadWrite, Category = "GamePlayFunction")
+		//AGamePlayTimer GetGamePlayTimer();
 
 };

@@ -133,6 +133,7 @@ public:
 
 	//Current and desired values in values of 0 to 1
 	float f_currentDash = 1;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float f_desiredDash = 1;
 
 	//The boolean that changes whenever the value changes so the rate is only calculated once

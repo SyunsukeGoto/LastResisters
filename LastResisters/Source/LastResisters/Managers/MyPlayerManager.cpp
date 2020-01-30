@@ -88,6 +88,16 @@ float MyPlayerManager::GetHP()
 	return hp;
 }
 
+float MyPlayerManager::GetdashGaugeAmount()
+{
+	return maxDashGaugeAmount;
+}
+
+void MyPlayerManager::UsedashGaugeAmount(float g)
+{
+	maxDashGaugeAmount -= g;
+}
+
 void MyPlayerManager::HitUICalculations()
 {
 	//Calculate UI Position.
