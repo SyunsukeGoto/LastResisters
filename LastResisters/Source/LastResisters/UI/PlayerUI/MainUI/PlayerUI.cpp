@@ -111,8 +111,8 @@ void UPlayerUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 
 	//Normalizez and clamp the values for shaders
 #pragma region Normalization
-	NormalizeHealthValue();
-	NormalizeDashGauge();
+	//NormalizeHealthValue();
+	//NormalizeDashGauge();
 	/*NormalizeWeaponGauges();*/
 #pragma endregion
 
@@ -143,6 +143,9 @@ void UPlayerUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 		DoHit();
 		currentHealth = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp;
 	}
+
+	f_desiredDash = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->GetdashGaugeAmount()/ 100.f;
+	
 
 	//Function that changes wave speed of the healthbar
 	Hit(InDeltaTime);

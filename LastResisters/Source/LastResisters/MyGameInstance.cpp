@@ -11,11 +11,15 @@
 void UMyGameInstance::Init()
 {
 	Super::Init();
-	FCoreUObjectDelegates::PreLoadMap.AddUObject(this, &UMyGameInstance::BeginLoadingScreen);
-	FCoreUObjectDelegates::PostLoadMapWithWorld.AddUObject(this, &UMyGameInstance::EndLoadingScreen);
+	/*FCoreUObjectDelegates::PreLoadMap.AddUObject(this, &UMyGameInstance::BeginLoadingScreen);
+	FCoreUObjectDelegates::PostLoadMapWithWorld.AddUObject(this, &UMyGameInstance::EndLoadingScreen);*/
 	m_UIManager = new MyUIManager();
 	m_playerManager = new MyPlayerManager();
 	m_attackManager = new MyAttackManager();
+	secondCount = 0;
+	playtimePointSecond.Init(0, MAX_STAGE);
+	playtimeSecond.Init(0, MAX_STAGE);
+	playtimeMinute.Init(0, MAX_STAGE);
 }
 
 void UMyGameInstance::Shutdown()
@@ -173,20 +177,32 @@ float UMyGameInstance::GetPlayerHp()
 	return m_playerManager->GetHP();
 }
 
-void UMyGameInstance::BeginLoadingScreen(const FString& InMapName)
-{
-	if (!IsRunningDedicatedServer())
-	{
-		
-		FLoadingScreenAttributes LoadingScreen;
-		LoadingScreen.bAutoCompleteWhenLoadingCompletes = false;
-		LoadingScreen.WidgetLoadingScreen = FLoadingScreenAttributes::NewTestLoadingScreenWidget();
 
-		GetMoviePlayer()->SetupLoadingScreen(LoadingScreen);
-	}
+void UMyGameInstance::UseDash(float g)
+{
+	m_playerManager->UsedashGaugeAmount(g);
 }
 
-void UMyGameInstance::EndLoadingScreen(UWorld* InLoadedWorld)
+float UMyGameInstance::GetDash()
 {
-
+	return m_playerManager->GetdashGaugeAmount();
 }
+//
+//void UMyGameInstance::BeginLoadingScreen(const FString& InMapName)
+//{
+//	if (!IsRunningDedicatedServer())
+//	{
+//		
+//		FLoadingScreenAttributes LoadingScreen;
+//		LoadingScreen.bAutoCompleteWhenLoadingCompletes = false;
+//		LoadingScreen.WidgetLoadingScreen = FLoadingScreenAttributes::NewTestLoadingScreenWidget();
+//
+//		GetMoviePlayer()->SetupLoadingScreen(LoadingScreen);
+//	}
+//}
+
+//void UMyGameInstance::EndLoadingScreen(UWorld* InLoadedWorld)
+//{
+//
+//}
+

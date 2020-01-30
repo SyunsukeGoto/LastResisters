@@ -40,6 +40,9 @@ public:
 	float distanceBetweenEnemy;
 	float distanceBetweenDangerUI;
 
+	float GetdashGaugeAmount();
+	void UsedashGaugeAmount(float g);
+
 	FVector m_playerPos;
 	float m_playerDamage;
 	FTransform m_leftPos;
