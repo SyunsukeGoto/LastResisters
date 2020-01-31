@@ -17,7 +17,7 @@ void AGamePlayTimer::PlayTimeMeasurement()
 	//もし99分59秒を超えたらカウントしない
 	if (m_playtimeMinute <= 99)
 	{
-		m_timerCount++;
+		
 		//60カウント後に秒数を1＋する
 		if (m_timerCount > 1.0f)
 		{
@@ -54,6 +54,11 @@ void AGamePlayTimer::PlayTimeReset()
 // Called when the game starts or when spawned
 void AGamePlayTimer::BeginPlay()
 {
+	m_countFlag = false;
+	m_timerCount = 0;
+	m_playtimePointSecond = 0;
+	m_playtimeSecond = 0;
+	m_playtimeMinute = 0;
 	Super::BeginPlay();
 	
 }
@@ -62,11 +67,13 @@ void AGamePlayTimer::BeginPlay()
 void AGamePlayTimer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (m_countFlag)
+	if (m_countFlag == true)
 	{
-		m_timerCount += DeltaTime ;
+		m_timerCount++;
+	
 	}
 	//プレイタイムをカウントする
 	PlayTimeMeasurement();
+	//m_timerCount += DeltaTime;
 }
 
