@@ -111,7 +111,7 @@ void UPlayerUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 
 	//Normalizez and clamp the values for shaders
 #pragma region Normalization
-	//NormalizeHealthValue();
+	NormalizeHealthValue();
 	//NormalizeDashGauge();
 	/*NormalizeWeaponGauges();*/
 #pragma endregion
