@@ -17,9 +17,9 @@ void UMyGameInstance::Init()
 	m_playerManager = new MyPlayerManager();
 	m_attackManager = new MyAttackManager();
 	secondCount = 0;
-	playtimePointSecond.Init(0, MAX_STAGE);
-	playtimeSecond.Init(0, MAX_STAGE);
-	playtimeMinute.Init(0, MAX_STAGE);
+	m_playtimePointSecond.Init(0, MAX_STAGE);
+	m_playtimeSecond.Init(0, MAX_STAGE);
+	m_playtimeMinute.Init(0, MAX_STAGE);
 }
 
 void UMyGameInstance::Shutdown()
@@ -186,6 +186,12 @@ void UMyGameInstance::UseDash(float g)
 float UMyGameInstance::GetDash()
 {
 	return m_playerManager->GetdashGaugeAmount();
+}
+void UMyGameInstance::SetTimer(int id, int playtimePointSecond, int playtimeSecond, int playtimeMinute)
+{
+	m_playtimePointSecond[id] = playtimePointSecond;
+	m_playtimeSecond[id] = playtimeSecond;
+	m_playtimeMinute[id] = playtimeMinute;
 }
 //
 //void UMyGameInstance::BeginLoadingScreen(const FString& InMapName)

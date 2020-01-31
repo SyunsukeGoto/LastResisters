@@ -37,6 +37,7 @@ public:
 	//ƒ^ƒCƒ€‚ğŒv‘ª‚·‚éŠÖ”
 	UFUNCTION(BlueprintCallable, Category = "GamePlayFunction")
 		void PlayTimeReset();
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

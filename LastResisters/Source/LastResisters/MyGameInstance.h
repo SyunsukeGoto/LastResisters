@@ -74,13 +74,13 @@ public:
 		int defeatedEnemiesp;
 	//プレイタイム(カンマ秒)
 	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
-		TArray<int32> playtimePointSecond;
+		TArray<int32> m_playtimePointSecond;
 	//プレイタイム(秒)
 	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
-		TArray<int32> playtimeSecond;
+		TArray<int32> m_playtimeSecond;
 	//プレイタイム(分)
 	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
-		TArray<int32> playtimeMinute;
+		TArray<int32> m_playtimeMinute;
 	//秒数カウント最大数
 	const int MAX_SECOND_COUNT = 60;
 	//秒数カウント
@@ -110,7 +110,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		float GetDash();
-
+	//タイムスコアを代入する関数
+	UFUNCTION(BlueprintCallable, Category = "GamePlayFunction")
+		void SetTimer(int id,int playtimePointSecond, int playtimeSecond,int playtimeMinute);
 	/*UFUNCTION(BlueprintCallable)
 		virtual void BeginLoadingScreen(const FString& MapName);
 	UFUNCTION(BlueprintCallable)
