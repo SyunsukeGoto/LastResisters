@@ -73,7 +73,7 @@ public:
 	void DamageThePlayer(float _incomingDamage);
 
 	float GetHP();
-
+	void SetHP(float hp);
 	//Guarded
 	bool recentlyGuarded = false;
 

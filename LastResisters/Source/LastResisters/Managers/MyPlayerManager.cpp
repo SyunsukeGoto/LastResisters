@@ -88,6 +88,11 @@ float MyPlayerManager::GetHP()
 	return hp;
 }
 
+void MyPlayerManager::SetHP(float setHp)
+{
+	hp = setHp;
+}
+
 float MyPlayerManager::GetdashGaugeAmount()
 {
 	return maxDashGaugeAmount;
