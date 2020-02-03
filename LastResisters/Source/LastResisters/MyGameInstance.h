@@ -81,6 +81,12 @@ public:
 	//プレイタイム(分)
 	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
 		TArray<int32> m_playtimeMinute;
+	//現在のステージ数
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+		int nowStage;
+	//現在のステージ数
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+	 bool bossStage;
 	//秒数カウント最大数
 	const int MAX_SECOND_COUNT = 60;
 	//秒数カウント

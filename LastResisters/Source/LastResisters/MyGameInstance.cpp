@@ -20,6 +20,8 @@ void UMyGameInstance::Init()
 	m_playtimePointSecond.Init(0, MAX_STAGE);
 	m_playtimeSecond.Init(0, MAX_STAGE);
 	m_playtimeMinute.Init(0, MAX_STAGE);
+	nowStage = 1;
+	bossStage = false;
 }
 
 void UMyGameInstance::Shutdown()
