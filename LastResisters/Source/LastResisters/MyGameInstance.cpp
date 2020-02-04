@@ -184,14 +184,24 @@ float UMyGameInstance::GetPlayerHp()
 	return m_playerManager->GetHP();
 }
 
+float UMyGameInstance::GetPlayerStartHp()
+{
+return	m_playerManager->GetStartHP();
+}
+
 void UMyGameInstance::SetPlayerHp(float hp)
 {
 	 m_playerManager->SetHP(hp);
 }
 
+void UMyGameInstance::SetPlayerStartHp(float hp)
+{
+	m_playerManager->SetStartHP(hp);
+}
+
 float UMyGameInstance::GetDamageTaken()
 {
-	return MaxHP - m_playerManager->GetHP();
+	return m_playerManager->GetStartHP() - m_playerManager->GetHP();
 }
 
 

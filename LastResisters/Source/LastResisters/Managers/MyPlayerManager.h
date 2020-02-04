@@ -54,9 +54,9 @@ public:
 
 	FVector yabaiPos;
 	FVector yabaiPosTwo;
-
 	//The hp of the player.
 	float hp; //Just in case float damage?
+	float startHP;
 	//The dash gauge amount of the player.
 	float dashGaugeAmount;
 	//Skill gauge amounts
@@ -73,7 +73,9 @@ public:
 	void DamageThePlayer(float _incomingDamage);
 
 	float GetHP();
+	float GetStartHP();
 	void SetHP(float hp);
+	void SetStartHP(float hp);
 	//Guarded
 	bool recentlyGuarded = false;
 

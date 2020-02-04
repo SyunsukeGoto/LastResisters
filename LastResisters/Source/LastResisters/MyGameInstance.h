@@ -124,7 +124,13 @@ public:
 		float GetPlayerHp();
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		float GetPlayerStartHp();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		void SetPlayerHp(float hp);
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void SetPlayerStartHp(float hp);
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		float GetDamageTaken();
