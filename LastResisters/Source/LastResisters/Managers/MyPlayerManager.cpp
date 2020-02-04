@@ -14,7 +14,8 @@ MyPlayerManager::MyPlayerManager()
 	, dashGaugeAmount(100)
 	, mainSkillGaugeAmount(100)
 	, subSkillGaugeAmount(100)
-{
+	,startHP(100)
+{	
 	m_playerDamage = 5.0f;
 	m_leftPos = FTransform(FVector(1, 1, 1));
 	m_rightPos = FTransform(FVector(1, 1, 1));
@@ -86,6 +87,21 @@ void MyPlayerManager::DamageThePlayer(float _incomingDamage)
 float MyPlayerManager::GetHP()
 {
 	return hp;
+}
+
+float MyPlayerManager::GetStartHP()
+{
+	return startHP;
+}
+
+void MyPlayerManager::SetHP(float setHp)
+{
+	hp = setHp;
+}
+
+void MyPlayerManager::SetStartHP(float hp)
+{
+	startHP = hp;
 }
 
 float MyPlayerManager::GetdashGaugeAmount()

@@ -20,6 +20,13 @@ void UMyGameInstance::Init()
 	m_playtimePointSecond.Init(0, MAX_STAGE);
 	m_playtimeSecond.Init(0, MAX_STAGE);
 	m_playtimeMinute.Init(0, MAX_STAGE);
+	nowStage = 1;
+	bossStage = false;
+	
+	defeatedEnemis = 0;
+	totalDamage = 0.0f;
+	damageTaken = 0.0f;
+	stageRank = "C";
 }
 
 void UMyGameInstance::Shutdown()
@@ -175,6 +182,26 @@ void UMyGameInstance::DamageToPlayer(float damage)
 float UMyGameInstance::GetPlayerHp()
 {
 	return m_playerManager->GetHP();
+}
+
+float UMyGameInstance::GetPlayerStartHp()
+{
+return	m_playerManager->GetStartHP();
+}
+
+void UMyGameInstance::SetPlayerHp(float hp)
+{
+	 m_playerManager->SetHP(hp);
+}
+
+void UMyGameInstance::SetPlayerStartHp(float hp)
+{
+	m_playerManager->SetStartHP(hp);
+}
+
+float UMyGameInstance::GetDamageTaken()
+{
+	return m_playerManager->GetStartHP() - m_playerManager->GetHP();
 }
 
 
