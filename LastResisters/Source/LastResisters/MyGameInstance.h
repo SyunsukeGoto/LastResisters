@@ -38,6 +38,7 @@ public:
 		, FTransform _rightPos
 		, bool isShielding);
 
+	 const float MaxHP = 100.0f;
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		void SetCameraValues(FVector2D viewportSize, FVector cameraPosition, FVector camFwdVector,  float camFOV, float camAspect);
@@ -81,6 +82,23 @@ public:
 	//プレイタイム(分)
 	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
 		TArray<int32> m_playtimeMinute;
+	//現在のステージ数
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+		int nowStage;
+	//現在のステージ数
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+	 bool bossStage;
+	//敵を倒した数
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+		int defeatedEnemis;
+	//与えたダメージ
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+		float totalDamage;
+	//受けたダメージ
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+		float damageTaken;
+	UPROPERTY(BlueprintReadWrite, Category = "GamePlayVariable")
+		FString stageRank;
 	//秒数カウント最大数
 	const int MAX_SECOND_COUNT = 60;
 	//秒数カウント
@@ -104,6 +122,18 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		float GetPlayerHp();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		float GetPlayerStartHp();
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void SetPlayerHp(float hp);
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		void SetPlayerStartHp(float hp);
+
+	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
+		float GetDamageTaken();
 
 	UFUNCTION(BlueprintCallable, Category = "StupidFunctionsThatAreRequiredBecauseUnreal")
 		void UseDash(float g);
