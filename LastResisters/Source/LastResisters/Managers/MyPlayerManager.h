@@ -3,10 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
 /**
- *
- */
+ **/
 class LASTRESISTERS_API MyPlayerManager
 {
 public:
@@ -34,9 +32,16 @@ public:
 		, bool isShielding);
 
 	CameraValues cameraValues;
+
 	//FVector for UI
 	FTransform hitUITransform;
+	FTransform dangerUITransform;
+
 	float distanceBetweenEnemy;
+	float distanceBetweenDangerUI;
+
+	float GetdashGaugeAmount();
+	void UsedashGaugeAmount(float g);
 
 	FVector m_playerPos;
 	float m_playerDamage;
@@ -49,9 +54,9 @@ public:
 
 	FVector yabaiPos;
 	FVector yabaiPosTwo;
-
 	//The hp of the player.
 	float hp; //Just in case float damage?
+	float startHP;
 	//The dash gauge amount of the player.
 	float dashGaugeAmount;
 	//Skill gauge amounts
@@ -66,4 +71,17 @@ public:
 	float maxSubSkillGaugeAmount;
 
 	void DamageThePlayer(float _incomingDamage);
+
+	float GetHP();
+	float GetStartHP();
+	void SetHP(float hp);
+	void SetStartHP(float hp);
+	//Guarded
+	bool recentlyGuarded = false;
+
+	void HitUICalculations();
+	void DangerUICalculations();
+
+	//Store the rotation if the player had missed attack.
+	FFloat16 failGuardRotation;
 };

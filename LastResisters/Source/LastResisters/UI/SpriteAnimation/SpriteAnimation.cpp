@@ -35,7 +35,6 @@ void USpriteAnimation::PlayAnimation()
 		return;
 	}
 
-
 	//UE_LOG(LogTemp, Warning, TEXT("Play Animation"));
 	
 	//Was this timer handle every initialized

@@ -37,19 +37,16 @@ public:
 
 	FFloat16 m_minReactionTime = 1.0f;
 	TArray<AAIController*> myListOfAI1;
-	TArray<AAIController*> myListOfAI2;
 	TArray<Attack_Info> myListOfAttacks;
-	TArray<int> removalList;
 
 	MyAttackManager();
 	~MyAttackManager();
 
 	bool AddToListOfAttacks(Attack_Info _info);
 	bool AddToListOfAI1(AAIController* _aiCon);
-	bool AddToListOfAI2(AAIController* _aiCon);
+	bool RemoveFromListOfAI1(AAIController* _aiCon);
 	bool PrintOutListOfAttacks();
 	bool PrintOutListOfAI1();
-	bool PrintOutListOfAI2();
 
 	void Update(float deltaTime);
 	void UpdateAllAttacks(float _dt);

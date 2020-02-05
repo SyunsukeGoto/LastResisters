@@ -31,6 +31,9 @@ void UPlayerWarningUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTim
 	// Make sure to call the base class's NativeTick function
 	Super::NativeTick(MyGeometry, InDeltaTime);
 	timer += InDeltaTime;
+
+	HealthWarning->SetRenderTransformAngle(UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->failGuardRotation);
+
 	if (currentHP != UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp)
 	{
 		//call the hit function

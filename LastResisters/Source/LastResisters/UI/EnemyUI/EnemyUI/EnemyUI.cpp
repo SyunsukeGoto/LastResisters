@@ -52,10 +52,8 @@ void UEnemyUI::NativeConstruct()
 
 	//Do casting of the controller to find out its type.
 	aiCon1_ = Cast<AAI1_AIController>(aiController);
-	aiCon2_ = Cast<AAI2_AIController>(aiController);
 
 	isAiOne = aiCon1_ != nullptr;
-	isAiTwo = aiCon2_ != nullptr;
 
 	//Casting and stuff.
 	if (isAiOne)
@@ -64,12 +62,6 @@ void UEnemyUI::NativeConstruct()
 		maxArmor = aiCon1_->GetMaxArmor();
 		_enemyIcon.UpdateTexture(aiOneImage);
 	}
-	else if (isAiTwo)
-	{
-		maxHealth = aiCon2_->GetMaxHP();
-		maxArmor = aiCon2_->GetMaxArmor();
-		_enemyIcon.UpdateTexture(aiTwoImage);
-	}
 	else
 	{
 		//Defaults.
@@ -77,6 +69,8 @@ void UEnemyUI::NativeConstruct()
 		maxArmor = 0;
 	}
 	_enemyIcon.SetTexture();
+	currentHealth = maxHealth;
+	currentArmor = maxArmor;
 }
 
 void UEnemyUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
@@ -128,6 +122,34 @@ void UEnemyUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTime)
 		//Do rotation towards player.
 		RotateTowardsPlayer();
 	}
+
+	//Health update.
+	if (isAiOne)
+	{
+		if (currentHealth != aiCon1_->GetHP())
+		{
+			currentHealth = aiCon1_->GetHP();
+			calculateDifferenceHealth = true;
+		}
+	}
+	else
+	{
+		//Else statement,
+	}
+	
+	//Armor update.
+	if (isAiOne)
+	{
+		if (currentArmor != aiCon1_->GetArmor())
+		{
+			currentArmor = aiCon1_->GetArmor();
+			calculateDifferenceArmor = true;
+		}
+	}
+	else
+	{
+		//Else statement,
+	}
 }
 
 void UEnemyUI::UpdateHealthGauge(float inDeltaTime)
@@ -174,6 +196,7 @@ void UEnemyUI::UpdateArmorGauge(float inDeltaTime)
 {
 	if (calculateDifferenceArmor)
 	{
+		UE_LOG(LogTemp, Warning, TEXT("Armor Rate"));
 		armorRate = (f_desiredArmor - f_currentArmor) / armorDownTime;
 		calculateDifferenceArmor = false;
 	}
@@ -216,12 +239,10 @@ void UEnemyUI::NormalizeHealthValue()
 	
 	if (isAiOne)
 		healthAmount = aiCon1_->GetHP();
-	else if (isAiTwo)
-		healthAmount = aiCon2_->GetHP();
 	else
 		healthAmount =  -1;
 	
-	f_desiredHealth = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)healthAmount, minHealth, maxHealth), 0.04f, 0.97f);
+	f_desiredHealth = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)healthAmount, minHealth, maxHealth), 0.f, 1.0f);
 }
 
 void UEnemyUI::NormalizeArmorValue()
@@ -230,12 +251,10 @@ void UEnemyUI::NormalizeArmorValue()
 
 	if (isAiOne)
 		armorAmount = aiCon1_->GetArmor();
-	else if (isAiTwo)
-		armorAmount = aiCon2_->GetArmor();
 	else
 		armorAmount = -1;
 
-	f_desiredArmor = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)armorAmount, minArmor, maxArmor), 0.04f, 0.97f);
+	f_desiredArmor = UIMath::NormalizeValueCustomRange(UIMath::NormalizeValue((float)armorAmount, minArmor, maxArmor), 0.f, 1.0f);
 }
 
 void UEnemyUI::GetCrackEdges()
@@ -244,8 +263,6 @@ void UEnemyUI::GetCrackEdges()
 
 	if (isAiOne)
 		healthAmount = aiCon1_->GetHP();
-	else if (isAiTwo)
-		healthAmount = aiCon2_->GetHP();
 	else
 		healthAmount = -1;
 

@@ -7,7 +7,6 @@
 #include "UI/PlayerUI/PlayerHitUI/PlayerHitUI.h"
 #include "AIController.h"
 #include "AI/AI1/AI1_AIController.h"
-#include "AI/AI2/AI2_AIController.h"
 #include "MyUIManager.h"
 
 MyAttackManager::MyAttackManager()
@@ -42,17 +41,6 @@ bool MyAttackManager::AddToListOfAI1(AAIController* _aiCon)
 	return false;
 }
 
-bool MyAttackManager::AddToListOfAI2(AAIController* _aiCon)
-{
-	if (_aiCon)
-	{
-		myListOfAI2.Add(_aiCon);
-
-		return true;
-	}
-	return false;
-}
-
 void MyAttackManager::Update(float deltaTime)
 {
 	UpdateAllAttacks(deltaTime);
@@ -61,8 +49,8 @@ void MyAttackManager::Update(float deltaTime)
 void MyAttackManager::UpdateAllAttacks(float _dt)
 {
 	TArray<int> removalList;
-	int sizeOfList = myListOfAttacks.Num();
-	for (int i = 0; i < sizeOfList; i++)
+	//int sizeOfList = ;
+	for (int i = 0; i < myListOfAttacks.Num(); ++i)
 	{
 		// Update the countdown
 		myListOfAttacks[i].info_CountdownTimer = myListOfAttacks[i].info_CountdownTimer - _dt; // -= doesnt work
@@ -89,11 +77,11 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 			removalList.Add(i);
 			
 
-			if (sizeOfList > 0)
-			{ // If there are more things to check through in the list of attacks
-				--i;
-				--sizeOfList;
-			}
+			//if (sizeOfList > 0)
+			//{ // If there are more things to check through in the list of attacks
+			//	--i;
+			//	--sizeOfList;
+			//}
 		}
 		else if (myListOfAttacks[i].info_CountdownTimer <= myListOfAttacks[i].info_BlockTimeWindow / 2)
 		{ // If attack can be blocked
@@ -111,12 +99,11 @@ void MyAttackManager::UpdateAllAttacks(float _dt)
 
 				removalList.Add(i);
 
-
-				if (sizeOfList > 0)
-				{ // If there are more things to check through in the list of attacks
-					--i;
-					--sizeOfList;
-				}
+				//if (sizeOfList > 0)
+				//{ // If there are more things to check through in the list of attacks
+				//	--i;
+				//	--sizeOfList;
+				//}
 			}
 		}
 	}
@@ -146,22 +133,18 @@ void MyAttackManager::DamageTheAIArmor(FString _ID)
 			}
 		}
 	}
-	for (int i = 0; i < myListOfAI2.Num(); i++)
-	{
-		AAI2_AIController* ai2Con_ = Cast<AAI2_AIController>(myListOfAI2[i]);
+}
 
-		if (ai2Con_)
-		{
-			if (ai2Con_->GetPawn()->GetName() == _ID)
-			{
-				ai2Con_->SetArmor(ai2Con_->GetArmor() - armorDecrease);
-				UE_LOG(LogTemp, Warning, TEXT("I[HIT : %d] ActualArmor : (%f)")
-					, i
-					, ai2Con_->GetArmor().GetFloat());
-				return;
-			}
-		}
+bool MyAttackManager::RemoveFromListOfAI1(AAIController * _aiCon)
+{
+	if (_aiCon)
+	{
+		myListOfAI1.Remove(_aiCon);
+		myListOfAI1.Shrink();
+
+		return true;
 	}
+	return false;
 }
 
 bool MyAttackManager::PrintOutListOfAttacks()
@@ -191,24 +174,6 @@ bool MyAttackManager::PrintOutListOfAI1()
 			UE_LOG(LogTemp, Warning, TEXT("I[Index : %d] HP : (%f)")
 				, i
 				, ai1Con_->GetHP().GetFloat());
-		}
-	}
-	return false;
-}
-
-
-bool MyAttackManager::PrintOutListOfAI2()
-{
-	for (int i = 0; i < myListOfAI2.Num(); i++)
-	{
-		AAI2_AIController* ai2Con_ = Cast<AAI2_AIController>(myListOfAI2[i]);
-
-		if (ai2Con_)
-		{
-
-			UE_LOG(LogTemp, Warning, TEXT("I[Index : %d] HP : (%f)")
-				, i
-				, ai2Con_->GetHP().GetFloat());
 		}
 	}
 	return false;

@@ -45,52 +45,52 @@ public:
 	//Textblock for health
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 		class UTextBlock * HealthText = nullptr;
-	//Image for the main weapon gauge
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * WeaponGauge = nullptr;
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * ShieldGauge = nullptr;
+	////Image for the main weapon gauge
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * WeaponGauge = nullptr;
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * ShieldGauge = nullptr;
 
-	//Image for the main weapon gauge charge effect
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * WeaponChargeEffect = nullptr;
-	//Image for the main weapon gauge flame effect
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * WeaponFlameEffect = nullptr;
+	////Image for the main weapon gauge charge effect
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * WeaponChargeEffect = nullptr;
+	////Image for the main weapon gauge flame effect
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * WeaponFlameEffect = nullptr;
 
-	//Image for the main weapon gauge charge effect
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * ShieldChargeEffect = nullptr;
-	//Image for the main weapon gauge flame effect
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * ShieldFlameEffect = nullptr;
+	////Image for the main weapon gauge charge effect
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * ShieldChargeEffect = nullptr;
+	////Image for the main weapon gauge flame effect
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * ShieldFlameEffect = nullptr;
 
-	//Image for the UI animation
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * UIAnimatedBar = nullptr;
+	////Image for the UI animation
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * UIAnimatedBar = nullptr;
 
 	//Bar Images
 
-	//Image for the UI animation
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * UIAnimatedVerticalBarOne = nullptr;
+	////Image for the UI animation
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * UIAnimatedVerticalBarOne = nullptr;
 
-	//Image for the UI animation
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * UIAnimatedVerticalBarTwo = nullptr;
-	//Image for the UI animation
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * UIAnimatedVerticalBarThree = nullptr;
-	//Image for the UI animation
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * UIAnimatedHorizontalBarOne = nullptr;
+	////Image for the UI animation
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * UIAnimatedVerticalBarTwo = nullptr;
+	////Image for the UI animation
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * UIAnimatedVerticalBarThree = nullptr;
+	////Image for the UI animation
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * UIAnimatedHorizontalBarOne = nullptr;
 
-	//Image for the UI animation
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * UIAnimatedHorizontalBarTwo = nullptr;
-	//Image for the UI animation
-	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
-		class UImage * UIAnimatedHorizontalBarThree = nullptr;
+	////Image for the UI animation
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * UIAnimatedHorizontalBarTwo = nullptr;
+	////Image for the UI animation
+	//UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+	//	class UImage * UIAnimatedHorizontalBarThree = nullptr;
 
 	//Struct that holds values of the delayed gauge
 	UPROPERTY(EditDefaultsOnly)
@@ -105,19 +105,19 @@ public:
 	UPROPERTY(EditDefaultsOnly)
 		FCircularHealth f_circularHealth;
 	//Struct that holds value for the main weapon gauge
-	UPROPERTY(EditDefaultsOnly)
-		FWeaponSkillGauge mainWeaponGauge;
+	/*UPROPERTY(EditDefaultsOnly)
+		FWeaponSkillGauge mainWeaponGauge;*/
 	//Struct that holds value for the sub weapon gauge
-	UPROPERTY(EditDefaultsOnly)
+	/*UPROPERTY(EditDefaultsOnly)
 		FWeaponSkillGauge subWeaponGauge;
 	UPROPERTY(EditDefaultsOnly)
 		FAnimatedBar horizontalBar;
 	UPROPERTY(EditDefaultsOnly)
-		FAnimatedBar verticalBar;
+		FAnimatedBar verticalBar;*/
 
-	TArray<FAnimatedBar> animatedBarArray;
+	/*TArray<FAnimatedBar> animatedBarArray;*/
 
-	TArray<UImage*> barImageArray;
+	/*TArray<UImage*> barImageArray;*/
 
 #pragma region DashGaugeParameters
 
@@ -133,6 +133,7 @@ public:
 
 	//Current and desired values in values of 0 to 1
 	float f_currentDash = 1;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float f_desiredDash = 1;
 
 	//The boolean that changes whenever the value changes so the rate is only calculated once
@@ -195,25 +196,25 @@ public:
 
 #pragma endregion
 
-#pragma region AnimatedBarParameters
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animated Bar Parameters")
-		float timeToGoToDesired;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animated Bar Parameters")
-		FVector2D minMaxRange;
-	//Time delay between each iteration.
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animated Bar Parameters")
-		float timerDelay;
-
-	//Random value.
-	float currentPercentage;
-	float desiredPercentage;
-	float percentageRate;
-	bool calculatePercentage = true;
-	float animatedBarTimer = 0;
-	bool animatedReached = true;
-
-#pragma endregion
+//#pragma region AnimatedBarParameters
+//
+//	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animated Bar Parameters")
+//		float timeToGoToDesired;
+//	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animated Bar Parameters")
+//		FVector2D minMaxRange;
+//	//Time delay between each iteration.
+//	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animated Bar Parameters")
+//		float timerDelay;
+//
+//	//Random value.
+//	float currentPercentage;
+//	float desiredPercentage;
+//	float percentageRate;
+//	bool calculatePercentage = true;
+//	float animatedBarTimer = 0;
+//	bool animatedReached = true;
+//
+//#pragma endregion
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VertHoriz Bar Parameters")
 		float timeToGoDesiredBar;
@@ -231,10 +232,10 @@ public:
 	void UpdateHealthbar(float inDeltaTime);
 
 	//Update weapon bars
-	void UpdateMainWeaponSkillGauge(float inDeltaTime);
+	//void UpdateMainWeaponSkillGauge(float inDeltaTime);
 
 	//Update sub weapon bar
-	void UpdateSubWeaponSkillGauge(float inDeltaTime);
+	//void UpdateSubWeaponSkillGauge(float inDeltaTime);
 
 	//Normalizes a value between 0 and 1 given a range (eg 30 for 0 to 100)
 	float NormalizeValue(float in, float min, float max);
@@ -247,12 +248,12 @@ public:
 	//To normalize the input from and clamp...(not a normalize function)
 	void NormalizeDashGauge();
 	//To normalize the input from and clamp...(not a normalize function)
-	void NormalizeWeaponGauges();
+	//void NormalizeWeaponGauges();
 
 	void Hit(float inDeltaTime);
 
-	void UpdateUIAnimatedBar(float inDeltaTime);
-	void UpdateVertHorizUIAnimatedBars(float inDeltaTime);
+	//void UpdateUIAnimatedBar(float inDeltaTime);
+	//void UpdateVertHorizUIAnimatedBars(float inDeltaTime);
 #pragma endregion
 
 	float currentHealth;
