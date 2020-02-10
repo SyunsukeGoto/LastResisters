@@ -34,10 +34,13 @@ void UPlayerWarningUI::NativeTick(const FGeometry & MyGeometry, float InDeltaTim
 
 	HealthWarning->SetRenderTransformAngle(UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->failGuardRotation);
 
-	if (currentHP != UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp)
+	if (currentHP != UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp  )
 	{
-		//call the hit function
-		Hit();
+		if (UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp < currentHP)
+		{
+			//call the hit function
+			Hit();
+		}
 		//set current hp to the value of the hp
 		currentHP = UMyGameInstance::GetInstance()->GetPlayerManagerInstance()->hp;
 	}
