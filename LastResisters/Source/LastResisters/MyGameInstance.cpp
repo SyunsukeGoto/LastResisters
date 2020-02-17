@@ -201,7 +201,7 @@ void UMyGameInstance::SetPlayerStartHp(float hp)
 
 float UMyGameInstance::GetDamageTaken()
 {
-	return m_playerManager->GetStartHP() - m_playerManager->GetHP();
+	return damageTaken;
 }
 
 

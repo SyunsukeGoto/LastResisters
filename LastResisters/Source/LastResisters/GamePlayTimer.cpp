@@ -19,12 +19,12 @@ void AGamePlayTimer::PlayTimeMeasurement()
 	{
 		
 		//60カウント後に秒数を1＋する
-		if (m_timerCount > 1.0f)
-		{
-			m_playtimePointSecond++;
+		//if (m_timerCount > 1.0f)
+		//{
+			m_playtimePointSecond+= 3.0f;
 			//カウンターをリセット
-			m_timerCount = 0.0f;
-		}
+			//m_timerCount = 0.0f;
+		//}
 
 		//0.99秒を超えたときに秒数を1+する
 		if (m_playtimePointSecond > 99)
